@@ -14,6 +14,14 @@ l'estensione multi-anno.
 - `rentri_scraper.py` — script definitivo: download (token anti-forgery fresco + retry, cache su
   disco con resume), parser calibrato per i 4 report, batch annuali indipendenti con cache
   intermedia, riconciliazione automatica, export CSV + Excel unico multi-anno.
+- `reconcile_regioni.py` — validazione estesa: confronta nazionale vs footer regionale ufficiale
+  su tutte le 20 regioni (PDF scaricati solo in memoria, mai salvati su disco). Vedi
+  [REPORT_VALIDAZIONE.md §4.3](REPORT_VALIDAZIONE.md).
+- `monitor_mensile/` — monitoraggio mensile della variazione (nazionale + per regione) rispetto
+  all'ultimo snapshot salvato, per tutti i 4 report. Pensato per girare come routine cloud
+  programmata (repo GitHub `gdililloref/RENTRI_REF`); vedi `monitor_mensile/rentri_monitor_mensile.py`.
+- `build_tool.py` + `build/` — genera `build/dist/rentri_dashboard.html`, una dashboard HTML
+  standalone (mappe/grafici) a partire dai CSV in `rentri_out/`.
 
 ## Come rieseguire / aggiungere un anno
 ```

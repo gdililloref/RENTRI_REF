@@ -97,6 +97,39 @@ arrotondamento del sistema sorgente, non un difetto del parser), **coerenti in o
 grandezza su tutti e 3 gli anni** — non sono indizio di soppressione di celle piccole (i delta non
 scalano con il volume dati).
 
+### 4.3 Validazione estesa: tutte le 20 regioni (`reconcile_regioni.py`)
+
+Il controllo §4.2 è stato esteso da 1 regione (Abruzzo) a **tutte le 20 regioni** (Trentino-Alto
+Adige non è diviso in Trento/Bolzano nel campo `RegioneProduttore` del sito), per i report
+56/57/58 × 3 anni + report 59, per un totale di **405 confronti**. Ogni PDF regionale è scaricato
+**solo in memoria** (mai scritto su disco) e il confronto è fatto contro il footer dello stesso
+identico fetch — non contro la cache di `rentri_scraper.py`, per il motivo spiegato sotto.
+
+**Scoperta preliminare importante**: il campo si chiama "**Anno registrazione**", non anno di
+competenza chiuso. Un primo tentativo di confronto contro i dati già scaricati ore prima (durante
+la sessione originale) mostrava scarti fino a ~1,29 milioni di kg per regione — molto più dei
+~700 kg di rumore visto in §4.2. Verificato che **non è un bug**: uno stesso report (56, Abruzzo,
+2025) scaricato due volte a distanza di ore restituisce lo stesso numero di righe (1.320) ma
+somme leggermente diverse — il "2025" continua a ricevere correzioni/registrazioni tardive anche
+a distanza di ore. Il confronto corretto deve quindi sempre usare dati scaricati nella stessa
+finestra temporale (da qui la riscrittura per fare fetch+confronto nello stesso momento).
+
+**Risultato finale** (405 righe, `rentri_out/riconciliazione_regionale_completa.csv` e foglio
+`Riconciliazione_Regionale` in `rentri.xlsx`):
+
+| metrica | valore |
+|---|---|
+| Errori HTTP | 0 |
+| Anomalie numeriche (`#Error`) | 5 — tutte report 57, stesso guasto server di §5, ora confermato anche a livello regionale (non solo nazionale) |
+| Delta minimo / massimo | −2 / +95 unità |
+| Righe con \|delta\| > 10.000 | 0 |
+| Report 59 (operatori/UL) | **delta = 0 su tutte le 20 regioni e tutti gli 8 campi** — match esatto |
+
+Confirma su scala completa (non solo Abruzzo) che: (a) nessuna soppressione di celle piccole a
+livello regionale, (b) il rumore di arrotondamento resta nell'ordine di poche decine di unità
+indipendentemente dalla dimensione della regione, (c) il guasto `#Error` del report 57 è
+intermittente (5 casi su 60 combinazioni report57×regione×anno) non sistematico su ogni chiamata.
+
 ## 5. Anomalie riscontrate
 
 | contesto | valore grezzo | gestione |

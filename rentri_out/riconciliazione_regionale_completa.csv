@@ -1,0 +1,406 @@
+﻿report_id;anno;cod_regione;regione;unita_misura;calcolato;dichiarato;delta;n_righe;anomalia;campo
+56;2024;1;Piemonte;kg;21014.0;21014.0;0.0;25.0;;
+56;2024;1;Piemonte;l;26000.0;26000.0;0.0;25.0;;
+56;2024;2;Valle d`Aosta;kg;0.0;0.0;0.0;1.0;;
+56;2024;2;Valle d`Aosta;l;80.0;80.0;0.0;1.0;;
+56;2024;3;Lombardia;kg;40811.0;40811.0;0.0;32.0;;
+56;2024;3;Lombardia;l;120.0;120.0;0.0;32.0;;
+56;2024;4;Trentino Alto Adige;kg;300.0;300.0;0.0;1.0;;
+56;2024;4;Trentino Alto Adige;l;0.0;0.0;0.0;1.0;;
+56;2024;5;Veneto;kg;23150.0;23148.0;2.0;24.0;;
+56;2024;5;Veneto;l;0.0;0.0;0.0;24.0;;
+56;2024;6;Friuli Venezia Giulia;kg;7901.0;7901.0;0.0;3.0;;
+56;2024;6;Friuli Venezia Giulia;l;0.0;0.0;0.0;3.0;;
+56;2024;7;Liguria;kg;45.0;45.0;0.0;2.0;;
+56;2024;7;Liguria;l;0.0;0.0;0.0;2.0;;
+56;2024;8;Emilia Romagna;kg;145459.0;145459.0;0.0;32.0;;
+56;2024;8;Emilia Romagna;l;1800.0;1800.0;0.0;32.0;;
+56;2024;9;Toscana;kg;116726.0;116724.0;2.0;46.0;;
+56;2024;9;Toscana;l;60.0;60.0;0.0;46.0;;
+56;2024;10;Umbria;kg;64.0;64.0;0.0;2.0;;
+56;2024;10;Umbria;l;0.0;0.0;0.0;2.0;;
+56;2024;11;Marche;kg;3494.0;3494.0;0.0;6.0;;
+56;2024;11;Marche;l;0.0;0.0;0.0;6.0;;
+56;2024;12;Lazio;kg;2376.0;2375.0;1.0;17.0;;
+56;2024;12;Lazio;l;1580.0;1580.0;0.0;17.0;;
+56;2024;13;Abruzzo;kg;8021.0;8020.0;1.0;10.0;;
+56;2024;13;Abruzzo;l;0.0;0.0;0.0;10.0;;
+56;2024;14;Molise;kg;0.0;;;0.0;;
+56;2024;14;Molise;l;0.0;;;0.0;;
+56;2024;15;Campania;kg;36046.0;36046.0;0.0;21.0;;
+56;2024;15;Campania;l;20.0;20.0;0.0;21.0;;
+56;2024;16;Puglia;kg;1415.0;1414.0;1.0;9.0;;
+56;2024;16;Puglia;l;0.0;0.0;0.0;9.0;;
+56;2024;17;Basilicata;kg;9.0;9.0;0.0;2.0;;
+56;2024;17;Basilicata;l;0.0;0.0;0.0;2.0;;
+56;2024;18;Calabria;kg;10269.0;10269.0;0.0;7.0;;
+56;2024;18;Calabria;l;15.0;15.0;0.0;7.0;;
+56;2024;19;Sicilia;kg;28757.0;28757.0;0.0;17.0;;
+56;2024;19;Sicilia;l;55000.0;55000.0;0.0;17.0;;
+56;2024;20;Sardegna;kg;44625.0;44623.0;2.0;15.0;;
+56;2024;20;Sardegna;l;0.0;0.0;0.0;15.0;;
+56;2025;1;Piemonte;kg;8705272554.0;8705272510.0;44.0;3091.0;;
+56;2025;1;Piemonte;l;47226966.0;47226960.0;6.0;3091.0;;
+56;2025;2;Valle d`Aosta;kg;183439418.0;183439416.0;2.0;218.0;;
+56;2025;2;Valle d`Aosta;l;266371.0;266371.0;0.0;218.0;;
+56;2025;3;Lombardia;kg;23798160795.0;23798160700.0;95.0;5501.0;;
+56;2025;3;Lombardia;l;127053914.0;127053904.0;10.0;5501.0;;
+56;2025;4;Trentino Alto Adige;kg;2332496535.0;2332496522.0;13.0;918.0;;
+56;2025;4;Trentino Alto Adige;l;102305280.0;102305274.0;6.0;918.0;;
+56;2025;5;Veneto;kg;12460123023.0;12460122951.0;72.0;3564.0;;
+56;2025;5;Veneto;l;282872345.0;282872339.0;6.0;3564.0;;
+56;2025;6;Friuli Venezia Giulia;kg;3115521683.0;3115521659.0;24.0;1510.0;;
+56;2025;6;Friuli Venezia Giulia;l;131458076.0;131458076.0;0.0;1510.0;;
+56;2025;7;Liguria;kg;1884337979.0;1884337959.0;20.0;1285.0;;
+56;2025;7;Liguria;l;147548640.0;147548637.0;3.0;1285.0;;
+56;2025;8;Emilia Romagna;kg;11469128686.0;11469128627.0;59.0;3853.0;;
+56;2025;8;Emilia Romagna;l;78809755.0;78809749.0;6.0;3853.0;;
+56;2025;9;Toscana;kg;8557275243.0;8557275196.0;47.0;3373.0;;
+56;2025;9;Toscana;l;104200838.0;104200834.0;4.0;3373.0;;
+56;2025;10;Umbria;kg;1669727971.0;1669727961.0;10.0;720.0;;
+56;2025;10;Umbria;l;8307446.0;8307444.0;2.0;720.0;;
+56;2025;11;Marche;kg;2327081846.0;2327081814.0;32.0;1750.0;;
+56;2025;11;Marche;l;50079176.0;50079175.0;1.0;1750.0;;
+56;2025;12;Lazio;kg;6764859845.0;6764859822.0;23.0;2047.0;;
+56;2025;12;Lazio;l;574577250.0;574577245.0;5.0;2047.0;;
+56;2025;13;Abruzzo;kg;1885912320.0;1885912294.0;26.0;1320.0;;
+56;2025;13;Abruzzo;l;6662495.0;6662494.0;1.0;1320.0;;
+56;2025;14;Molise;kg;503061277.0;503061271.0;6.0;390.0;;
+56;2025;14;Molise;l;11175905.0;11175905.0;0.0;390.0;;
+56;2025;15;Campania;kg;7453341409.0;7453341354.0;55.0;1821.0;;
+56;2025;15;Campania;l;5216213.0;5216212.0;1.0;1821.0;;
+56;2025;16;Puglia;kg;9191321261.0;9191321231.0;30.0;1983.0;;
+56;2025;16;Puglia;l;79253194.0;79253194.0;0.0;1983.0;;
+56;2025;17;Basilicata;kg;1694300172.0;1694300159.0;13.0;599.0;;
+56;2025;17;Basilicata;l;5266033.0;5266033.0;0.0;599.0;;
+56;2025;18;Calabria;kg;2329396836.0;2329396813.0;23.0;1248.0;;
+56;2025;18;Calabria;l;71480416.0;71480414.0;2.0;1248.0;;
+56;2025;19;Sicilia;kg;6218915584.0;6218915535.0;49.0;2239.0;;
+56;2025;19;Sicilia;l;55098281.0;55098279.0;2.0;2239.0;;
+56;2025;20;Sardegna;kg;1821913312.0;1821913279.0;33.0;1307.0;;
+56;2025;20;Sardegna;l;218054289.0;218054286.0;3.0;1307.0;;
+56;2026;1;Piemonte;kg;10353216495.0;10353216430.0;65.0;2916.0;;
+56;2026;1;Piemonte;l;25085783.0;25085777.0;6.0;2916.0;;
+56;2026;2;Valle d`Aosta;kg;135929456.0;135929454.0;2.0;206.0;;
+56;2026;2;Valle d`Aosta;l;33918.0;33917.0;1.0;206.0;;
+56;2026;3;Lombardia;kg;14906108294.0;14906108200.0;94.0;5281.0;;
+56;2026;3;Lombardia;l;69076342.0;69076333.0;9.0;5281.0;;
+56;2026;4;Trentino Alto Adige;kg;1678882949.0;1678882931.0;18.0;865.0;;
+56;2026;4;Trentino Alto Adige;l;74813395.0;74813392.0;3.0;865.0;;
+56;2026;5;Veneto;kg;8185735098.0;8185735018.0;80.0;3458.0;;
+56;2026;5;Veneto;l;191986557.0;191986552.0;5.0;3458.0;;
+56;2026;6;Friuli Venezia Giulia;kg;1924377619.0;1924377580.0;39.0;1479.0;;
+56;2026;6;Friuli Venezia Giulia;l;90858752.0;90858751.0;1.0;1479.0;;
+56;2026;7;Liguria;kg;1167608348.0;1167608315.0;33.0;1255.0;;
+56;2026;7;Liguria;l;64373002.0;64372999.0;3.0;1255.0;;
+56;2026;8;Emilia Romagna;kg;6297765075.0;6297765020.0;55.0;3665.0;;
+56;2026;8;Emilia Romagna;l;44680295.0;44680287.0;8.0;3665.0;;
+56;2026;9;Toscana;kg;4699111373.0;4699111295.0;78.0;3282.0;;
+56;2026;9;Toscana;l;108246809.0;108246807.0;2.0;3282.0;;
+56;2026;10;Umbria;kg;1097876225.0;1097876211.0;14.0;720.0;;
+56;2026;10;Umbria;l;3680326.0;3680324.0;2.0;720.0;;
+56;2026;11;Marche;kg;1492308876.0;1492308839.0;37.0;1696.0;;
+56;2026;11;Marche;l;39296606.0;39296604.0;2.0;1696.0;;
+56;2026;12;Lazio;kg;4394519716.0;4394519679.0;37.0;1986.0;;
+56;2026;12;Lazio;l;306068549.0;306068546.0;3.0;1986.0;;
+56;2026;13;Abruzzo;kg;1277771760.0;1277771721.0;39.0;1250.0;;
+56;2026;13;Abruzzo;l;3617544.0;3617544.0;0.0;1250.0;;
+56;2026;14;Molise;kg;317274974.0;317274969.0;5.0;378.0;;
+56;2026;14;Molise;l;4419659.0;4419659.0;0.0;378.0;;
+56;2026;15;Campania;kg;4600387645.0;4600387592.0;53.0;1810.0;;
+56;2026;15;Campania;l;4224480.0;4224473.0;7.0;1810.0;;
+56;2026;16;Puglia;kg;6148477964.0;6148477940.0;24.0;1975.0;;
+56;2026;16;Puglia;l;48276441.0;48276439.0;2.0;1975.0;;
+56;2026;17;Basilicata;kg;999767542.0;999767535.0;7.0;555.0;;
+56;2026;17;Basilicata;l;2574403.0;2574400.0;3.0;555.0;;
+56;2026;18;Calabria;kg;1744568326.0;1744568312.0;14.0;1200.0;;
+56;2026;18;Calabria;l;46775708.0;46775706.0;2.0;1200.0;;
+56;2026;19;Sicilia;kg;4006406003.0;4006405977.0;26.0;2164.0;;
+56;2026;19;Sicilia;l;14449915.0;14449912.0;3.0;2164.0;;
+56;2026;20;Sardegna;kg;1217231022.0;1217230993.0;29.0;1355.0;;
+56;2026;20;Sardegna;l;73479314.0;73479313.0;1.0;1355.0;;
+57;2024;1;Piemonte;kg;0.0;;;0.0;;
+57;2024;2;Valle d`Aosta;kg;0.0;;;0.0;;
+57;2024;3;Lombardia;kg;0.0;;;0.0;;
+57;2024;4;Trentino Alto Adige;kg;0.0;;;0.0;;
+57;2024;5;Veneto;kg;0.0;;;0.0;;
+57;2024;6;Friuli Venezia Giulia;kg;0.0;;;0.0;;
+57;2024;7;Liguria;kg;0.0;;;0.0;;
+57;2024;8;Emilia Romagna;kg;0.0;;;0.0;;
+57;2024;9;Toscana;kg;0.0;;;0.0;;
+57;2024;10;Umbria;kg;0.0;;;0.0;;
+57;2024;11;Marche;kg;0.0;;;0.0;;
+57;2024;12;Lazio;kg;0.0;;;0.0;;
+57;2024;13;Abruzzo;kg;0.0;;;0.0;;
+57;2024;14;Molise;kg;0.0;;;0.0;;
+57;2024;15;Campania;kg;0.0;;;0.0;;
+57;2024;16;Puglia;kg;0.0;;;0.0;;
+57;2024;17;Basilicata;kg;0.0;;;0.0;;
+57;2024;18;Calabria;kg;0.0;;;0.0;;
+57;2024;19;Sicilia;kg;0.0;;;0.0;;
+57;2024;20;Sardegna;kg;0.0;;;0.0;;
+57;2025;1;Piemonte;kg;7159431896.0;;;96.0;;
+57;2025;1;Piemonte;;;;;;{'contesto': 'r57 transient footer Totali', 'valore_grezzo': '#Error'};
+57;2025;2;Valle d`Aosta;kg;48615000.0;48615000.0;0.0;7.0;;
+57;2025;3;Lombardia;kg;19459544417.0;;;153.0;;
+57;2025;3;Lombardia;;;;;;{'contesto': 'r57 transient footer Totali', 'valore_grezzo': '#Error'};
+57;2025;4;Trentino Alto Adige;kg;2113248248.0;;;40.0;;
+57;2025;4;Trentino Alto Adige;;;;;;{'contesto': 'r57 transient footer Totali', 'valore_grezzo': '#Error'};
+57;2025;5;Veneto;kg;8982471569.0;8982471566.0;3.0;92.0;;
+57;2025;6;Friuli Venezia Giulia;kg;3759022498.0;3759022496.0;2.0;43.0;;
+57;2025;7;Liguria;kg;1265894630.0;1265894630.0;0.0;34.0;;
+57;2025;8;Emilia Romagna;kg;7453009709.0;7453009711.0;-2.0;120.0;;
+57;2025;9;Toscana;kg;4469651092.0;4469651091.0;1.0;95.0;;
+57;2025;10;Umbria;kg;1249252594.0;1249252594.0;0.0;25.0;;
+57;2025;11;Marche;kg;1513181762.0;1513181762.0;0.0;58.0;;
+57;2025;12;Lazio;kg;5262913910.0;5262913909.0;1.0;48.0;;
+57;2025;13;Abruzzo;kg;1851516238.0;1851516239.0;-1.0;41.0;;
+57;2025;14;Molise;kg;247629086.0;247629086.0;0.0;16.0;;
+57;2025;15;Campania;kg;5363118674.0;5363118673.0;1.0;64.0;;
+57;2025;16;Puglia;kg;3903494666.0;3903494664.0;2.0;77.0;;
+57;2025;17;Basilicata;kg;639069153.0;639069153.0;0.0;23.0;;
+57;2025;18;Calabria;kg;982689147.0;982689147.0;0.0;44.0;;
+57;2025;19;Sicilia;kg;2522493196.0;2522493197.0;-1.0;67.0;;
+57;2025;20;Sardegna;kg;1079651882.0;1079651879.0;3.0;41.0;;
+57;2026;1;Piemonte;kg;3942260625.0;;;93.0;;
+57;2026;1;Piemonte;;;;;;{'contesto': 'r57 transient footer Totali', 'valore_grezzo': '#Error'};
+57;2026;2;Valle d`Aosta;kg;14502219.0;14502219.0;0.0;6.0;;
+57;2026;3;Lombardia;kg;12505049422.0;;;151.0;;
+57;2026;3;Lombardia;;;;;;{'contesto': 'r57 transient footer Totali', 'valore_grezzo': '#Error'};
+57;2026;4;Trentino Alto Adige;kg;1504154169.0;1504154169.0;0.0;25.0;;
+57;2026;5;Veneto;kg;11153234177.0;11153234172.0;5.0;87.0;;
+57;2026;6;Friuli Venezia Giulia;kg;11360022825.0;11360022822.0;3.0;39.0;;
+57;2026;7;Liguria;kg;669476452.0;669476452.0;0.0;35.0;;
+57;2026;8;Emilia Romagna;kg;4463433909.0;4463433908.0;1.0;118.0;;
+57;2026;9;Toscana;kg;3141246517.0;3141246514.0;3.0;93.0;;
+57;2026;10;Umbria;kg;936821991.0;936821990.0;1.0;24.0;;
+57;2026;11;Marche;kg;891961781.0;891961778.0;3.0;55.0;;
+57;2026;12;Lazio;kg;1433221967.0;1433221967.0;0.0;44.0;;
+57;2026;13;Abruzzo;kg;1015012650.0;1015012651.0;-1.0;42.0;;
+57;2026;14;Molise;kg;155751081.0;155751081.0;0.0;14.0;;
+57;2026;15;Campania;kg;3701945526.0;3701945526.0;0.0;60.0;;
+57;2026;16;Puglia;kg;2871581358.0;2871581358.0;0.0;81.0;;
+57;2026;17;Basilicata;kg;474810956.0;474810956.0;0.0;21.0;;
+57;2026;18;Calabria;kg;687283996.0;687283995.0;1.0;39.0;;
+57;2026;19;Sicilia;kg;1856339882.0;1856339881.0;1.0;67.0;;
+57;2026;20;Sardegna;kg;571170764.0;571170762.0;2.0;42.0;;
+58;2024;1;Piemonte;kg;0.0;;;0.0;;
+58;2024;2;Valle d`Aosta;kg;0.0;;;0.0;;
+58;2024;3;Lombardia;kg;0.0;;;0.0;;
+58;2024;4;Trentino Alto Adige;kg;0.0;;;0.0;;
+58;2024;5;Veneto;kg;1260.0;1260.0;0.0;1.0;;
+58;2024;6;Friuli Venezia Giulia;kg;0.0;;;0.0;;
+58;2024;7;Liguria;kg;0.0;;;0.0;;
+58;2024;8;Emilia Romagna;kg;0.0;;;0.0;;
+58;2024;9;Toscana;kg;0.0;;;0.0;;
+58;2024;10;Umbria;kg;0.0;;;0.0;;
+58;2024;11;Marche;kg;0.0;;;0.0;;
+58;2024;12;Lazio;kg;0.0;;;0.0;;
+58;2024;13;Abruzzo;kg;0.0;;;0.0;;
+58;2024;14;Molise;kg;0.0;;;0.0;;
+58;2024;15;Campania;kg;0.0;;;0.0;;
+58;2024;16;Puglia;kg;0.0;;;0.0;;
+58;2024;17;Basilicata;kg;0.0;;;0.0;;
+58;2024;18;Calabria;kg;0.0;;;0.0;;
+58;2024;19;Sicilia;kg;0.0;;;0.0;;
+58;2024;20;Sardegna;kg;0.0;;;0.0;;
+58;2025;1;Piemonte;kg;13812999518.0;13812999497.0;21.0;3935.0;;
+58;2025;2;Valle d`Aosta;kg;301099164.0;301099165.0;-1.0;107.0;;
+58;2025;3;Lombardia;kg;44237824808.0;44237824764.0;44.0;9301.0;;
+58;2025;4;Trentino Alto Adige;kg;3958453847.0;3958453845.0;2.0;821.0;;
+58;2025;5;Veneto;kg;20446570201.0;20446570167.0;34.0;5844.0;;
+58;2025;6;Friuli Venezia Giulia;kg;6500549217.0;6500549204.0;13.0;1239.0;;
+58;2025;7;Liguria;kg;2873524398.0;2873524389.0;9.0;985.0;;
+58;2025;8;Emilia Romagna;kg;17095939289.0;17095939255.0;34.0;5072.0;;
+58;2025;9;Toscana;kg;12237038698.0;12237038662.0;36.0;4039.0;;
+58;2025;10;Umbria;kg;3401934065.0;3401934058.0;7.0;565.0;;
+58;2025;11;Marche;kg;4117427629.0;4117427607.0;22.0;2589.0;;
+58;2025;12;Lazio;kg;11312213817.0;11312213785.0;32.0;2399.0;;
+58;2025;13;Abruzzo;kg;3342920639.0;3342920608.0;31.0;1237.0;;
+58;2025;14;Molise;kg;913806681.0;913806681.0;0.0;228.0;;
+58;2025;15;Campania;kg;11817177452.0;11817177374.0;78.0;2764.0;;
+58;2025;16;Puglia;kg;12079049596.0;12079049579.0;17.0;2688.0;;
+58;2025;17;Basilicata;kg;2065609346.0;2065609341.0;5.0;405.0;;
+58;2025;18;Calabria;kg;3553506944.0;3553506929.0;15.0;1205.0;;
+58;2025;19;Sicilia;kg;10469553316.0;10469553270.0;46.0;2615.0;;
+58;2025;20;Sardegna;kg;3807203034.0;3807203018.0;16.0;1290.0;;
+58;2026;1;Piemonte;kg;7952476377.0;7952476363.0;14.0;3432.0;;
+58;2026;2;Valle d`Aosta;kg;156781676.0;156781677.0;-1.0;92.0;;
+58;2026;3;Lombardia;kg;27550497867.0;27550497833.0;34.0;8033.0;;
+58;2026;4;Trentino Alto Adige;kg;2360289021.0;2360289018.0;3.0;669.0;;
+58;2026;5;Veneto;kg;12152333892.0;12152333862.0;30.0;5130.0;;
+58;2026;6;Friuli Venezia Giulia;kg;3899056961.0;3899056947.0;14.0;1119.0;;
+58;2026;7;Liguria;kg;1584856218.0;1584856212.0;6.0;810.0;;
+58;2026;8;Emilia Romagna;kg;10335228446.0;10335228407.0;39.0;4494.0;;
+58;2026;9;Toscana;kg;11188403622.0;11188403596.0;26.0;3390.0;;
+58;2026;10;Umbria;kg;2209095815.0;2209095813.0;2.0;526.0;;
+58;2026;11;Marche;kg;2239227700.0;2239227692.0;8.0;2254.0;;
+58;2026;12;Lazio;kg;6735562103.0;6735562079.0;24.0;2012.0;;
+58;2026;13;Abruzzo;kg;1981517771.0;1981517750.0;21.0;1176.0;;
+58;2026;14;Molise;kg;602807307.0;602807305.0;2.0;209.0;;
+58;2026;15;Campania;kg;7335681245.0;7335681195.0;50.0;2553.0;;
+58;2026;16;Puglia;kg;8083098291.0;8083098282.0;9.0;2401.0;;
+58;2026;17;Basilicata;kg;1706739658.0;1706739660.0;-2.0;353.0;;
+58;2026;18;Calabria;kg;2458150325.0;2458150316.0;9.0;990.0;;
+58;2026;19;Sicilia;kg;6654288207.0;6654288176.0;31.0;2166.0;;
+58;2026;20;Sardegna;kg;2839860397.0;2839860387.0;10.0;1158.0;;
+59;;1;Piemonte;;25299.0;25299.0;0.0;8.0;;Numero operatori iscritti
+59;;1;Piemonte;;32779.0;32779.0;0.0;8.0;;Numero unita locali iscritte
+59;;1;Piemonte;;31144.0;31144.0;0.0;8.0;;di cui Produttore
+59;;1;Piemonte;;3618.0;3618.0;0.0;8.0;;di cui Trasportatore
+59;;1;Piemonte;;547.0;547.0;0.0;8.0;;di cui Intermediario senza detenzione
+59;;1;Piemonte;;1273.0;1273.0;0.0;8.0;;di cui Recuperatore
+59;;1;Piemonte;;298.0;298.0;0.0;8.0;;di cui Smaltitore
+59;;1;Piemonte;;328.0;328.0;0.0;8.0;;di cui Centro di raccolta
+59;;2;Valle d`Aosta;;767.0;767.0;0.0;1.0;;Numero operatori iscritti
+59;;2;Valle d`Aosta;;1041.0;1041.0;0.0;1.0;;Numero unita locali iscritte
+59;;2;Valle d`Aosta;;947.0;947.0;0.0;1.0;;di cui Produttore
+59;;2;Valle d`Aosta;;163.0;163.0;0.0;1.0;;di cui Trasportatore
+59;;2;Valle d`Aosta;;9.0;9.0;0.0;1.0;;di cui Intermediario senza detenzione
+59;;2;Valle d`Aosta;;36.0;36.0;0.0;1.0;;di cui Recuperatore
+59;;2;Valle d`Aosta;;22.0;22.0;0.0;1.0;;di cui Smaltitore
+59;;2;Valle d`Aosta;;30.0;30.0;0.0;1.0;;di cui Centro di raccolta
+59;;3;Lombardia;;62247.0;62247.0;0.0;12.0;;Numero operatori iscritti
+59;;3;Lombardia;;78441.0;78441.0;0.0;12.0;;Numero unita locali iscritte
+59;;3;Lombardia;;73660.0;73660.0;0.0;12.0;;di cui Produttore
+59;;3;Lombardia;;8809.0;8809.0;0.0;12.0;;di cui Trasportatore
+59;;3;Lombardia;;1756.0;1756.0;0.0;12.0;;di cui Intermediario senza detenzione
+59;;3;Lombardia;;2689.0;2689.0;0.0;12.0;;di cui Recuperatore
+59;;3;Lombardia;;955.0;955.0;0.0;12.0;;di cui Smaltitore
+59;;3;Lombardia;;973.0;973.0;0.0;12.0;;di cui Centro di raccolta
+59;;4;Trentino Alto Adige;;6783.0;6783.0;0.0;2.0;;Numero operatori iscritti
+59;;4;Trentino Alto Adige;;9234.0;9234.0;0.0;2.0;;Numero unita locali iscritte
+59;;4;Trentino Alto Adige;;8641.0;8641.0;0.0;2.0;;di cui Produttore
+59;;4;Trentino Alto Adige;;1083.0;1083.0;0.0;2.0;;di cui Trasportatore
+59;;4;Trentino Alto Adige;;112.0;112.0;0.0;2.0;;di cui Intermediario senza detenzione
+59;;4;Trentino Alto Adige;;579.0;579.0;0.0;2.0;;di cui Recuperatore
+59;;4;Trentino Alto Adige;;274.0;274.0;0.0;2.0;;di cui Smaltitore
+59;;4;Trentino Alto Adige;;124.0;124.0;0.0;2.0;;di cui Centro di raccolta
+59;;5;Veneto;;34263.0;34263.0;0.0;7.0;;Numero operatori iscritti
+59;;5;Veneto;;43191.0;43191.0;0.0;7.0;;Numero unita locali iscritte
+59;;5;Veneto;;41582.0;41582.0;0.0;7.0;;di cui Produttore
+59;;5;Veneto;;3310.0;3310.0;0.0;7.0;;di cui Trasportatore
+59;;5;Veneto;;658.0;658.0;0.0;7.0;;di cui Intermediario senza detenzione
+59;;5;Veneto;;1366.0;1366.0;0.0;7.0;;di cui Recuperatore
+59;;5;Veneto;;344.0;344.0;0.0;7.0;;di cui Smaltitore
+59;;5;Veneto;;511.0;511.0;0.0;7.0;;di cui Centro di raccolta
+59;;6;Friuli Venezia Giulia;;7792.0;7792.0;0.0;4.0;;Numero operatori iscritti
+59;;6;Friuli Venezia Giulia;;10110.0;10110.0;0.0;4.0;;Numero unita locali iscritte
+59;;6;Friuli Venezia Giulia;;9607.0;9607.0;0.0;4.0;;di cui Produttore
+59;;6;Friuli Venezia Giulia;;844.0;844.0;0.0;4.0;;di cui Trasportatore
+59;;6;Friuli Venezia Giulia;;136.0;136.0;0.0;4.0;;di cui Intermediario senza detenzione
+59;;6;Friuli Venezia Giulia;;335.0;335.0;0.0;4.0;;di cui Recuperatore
+59;;6;Friuli Venezia Giulia;;76.0;76.0;0.0;4.0;;di cui Smaltitore
+59;;6;Friuli Venezia Giulia;;214.0;214.0;0.0;4.0;;di cui Centro di raccolta
+59;;7;Liguria;;7823.0;7823.0;0.0;4.0;;Numero operatori iscritti
+59;;7;Liguria;;10048.0;10048.0;0.0;4.0;;Numero unita locali iscritte
+59;;7;Liguria;;9410.0;9410.0;0.0;4.0;;di cui Produttore
+59;;7;Liguria;;1385.0;1385.0;0.0;4.0;;di cui Trasportatore
+59;;7;Liguria;;148.0;148.0;0.0;4.0;;di cui Intermediario senza detenzione
+59;;7;Liguria;;301.0;301.0;0.0;4.0;;di cui Recuperatore
+59;;7;Liguria;;99.0;99.0;0.0;4.0;;di cui Smaltitore
+59;;7;Liguria;;90.0;90.0;0.0;4.0;;di cui Centro di raccolta
+59;;8;Emilia Romagna;;27759.0;27759.0;0.0;9.0;;Numero operatori iscritti
+59;;8;Emilia Romagna;;35997.0;35997.0;0.0;9.0;;Numero unita locali iscritte
+59;;8;Emilia Romagna;;34569.0;34569.0;0.0;9.0;;di cui Produttore
+59;;8;Emilia Romagna;;3197.0;3197.0;0.0;9.0;;di cui Trasportatore
+59;;8;Emilia Romagna;;495.0;495.0;0.0;9.0;;di cui Intermediario senza detenzione
+59;;8;Emilia Romagna;;1135.0;1135.0;0.0;9.0;;di cui Recuperatore
+59;;8;Emilia Romagna;;253.0;253.0;0.0;9.0;;di cui Smaltitore
+59;;8;Emilia Romagna;;389.0;389.0;0.0;9.0;;di cui Centro di raccolta
+59;;9;Toscana;;27144.0;27144.0;0.0;10.0;;Numero operatori iscritti
+59;;9;Toscana;;34401.0;34401.0;0.0;10.0;;Numero unita locali iscritte
+59;;9;Toscana;;32655.0;32655.0;0.0;10.0;;di cui Produttore
+59;;9;Toscana;;3712.0;3712.0;0.0;10.0;;di cui Trasportatore
+59;;9;Toscana;;445.0;445.0;0.0;10.0;;di cui Intermediario senza detenzione
+59;;9;Toscana;;822.0;822.0;0.0;10.0;;di cui Recuperatore
+59;;9;Toscana;;264.0;264.0;0.0;10.0;;di cui Smaltitore
+59;;9;Toscana;;213.0;213.0;0.0;10.0;;di cui Centro di raccolta
+59;;10;Umbria;;6769.0;6769.0;0.0;2.0;;Numero operatori iscritti
+59;;10;Umbria;;8591.0;8591.0;0.0;2.0;;Numero unita locali iscritte
+59;;10;Umbria;;8151.0;8151.0;0.0;2.0;;di cui Produttore
+59;;10;Umbria;;878.0;878.0;0.0;2.0;;di cui Trasportatore
+59;;10;Umbria;;110.0;110.0;0.0;2.0;;di cui Intermediario senza detenzione
+59;;10;Umbria;;245.0;245.0;0.0;2.0;;di cui Recuperatore
+59;;10;Umbria;;71.0;71.0;0.0;2.0;;di cui Smaltitore
+59;;10;Umbria;;69.0;69.0;0.0;2.0;;di cui Centro di raccolta
+59;;11;Marche;;10848.0;10848.0;0.0;5.0;;Numero operatori iscritti
+59;;11;Marche;;13440.0;13440.0;0.0;5.0;;Numero unita locali iscritte
+59;;11;Marche;;12840.0;12840.0;0.0;5.0;;di cui Produttore
+59;;11;Marche;;1245.0;1245.0;0.0;5.0;;di cui Trasportatore
+59;;11;Marche;;185.0;185.0;0.0;5.0;;di cui Intermediario senza detenzione
+59;;11;Marche;;563.0;563.0;0.0;5.0;;di cui Recuperatore
+59;;11;Marche;;142.0;142.0;0.0;5.0;;di cui Smaltitore
+59;;11;Marche;;119.0;119.0;0.0;5.0;;di cui Centro di raccolta
+59;;12;Lazio;;25661.0;25661.0;0.0;5.0;;Numero operatori iscritti
+59;;12;Lazio;;32892.0;32892.0;0.0;5.0;;Numero unita locali iscritte
+59;;12;Lazio;;30643.0;30643.0;0.0;5.0;;di cui Produttore
+59;;12;Lazio;;4573.0;4573.0;0.0;5.0;;di cui Trasportatore
+59;;12;Lazio;;798.0;798.0;0.0;5.0;;di cui Intermediario senza detenzione
+59;;12;Lazio;;659.0;659.0;0.0;5.0;;di cui Recuperatore
+59;;12;Lazio;;182.0;182.0;0.0;5.0;;di cui Smaltitore
+59;;12;Lazio;;212.0;212.0;0.0;5.0;;di cui Centro di raccolta
+59;;13;Abruzzo;;7461.0;7461.0;0.0;4.0;;Numero operatori iscritti
+59;;13;Abruzzo;;9318.0;9318.0;0.0;4.0;;Numero unita locali iscritte
+59;;13;Abruzzo;;8778.0;8778.0;0.0;4.0;;di cui Produttore
+59;;13;Abruzzo;;1165.0;1165.0;0.0;4.0;;di cui Trasportatore
+59;;13;Abruzzo;;183.0;183.0;0.0;4.0;;di cui Intermediario senza detenzione
+59;;13;Abruzzo;;340.0;340.0;0.0;4.0;;di cui Recuperatore
+59;;13;Abruzzo;;140.0;140.0;0.0;4.0;;di cui Smaltitore
+59;;13;Abruzzo;;89.0;89.0;0.0;4.0;;di cui Centro di raccolta
+59;;14;Molise;;1816.0;1816.0;0.0;2.0;;Numero operatori iscritti
+59;;14;Molise;;2372.0;2372.0;0.0;2.0;;Numero unita locali iscritte
+59;;14;Molise;;2181.0;2181.0;0.0;2.0;;di cui Produttore
+59;;14;Molise;;314.0;314.0;0.0;2.0;;di cui Trasportatore
+59;;14;Molise;;38.0;38.0;0.0;2.0;;di cui Intermediario senza detenzione
+59;;14;Molise;;84.0;84.0;0.0;2.0;;di cui Recuperatore
+59;;14;Molise;;23.0;23.0;0.0;2.0;;di cui Smaltitore
+59;;14;Molise;;54.0;54.0;0.0;2.0;;di cui Centro di raccolta
+59;;15;Campania;;28892.0;28892.0;0.0;5.0;;Numero operatori iscritti
+59;;15;Campania;;34709.0;34709.0;0.0;5.0;;Numero unita locali iscritte
+59;;15;Campania;;32345.0;32345.0;0.0;5.0;;di cui Produttore
+59;;15;Campania;;4729.0;4729.0;0.0;5.0;;di cui Trasportatore
+59;;15;Campania;;872.0;872.0;0.0;5.0;;di cui Intermediario senza detenzione
+59;;15;Campania;;1039.0;1039.0;0.0;5.0;;di cui Recuperatore
+59;;15;Campania;;165.0;165.0;0.0;5.0;;di cui Smaltitore
+59;;15;Campania;;294.0;294.0;0.0;5.0;;di cui Centro di raccolta
+59;;16;Puglia;;20054.0;20054.0;0.0;6.0;;Numero operatori iscritti
+59;;16;Puglia;;24337.0;24337.0;0.0;6.0;;Numero unita locali iscritte
+59;;16;Puglia;;22859.0;22859.0;0.0;6.0;;di cui Produttore
+59;;16;Puglia;;3330.0;3330.0;0.0;6.0;;di cui Trasportatore
+59;;16;Puglia;;424.0;424.0;0.0;6.0;;di cui Intermediario senza detenzione
+59;;16;Puglia;;783.0;783.0;0.0;6.0;;di cui Recuperatore
+59;;16;Puglia;;200.0;200.0;0.0;6.0;;di cui Smaltitore
+59;;16;Puglia;;289.0;289.0;0.0;6.0;;di cui Centro di raccolta
+59;;17;Basilicata;;3206.0;3206.0;0.0;2.0;;Numero operatori iscritti
+59;;17;Basilicata;;4401.0;4401.0;0.0;2.0;;Numero unita locali iscritte
+59;;17;Basilicata;;4102.0;4102.0;0.0;2.0;;di cui Produttore
+59;;17;Basilicata;;661.0;661.0;0.0;2.0;;di cui Trasportatore
+59;;17;Basilicata;;74.0;74.0;0.0;2.0;;di cui Intermediario senza detenzione
+59;;17;Basilicata;;130.0;130.0;0.0;2.0;;di cui Recuperatore
+59;;17;Basilicata;;25.0;25.0;0.0;2.0;;di cui Smaltitore
+59;;17;Basilicata;;87.0;87.0;0.0;2.0;;di cui Centro di raccolta
+59;;18;Calabria;;8102.0;8102.0;0.0;5.0;;Numero operatori iscritti
+59;;18;Calabria;;10259.0;10259.0;0.0;5.0;;Numero unita locali iscritte
+59;;18;Calabria;;9553.0;9553.0;0.0;5.0;;di cui Produttore
+59;;18;Calabria;;1597.0;1597.0;0.0;5.0;;di cui Trasportatore
+59;;18;Calabria;;121.0;121.0;0.0;5.0;;di cui Intermediario senza detenzione
+59;;18;Calabria;;308.0;308.0;0.0;5.0;;di cui Recuperatore
+59;;18;Calabria;;79.0;79.0;0.0;5.0;;di cui Smaltitore
+59;;18;Calabria;;78.0;78.0;0.0;5.0;;di cui Centro di raccolta
+59;;19;Sicilia;;21410.0;21410.0;0.0;9.0;;Numero operatori iscritti
+59;;19;Sicilia;;25797.0;25797.0;0.0;9.0;;Numero unita locali iscritte
+59;;19;Sicilia;;23823.0;23823.0;0.0;9.0;;di cui Produttore
+59;;19;Sicilia;;3530.0;3530.0;0.0;9.0;;di cui Trasportatore
+59;;19;Sicilia;;406.0;406.0;0.0;9.0;;di cui Intermediario senza detenzione
+59;;19;Sicilia;;667.0;667.0;0.0;9.0;;di cui Recuperatore
+59;;19;Sicilia;;231.0;231.0;0.0;9.0;;di cui Smaltitore
+59;;19;Sicilia;;225.0;225.0;0.0;9.0;;di cui Centro di raccolta
+59;;20;Sardegna;;8567.0;8567.0;0.0;9.0;;Numero operatori iscritti
+59;;20;Sardegna;;11438.0;11438.0;0.0;9.0;;Numero unita locali iscritte
+59;;20;Sardegna;;10389.0;10389.0;0.0;9.0;;di cui Produttore
+59;;20;Sardegna;;1954.0;1954.0;0.0;9.0;;di cui Trasportatore
+59;;20;Sardegna;;195.0;195.0;0.0;9.0;;di cui Intermediario senza detenzione
+59;;20;Sardegna;;348.0;348.0;0.0;9.0;;di cui Recuperatore
+59;;20;Sardegna;;142.0;142.0;0.0;9.0;;di cui Smaltitore
+59;;20;Sardegna;;305.0;305.0;0.0;9.0;;di cui Centro di raccolta
