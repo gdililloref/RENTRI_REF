@@ -250,3 +250,49 @@ unificati in un solo Excel a fine esecuzione. Dettagli architetturali e risultat
 - Ogni **batch (report, anno)** viene scaricato, parsato e persistito su disco
   (`rentri_out/_interim/`) **prima** di essere unificato: un'interruzione o l'aggiunta di un nuovo
   anno in seguito non richiede di rielaborare gli anni già completati.
+
+---
+
+## 8. Misura delle variazioni nel tempo (2026-08-03)
+
+Su richiesta, l'obiettivo si sposta dalla fotografia multi-anno alla **stima della variazione di
+periodo**. Vincolo strutturale: RENTRI espone **solo lo stato cumulato corrente** (nessun endpoint
+"movimenti del mese"), quindi ogni variazione è per costruzione una **differenza tra due scarichi** e
+**il passato non è ricostruibile** — le serie partono dal primo scarico archiviato. Da qui due script
+con ruoli e output separati (tabella comparativa in [README.md](README.md#le-due-misure-di-variazione)):
+
+- **`monitor_mensile/rentri_monitor_mensile.py`** (riscritto): scarica il **solo anno corrente**,
+  archivia lo snapshot datato (`snapshots/*.parquet`) e produce, per ciascuno dei 4 report, un foglio
+  `_Totale` (cumulato per riga a ogni data) e un foglio `_Variazione` (delta tra scarichi
+  consecutivi), al dettaglio della riga del PDF. ~15 min.
+- **`rentri_scraper.py`**: resta il 2024→anno corrente e ora **archivia ogni run** in
+  `rentri_out/_storico/` confrontandolo col precedente → fogli `Retroattivo_Sintesi` e
+  `Retro_Dettaglio_*`. Serve a intercettare i **cambiamenti retroattivi** sugli anni chiusi.
+
+### Scelte di progetto e insidie
+- **La cache interim era indipendente dalla data** (`r{rid}_{anno}.pkl`): un secondo run non
+  riscaricava nulla, quindi i cambiamenti retroattivi erano per costruzione invisibili. Ora è datata
+  al giorno del run (il resume dopo un'interruzione nello stesso giorno resta garantito). I `.pkl`
+  del run 2026-07-24 sono stati importati una volta sola nell'archivio (`seed_archivio_legacy`), così
+  il primo run successivo produce già un confronto reale invece di una baseline vuota.
+- **Anno chiuso vs anno corrente**: la differenza tra due run sull'anno corrente è normale accumulo,
+  non retroattività. La colonna `tipo_variazione` separa i due casi; confonderli porterebbe a
+  leggere l'accumulo fisiologico come correzione retroattiva.
+- **Rollover di gennaio**: se un anno non è coperto da entrambi gli scarichi, la variazione è lasciata
+  **vuota** (non comparabile), mai zero — altrimenti al cambio d'anno l'anno chiuso mostrerebbe un
+  crollo a zero inesistente. Verificato con snapshot sintetici datati 2027.
+- **Chiave di riga unica condivisa** (`CHIAVI_DETTAGLIO`/`DESCR_DETTAGLIO` in `rentri_scraper.py`):
+  i due script la importano dallo stesso posto, altrimenti col tempo divergono e i confronti
+  smettono di essere confrontabili.
+- **Cast a intero**: verificato che la sorgente non ha decimali (0 righe su 76.131 con parte
+  decimale), quindi il cast dei valori a `int64` è senza perdita.
+
+### Due bug preesistenti corretti
+1. **`Materiale_ID` interamente vuoto** (2.314 righe su 2.314): l'etichetta della `<option>` è
+   `"<SIGLA> <descrizione>"` (es. `"ACM Ammendante compostato misto"`) mentre il PDF riporta la sola
+   descrizione, quindi il match esatto etichetta→descrizione non trovava nulla. Ora la sigla viene
+   staccata (`Rentri.materiale_map()`): 1.132/1.132 mappate.
+2. **`anni_coperti` letto come `NaN`**: nell'indice degli snapshot il report 59 ha il campo vuoto,
+   che pandas rilegge come `NaN` — e `NaN` è *truthy*, quindi `(valore or "")` restava `NaN` e
+   `.split()` sollevava `AttributeError`, facendo fallire l'export dopo che lo scarico era già
+   completato. Va intercettato con `isna()`, non con un `or`.
