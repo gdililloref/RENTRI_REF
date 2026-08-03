@@ -1,0 +1,19 @@
+{
+  "output": "\\\\nas-storage\\Disco H\\PREZZI\\RENTRI\\build\\dist\\rentri_dashboard.html",
+  "size_mb": 3.147,
+  "row_counts": {
+    "A": 76131,
+    "B": 2288,
+    "C": 91465,
+    "D": 111
+  },
+  "self_check": {
+    "report_56 2025 kg totale": 114362059541,
+    "report_58 2025 kg totale": 188340733867,
+    "report_59 operatori totale": 341647,
+    "report_56 2025 kg Lombardia": 23796868970
+  },
+  "data_payload_mb": 0.887,
+  "geo_regions_mb": 0.047,
+  "geo_provinces_mb": 0.089
+}

@@ -1,0 +1,12 @@
+# cache locali rigenerabili (ricostruibili da rentri_scraper.py, non versionate)
+rentri_pdf_cache/
+rentri_out/_interim/
+
+__pycache__/
+*.log
+
+# file temporanei di Office (creati quando un file .xlsx e' aperto)
+~$*
+
+# tooling locale (config specifica della macchina, non del progetto)
+.claude/

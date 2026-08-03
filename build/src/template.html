@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>RENTRI · Esploratore dati rifiuti</title>
+<style>{{APP_CSS}}</style>
+</head>
+<body>
+
+<div id="app">
+
+  <!-- ============================== HEADER ============================== -->
+  <header id="app-header">
+    <div class="header-left">
+      <span class="logo-mark">RENTRI</span>
+      <span class="logo-sub">Esploratore dati rifiuti</span>
+    </div>
+    <div class="header-center">
+      <button id="btn-quick-views" class="btn btn-accent">⚡ Viste rapide</button>
+    </div>
+    <div class="header-right">
+      <button id="btn-export" class="btn">⇩ Esporta</button>
+      <button id="btn-notes" class="btn btn-icon" title="Note metodologiche">ⓘ</button>
+      <button id="btn-theme" class="btn btn-icon" title="Cambia tema">◐</button>
+    </div>
+  </header>
+
+  <!-- ============================ DATASET TABS ============================ -->
+  <nav id="dataset-tabs">
+    <button class="dataset-tab active" data-dataset="A">Rifiuti prodotti</button>
+    <button class="dataset-tab" data-dataset="B">Materiali End of Waste</button>
+    <button class="dataset-tab" data-dataset="C">Rifiuti trattati</button>
+    <button class="dataset-tab" data-dataset="D">Operatori e unità locali</button>
+  </nav>
+
+  <!-- ============================== MAIN GRID ============================== -->
+  <div id="main-grid">
+
+    <!-- ------------------------------ LEFT RAIL ------------------------------ -->
+    <aside id="filter-rail">
+      <div class="rail-header">
+        <span>FILTRI</span>
+        <button id="btn-reset-filters" class="link-btn">⟲ Azzera</button>
+      </div>
+
+      <div class="rail-section">
+        <div class="rail-section-title">1 · Periodo</div>
+
+        <section class="filter-group" id="group-anno">
+          <label class="filter-label">Anno</label>
+          <div id="filter-anno" class="chip-select"></div>
+          <div id="anno-note" class="filter-note"></div>
+        </section>
+
+        <section class="filter-group" id="group-unit">
+          <label class="filter-label">Unità di misura</label>
+          <div id="filter-unit" class="radio-select"></div>
+          <div id="unit-note" class="filter-note"></div>
+        </section>
+      </div>
+
+      <div class="rail-section">
+        <div class="rail-section-title">2 · Territorio</div>
+
+        <section class="filter-group" id="group-territorio">
+          <div class="macro-row" id="filter-macro"></div>
+          <input id="filter-region-search" class="text-input" type="text" placeholder="Cerca regione o provincia…" />
+          <div id="filter-region-list" class="scroll-list"></div>
+        </section>
+      </div>
+
+      <div class="rail-section">
+        <div class="rail-section-title">3 · Classificazione rifiuto</div>
+        <div class="rail-section-hint">Dal generale (pericolosità) al dettaglio (singolo codice/operazione).</div>
+
+        <section class="filter-group" id="group-haz">
+          <label class="filter-label">Pericolosità</label>
+          <div id="filter-haz" class="radio-select"></div>
+        </section>
+
+        <section class="filter-group" id="group-eer-chapter">
+          <label class="filter-label">Capitolo EER</label>
+          <div id="filter-eer-chapter" class="scroll-list compact"></div>
+        </section>
+
+        <section class="filter-group" id="group-eer-code">
+          <label class="filter-label">Codice EER (dettaglio)</label>
+          <input id="filter-eercode-search" class="text-input" type="text" placeholder="Cerca codice o descrizione…" />
+          <div id="filter-eercode-list" class="scroll-list compact"></div>
+        </section>
+
+        <section class="filter-group" id="group-materiale">
+          <label class="filter-label">Materiale</label>
+          <div id="filter-materiale" class="scroll-list compact"></div>
+        </section>
+
+        <section class="filter-group" id="group-attivita">
+          <label class="filter-label">Tipo operazione</label>
+          <div id="filter-tipo" class="radio-select"></div>
+        </section>
+
+        <section class="filter-group" id="group-attivita-detail">
+          <label class="filter-label">Attività R/D (dettaglio)</label>
+          <div id="filter-attivita-detail" class="scroll-list compact"></div>
+        </section>
+      </div>
+    </aside>
+
+    <!-- ------------------------------ CENTER CANVAS ------------------------------ -->
+    <main id="canvas-area">
+      <div id="kpi-strip"></div>
+
+      <div id="view-toolbar">
+        <div id="view-tabs">
+          <button class="view-tab active" data-view="chart">Grafico</button>
+          <button class="view-tab" data-view="table">Tabella</button>
+        </div>
+        <div id="active-chips"></div>
+      </div>
+
+      <div id="chart-panel">
+        <div id="chart-title-bar">
+          <h2 id="chart-title">—</h2>
+          <div id="chart-badges"></div>
+        </div>
+        <div id="chart-canvas"></div>
+        <div id="chart-footnote"></div>
+      </div>
+
+      <div id="table-panel" class="hidden">
+        <div id="table-scroll"><table id="data-table"><thead></thead><tbody></tbody></table></div>
+      </div>
+    </main>
+
+    <!-- ------------------------------ CONFIG PANEL ------------------------------ -->
+    <aside id="config-panel">
+      <div class="rail-header">
+        <span>CONFIGURA GRAFICO</span>
+        <button id="btn-collapse-config" class="link-btn">⇥</button>
+      </div>
+
+      <section class="config-group">
+        <label class="filter-label">1 · Cosa vuoi vedere</label>
+        <div id="chart-category-tabs" class="category-pills"></div>
+      </section>
+
+      <section class="config-group">
+        <label class="filter-label">2 · Tipo di grafico</label>
+        <div id="chart-type-grid" class="type-grid"></div>
+        <div id="chart-type-note" class="filter-note"></div>
+      </section>
+
+      <section class="config-group" id="field-maplevel">
+        <label class="filter-label">Livello geografico</label>
+        <div id="config-maplevel" class="chip-select"></div>
+      </section>
+
+      <div class="config-section-title" id="section-title-dati">3 · Dati</div>
+
+      <section class="config-group" id="field-xdim">
+        <label class="filter-label">Raggruppa per (X)</label>
+        <select id="config-xdim" class="select-input"></select>
+      </section>
+
+      <section class="config-group" id="field-seriesdim">
+        <label class="filter-label">Serie / colore</label>
+        <select id="config-seriesdim" class="select-input"></select>
+      </section>
+
+      <section class="config-group" id="field-measure">
+        <label class="filter-label">Misura</label>
+        <select id="config-measure" class="select-input"></select>
+      </section>
+
+      <div class="config-section-title" id="section-title-aspetto">4 · Aspetto</div>
+
+      <section class="config-group" id="field-topn">
+        <label class="filter-label">Top-N</label>
+        <select id="config-topn" class="select-input">
+          <option value="5">5</option>
+          <option value="10" selected>10</option>
+          <option value="15">15</option>
+          <option value="20">20</option>
+          <option value="9999">Tutti</option>
+        </select>
+      </section>
+
+      <section class="config-group" id="field-sort">
+        <label class="filter-label">Ordina</label>
+        <select id="config-sort" class="select-input">
+          <option value="desc">Decrescente</option>
+          <option value="asc">Crescente</option>
+        </select>
+      </section>
+
+      <section class="config-group" id="field-orientation">
+        <label class="filter-label">Orientamento</label>
+        <select id="config-orientation" class="select-input">
+          <option value="h">Orizzontale</option>
+          <option value="v">Verticale</option>
+        </select>
+      </section>
+
+      <section class="config-group" id="field-labels">
+        <div class="checkbox-row"><label><input type="checkbox" id="config-labels" /> Mostra etichette dati</label></div>
+      </section>
+
+      <div id="config-hint" class="filter-note config-hint-box"></div>
+    </aside>
+
+  </div>
+
+  <footer id="app-footer">
+    Fonte: MASE – RENTRI, cruscotto pubblico area-consultazione · dati estratti il 24/07/2026 ·
+    riutilizzo libero citando la fonte.
+  </footer>
+</div>
+
+<!-- ============================== OVERLAYS ============================== -->
+
+<div id="quick-views-overlay" class="overlay hidden">
+  <div class="overlay-panel">
+    <div class="overlay-header"><h3>Viste rapide</h3><button class="link-btn" id="btn-close-quick-views">✕</button></div>
+    <div id="quick-views-grid" class="quick-views-grid"></div>
+  </div>
+</div>
+
+<div id="notes-drawer" class="overlay hidden">
+  <div class="overlay-panel">
+    <div class="overlay-header"><h3>Note metodologiche</h3><button class="link-btn" id="btn-close-notes">✕</button></div>
+    <div id="notes-content" class="notes-content"></div>
+  </div>
+</div>
+
+<div id="export-modal" class="overlay hidden">
+  <div class="overlay-panel narrow">
+    <div class="overlay-header"><h3>Esporta in Excel</h3><button class="link-btn" id="btn-close-export">✕</button></div>
+    <div class="export-body">
+      <label class="checkbox-row"><input type="checkbox" id="export-chart" checked /> Dati del grafico (aggregati)</label>
+      <label class="checkbox-row"><input type="checkbox" id="export-detail" checked /> Righe di dettaglio filtrate <span id="export-detail-count"></span></label>
+      <label class="checkbox-row disabled"><input type="checkbox" checked disabled /> Provenienza e note metodologiche (sempre incluso)</label>
+      <div id="export-warning" class="filter-note warning hidden"></div>
+      <button id="btn-do-export" class="btn btn-accent full-width">Genera file Excel</button>
+    </div>
+  </div>
+</div>
+
+<div id="toast" class="toast hidden"></div>
+
+<script>{{ECHARTS_JS}}</script>
+<script>{{XLSX_JS}}</script>
+<script>{{TOPOJSON_JS}}</script>
+<script id="rentri-data" type="application/octet-stream">{{DATA_B64}}</script>
+<script id="rentri-geo-regions" type="application/octet-stream">{{GEO_REGIONS_B64}}</script>
+<script id="rentri-geo-provinces" type="application/octet-stream">{{GEO_PROVINCES_B64}}</script>
+<script>{{CHART_REGISTRY_JS}}</script>
+<script>{{APP_JS}}</script>
+</body>
+</html>
