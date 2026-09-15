@@ -2,7 +2,7 @@
 # rentri_monitor_mensile.py. Usa il percorso UNC (non la lettera di rete H:) perche' un task
 # schedulato non eredita sempre le unita' mappate della sessione interattiva.
 $ErrorActionPreference = "Stop"
-$root = "\\nas-storage\Disco H\PREZZI\RENTRI_scarico"
+$root = "\\nas-storage\Disco H\PREZZI\RENTRI"
 $python = "C:\Users\GiovanniDilillo\AppData\Local\Microsoft\WindowsApps\python.exe"
 
 Set-Location $root
