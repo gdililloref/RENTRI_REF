@@ -100,7 +100,9 @@ class Rentri:
             val = (o.get("value") or "").strip()
             if val == "":
                 continue
-            out.append((val, o.get_text(strip=True)))
+            # il sito RENTRI usa un backtick al posto dell'apostrofo tipografico
+            # (es. "Valle d`Aosta"): normalizzato per non rompere i match per stringa.
+            out.append((val, o.get_text(strip=True).replace("`", "'")))
         return out
 
     def province_regione_map(self):
