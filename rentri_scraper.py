@@ -60,7 +60,9 @@ ANNI = ["2024", "2025", "2026"]  # anni da scaricare per 56/57/58 (59 non ha "An
 RUN_DATE = datetime.now().strftime("%Y-%m-%d")
 CACHE = pathlib.Path("rentri_pdf_cache") / RUN_DATE
 OUT = pathlib.Path("rentri_out")
-INTERIM = OUT / "_interim"
+INTERIM = OUT / "_interim"     # cache di lavoro del run corrente (rigenerabile, non versionata)
+STORICO = OUT / "_storico"     # archivio per data di run: NON cancellare, serve al confronto
+                               # retroattivo e non e' ricostruibile (RENTRI espone solo l'attuale)
 
 
 # ------------------------------------------------------------------ client
@@ -98,7 +100,9 @@ class Rentri:
             val = (o.get("value") or "").strip()
             if val == "":
                 continue
-            out.append((val, o.get_text(strip=True)))
+            # il sito RENTRI usa un backtick al posto dell'apostrofo tipografico
+            # (es. "Valle d`Aosta"): normalizzato per non rompere i match per stringa.
+            out.append((val, o.get_text(strip=True).replace("`", "'")))
         return out
 
     def province_regione_map(self):
@@ -110,6 +114,19 @@ class Rentri:
             if not val:
                 continue
             out[val] = (o.get("data-masterkey"), o.get_text(strip=True))
+        return out
+
+    def materiale_map(self):
+        """{descrizione (lower): id} per il report 57.
+
+        L'etichetta della <option> e' "<SIGLA> <descrizione>" (es. "ACM Ammendante compostato
+        misto"), mentre il PDF riporta la sola descrizione: la sigla va staccata, altrimenti il
+        match etichetta->descrizione non trova nulla e Materiale_ID resta interamente vuoto
+        (era il caso fino al 2026-08-03: 2.314 righe su 2.314 con Materiale_ID nullo)."""
+        out = {}
+        for val, label in self.options("MaterialeId"):
+            sigla, _, descr = label.partition(" ")
+            out[(descr or sigla).strip().lower()] = val
         return out
 
     def render(self, payload):
@@ -148,6 +165,28 @@ VALIDATION_EXTRA = {
 PARSERS_LABEL = {56: "56", 57: "57", 58: "58", 59: "59"}
 PROV_COL = {56: "Provincia produttore", 57: "Provincia produttore", 58: "Provincia impianto", 59: "Provincia"}
 SHEET_NAMES = {56: "56_RifiutiProdotti", 57: "57_MaterialiEoW", 58: "58_RifiutiTrattati", 59: "59_OperatoriUL"}
+
+# ---- dettaglio riga: definizioni condivise con monitor_mensile/rentri_monitor_mensile.py ----
+# Unica fonte di verita' per la chiave di riga, per evitare che i due script divergano.
+# key   = colonne che identificano univocamente la riga al massimo dettaglio del PDF
+# descr = colonne descrittive, funzionalmente dipendenti dalla chiave (Regione<-Provincia,
+#         Descrizione/Pericoloso<-Codice EER): riportate solo per leggibilita'
+COLONNE_59 = ["Numero operatori iscritti", "Numero unita locali iscritte", "di cui Produttore",
+              "di cui Trasportatore", "di cui Intermediario senza detenzione", "di cui Recuperatore",
+              "di cui Smaltitore", "di cui Centro di raccolta"]
+
+CHIAVI_DETTAGLIO = {
+    56: ["Anno", "Provincia produttore", "Codice EER", "Unita di misura"],
+    57: ["Anno", "Provincia produttore", "Materiale", "Unita di misura"],
+    58: ["Anno", "Provincia impianto", "Codice EER", "Attivita a destinazione", "Unita di misura"],
+    59: ["Provincia", "Campo"],
+}
+DESCR_DETTAGLIO = {
+    56: ["Regione", "Pericoloso", "Descrizione EER"],
+    57: ["Regione", "Materiale_ID"],
+    58: ["Regione", "Pericoloso", "Descrizione EER", "Tipo operazione"],
+    59: ["Regione"],
+}
 
 
 # ------------------------------------------------------------------ download
@@ -337,6 +376,31 @@ def enrich(df, prov_col, prov_map, reg_nomi):
     return df
 
 
+def normalizza_long(df, rid):
+    """Da DataFrame arricchito (output del parser + enrich) alla forma long usata sia per
+    l'archivio storico sia per il confronto tra run: chiave + descrittive + 'Valore'.
+    Il report 59 e' wide (una colonna per categoria di operatore) e viene ribaltato in long."""
+    key, descr = CHIAVI_DETTAGLIO[rid], DESCR_DETTAGLIO[rid]
+    if rid == 59:
+        df = df.melt(id_vars=["Provincia", "Regione"], value_vars=COLONNE_59,
+                     var_name="Campo", value_name="Valore")
+    else:
+        # righe con unita' di misura vuota (quantita' 0): dato reale ma senza contenuto informativo
+        df = df[df["Unita di misura"].isin(["kg", "l"])].rename(columns={"Quantita": "Valore"})
+
+    df = df[key + descr + ["Valore"]].copy()
+    for c in key:
+        df[c] = df[c].astype("string").fillna("")
+    df["Valore"] = pd.to_numeric(df["Valore"], errors="coerce").fillna(0).astype("int64")
+
+    n_dup = len(df) - len(df.drop_duplicates(key))
+    if n_dup:
+        print(f"    ATTENZIONE r{rid}: {n_dup} chiavi duplicate, sommate")
+        aggr = {c: "sum" if c == "Valore" else "first" for c in descr + ["Valore"]}
+        df = df.groupby(key, as_index=False, dropna=False).agg(aggr)
+    return df
+
+
 def reconcile_year(rid, anno, df_anno, footer, df_val, prov_map):
     """Confronta, per un singolo (report, anno): (a) somma righe vs riga 'Totali' del PDF
     nazionale; (b) subset regione 13 calcolato dal nazionale vs PDF di validazione scaricato
@@ -379,12 +443,131 @@ def reconcile_59(df, df_val, prov_map):
 # ------------------------------------------------------------------ batch per (report, anno)
 
 def _interim_paths(rid, anno):
+    """La cache interim e' datata al giorno del run: garantisce il resume dopo un'interruzione
+    nello stesso giorno, ma NON impedisce il riscarico in un run successivo - se fosse indipendente
+    dalla data (com'era fino al 2026-08-03) un secondo run non riscaricherebbe nulla e i
+    cambiamenti retroattivi resterebbero invisibili, che e' proprio cio' che si vuole misurare."""
     tag = anno or "attuale"
     return {
-        "df": INTERIM / f"r{rid}_{tag}.pkl",
-        "reconcile": INTERIM / f"reconcile_r{rid}_{tag}.json",
-        "anomalies": INTERIM / f"anomalies_r{rid}_{tag}.json",
+        "df": INTERIM / f"r{rid}_{tag}_{RUN_DATE}.pkl",
+        "reconcile": INTERIM / f"reconcile_r{rid}_{tag}_{RUN_DATE}.json",
+        "anomalies": INTERIM / f"anomalies_r{rid}_{tag}_{RUN_DATE}.json",
     }
+
+
+# ------------------------------------------------------------------ archivio storico + retroattivo
+
+def archivia_run(rid, anno, df):
+    """Salva la forma long del batch nell'archivio per data di run (base del confronto
+    retroattivo). Ri-lanciare lo script nello stesso giorno sovrascrive lo stesso file."""
+    STORICO.mkdir(parents=True, exist_ok=True)
+    tag = anno or "attuale"
+    dest = STORICO / f"r{rid}_{tag}_{RUN_DATE}.parquet"
+    normalizza_long(df, rid).to_parquet(dest, index=False)
+    return dest
+
+
+def _archivio_per_anno(rid):
+    """{tag_anno: {data_run: path}} dai nomi file dell'archivio."""
+    out = {}
+    for p in sorted(STORICO.glob(f"r{rid}_*.parquet")):
+        _, tag, data = p.stem.split("_")
+        out.setdefault(tag, {})[data] = p
+    return out
+
+
+def seed_archivio_legacy(data_run="2026-07-24"):
+    """Migrazione una volta sola: il run del 2026-07-24 ha lasciato una cache interim NON datata
+    (r{rid}_{anno}.pkl). La si converte in voce d'archivio di quella data, cosi' il primo run
+    successivo produce subito un confronto retroattivo invece di una semplice baseline."""
+    convertiti = []
+    for p in sorted(INTERIM.glob("r*.pkl")):
+        parti = p.stem.split("_")
+        if len(parti) != 2:
+            continue  # gia' datato (run recente): non e' un file legacy
+        rid = int(parti[0][1:])
+        dest = STORICO / f"r{rid}_{parti[1]}_{data_run}.parquet"
+        if dest.exists():
+            continue
+        df = pd.read_pickle(p)
+        if not len(df):
+            continue  # es. r57 2024: nessun dato, niente da confrontare
+        STORICO.mkdir(parents=True, exist_ok=True)
+        normalizza_long(df, rid).to_parquet(dest, index=False)
+        convertiti.append(dest.name)
+    if convertiti:
+        print(f"  archivio: importate {len(convertiti)} voci legacy del run {data_run}")
+    return convertiti
+
+
+def confronta_run():
+    """Confronta, per ogni (report, anno), i due run archiviati piu' recenti che coprono
+    quell'anno. Ritorna (sintesi, dettaglio):
+      - sintesi:   una riga per (report, anno, unita' di misura) con i conteggi e il delta;
+      - dettaglio: {report_id: DataFrame} con le sole righe cambiate (o comparse/scomparse),
+        separato per report perche' i 4 report hanno chiavi diverse (in un foglio unico le
+        colonne di un report resterebbero vuote sulle righe degli altri).
+    Nota di lettura: per l'ANNO CORRENTE la differenza tra due run e' il normale accumulo di
+    nuove registrazioni; solo sugli anni CHIUSI e' una variazione retroattiva."""
+    anno_corr = str(datetime.now().year)
+    sintesi, dettaglio = [], {}
+    for rid in (56, 57, 58, 59):
+        for tag, per_data in sorted(_archivio_per_anno(rid).items()):
+            date = sorted(per_data)
+            if len(date) < 2:
+                continue
+            prec, cur = date[-2], date[-1]
+            key, descr = CHIAVI_DETTAGLIO[rid], DESCR_DETTAGLIO[rid]
+            a = pd.read_parquet(per_data[prec])
+            b = pd.read_parquet(per_data[cur])
+            cols = key + descr + ["Valore"]
+            m = a[cols].merge(b[cols], on=key, how="outer", suffixes=("_prec", "_att"),
+                              indicator=True)
+            # descrittive dal run nuovo, con ripiego sul precedente: altrimenti le righe
+            # SCOMPARSE (assenti nel run nuovo) resterebbero senza regione/descrizione
+            for c in descr:
+                m[c] = m[f"{c}_att"].combine_first(m[f"{c}_prec"])
+            m["Valore_prec"] = m["Valore_prec"].fillna(0)
+            m["Valore_att"] = m["Valore_att"].fillna(0)
+            m["Delta"] = m["Valore_att"] - m["Valore_prec"]
+            m["Stato"] = m["_merge"].map({"left_only": "riga scomparsa",
+                                          "right_only": "riga nuova",
+                                          "both": "riga preesistente"})
+            tipo = ("accumulo anno corrente" if tag == anno_corr else
+                    "retroattiva (anno chiuso)" if tag != "attuale" else
+                    "stato attuale (senza anno)")
+
+            camb = m[m["Delta"] != 0].copy()
+            camb.insert(0, "tipo_variazione", tipo)
+            camb.insert(0, "a_run", cur)
+            camb.insert(0, "da_run", prec)
+            camb.insert(0, "report_id", rid)
+            dettaglio.setdefault(rid, []).append(
+                camb[["report_id", "da_run", "a_run", "tipo_variazione"] + key + descr
+                     + ["Valore_prec", "Valore_att", "Delta", "Stato"]])
+
+            unita = m["Unita di misura"] if "Unita di misura" in m.columns else pd.Series(
+                "n. operatori/UL", index=m.index)
+            for u, g in m.groupby(unita):
+                vp, va = g["Valore_prec"].sum(), g["Valore_att"].sum()
+                sintesi.append({
+                    "report_id": rid, "anno": tag, "tipo_variazione": tipo,
+                    "da_run": prec, "a_run": cur,
+                    "giorni": (datetime.strptime(cur, "%Y-%m-%d")
+                               - datetime.strptime(prec, "%Y-%m-%d")).days,
+                    "unita_misura": u,
+                    "n_chiavi_prec": int((g["Valore_prec"] != 0).sum()),
+                    "n_chiavi_att": int((g["Valore_att"] != 0).sum()),
+                    "n_righe_nuove": int((g["Stato"] == "riga nuova").sum()),
+                    "n_righe_scomparse": int((g["Stato"] == "riga scomparsa").sum()),
+                    "n_righe_modificate": int(((g["Stato"] == "riga preesistente")
+                                               & (g["Delta"] != 0)).sum()),
+                    "valore_prec": vp, "valore_att": va, "delta": va - vp,
+                    "delta_%": round(100 * (va - vp) / vp, 4) if vp else None,
+                })
+    df_s = pd.DataFrame(sintesi)
+    dfs_d = {rid: pd.concat(parti, ignore_index=True) for rid, parti in dettaglio.items()}
+    return df_s, dfs_d
 
 
 def process_report_year(api, rid, anno, prov_map, reg_nomi, materiale_map, meta_rows):
@@ -416,13 +599,13 @@ def process_report_year(api, rid, anno, prov_map, reg_nomi, materiale_map, meta_
     print(f"    -> {len(df)} righe, footer: {footer}")
     df = enrich(df, PROV_COL[rid], prov_map, reg_nomi)
     if rid == 57:
-        df["Materiale_ID"] = df["Materiale"].map(materiale_map)
+        df["Materiale_ID"] = df["Materiale"].str.lower().map(materiale_map)
         df = df[["Anno", "Provincia produttore", "Regione", "Materiale", "Materiale_ID", "Quantita", "Unita di misura"]]
 
     df_val, footer_val, anomalies_val = PARSERS[rid](dest_v)
     df_val = enrich(df_val, PROV_COL[rid], prov_map, reg_nomi)
     if rid == 57:
-        df_val["Materiale_ID"] = df_val["Materiale"].map(materiale_map)
+        df_val["Materiale_ID"] = df_val["Materiale"].str.lower().map(materiale_map)
     anomalies = anomalies + anomalies_val
 
     if rid == 59:
@@ -442,8 +625,11 @@ def main():
     api = Rentri()
     prov_map = api.province_regione_map()
     reg_nomi = dict(api.options("RegioneProduttore"))
-    materiale_map = {label: val for val, label in api.options("MaterialeId")}
+    materiale_map = api.materiale_map()
     print(f"  {len(prov_map)} province, {len(reg_nomi)} regioni, {len(materiale_map)} materiali")
+
+    if INTERIM.exists():
+        seed_archivio_legacy()
 
     meta_rows, all_reconcile, all_anomalies = [], [], []
     dfs_by_rid = {56: [], 57: [], 58: []}
@@ -452,16 +638,26 @@ def main():
         print(f"\n=== Batch anno {anno} ===")
         for rid in (57, 56, 58):  # dal piu' piccolo al piu' grande
             df, rec, anom = process_report_year(api, rid, anno, prov_map, reg_nomi, materiale_map, meta_rows)
+            archivia_run(rid, anno, df)
             dfs_by_rid[rid].append(df)
             all_reconcile += rec
             all_anomalies += anom
 
     print("\n=== Batch report 59 (stato attuale, nessun anno) ===")
     df59, rec59, anom59 = process_report_year(api, 59, None, prov_map, reg_nomi, materiale_map, meta_rows)
+    archivia_run(59, None, df59)
     all_reconcile += rec59
     all_anomalies += anom59
 
     _write_manifest(meta_rows)
+
+    print("\n=== Confronto con i run precedenti (variazioni retroattive) ===")
+    df_retro_s, df_retro_d = confronta_run()
+    if len(df_retro_s):
+        print(df_retro_s[["report_id", "anno", "tipo_variazione", "da_run", "a_run",
+                          "unita_misura", "delta", "delta_%", "n_righe_modificate"]].to_string())
+    else:
+        print("  primo run archiviato: nessun confronto possibile (serve un run successivo)")
 
     print("\n=== Unificazione ===")
     dfs = {rid: pd.concat(parts, ignore_index=True) for rid, parts in dfs_by_rid.items()}
@@ -477,12 +673,22 @@ def main():
     ).sort_values("cod_provincia")
     df_anom = pd.DataFrame(all_anomalies)
 
+    MAX_XLS = 1_000_000  # limite foglio Excel (1.048.576 righe): il CSV resta comunque completo
+
     xlsx_path = OUT / "rentri.xlsx"
     with pd.ExcelWriter(xlsx_path, engine="openpyxl") as writer:
         for rid, df in dfs.items():
             df.to_excel(writer, sheet_name=SHEET_NAMES[rid], index=False)
             df.to_csv(OUT / f"report_{rid}.csv", index=False, sep=";", encoding="utf-8-sig")
         df_reconcile.to_excel(writer, sheet_name="Riconciliazione", index=False)
+        df_retro_s.to_excel(writer, sheet_name="Retroattivo_Sintesi", index=False)
+        for rid, df_d in sorted(df_retro_d.items()):
+            df_d.to_csv(OUT / f"variazioni_retroattive_r{rid}.csv", index=False, sep=";",
+                        encoding="utf-8-sig")
+            if len(df_d) > MAX_XLS:
+                print(f"ATTENZIONE: dettaglio retroattivo r{rid} di {len(df_d)} righe, nel foglio "
+                      f"Excel ne entrano {MAX_XLS} - completo in variazioni_retroattive_r{rid}.csv")
+            df_d.head(MAX_XLS).to_excel(writer, sheet_name=f"Retro_Dettaglio_{rid}", index=False)
         df_prov.to_excel(writer, sheet_name="Mappatura_Territorio", index=False)
         df_anom.to_excel(writer, sheet_name="Anomalie_Numeriche", index=False)
 

@@ -1,23 +1,50 @@
 #!/usr/bin/env python3
 """
-Monitoraggio mensile RENTRI: scarica l'anno corrente (56/57/58) + lo snapshot attuale (59),
-confronta i totali - nazionali e per regione - con l'ultimo stato salvato, e appende la
-variazione a un Excel dedicato (separato da rentri_out/rentri.xlsx).
+RENTRI - variazione MENSILE al massimo dettaglio (riga del PDF sorgente).
 
-Nota fondamentale: il campo "Anno" di RENTRI e' "Anno registrazione", NON un anno di competenza
-chiuso - anche l'anno corrente accumula progressivamente e un anno "passato" puo' ricevere
-correzioni tardive (osservato: stesso numero di righe, valori diversi a distanza di ore).
-Di conseguenza la "variazione mensile" qui calcolata e' un delta tra due fotografie cumulative
-nel tempo (snapshot_mese_N - snapshot_mese_N-1), non un dato di competenza del singolo mese:
-include sia le nuove registrazioni sia eventuali correzioni retroattive.
+Ruolo di questo script nella coppia:
+  - QUESTO (mensile, leggero): scarica solo l'ANNO CORRENTE, ogni volta che viene lanciato
+    (previsto: il 3 di ogni mese), archivia lo snapshot datato e ricostruisce le variazioni
+    riga per riga tra scarichi consecutivi. Output: variazione_mensile_dettaglio.xlsx.
+  - rentri_scraper.py (2024 -> anno corrente, pesante): serve a intercettare i cambiamenti
+    RETROATTIVI sugli anni precedenti, si lancia sporadicamente. Output separato in rentri_out/.
+I due output non si mescolano mai: file Excel distinti, cartelle distinte.
 
-Nessun PDF viene salvato su disco: si scaricano in memoria, si calcolano i totali, si scartano.
+--- Semantica del dato ---
+RENTRI espone solo lo stato CUMULATO corrente: non esiste un endpoint "movimenti del mese".
+La variazione di periodo e' quindi per costruzione una DIFFERENZA TRA DUE SCARICHI:
+    Var_<data> = totale scaricato il <data> - totale scaricato allo scarico precedente
+cioe' l'attivita' REGISTRATA nell'intervallo tra i due scarichi, non necessariamente
+l'attivita' SVOLTA in quell'intervallo (include registrazioni tardive e correzioni). Il foglio
+"Periodi" documenta gli intervalli esatti e i giorni coperti da ogni colonna Var.
+Il passato non e' ricostruibile: la serie parte dal primo snapshot e cresce in avanti.
+
+Chiave di riga = il massimo dettaglio del PDF: anno, provincia, codice EER (+ pericolosita'),
+attivita' a destinazione (R../D..), materiale, unita' di misura. Nessuna aggregazione.
+Una chiave presente in uno solo dei due scarichi vale 0 nell'altro (riga nuova -> variazione =
+valore pieno; riga scomparsa -> variazione negativa). Se invece un ANNO non e' coperto da uno
+dei due scarichi la variazione resta VUOTA (non comparabile), non zero.
+
+--- ATTENZIONE al rollover di gennaio ---
+ANNI_MONITOR contiene di default solo l'anno corrente. A gennaio l'anno appena chiuso smette di
+essere scaricato: le sue righe diventano "anno non coperto" e le variazioni restano vuote
+(corretto: non vengono lette come un crollo a zero), ma le registrazioni tardive su quell'anno
+non sono piu' visibili qui. Se servono, aggiungere l'anno chiuso a ANNI_MONITOR (costo: raddoppia
+il tempo di esecuzione) oppure affidarsi al controllo retroattivo di rentri_scraper.py.
 
 Uso:
-    python rentri_monitor_mensile.py
-Output:
-    rentri_variazioni_mensili.xlsx  (accumula una riga per ogni run, in questa stessa cartella)
-    stato_precedente.json           (ultimo snapshot, per calcolare il prossimo delta)
+    python rentri_monitor_mensile.py        # snapshot alla data odierna + ricostruzione Excel
+Se lo snapshot della data odierna esiste gia', lo scarico viene saltato e si ricostruisce solo
+l'Excel (idempotente: rilanciarlo nello stesso giorno non duplica nulla).
+
+Output (in questa cartella):
+    snapshots/r{56,57,58,59}_<data>.parquet     archivio storico - NON cancellare: irripetibile,
+                                                RENTRI espone solo lo stato corrente
+    snapshots/_index.csv                        anni coperti / n. righe per ogni snapshot
+    variazione_mensile_dettaglio.xlsx           2 fogli per report: _Totale e _Variazione
+    dettaglio_r{rid}_{totale,variazione}.csv    stesso contenuto, senza il limite di righe Excel
+
+Dipendenze: le stesse di rentri_scraper.py + pyarrow (parquet).
 """
 
 import io
@@ -29,114 +56,240 @@ from datetime import datetime
 import pandas as pd
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent))
-from rentri_scraper import PAYLOAD_BASE, PARSERS, Rentri  # noqa: E402
+# chiave di riga, colonne descrittive e normalizzazione vengono da rentri_scraper: unica fonte
+# di verita' condivisa dai due script, altrimenti col tempo divergono
+from rentri_scraper import (CHIAVI_DETTAGLIO, DESCR_DETTAGLIO, PARSERS, PAYLOAD_BASE,  # noqa: E402
+                           PROV_COL, Rentri, enrich, normalizza_long)
 
 HERE = pathlib.Path(__file__).resolve().parent
-STATE_FILE = HERE / "stato_precedente.json"
-XLSX_FILE = HERE / "rentri_variazioni_mensili.xlsx"
+SNAP_DIR = HERE / "snapshots"
+INDEX_FILE = SNAP_DIR / "_index.csv"
+XLSX_FILE = HERE / "variazione_mensile_dettaglio.xlsx"
 
-COLONNE_59 = ["Numero operatori iscritti", "Numero unita locali iscritte", "di cui Produttore",
-              "di cui Trasportatore", "di cui Intermediario senza detenzione", "di cui Recuperatore",
-              "di cui Smaltitore", "di cui Centro di raccolta"]
+# solo l'anno corrente: il retroattivo sugli anni chiusi e' compito di rentri_scraper.py
+# (vedi "ATTENZIONE al rollover di gennaio" nel docstring)
+ANNI_MONITOR = [str(datetime.now().year)]
+
+NOMI = {56: "56_RifiutiProdotti", 57: "57_MaterialiEoW",
+        58: "58_RifiutiTrattati", 59: "59_OperatoriUL"}
 
 
-def snapshot_report_anno(api, rid, anno, prov_map, reg_nomi):
-    """Scarica (solo in memoria) il PDF nazionale per (report, anno) e calcola i totali
-    nazionali e per regione. Ritorna {"nazionale": {...}, "regioni": {cod: {...}}}."""
+# ------------------------------------------------------------------ scarico + normalizzazione
+
+def scarica_normalizza(api, rid, anno, prov_map, reg_nomi, materiale_map):
+    """Scarica il PDF nazionale (solo in memoria, nessun file su disco) e lo restituisce in
+    forma normalizzata long: colonne chiave + descrittive + 'Valore'."""
     payload = dict(PAYLOAD_BASE[rid])
-    if anno:
+    if anno is not None:
         payload["Anno"] = anno
     r = api.render(payload)
-    df, _footer, _anomalie = PARSERS[rid](io.BytesIO(r.content))
+    df, _footer, anomalie = PARSERS[rid](io.BytesIO(r.content))
 
-    if rid == 59:
-        naz = {col: int(df[col].sum()) for col in COLONNE_59}
-        regioni = {}
-        cod_reg = df["Provincia"].map(lambda p: prov_map.get(p, (None, None))[0])
-        for cod, gruppo in df.groupby(cod_reg):
-            regioni[cod] = {col: int(gruppo[col].sum()) for col in COLONNE_59}
-        return {"nazionale": naz, "regioni": regioni}
-
-    df = df[df["Unita di misura"].isin(["kg", "l"])]  # scarta righe con unita' vuota (quantita'=0, dato reale ma senza contenuto informativo)
-    naz = {unit: int(v) for unit, v in df.groupby("Unita di misura")["Quantita"].sum().items()}
-    prov_col = "Provincia produttore" if rid in (56, 57) else "Provincia impianto"
-    cod_reg = df[prov_col].map(lambda p: prov_map.get(p, (None, None))[0])
-    regioni = {}
-    for (cod, unit), gruppo in df.groupby([cod_reg, "Unita di misura"])["Quantita"].sum().items():
-        regioni.setdefault(cod, {})[unit] = int(gruppo)
-    return {"nazionale": naz, "regioni": regioni}
+    df = enrich(df, PROV_COL[rid], prov_map, reg_nomi)
+    if rid == 57:
+        df["Materiale_ID"] = df["Materiale"].str.lower().map(materiale_map)
+    return normalizza_long(df, rid), anomalie
 
 
-def calcola_delta(corrente, precedente):
-    """Confronta due dict {"nazionale":{...}, "regioni":{cod:{...}}}. Ritorna lista di righe
-    long-format: livello, cod_territorio, campo, valore_corrente, valore_precedente, delta."""
-    righe = []
-
-    def confronta_dict(livello, cod_terr, cur_vals, prev_vals):
-        for campo, cur in cur_vals.items():
-            prev = (prev_vals or {}).get(campo)
-            delta = (cur - prev) if prev is not None else None
-            righe.append({"livello": livello, "cod_territorio": cod_terr, "campo": campo,
-                         "valore_corrente": cur, "valore_precedente": prev, "delta": delta})
-
-    confronta_dict("nazionale", "IT", corrente["nazionale"], (precedente or {}).get("nazionale"))
-    for cod, cur_vals in corrente["regioni"].items():
-        prev_vals = (precedente or {}).get("regioni", {}).get(cod) if precedente else None
-        confronta_dict("regione", cod, cur_vals, prev_vals)
-    return righe
-
-
-def main():
-    now = datetime.now()
-    anno_corrente = str(now.year)
-    data_snapshot = now.strftime("%Y-%m-%d")
-
-    print(f"=== Snapshot mensile {data_snapshot} (anno registrazione {anno_corrente}) ===")
+def esegui_snapshot(data_snapshot, anni):
+    """Scarica tutto e salva uno snapshot parquet per report, piu' l'indice e l'elenco delle
+    anomalie di questo scarico (che vengono persistiti, non solo restituiti)."""
+    SNAP_DIR.mkdir(parents=True, exist_ok=True)
     api = Rentri()
     prov_map = api.province_regione_map()
     reg_nomi = dict(api.options("RegioneProduttore"))
+    materiale_map = api.materiale_map()
+    print(f"  {len(prov_map)} province, {len(reg_nomi)} regioni, {len(materiale_map)} materiali")
 
-    stato_precedente = json.loads(STATE_FILE.read_text(encoding="utf-8")) if STATE_FILE.exists() else {}
-    stato_corrente = {"data_snapshot": data_snapshot, "anno": anno_corrente, "report": {}}
+    anomalie_tot, righe_index = [], []
+    for rid in (57, 56, 58):  # dal piu' piccolo al piu' grande
+        parti = []
+        for anno in anni:
+            print(f"  r{rid} anno {anno}...", flush=True)
+            df, anomalie = scarica_normalizza(api, rid, anno, prov_map, reg_nomi, materiale_map)
+            print(f"    -> {len(df)} righe", flush=True)
+            parti.append(df)
+            anomalie_tot += [dict(a, report_id=rid, anno=anno) for a in anomalie]
+        df_tot = pd.concat(parti, ignore_index=True)
+        df_tot["data_snapshot"] = data_snapshot
+        df_tot.to_parquet(SNAP_DIR / f"r{rid}_{data_snapshot}.parquet", index=False)
+        righe_index.append({"data_snapshot": data_snapshot, "report_id": rid,
+                            "anni_coperti": ",".join(anni), "n_righe": len(df_tot),
+                            "timestamp": datetime.now().isoformat(timespec="seconds")})
+        print(f"  r{rid}: {len(df_tot)} righe totali salvate", flush=True)
 
-    tutte_righe = []
-    for rid in (56, 57, 58):
-        print(f"  scarico r{rid} anno {anno_corrente}...")
-        snap = snapshot_report_anno(api, rid, anno_corrente, prov_map, reg_nomi)
-        stato_corrente["report"][str(rid)] = snap
+    print("  r59 (stato attuale, nessun anno)...", flush=True)
+    df59, anomalie = scarica_normalizza(api, 59, None, prov_map, reg_nomi, materiale_map)
+    anomalie_tot += [dict(a, report_id=59, anno=None) for a in anomalie]
+    df59["data_snapshot"] = data_snapshot
+    df59.to_parquet(SNAP_DIR / f"r59_{data_snapshot}.parquet", index=False)
+    righe_index.append({"data_snapshot": data_snapshot, "report_id": 59, "anni_coperti": "",
+                        "n_righe": len(df59),
+                        "timestamp": datetime.now().isoformat(timespec="seconds")})
+    print(f"  r59: {len(df59)} righe salvate", flush=True)
 
-        prev_report = stato_precedente.get("report", {}).get(str(rid))
-        stesso_anno = stato_precedente.get("anno") == anno_corrente
-        righe = calcola_delta(snap, prev_report if stesso_anno else None)
-        for riga in righe:
-            riga.update({"report_id": rid, "anno": anno_corrente, "data_snapshot": data_snapshot})
-            if not stesso_anno and prev_report is not None:
-                riga["nota"] = f"nuovo anno registrazione (precedente: {stato_precedente.get('anno')}), nessun confronto"
-        tutte_righe += righe
+    # le anomalie vanno persistite con lo snapshot: se restassero solo in memoria, una
+    # ricostruzione dell'Excel (che non ri-parsa i PDF) le perderebbe
+    (SNAP_DIR / f"_anomalie_{data_snapshot}.json").write_text(
+        json.dumps(anomalie_tot, default=str), encoding="utf-8")
 
-    print("  scarico r59 (stato attuale)...")
-    snap59 = snapshot_report_anno(api, 59, None, prov_map, reg_nomi)
-    stato_corrente["report"]["59"] = snap59
-    righe59 = calcola_delta(snap59, stato_precedente.get("report", {}).get("59"))
-    for riga in righe59:
-        riga.update({"report_id": 59, "anno": None, "data_snapshot": data_snapshot})
-    tutte_righe += righe59
+    df_idx = pd.DataFrame(righe_index)
+    if INDEX_FILE.exists():
+        vecchio = pd.read_csv(INDEX_FILE, dtype=str)
+        # se rieseguito nella stessa data, la riga viene sostituita (idempotenza)
+        vecchio = vecchio[vecchio["data_snapshot"] != data_snapshot]
+        df_idx = pd.concat([vecchio, df_idx.astype(str)], ignore_index=True)
+    df_idx.to_csv(INDEX_FILE, index=False)
+    return anomalie_tot
 
-    df_nuove = pd.DataFrame(tutte_righe)
-    if XLSX_FILE.exists():
-        df_storico = pd.read_excel(XLSX_FILE, sheet_name="Variazioni")
-        df_tot = pd.concat([df_storico, df_nuove], ignore_index=True)
+
+# ------------------------------------------------------------------ confronto tra snapshot
+
+def carica_snapshots(rid):
+    """{data: DataFrame} per tutti gli snapshot presenti su disco per quel report."""
+    out = {}
+    for path in sorted(SNAP_DIR.glob(f"r{rid}_*.parquet")):
+        data = path.stem.split("_", 1)[1]
+        out[data] = pd.read_parquet(path)
+    return out
+
+
+def anni_coperti_per_data(rid):
+    if not INDEX_FILE.exists():
+        return {}
+    idx = pd.read_csv(INDEX_FILE, dtype=str)
+    idx = idx[idx["report_id"] == str(rid)]
+    # attenzione: per il report 59 anni_coperti e' vuoto e pandas lo rilegge come NaN, che e'
+    # truthy -> "NaN or ''" resta NaN. Va intercettato con isna(), non con un or.
+    return {r["data_snapshot"]: (set() if pd.isna(r["anni_coperti"])
+                                else set(filter(None, str(r["anni_coperti"]).split(","))))
+            for _, r in idx.iterrows()}
+
+
+def costruisci_viste(rid):
+    """Ritorna (totale, variazione, periodi) in formato wide: una riga per chiave di dettaglio,
+    una colonna per data di scarico."""
+    snaps = carica_snapshots(rid)
+    if not snaps:
+        return None, None, None
+    key, descr = CHIAVI_DETTAGLIO[rid], DESCR_DETTAGLIO[rid]
+    date = sorted(snaps)
+
+    tot = pd.DataFrame({d: snaps[d].set_index(key)["Valore"] for d in date}).sort_index()
+
+    # colonne descrittive: dallo snapshot piu' recente in cui la chiave appare
+    dim = pd.concat([snaps[d][key + descr].assign(_ord=i) for i, d in enumerate(date)],
+                    ignore_index=True)
+    dim = (dim.sort_values("_ord").drop_duplicates(key, keep="last")
+              .drop(columns="_ord").set_index(key))
+
+    coperti = anni_coperti_per_data(rid)
+    var, periodi = pd.DataFrame(index=tot.index), []
+    for prec, cur in zip(date, date[1:]):
+        delta = tot[cur].fillna(0) - tot[prec].fillna(0)
+        comuni = coperti.get(prec, set()) & coperti.get(cur, set())
+        if rid != 59:
+            # confrontabile solo per gli anni presenti in ENTRAMBI gli scarichi
+            anno_riga = pd.Index(tot.index.get_level_values("Anno"))
+            delta = delta.where(anno_riga.isin(comuni))
+        giorni = (datetime.strptime(cur, "%Y-%m-%d") - datetime.strptime(prec, "%Y-%m-%d")).days
+        var[f"Var_{cur}"] = delta
+        periodi.append({"report_id": rid, "colonna": f"Var_{cur}", "da_scarico": prec,
+                        "a_scarico": cur, "giorni": giorni,
+                        "anni_confrontabili": ",".join(sorted(comuni))})
+
+    tot = tot.rename(columns={d: f"Tot_{d}" for d in date})
+    tot_out = dim.join(tot, how="right").reset_index()
+    var_out = dim.join(var, how="right").reset_index() if len(var.columns) else None
+    return tot_out, var_out, pd.DataFrame(periodi)
+
+
+NOTE = [
+    "Var_<data> = differenza della singola riga tra lo scarico <data> e il precedente: "
+    "attivita' REGISTRATA nell'intervallo (include registrazioni tardive e correzioni).",
+    "Tot_<data> = valore cumulato della singola riga come esposto da RENTRI a quella data.",
+    "Cella Var vuota = anno non coperto da uno dei due scarichi (non comparabile). "
+    "Var su chiave nuova = valore pieno; chiave scomparsa = variazione negativa.",
+    "Il foglio Periodi riporta i giorni effettivi coperti da ogni colonna Var (gli scarichi "
+    "non cadono a distanza esattamente mensile).",
+    "Dettaglio = riga del PDF sorgente: anno, provincia, EER, pericolosita', attivita' R/D, "
+    "materiale, unita'. Regione e descrizioni sono derivate.",
+    "kg e l NON vanno sommati tra loro: l'unita' di misura e' parte della chiave di riga.",
+    "Questo file copre il solo anno corrente. I cambiamenti retroattivi sugli anni precedenti "
+    "si controllano con rentri_scraper.py (output separato in rentri_out/).",
+    "Archivio snapshots/ irripetibile: RENTRI espone solo lo stato corrente, non lo storico.",
+    "Fonte: MASE - RENTRI, cruscotto pubblico area-consultazione.",
+]
+
+
+def carica_anomalie():
+    """Anomalie di tutti gli snapshot archiviati. Uno snapshot senza file di anomalie viene
+    dichiarato esplicitamente: un foglio vuoto non deve poter essere letto come 'zero anomalie'."""
+    righe = []
+    for path in sorted(SNAP_DIR.glob("r56_*.parquet")):
+        data = path.stem.split("_", 1)[1]
+        f = SNAP_DIR / f"_anomalie_{data}.json"
+        if f.exists():
+            righe += [dict(a, data_snapshot=data) for a in json.loads(f.read_text(encoding="utf-8"))]
+        else:
+            righe.append({"data_snapshot": data, "contesto": "elenco anomalie non registrato "
+                          "per questo snapshot", "valore_grezzo": None})
+    return pd.DataFrame(righe)
+
+
+def esporta():
+    fogli, tutti_periodi = {}, []
+    for rid in (56, 57, 58, 59):
+        tot, var, per = costruisci_viste(rid)
+        if tot is None:
+            continue
+        nome = NOMI[rid]
+        fogli[f"{nome}_Totale"] = tot
+        tot.to_csv(HERE / f"dettaglio_r{rid}_totale.csv", index=False, sep=";",
+                   encoding="utf-8-sig")
+        n_var = 0
+        if var is not None:
+            fogli[f"{nome}_Variazione"] = var
+            var.to_csv(HERE / f"dettaglio_r{rid}_variazione.csv", index=False, sep=";",
+                       encoding="utf-8-sig")
+            n_var = len([c for c in var.columns if c.startswith("Var_")])
+        print(f"  r{rid}: {len(tot)} chiavi di dettaglio, {n_var} colonne di variazione")
+        if per is not None and len(per):
+            tutti_periodi.append(per)
+
+    with pd.ExcelWriter(XLSX_FILE, engine="openpyxl") as w:
+        for nome, df in fogli.items():
+            df.to_excel(w, sheet_name=nome, index=False)
+        per_df = pd.concat(tutti_periodi, ignore_index=True) if tutti_periodi else pd.DataFrame(
+            columns=["report_id", "colonna", "da_scarico", "a_scarico", "giorni",
+                     "anni_confrontabili"])
+        per_df.to_excel(w, sheet_name="Periodi", index=False)
+        carica_anomalie().to_excel(w, sheet_name="Anomalie_Numeriche", index=False)
+        pd.DataFrame({"nota": NOTE}).to_excel(w, sheet_name="Note", index=False)
+    print(f"\nExcel: {XLSX_FILE}")
+
+
+def main():
+    oggi = datetime.now().strftime("%Y-%m-%d")
+    print(f"=== Snapshot mensile {oggi} | anno monitorato: {', '.join(ANNI_MONITOR)} ===",
+          flush=True)
+
+    if (SNAP_DIR / f"r56_{oggi}.parquet").exists():
+        print(f"  snapshot {oggi} gia' presente: salto lo scarico, ricostruisco solo l'Excel")
     else:
-        df_tot = df_nuove
+        esegui_snapshot(oggi, ANNI_MONITOR)
 
-    with pd.ExcelWriter(XLSX_FILE, engine="openpyxl") as writer:
-        df_tot.to_excel(writer, sheet_name="Variazioni", index=False)
+    print("\n=== Ricostruzione viste totale/variazione ===", flush=True)
+    esporta()
 
-    STATE_FILE.write_text(json.dumps(stato_corrente, indent=2), encoding="utf-8")
-
-    print(f"\n{len(df_nuove)} righe aggiunte a {XLSX_FILE} (totale storico: {len(df_tot)})")
-    naz_rows = df_nuove[df_nuove["livello"] == "nazionale"]
-    print(naz_rows[["report_id", "campo", "valore_corrente", "delta"]].to_string(index=False))
+    n_snap = len(list(SNAP_DIR.glob("r56_*.parquet")))
+    print(f"\nSnapshot storici disponibili: {n_snap}")
+    if n_snap < 2:
+        print("Questo e' il mese base: serve il prossimo scarico per avere le variazioni.")
+    n_anom = len(carica_anomalie())
+    if n_anom:
+        print(f"Foglio Anomalie_Numeriche: {n_anom} righe (valori non numerici nei PDF sorgente "
+              f"o snapshot senza elenco registrato)")
 
 
 if __name__ == "__main__":
