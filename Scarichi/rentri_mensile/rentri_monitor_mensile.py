@@ -7,7 +7,7 @@ Ruolo di questo script nella coppia:
     (previsto: il 3 di ogni mese), archivia lo snapshot datato e ricostruisce le variazioni
     riga per riga tra scarichi consecutivi. Output: variazione_mensile_dettaglio.xlsx.
   - rentri_scraper.py (2024 -> anno corrente, pesante): serve a intercettare i cambiamenti
-    RETROATTIVI sugli anni precedenti, si lancia sporadicamente. Output separato in rentri_out/.
+    RETROATTIVI sugli anni precedenti, si lancia sporadicamente. Output separato in ../rentri_aggregato/.
 I due output non si mescolano mai: file Excel distinti, cartelle distinte.
 
 --- Semantica del dato ---
@@ -55,7 +55,7 @@ from datetime import datetime
 
 import pandas as pd
 
-sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent))
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent / "rentri_aggregato"))
 # chiave di riga, colonne descrittive e normalizzazione vengono da rentri_scraper: unica fonte
 # di verita' condivisa dai due script, altrimenti col tempo divergono
 from rentri_scraper import (CHIAVI_DETTAGLIO, DESCR_DETTAGLIO, PARSERS, PAYLOAD_BASE,  # noqa: E402
@@ -216,7 +216,7 @@ NOTE = [
     "materiale, unita'. Regione e descrizioni sono derivate.",
     "kg e l NON vanno sommati tra loro: l'unita' di misura e' parte della chiave di riga.",
     "Questo file copre il solo anno corrente. I cambiamenti retroattivi sugli anni precedenti "
-    "si controllano con rentri_scraper.py (output separato in rentri_out/).",
+    "si controllano con rentri_scraper.py (output separato in rentri_aggregato/).",
     "Archivio snapshots/ irripetibile: RENTRI espone solo lo stato corrente, non lo storico.",
     "Fonte: MASE - RENTRI, cruscotto pubblico area-consultazione.",
 ]

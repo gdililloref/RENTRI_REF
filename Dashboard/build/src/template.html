@@ -28,10 +28,20 @@
 
   <!-- ============================ DATASET TABS ============================ -->
   <nav id="dataset-tabs">
-    <button class="dataset-tab active" data-dataset="A">Rifiuti prodotti</button>
-    <button class="dataset-tab" data-dataset="B">Materiali End of Waste</button>
-    <button class="dataset-tab" data-dataset="C">Rifiuti trattati</button>
-    <button class="dataset-tab" data-dataset="D">Operatori e unità locali</button>
+    <div class="tab-group" id="tabs-annual">
+      <span class="tab-group-label" title="Totali cumulati per anno di registrazione (scarico completo)">Dati annuali</span>
+      <button class="dataset-tab active" data-mode="annual" data-dataset="A">Rifiuti prodotti</button>
+      <button class="dataset-tab" data-mode="annual" data-dataset="B">Materiali End of Waste</button>
+      <button class="dataset-tab" data-mode="annual" data-dataset="C">Rifiuti trattati</button>
+      <button class="dataset-tab" data-mode="annual" data-dataset="D">Operatori e unità locali</button>
+    </div>
+    <div class="tab-group tab-group-monthly" id="tabs-monthly">
+      <span class="tab-group-label" title="Quanto è stato registrato tra uno scarico e il successivo">Monitor mensile</span>
+      <button class="dataset-tab" data-mode="monthly" data-dataset="A">Prodotti</button>
+      <button class="dataset-tab" data-mode="monthly" data-dataset="B">End of Waste</button>
+      <button class="dataset-tab" data-mode="monthly" data-dataset="C">Trattati</button>
+      <button class="dataset-tab" data-mode="monthly" data-dataset="D">Operatori</button>
+    </div>
   </nav>
 
   <!-- ============================== MAIN GRID ============================== -->
@@ -53,11 +63,12 @@
           <div id="anno-note" class="filter-note"></div>
         </section>
 
-        <section class="filter-group" id="group-unit">
-          <label class="filter-label">Unità di misura</label>
-          <div id="filter-unit" class="radio-select"></div>
-          <div id="unit-note" class="filter-note"></div>
+        <section class="filter-group hidden" id="group-mperiod">
+          <label class="filter-label">Intervallo tra scarichi</label>
+          <div id="filter-mperiod" class="chip-select"></div>
+          <div id="mperiod-note" class="filter-note"></div>
         </section>
+
       </div>
 
       <div class="rail-section">
@@ -140,13 +151,13 @@
         <button id="btn-collapse-config" class="link-btn">⇥</button>
       </div>
 
-      <section class="config-group">
+      <section class="config-group" id="field-category">
         <label class="filter-label">1 · Cosa vuoi vedere</label>
         <div id="chart-category-tabs" class="category-pills"></div>
       </section>
 
       <section class="config-group">
-        <label class="filter-label">2 · Tipo di grafico</label>
+        <label class="filter-label" id="label-charttype">2 · Tipo di grafico</label>
         <div id="chart-type-grid" class="type-grid"></div>
         <div id="chart-type-note" class="filter-note"></div>
       </section>
@@ -171,6 +182,11 @@
       <section class="config-group" id="field-measure">
         <label class="filter-label">Misura</label>
         <select id="config-measure" class="select-input"></select>
+      </section>
+
+      <section class="config-group hidden" id="field-campo">
+        <label class="filter-label">Indicatore</label>
+        <select id="config-campo" class="select-input"></select>
       </section>
 
       <div class="config-section-title" id="section-title-aspetto">4 · Aspetto</div>
@@ -212,7 +228,7 @@
   </div>
 
   <footer id="app-footer">
-    Fonte: MASE – RENTRI, cruscotto pubblico area-consultazione · dati estratti il 24/07/2026 ·
+    Fonte: MASE – RENTRI, cruscotto pubblico area-consultazione · <span id="footer-dates"></span> ·
     riutilizzo libero citando la fonte.
   </footer>
 </div>
@@ -255,6 +271,7 @@
 <script id="rentri-geo-regions" type="application/octet-stream">{{GEO_REGIONS_B64}}</script>
 <script id="rentri-geo-provinces" type="application/octet-stream">{{GEO_PROVINCES_B64}}</script>
 <script>{{CHART_REGISTRY_JS}}</script>
+<script>{{MONTHLY_JS}}</script>
 <script>{{APP_JS}}</script>
 </body>
 </html>

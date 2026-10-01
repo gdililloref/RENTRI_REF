@@ -26,14 +26,26 @@ let echartInstance = null;
 let lastExportPayload = null;
 
 const state = {
+  mode: "annual", // "annual" = dati cumulati per anno | "monthly" = monitor mensile (monthly.js)
   dataset: "A",
   view: "chart",
   chartType: "map",
   chartCategory: "territorio",
-  filters: { anno: null, unit: 0, prov: null, haz: null, eerChapter: null, eerCode: null, mat: null, tipo: null, att: null },
+  filters: { anno: null, prov: null, haz: null, eerChapter: null, eerCode: null, mat: null, tipo: null, att: null },
   cfg: { xDim: "region", seriesDim: "", measure: "sum", measureColD: "Numero operatori iscritti", mapLevel: "region", topN: 10, sort: "desc", orientation: "h", showLabels: false },
   crossFilter: true,
+  // configurazione della sezione mensile, separata da cfg: passare da una sezione all'altra
+  // non deve trascinare scelte che nell'altra non hanno senso (filtri invece condivisi)
+  m: { chartType: "trend", period: 0, measure: "abs", xDim: "region", seriesDim: "", mapLevel: "region", topN: 10, sort: "desc", campo: "Numero operatori iscritti" },
 };
+
+const MONTHS_IT = ["gen", "feb", "mar", "apr", "mag", "giu", "lug", "ago", "set", "ott", "nov", "dic"];
+function fmtDateIt(iso) { const [y, m, d] = iso.split("-"); return `${d}/${m}/${y}`; }
+function extractionDateIt() { return fmtDateIt(DATA.meta.extraction_date); }
+// anno corrente = anno dell'ultimo scarico annuale, coperto solo fino a quel mese
+function currentYearLabel() { return DATA.meta.extraction_date.slice(0, 4); }
+function extractionMonth() { return parseInt(DATA.meta.extraction_date.slice(5, 7), 10); }
+function partialMonthsLabel() { return `gen–${MONTHS_IT[extractionMonth() - 1]}`; }
 
 /* ======================================================================== */
 /* 1. Decodifica payload                                                    */
@@ -56,8 +68,9 @@ async function gunzipToUint8Array(bytes) {
   return new Uint8Array(buf);
 }
 
-const DTYPE_CTORS = [Uint8Array, Uint16Array, Uint32Array];
-const DTYPE_ITEMSIZE = [1, 2, 4];
+// stessi codici di DTYPE_CODES in build_tool.py (f64 = quantita' oltre il limite di uint32)
+const DTYPE_CTORS = [Uint8Array, Uint16Array, Uint32Array, Float64Array];
+const DTYPE_ITEMSIZE = [1, 2, 4, 8];
 
 function parseBinaryPayload(bytes) {
   const dv = new DataView(bytes.buffer, bytes.byteOffset, bytes.byteLength);
@@ -87,7 +100,7 @@ function buildDataModel(parsed) {
   const { meta, cols } = parsed;
   const d = {
     meta,
-    A: { n: meta.row_counts.A, anno: cols.A_anno, prov: cols.A_prov, eer: cols.A_eer, haz: cols.A_haz, unit: cols.A_unit, qty: cols.A_qty },
+    A: { n: meta.row_counts.A, anno: cols.A_anno, prov: cols.A_prov, eer: cols.A_eer, haz: cols.A_haz, qty: cols.A_qty },
     B: { n: meta.row_counts.B, anno: cols.B_anno, prov: cols.B_prov, mat: cols.B_mat, qty: cols.B_qty },
     C: { n: meta.row_counts.C, anno: cols.C_anno, prov: cols.C_prov, eer: cols.C_eer, haz: cols.C_haz, att: cols.C_att, tipo: cols.C_tipo, qty: cols.C_qty },
     D: { n: meta.row_counts.D, prov: cols.D_prov },
@@ -103,35 +116,44 @@ function buildDataModel(parsed) {
     attivita: meta.attivita,
   };
   for (const c of meta.d_measure_cols) d.D[c] = cols["D_" + c];
+
+  // Monitor mensile (assente se il monitor non ha ancora 2 scarichi): tabelle MA..MD con le
+  // stesse dimensioni delle annuali + un totale per scarico (tot[k]) — vedi monthly.js
+  d.M = null;
+  if (meta.monthly) {
+    const mm = meta.monthly;
+    d.M = { dates: mm.dates, periods: mm.periods, comparable: mm.comparable, annoLabels: mm.anno_labels, campi: mm.campi };
+    for (const ds of ["A", "B", "C", "D"]) {
+      const p = `M${ds}_`;
+      const t = { n: mm.row_counts[ds], tot: mm.dates.map((_, k) => cols[`${p}t${k}`]) };
+      for (const f of ["anno", "prov", "eer", "haz", "mat", "att", "tipo", "campo"]) if (cols[p + f]) t[f] = cols[p + f];
+      d["M" + ds] = t;
+    }
+  }
   return d;
 }
 
+/* Ricalcola dopo la decodifica i totali che il build ha calcolato sui DataFrame prima della
+ * codifica (meta.browser_checks): un errore di codifica (es. overflow di tipo) non passa muto. */
 function runBrowserSelfCheck() {
-  const expect = DATA.meta.self_check;
-  const idx2025 = DATA.meta.anno_labels_ac.indexOf("2025");
-  const A = DATA.A, C = DATA.C, D = DATA.D;
-  let a56 = 0, a58 = 0, dOp = 0, aLombardia = 0;
-  const regLombIdx = DATA.regions.indexOf("Lombardia");
-  for (let i = 0; i < A.n; i++) {
-    if (A.anno[i] === idx2025 && A.unit[i] === 0) {
-      a56 += A.qty[i];
-      if (DATA.provRegionIdx[A.prov[i]] === regLombIdx) aLombardia += A.qty[i];
-    }
-  }
-  for (let i = 0; i < C.n; i++) if (C.anno[i] === idx2025) a58 += C.qty[i];
-  for (let i = 0; i < D.n; i++) dOp += D["Numero operatori iscritti"][i];
-
-  const results = [
-    ["report_56 2025 kg totale", a56, expect["report_56 2025 kg totale"]],
-    ["report_58 2025 kg totale", a58, expect["report_58 2025 kg totale"]],
-    ["report_59 operatori totale", dOp, expect["report_59 operatori totale"]],
-    ["report_56 2025 kg Lombardia", aLombardia, expect["report_56 2025 kg Lombardia"]],
-  ];
   let allOk = true;
-  for (const [label, actual, exp] of results) {
-    const ok = actual === exp;
+  for (const c of DATA.meta.browser_checks || []) {
+    let actual = 0;
+    if (c.kind === "annual") {
+      const t = DATA[c.ds];
+      const ai = (c.ds === "B" ? DATA.meta.anno_labels_b : DATA.meta.anno_labels_ac).indexOf(c.anno);
+      for (let i = 0; i < t.n; i++) if (t.anno[i] === ai) actual += t.qty[i];
+    } else if (c.kind === "annualD") {
+      for (let i = 0; i < DATA.D.n; i++) actual += DATA.D[c.col][i];
+    } else if (c.kind === "monthlyTot") {
+      const t = DATA["M" + c.ds];
+      for (let i = 0; i < t.n; i++) actual += t.tot[c.snap][i];
+    } else if (c.kind === "monthlyVar") {
+      actual = mVarTotal(c.ds, c.period);
+    }
+    const ok = actual === c.expected;
     if (!ok) allOk = false;
-    console.log(`[self-check] ${ok ? "OK" : "FALLITO"} ${label}: atteso=${exp} calcolato=${actual}`);
+    console.log(`[self-check] ${ok ? "OK" : "FALLITO"} ${c.label}: atteso=${c.expected} calcolato=${actual}`);
   }
   if (!allOk) showToast("Attenzione: self-check dati fallito, vedi console.");
 }
@@ -195,7 +217,6 @@ function makeFilterPredicate(ds, filters) {
     const prov = t.prov[i];
     if (filters.prov && !filters.prov.has(prov)) return false;
     if (t.haz && filters.haz && !filters.haz.has(t.haz[i])) return false;
-    if (t.unit && filters.unit !== null && filters.unit !== undefined && t.unit[i] !== filters.unit) return false;
     if (t.eer !== undefined) {
       if (filters.eerChapter && !filters.eerChapter.has(eerChapterByIdx[t.eer[i]])) return false;
       if (filters.eerCode && !filters.eerCode.has(t.eer[i])) return false;
@@ -412,13 +433,20 @@ function toggleMacroSelection(macro) {
 }
 
 function buildFilterSets() {
-  return { anno: state.filters.anno, unit: state.filters.unit, prov: state.filters.prov, haz: state.filters.haz, eerChapter: state.filters.eerChapter, eerCode: state.filters.eerCode, mat: state.filters.mat, tipo: state.filters.tipo, att: state.filters.att };
+  return { anno: state.filters.anno, prov: state.filters.prov, haz: state.filters.haz, eerChapter: state.filters.eerChapter, eerCode: state.filters.eerCode, mat: state.filters.mat, tipo: state.filters.tipo, att: state.filters.att };
 }
 
-function unitLabel() {
-  // Only dataset A ever has litre rows; B/C/D are always kg regardless of a
-  // stale unit selection left over from a previous visit to dataset A.
-  return (state.dataset === "A" && state.filters.unit === 1) ? "l" : "kg";
+// Tutti i dataset sono in kg: le righe in litri del report 56 sono convertite nel build
+// (KFO medio per codice EER, vedi litri_to_kg in build_tool.py)
+function unitLabel() { return "kg"; }
+
+// nota sulla quota di kg stimata da litri negli anni selezionati (solo Rifiuti prodotti)
+function litriNote(anni) {
+  const info = DATA.meta.litri_convertiti;
+  if (!info) return "";
+  const parts = anni.filter((a) => info.per_anno[a] && info.per_anno[a].litri > 0)
+    .map((a) => `${a}: ${formatPct(info.per_anno[a].quota)}`);
+  return parts.length ? `Include quantità dichiarate in litri convertite in kg con il fattore medio KFO per codice EER (quota stimata sul totale — ${parts.join(", ")}).` : "";
 }
 
 function onFiltersChanged() { render(); }
@@ -429,7 +457,8 @@ function onFiltersChanged() { render(); }
 
 function applicableGroups(ds) {
   const eer = ds === "A" || ds === "C";
-  return { unit: ds === "A", haz: ds === "A" || ds === "C", eerChapter: eer, eerCode: eer, mat: ds === "B", tipo: ds === "C", att: ds === "C", anno: ds !== "D" };
+  // nel monitor mensile il periodo e' l'intervallo tra scarichi (renderMPeriodFilter), non l'anno
+  return { haz: ds === "A" || ds === "C", eerChapter: eer, eerCode: eer, mat: ds === "B", tipo: ds === "C", att: ds === "C", anno: ds !== "D" && state.mode !== "monthly" };
 }
 
 function renderAnnoFilter() {
@@ -443,11 +472,11 @@ function renderAnnoFilter() {
   const selected = state.filters.anno;
   labels.forEach((label, idx) => {
     const chip = document.createElement("button");
-    const isPartial = label === "2026";
+    const isPartial = label === currentYearLabel();
     const isStartup = label === "2024";
     chip.className = "chip" + (isPartial || isStartup ? " partial" : "") + (!selected || selected.has(idx) ? " selected" : "");
     chip.textContent = label;
-    chip.title = isPartial ? "Dato parziale: gennaio–luglio 2026" : isStartup ? "Anno di avvio del tracciamento: dati minimi" : "";
+    chip.title = isPartial ? `Dato parziale: ${partialMonthsLabel()} ${label} (scarico del ${extractionDateIt()})` : isStartup ? "Anno di avvio del tracciamento: dati minimi" : "";
     chip.onclick = () => {
       const s = selected ? new Set(selected) : new Set(labels.map((_, i) => i));
       if (s.has(idx)) s.delete(idx); else s.add(idx);
@@ -457,27 +486,11 @@ function renderAnnoFilter() {
     el.appendChild(chip);
   });
   const note = document.getElementById("anno-note");
-  note.textContent = labels.includes("2026") && (!selected || selected.has(labels.indexOf("2026")))
-    ? "* 2026: dato parziale (gen–lug). 2024: avvio tracciamento." : "";
+  const cy = currentYearLabel();
+  note.textContent = labels.includes(cy) && (!selected || selected.has(labels.indexOf(cy)))
+    ? `* ${cy}: dato parziale (${partialMonthsLabel()}). 2024: avvio tracciamento.` : "";
 }
 
-function renderUnitFilter() {
-  const ds = state.dataset;
-  const app = applicableGroups(ds);
-  document.getElementById("group-unit").classList.toggle("hidden", !app.unit);
-  if (!app.unit) return;
-  const el = document.getElementById("filter-unit");
-  el.innerHTML = "";
-  ["kg", "l"].forEach((u, idx) => {
-    const chip = document.createElement("button");
-    chip.className = "chip" + (state.filters.unit === idx ? " selected" : "");
-    chip.textContent = u;
-    chip.onclick = () => { state.filters.unit = idx; onFiltersChanged(); };
-    el.appendChild(chip);
-  });
-  const note = document.getElementById("unit-note");
-  note.textContent = state.filters.unit === 0 ? "Le righe in litri sono escluse dal totale (non sommabili con i kg)." : "Solo le righe in litri: totale minoritario rispetto ai kg.";
-}
 
 function renderTerritoryFilter() {
   const searchEl = document.getElementById("filter-region-search");
@@ -682,8 +695,8 @@ function renderAttivitaDetailFilter() {
 }
 
 function updateFilterRailUI() {
+  if (hasMonthly()) renderMPeriodFilter();
   renderAnnoFilter();
-  renderUnitFilter();
   renderMacroButtons();
   renderTerritoryFilter();
   renderHazFilter();
@@ -702,11 +715,11 @@ function updateActiveChips() {
   const ds = state.dataset;
   const app = applicableGroups(ds);
   const chips = [];
+  if (state.mode === "monthly") chips.push({ text: "Intervallo: " + mRangeLabel(mPeriodRange()), dormant: false });
   if (app.anno && state.filters.anno) {
     const labels = ds === "B" ? DATA.meta.anno_labels_b : DATA.meta.anno_labels_ac;
     chips.push({ text: "Anno: " + [...state.filters.anno].map((i) => labels[i]).join(", "), dormant: false, clear: () => { state.filters.anno = null; render(); } });
   }
-  if (app.unit) chips.push({ text: "Unità: " + unitLabel(), dormant: false });
   if (countSelectedProv() < DATA.provinces.length) {
     chips.push({ text: `Territorio: ${countSelectedProv()} province`, dormant: false, clear: () => { state.filters.prov = null; render(); } });
   }
@@ -732,7 +745,7 @@ function updateActiveChips() {
 }
 
 function resetAllFilters() {
-  state.filters = { anno: new Set([annoIndexFor(state.dataset, "2025")]), unit: 0, prov: null, haz: null, eerChapter: null, eerCode: null, mat: null, tipo: null, att: null };
+  state.filters = { anno: new Set([annoIndexFor(state.dataset, "2025")]), prov: null, haz: null, eerChapter: null, eerCode: null, mat: null, tipo: null, att: null };
   render();
 }
 
@@ -756,7 +769,7 @@ function renderKPIs() {
     el.innerHTML = kpiTile(formatInt(totOp), "", "Operatori iscritti")
       + kpiTile(formatInt(totUl), "", "Unità locali iscritte")
       + kpiTile(formatInt(rowsOp.length), "", "Province con dati")
-      + kpiTile("Istantanea", "", "24/07/2026 (nessuna serie storica)");
+      + kpiTile("Istantanea", "", `${extractionDateIt()} (serie nel Monitor mensile)`);
     return;
   }
   const raw = queryRows(ds, { filters, groupBy: [] });
@@ -820,6 +833,11 @@ function updateConfigPanelUI() {
   const ds = state.dataset;
   const dims = currentDims();
   const cap = CHART_CAPABILITIES[state.chartType] || {};
+
+  // ripristina cio' che la sezione mensile nasconde o rinomina (mUpdateConfigPanelUI)
+  toggleHidden("field-category", false);
+  toggleHidden("field-campo", true);
+  document.getElementById("label-charttype").textContent = "2 · Tipo di grafico";
 
   renderChartCategoryTabs();
   renderChartTypeGrid();
@@ -983,12 +1001,19 @@ function renderChartBadges() {
   if (app.anno) {
     const labels = state.dataset === "B" ? DATA.meta.anno_labels_b : DATA.meta.anno_labels_ac;
     const sel = state.filters.anno ? [...state.filters.anno].map((i) => labels[i]) : labels;
-    if (sel.includes("2026")) badges.push(["warn", "2026: dato parziale (gen–lug)"]);
+    if (sel.includes(currentYearLabel())) badges.push(["warn", `${currentYearLabel()}: dato parziale (${partialMonthsLabel()})`]);
     if (sel.includes("2024")) badges.push(["warn", "2024: avvio tracciamento"]);
   }
-  if (state.dataset === "A") badges.push(["", `Provincia = del produttore · unità ${unitLabel()}`]);
+  if (state.dataset === "A") {
+    badges.push(["", "Provincia = del produttore · kg (litri convertiti)"]);
+    const labels = DATA.meta.anno_labels_ac;
+    const sel = state.filters.anno ? [...state.filters.anno].map((i) => labels[i]) : labels;
+    const per = DATA.meta.litri_convertiti.per_anno;
+    const q = sel.filter((a) => per[a] && per[a].litri > 0).map((a) => `${a} ${formatPct(per[a].quota)}`);
+    if (q.length) badges.push(["warn", `Stima da litri (KFO): ${q.join(" · ")} del totale nazionale`]);
+  }
   if (state.dataset === "C") badges.push(["", "Provincia = dell'impianto di trattamento"]);
-  if (state.dataset === "D") badges.push(["", "Istantanea al 24/07/2026 — nessuna dimensione anno"]);
+  if (state.dataset === "D") badges.push(["", `Istantanea al ${extractionDateIt()} — nessuna dimensione anno`]);
   badges.forEach(([kind, text]) => {
     const span = document.createElement("span"); span.className = "badge" + (kind === "warn" ? " badge-warn" : ""); span.textContent = text; el.appendChild(span);
   });
@@ -1259,7 +1284,7 @@ function renderRadarRoles() {
 }
 
 function renderScatterProdTreat() {
-  const fA = { ...buildFilterSets(), unit: 0 };
+  const fA = buildFilterSets();
   const fC = buildFilterSets();
   const a = queryRows("A", { filters: fA, groupBy: ["region"] });
   const c = queryRows("C", { filters: fC, groupBy: ["region"] });
@@ -1337,7 +1362,9 @@ function renderTableView() {
 /* 10. Dataset / view switching                                             */
 /* ======================================================================== */
 
-function setDataset(ds) {
+function setDataset(ds, mode = "annual") {
+  if (mode === "monthly" && !hasMonthly()) mode = "annual";
+  state.mode = mode;
   state.dataset = ds;
   if (!state.filters.anno && applicableGroups(ds).anno) {
     const labels = ds === "B" ? DATA.meta.anno_labels_b : DATA.meta.anno_labels_ac;
@@ -1348,8 +1375,8 @@ function setDataset(ds) {
   if (state.cfg.seriesDim && !dims.some(([id]) => id === state.cfg.seriesDim)) state.cfg.seriesDim = "";
   if (!chartTypesForDataset(ds).includes(state.chartType)) state.chartType = "map";
   state.cfg.measure = "sum";
-  if (!applicableGroups(ds).unit) state.filters.unit = 0;
-  document.querySelectorAll(".dataset-tab").forEach((b) => b.classList.toggle("active", b.dataset.dataset === ds));
+  if (mode === "monthly") mSanitizeState();
+  document.querySelectorAll(".dataset-tab").forEach((b) => b.classList.toggle("active", b.dataset.dataset === ds && b.dataset.mode === mode));
   render();
 }
 
@@ -1358,6 +1385,7 @@ function setChartType(ct) { state.chartType = ct; }
 function render() {
   updateFilterRailUI();
   updateActiveChips();
+  if (state.mode === "monthly") return mRender();
   updateConfigPanelUI();
   renderKPIs();
   if (state.view === "table") { renderTableView(); showView("table"); }
@@ -1369,7 +1397,7 @@ function render() {
 /* ======================================================================== */
 
 const QUICK_VIEWS = [
-  { title: "Mappa produzione per regione", sub: "Rifiuti prodotti · 2025 · kg", apply: () => { setDataset("A"); state.filters.anno = new Set([annoIndexFor("A", "2025")]); state.filters.unit = 0; state.cfg.mapLevel = "region"; setChartType("map"); } },
+  { title: "Mappa produzione per regione", sub: "Rifiuti prodotti · 2025 · kg", apply: () => { setDataset("A"); state.filters.anno = new Set([annoIndexFor("A", "2025")]); state.cfg.mapLevel = "region"; setChartType("map"); } },
   { title: "Mappa produzione per provincia", sub: "Rifiuti prodotti · 2025 · kg", apply: () => { setDataset("A"); state.cfg.mapLevel = "prov"; setChartType("map"); } },
   { title: "Classifica province — pericolosi", sub: "Rifiuti prodotti · solo P", apply: () => { setDataset("A"); state.filters.haz = new Set([1]); state.cfg.xDim = "prov"; setChartType("ranking"); } },
   { title: "Treemap capitoli EER", sub: "Rifiuti prodotti", apply: () => { setDataset("A"); state.cfg.xDim = "eerChapter"; setChartType("treemap"); } },
@@ -1379,16 +1407,23 @@ const QUICK_VIEWS = [
   { title: "Ripartizione operazioni R/D", sub: "Rifiuti trattati · Sankey", apply: () => { setDataset("C"); setChartType("sankey"); } },
   { title: "Heatmap regione × capitolo EER", sub: "Rifiuti trattati", apply: () => { setDataset("C"); state.cfg.xDim = "region"; state.cfg.seriesDim = "eerChapter"; setChartType("heatmap"); } },
   { title: "Confronto 2025 vs 2026", sub: "Rifiuti prodotti · per regione", apply: () => { setDataset("A"); state.filters.anno = null; state.cfg.xDim = "region"; state.cfg.seriesDim = "anno"; setChartType("bar_grouped"); } },
-  { title: "Operatori iscritti per provincia", sub: "Snapshot 24/07/2026", apply: () => { setDataset("D"); state.cfg.xDim = "prov"; state.cfg.measureColD = "Numero operatori iscritti"; setChartType("ranking"); } },
+  { title: "Operatori iscritti per provincia", sub: "Istantanea all'ultimo scarico", apply: () => { setDataset("D"); state.cfg.xDim = "prov"; state.cfg.measureColD = "Numero operatori iscritti"; setChartType("ranking"); } },
   { title: "Profilo ruoli (radar)", sub: "Top 3 territori per unità locali", apply: () => { setDataset("D"); setChartType("radar"); } },
   { title: "Prodotti vs trattati per regione", sub: "Confronto interpretativo", apply: () => { setDataset("A"); setChartType("scatter"); } },
   { title: "kg prodotti per operatore", sub: "Per provincia", apply: () => { setDataset("A"); state.cfg.xDim = "prov"; state.cfg.measure = "per_operatore"; setChartType("ranking"); } },
+  // --- monitor mensile (mostrate solo se il build ha incluso i dati mensili) ---
+  { monthly: true, title: "Ritmo delle registrazioni", sub: "Monitor mensile · Prodotti · media giornaliera per intervallo", apply: () => { setDataset("A", "monthly"); state.m.chartType = "trend"; state.m.seriesDim = ""; state.m.measure = "perday"; } },
+  { monthly: true, title: "Dove si è registrato nell'ultimo intervallo", sub: "Monitor mensile · Trattati · mappa per regione", apply: () => { setDataset("C", "monthly"); state.m.chartType = "map"; state.m.mapLevel = "region"; state.m.period = DATA.M.periods.length - 1; state.m.measure = "abs"; } },
+  { monthly: true, title: "Crescita % per regione", sub: "Monitor mensile · Prodotti · intero monitoraggio", apply: () => { setDataset("A", "monthly"); state.m.chartType = "ranking"; state.m.xDim = "region"; state.m.sort = "desc"; state.m.period = "all"; state.m.measure = "pct"; } },
+  { monthly: true, title: "Correzioni: variazioni negative", sub: "Monitor mensile · Prodotti · per codice EER", apply: () => { setDataset("A", "monthly"); state.m.chartType = "ranking"; state.m.xDim = "eerCode"; state.m.sort = "asc"; state.m.period = "all"; state.m.measure = "abs"; } },
+  { monthly: true, title: "Heatmap regioni × intervalli", sub: "Monitor mensile · Trattati · media giornaliera", apply: () => { setDataset("C", "monthly"); state.m.chartType = "heatmap"; state.m.xDim = "region"; state.m.measure = "perday"; } },
+  { monthly: true, title: "Nuovi operatori iscritti", sub: "Monitor mensile · Operatori · per regione, intero monitoraggio", apply: () => { setDataset("D", "monthly"); state.m.chartType = "ranking"; state.m.xDim = "region"; state.m.campo = "Numero operatori iscritti"; state.m.period = "all"; state.m.measure = "abs"; state.m.sort = "desc"; } },
 ];
 
 function renderQuickViews() {
   const el = document.getElementById("quick-views-grid");
   el.innerHTML = "";
-  QUICK_VIEWS.forEach((qv) => {
+  QUICK_VIEWS.filter((qv) => !qv.monthly || hasMonthly()).forEach((qv) => {
     const btn = document.createElement("button");
     btn.className = "quick-view-btn";
     btn.innerHTML = `<span class="qv-title">${qv.title}</span><span class="qv-sub">${qv.sub}</span>`;
@@ -1402,7 +1437,7 @@ function renderQuickViews() {
 /* ======================================================================== */
 
 function detailRowObject(ds, t, i) {
-  if (ds === "A") return { Anno: DATA.meta.anno_labels_ac[t.anno[i]], "Provincia produttore": DATA.provinces[t.prov[i]], Regione: DATA.regions[DATA.provRegionIdx[t.prov[i]]], "Codice EER": DATA.eerCodes[t.eer[i]], Pericoloso: t.haz[i] ? "P" : "NP", "Descrizione EER": DATA.eerDesc[t.eer[i]], Quantita: t.qty[i], "Unita di misura": t.unit[i] ? "l" : "kg" };
+  if (ds === "A") return { Anno: DATA.meta.anno_labels_ac[t.anno[i]], "Provincia produttore": DATA.provinces[t.prov[i]], Regione: DATA.regions[DATA.provRegionIdx[t.prov[i]]], "Codice EER": DATA.eerCodes[t.eer[i]], Pericoloso: t.haz[i] ? "P" : "NP", "Descrizione EER": DATA.eerDesc[t.eer[i]], Quantita: t.qty[i], "Unita di misura": "kg" };
   if (ds === "B") return { Anno: DATA.meta.anno_labels_b[t.anno[i]], "Provincia produttore": DATA.provinces[t.prov[i]], Regione: DATA.regions[DATA.provRegionIdx[t.prov[i]]], Materiale: DATA.materiali[t.mat[i]], Quantita: t.qty[i], "Unita di misura": "kg" };
   if (ds === "C") return { Anno: DATA.meta.anno_labels_ac[t.anno[i]], "Provincia impianto": DATA.provinces[t.prov[i]], Regione: DATA.regions[DATA.provRegionIdx[t.prov[i]]], "Codice EER": DATA.eerCodes[t.eer[i]], Pericoloso: t.haz[i] ? "P" : "NP", "Attivita a destinazione": DATA.attivita[t.att[i]], "Tipo operazione": t.tipo[i] === 0 ? "R" : t.tipo[i] === 1 ? "D" : "", Quantita: t.qty[i], "Unita di misura": "kg" };
   return null;
@@ -1444,7 +1479,6 @@ function filterSummaryText() {
   const parts = [];
   const app = applicableGroups(state.dataset);
   if (app.anno) { const labels = state.dataset === "B" ? DATA.meta.anno_labels_b : DATA.meta.anno_labels_ac; parts.push(["Anno", state.filters.anno ? [...state.filters.anno].map((i) => labels[i]).join(", ") : "Tutti"]); }
-  if (app.unit) parts.push(["Unità di misura", unitLabel()]);
   parts.push(["Territorio", countSelectedProv() < DATA.provinces.length ? `${countSelectedProv()} province selezionate` : "Tutte le province"]);
   if (app.haz) parts.push(["Pericolosità", state.filters.haz ? (state.filters.haz.has(1) ? "Solo P" : "Solo NP") : "Tutti"]);
   if (app.eerChapter) parts.push(["Capitolo EER", state.filters.eerChapter ? `${state.filters.eerChapter.size} selezionati` : "Tutti"]);
@@ -1489,11 +1523,11 @@ function buildProvenanceAoa() {
 function buildNotesAoa() {
   return [
     ["Note metodologiche"],
-    ["2026 è un anno parziale (dati al 24/07/2026, ~7 mesi): confronti diretti con il 2025 vanno letti con cautela."],
+    [`${currentYearLabel()} è un anno parziale (dati al ${extractionDateIt()}, ~${extractionMonth()} mesi): confronti diretti con l'anno precedente vanno letti con cautela.`],
     ["2024 è l'anno di avvio del tracciamento: dati minimi, non rappresentativi di un anno pieno."],
-    ["I quantitativi in kg e in litri non sono sommabili tra loro (report Rifiuti prodotti)."],
+    [`Report Rifiuti prodotti: le quantità dichiarate in litri sono convertite in kg con il fattore medio KFO (t/m³) per codice EER (${DATA.meta.litri_convertiti.fonte}) e sommate ai kg; i valori convertiti sono stime.`],
     ["Nel report Operatori/UL i sei ruoli non sono esclusivi: la somma dei ruoli supera il totale delle unità locali."],
-    ["Il report Operatori/UL è un'istantanea al 24/07/2026, senza dimensione anno."],
+    [`Il report Operatori/UL è un'istantanea al ${extractionDateIt()}, senza dimensione anno.`],
     ["Nel report Rifiuti prodotti la provincia è quella del produttore; nel report Rifiuti trattati è quella dell'impianto: un confronto tra i due dataset è interpretativo, non una tracciatura del flusso di materia."],
     ["4 province soppresse nel 2016 (CI, VS, OG, OT) sono presenti nei dati storici; sulla mappa sono aggregate ai confini attuali (SU/NU/SS)."],
     ["Fonte: " + DATA.meta.build_source],
@@ -1501,15 +1535,16 @@ function buildNotesAoa() {
 }
 
 function openExportModal() {
-  document.getElementById("export-detail-count").textContent = `(${formatInt(countFilteredRows())} righe)`;
+  const n = state.mode === "monthly" ? mCountFilteredRows() : countFilteredRows();
+  document.getElementById("export-detail-count").textContent = `(${formatInt(n)} righe)`;
   const warnEl = document.getElementById("export-warning");
-  const n = countFilteredRows();
   if (n > 50000) { warnEl.classList.remove("hidden"); warnEl.textContent = n > 200000 ? `Attenzione: ${formatInt(n)} righe, verranno esportate solo le prime 200.000.` : `Attenzione: file pesante (${formatInt(n)} righe).`; }
   else warnEl.classList.add("hidden");
   showOverlay("export-modal");
 }
 
 function doExport() {
+  if (state.mode === "monthly") return mDoExport();
   const includeChart = document.getElementById("export-chart").checked;
   const includeDetail = document.getElementById("export-detail").checked;
   const wb = XLSX.utils.book_new();
@@ -1553,13 +1588,15 @@ function initTheme() {
   };
 }
 
-const NOTES_HTML = `
-<h4>Copertura temporale</h4><p>2024 è l'anno di avvio del tracciamento (dati minimi). 2026 è un anno parziale, dati al 24/07/2026 (~7 mesi): non confrontabile ad armi pari con un 2025 completo.</p>
-<h4>Unità di misura</h4><p>Nel report "Rifiuti prodotti" convivono kg e litri: non sono mai sommati tra loro. Il filtro Unità è obbligatorio.</p>
+// funzione (non costante): le date vengono dal payload, disponibile solo dopo il boot
+const notesHtml = () => `
+<h4>Copertura temporale</h4><p>2024 è l'anno di avvio del tracciamento (dati minimi). ${currentYearLabel()} è un anno parziale, dati al ${extractionDateIt()} (~${extractionMonth()} mesi): non confrontabile ad armi pari con un anno completo.</p>
+<h4>Unità di misura</h4><p>Tutti i valori sono in kg. Nel report "Rifiuti prodotti" RENTRI espone parte delle quantità in litri: sono convertite in kg con il fattore medio KFO (t/m³ = kg/l) del rispettivo codice EER (${DATA.meta.litri_convertiti.fonte}) e sommate ai kg dichiarati. I valori convertiti sono stime. ${litriNote(Object.keys(DATA.meta.litri_convertiti.per_anno))}</p>
 <h4>Province produttore vs impianto</h4><p>Nel report "Rifiuti prodotti" la provincia è quella del produttore; nel report "Rifiuti trattati" è quella dell'impianto di destinazione. Un confronto tra i due dataset è interpretativo, non traccia un flusso di materia reale.</p>
-<h4>Operatori e unità locali</h4><p>Il report è un'istantanea al 24/07/2026, senza dimensione anno. I sei ruoli (Produttore, Trasportatore, ecc.) non sono esclusivi: un'unità locale può avere più ruoli, quindi la somma dei ruoli supera il totale delle unità locali.</p>
+<h4>Operatori e unità locali</h4><p>Il report è un'istantanea al ${extractionDateIt()}, senza dimensione anno: la sua evoluzione nel tempo è nel Monitor mensile. I sei ruoli (Produttore, Trasportatore, ecc.) non sono esclusivi: un'unità locale può avere più ruoli, quindi la somma dei ruoli supera il totale delle unità locali.</p>
 <h4>Province soppresse</h4><p>4 province sarde soppresse nel 2016 (CI, VS, OG, OT) sono presenti nei dati storici RENTRI. Sulle mappe sono aggregate ai confini attuali (rispettivamente SU, SU, NU, SS); nella tabella dati e nell'export restano con la sigla originale.</p>
-<h4>Fonte e riutilizzo</h4><p>MASE – RENTRI, cruscotto pubblico area-consultazione (www.rentri.gov.it/area-consultazione). Dati estratti il 24/07/2026. Riutilizzo libero citando la fonte.</p>
+${hasMonthly() ? `<h4>Monitor mensile</h4>${mNotesLines().map((l) => `<p>${l}</p>`).join("")}<p>Scarichi disponibili: ${DATA.M.dates.map(fmtDateIt).join(", ")}.</p>` : ""}
+<h4>Fonte e riutilizzo</h4><p>MASE – RENTRI, cruscotto pubblico area-consultazione (www.rentri.gov.it/area-consultazione). Dati annuali estratti il ${extractionDateIt()}${hasMonthly() ? `, monitor mensile al ${fmtDateIt(DATA.M.dates[DATA.M.dates.length - 1])}` : ""}. Riutilizzo libero citando la fonte.</p>
 `;
 
 /* ======================================================================== */
@@ -1567,7 +1604,8 @@ const NOTES_HTML = `
 /* ======================================================================== */
 
 function wireStaticUI() {
-  document.querySelectorAll(".dataset-tab").forEach((btn) => { btn.onclick = () => setDataset(btn.dataset.dataset); });
+  document.querySelectorAll(".dataset-tab").forEach((btn) => { btn.onclick = () => setDataset(btn.dataset.dataset, btn.dataset.mode); });
+  toggleHidden("tabs-monthly", !hasMonthly());
   document.querySelectorAll(".view-tab").forEach((btn) => { btn.onclick = () => { state.view = btn.dataset.view; render(); }; });
   document.getElementById("btn-reset-filters").onclick = resetAllFilters;
   document.getElementById("filter-region-search").oninput = renderTerritoryFilter;
@@ -1575,7 +1613,7 @@ function wireStaticUI() {
 
   document.getElementById("btn-quick-views").onclick = () => { renderQuickViews(); showOverlay("quick-views-overlay"); };
   document.getElementById("btn-close-quick-views").onclick = () => closeOverlay("quick-views-overlay");
-  document.getElementById("btn-notes").onclick = () => { document.getElementById("notes-content").innerHTML = NOTES_HTML; showOverlay("notes-drawer"); };
+  document.getElementById("btn-notes").onclick = () => { document.getElementById("notes-content").innerHTML = notesHtml(); showOverlay("notes-drawer"); };
   document.getElementById("btn-close-notes").onclick = () => closeOverlay("notes-drawer");
   document.getElementById("btn-export").onclick = openExportModal;
   document.getElementById("btn-close-export").onclick = () => closeOverlay("export-modal");
@@ -1592,7 +1630,10 @@ async function boot() {
     const gunz = await gunzipToUint8Array(raw);
     const parsed = parseBinaryPayload(gunz);
     DATA = buildDataModel(parsed);
+    if (hasMonthly()) mInitState();
     runBrowserSelfCheck();
+    document.getElementById("footer-dates").textContent = `dati annuali estratti il ${extractionDateIt()}`
+      + (hasMonthly() ? ` · monitor mensile al ${fmtDateIt(DATA.M.dates[DATA.M.dates.length - 1])}` : "");
     await loadGeo();
     resetAllFilters();
     wireStaticUI();

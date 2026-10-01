@@ -3,7 +3,7 @@
 RENTRI - area consultazione: download e parsing multi-anno (reportId 56,57,58,59).
 
 Architettura a batch annuali indipendenti (2026-07-24): ogni anno viene scaricato, parsato
-e salvato su disco (rentri_out/_interim/) come batch a se stante, PRIMA di essere unificato
+e salvato su disco (rentri_aggregato/_interim/) come batch a se stante, PRIMA di essere unificato
 nell'export finale. Se il processo viene interrotto o si aggiunge un nuovo anno in seguito,
 gli anni gia' completati non vengono ripetuti (si legge l'interim cache).
 
@@ -58,8 +58,10 @@ MAX_RETRY = 4
 ANNI = ["2024", "2025", "2026"]  # anni da scaricare per 56/57/58 (59 non ha "Anno": stato attuale)
 
 RUN_DATE = datetime.now().strftime("%Y-%m-%d")
-CACHE = pathlib.Path("rentri_pdf_cache") / RUN_DATE
-OUT = pathlib.Path("rentri_out")
+# percorsi ancorati allo script (non alla cwd): funzionano da qualunque cartella e dal task schedulato
+HERE = pathlib.Path(__file__).resolve().parent                 # Scarichi/rentri_aggregato
+CACHE = HERE.parent / "rentri_pdf_cache" / RUN_DATE            # Scarichi/rentri_pdf_cache
+OUT = HERE                                                     # output (xlsx/csv) accanto allo script
 INTERIM = OUT / "_interim"     # cache di lavoro del run corrente (rigenerabile, non versionata)
 STORICO = OUT / "_storico"     # archivio per data di run: NON cancellare, serve al confronto
                                # retroattivo e non e' ricostruibile (RENTRI espone solo l'attuale)

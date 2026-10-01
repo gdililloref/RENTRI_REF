@@ -86,6 +86,20 @@ body, input, select, button, table { font-variant-numeric: tabular-nums; }
 .dataset-tab:hover { color: var(--text); }
 .dataset-tab.active { color: var(--accent); border-bottom-color: var(--accent); font-weight: 600; }
 
+/* due sezioni del menu: dati annuali | monitor mensile (variazioni tra scarichi) */
+.tab-group { display: flex; align-items: center; gap: 2px; flex-shrink: 0; }
+.tab-group + .tab-group { margin-left: 14px; padding-left: 14px; border-left: 1px solid var(--border); }
+.tab-group-label {
+  font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px;
+  color: var(--text-muted); margin-right: 6px; white-space: nowrap; cursor: help;
+}
+.tab-group-monthly .tab-group-label { color: var(--amber); }
+.tab-group-monthly .dataset-tab.active { color: var(--amber); border-bottom-color: var(--amber); }
+
+/* valori di variazione: positivi / negativi (correzioni) */
+.num.pos { color: var(--accent); }
+.num.neg { color: var(--danger); }
+
 /* ---------- main grid ---------- */
 #main-grid { flex: 1; display: grid; grid-template-columns: 270px 1fr 300px; min-height: 0; }
 #filter-rail, #config-panel {
