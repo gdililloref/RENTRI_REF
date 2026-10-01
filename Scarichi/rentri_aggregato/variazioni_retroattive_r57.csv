@@ -1,0 +1,825 @@
+﻿report_id;da_run;a_run;tipo_variazione;Anno;Provincia produttore;Materiale;Unita di misura;Regione;Materiale_ID;Valore_prec;Valore_att;Delta;Stato
+57;2026-09-18;2026-10-01;retroattiva (anno chiuso);2025;CN;Rottami di alluminio;kg;Piemonte;6;843497.0;909577;66080.0;riga preesistente
+57;2026-09-18;2026-10-01;retroattiva (anno chiuso);2025;CN;Rottami di ferro e acciaio;kg;Piemonte;8;87161912.0;89887992;2726080.0;riga preesistente
+57;2026-09-18;2026-10-01;retroattiva (anno chiuso);2025;CN;Rottami di rame;kg;Piemonte;9;164210.0;165210;1000.0;riga preesistente
+57;2026-09-18;2026-10-01;retroattiva (anno chiuso);2025;CS;Tessili;kg;Calabria;14;691966.0;690480;-1486.0;riga preesistente
+57;2026-09-18;2026-10-01;retroattiva (anno chiuso);2025;CT;Aggregati riciclati;kg;Sicilia;5;455990000.0;453974460;-2015540.0;riga preesistente
+57;2026-09-18;2026-10-01;retroattiva (anno chiuso);2025;CT;Rottami di vetro;kg;Sicilia;7;0.0;4003960;4003960.0;riga nuova
+57;2026-09-18;2026-10-01;retroattiva (anno chiuso);2025;CZ;Rottami di ferro e acciaio;kg;Calabria;8;7167145.0;7166645;-500.0;riga preesistente
+57;2026-09-18;2026-10-01;retroattiva (anno chiuso);2025;MB;Carta e cartone;kg;Lombardia;10;97845798.0;97889208;43410.0;riga preesistente
+57;2026-09-18;2026-10-01;retroattiva (anno chiuso);2025;PN;Aggregati riciclati;kg;Friuli Venezia Giulia;5;574226144.0;572301974;-1924170.0;riga preesistente
+57;2026-09-18;2026-10-01;retroattiva (anno chiuso);2025;TO;Altro;kg;Piemonte;23;30746188.0;30778188;32000.0;riga preesistente
+57;2026-09-18;2026-10-01;retroattiva (anno chiuso);2025;TO;Rottami di alluminio;kg;Piemonte;6;7819936.0;8049936;230000.0;riga preesistente
+57;2026-09-18;2026-10-01;retroattiva (anno chiuso);2025;TO;Rottami di ferro e acciaio;kg;Piemonte;8;440692508.0;443883508;3191000.0;riga preesistente
+57;2026-09-18;2026-10-01;retroattiva (anno chiuso);2025;TO;Rottami di rame;kg;Piemonte;9;5104359.0;5169359;65000.0;riga preesistente
+57;2026-09-18;2026-10-01;retroattiva (anno chiuso);2025;TV;Aggregati riciclati;kg;Veneto;5;892724703.0;944789783;52065080.0;riga preesistente
+57;2026-09-18;2026-10-01;retroattiva (anno chiuso);2025;TV;Altro;kg;Veneto;23;46987530.0;67348180;20360650.0;riga preesistente
+57;2026-09-18;2026-10-01;retroattiva (anno chiuso);2025;TV;Granulato di Conglomerato bituminoso;kg;Veneto;20;231596657.0;235804057;4207400.0;riga preesistente
+57;2026-09-18;2026-10-01;retroattiva (anno chiuso);2025;VE;Rottami di ferro e acciaio;kg;Veneto;8;136095104.0;136107544;12440.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AG;Aggregati riciclati;kg;Sicilia;5;96966950.0;101653530;4686580.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AG;Altro;kg;Sicilia;23;601034.0;604362;3328.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AG;Carta e cartone;kg;Sicilia;10;17239950.0;18641730;1401780.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AG;Rottami di ferro e acciaio;kg;Sicilia;8;2414270.0;2751280;337010.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AL;Altro;kg;Piemonte;23;19321695.0;19622552;300857.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AL;CSS – combustibile;kg;Piemonte;13;3199450.0;3799450;600000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AL;Carta e cartone;kg;Piemonte;10;31637715.0;32878535;1240820.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AL;Legno e sughero;kg;Piemonte;12;2391378.0;2555914;164536.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AL;Plastica;kg;Piemonte;11;8031561.0;8999657;968096.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AL;Rottami di ferro e acciaio;kg;Piemonte;8;10385657.0;11123304;737647.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AL;Rottami di rame;kg;Piemonte;9;4427879.0;4584819;156940.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AN;Aggregati riciclati;kg;Marche;5;114810195.0;121577460;6767265.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AN;Altro;kg;Marche;23;21986665.0;21996084;9419.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AN;Ammendante compostato misto;kg;Marche;2;338830.0;351350;12520.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AN;CSS – combustibile;kg;Marche;13;5310000.0;5460000;150000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AN;Carta e cartone;kg;Marche;10;31296123.0;34852624;3556501.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AN;Digestato;kg;Marche;4;5000.0;6000;1000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AN;Legno e sughero;kg;Marche;12;1394162.0;2339202;945040.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AN;Plastica;kg;Marche;11;1084664.0;1102664;18000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AN;Rottami di alluminio;kg;Marche;6;2387707.0;2448217;60510.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AN;Rottami di ferro e acciaio;kg;Marche;8;59957697.0;62134274;2176577.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AO;Aggregati riciclati;kg;Valle d'Aosta;5;14897108.0;18426608;3529500.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AO;Carta e cartone;kg;Valle d'Aosta;10;7524300.0;7950540;426240.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AO;Rottami di ferro e acciaio;kg;Valle d'Aosta;8;5811871.0;5970821;158950.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AP;Aggregati riciclati;kg;Marche;5;200395720.0;217649891;17254171.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AP;Altro;kg;Marche;23;12350450.0;12965250;614800.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AP;Carta e cartone;kg;Marche;10;11460179.0;12428279;968100.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AP;Rottami di ferro e acciaio;kg;Marche;8;14768259.0;15088364;320105.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AQ;Aggregati riciclati;kg;Abruzzo;5;431024706.0;446100684;15075978.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AQ;Altro;kg;Abruzzo;23;5801270.0;6131674;330404.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AQ;Carta e cartone;kg;Abruzzo;10;3696000.0;4116000;420000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AQ;Granulato di Conglomerato bituminoso;kg;Abruzzo;20;81136754.0;85916254;4779500.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AQ;Plastica;kg;Abruzzo;11;8387.0;8816;429.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AR;Aggregati riciclati;kg;Toscana;5;146259209.0;146834434;575225.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AR;Altro;kg;Toscana;23;229669.0;231259;1590.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AR;Ammendante compostato misto;kg;Toscana;2;1939500.0;2984500;1045000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AR;Carta e cartone;kg;Toscana;10;22526462.0;26975777;4449315.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AR;Granulato di Conglomerato bituminoso;kg;Toscana;20;47653400.0;48984790;1331390.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AR;Legno e sughero;kg;Toscana;12;6222650.0;6479810;257160.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AR;Plastica;kg;Toscana;11;3704764.0;4323324;618560.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AR;Rottami di ferro e acciaio;kg;Toscana;8;11630140.0;12149680;519540.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AR;Rottami di rame;kg;Toscana;9;119001.0;133301;14300.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AT;Aggregati riciclati;kg;Piemonte;5;118483995.0;130023995;11540000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AT;Altro;kg;Piemonte;23;31865647.0;35766130;3900483.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AT;Carta e cartone;kg;Piemonte;10;8206082.0;8991082;785000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AT;Rottami di ferro e acciaio;kg;Piemonte;8;56875485.0;60710253;3834768.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AV;Aggregati riciclati;kg;Campania;5;577142937.0;606938807;29795870.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AV;Altro;kg;Campania;23;21637342.0;24858772;3221430.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AV;Carta e cartone;kg;Campania;10;9856939.0;10637889;780950.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AV;Granulato di Conglomerato bituminoso;kg;Campania;20;72134620.0;74244470;2109850.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AV;Plastica;kg;Campania;11;10285349.0;10566219;280870.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AV;Rottami di alluminio;kg;Campania;6;208666.0;226711;18045.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AV;Rottami di ferro e acciaio;kg;Campania;8;15883930.0;17310861;1426931.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AV;Rottami di rame;kg;Campania;9;10085.0;11475;1390.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;AV;Tessili;kg;Campania;14;5365.0;6115;750.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BA;Aggregati riciclati;kg;Puglia;5;875446018.0;904664425;29218407.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BA;Altro;kg;Puglia;23;29623944.0;30536124;912180.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BA;Carta e cartone;kg;Puglia;10;40923593.0;43186591;2262998.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BA;Gomma vulcanizzata da PFU;kg;Puglia;22;19643404.0;21365904;1722500.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BA;Legno e sughero;kg;Puglia;12;11200960.0;11790470;589510.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BA;Plastica;kg;Puglia;11;9187520.0;9376358;188838.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BA;Rottami di alluminio;kg;Puglia;6;3175063.0;3393278;218215.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BA;Rottami di ferro e acciaio;kg;Puglia;8;53000640.0;55296864;2296224.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BA;Rottami di rame;kg;Puglia;9;968622.0;1056932;88310.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BA;Tessili;kg;Puglia;14;244450.0;253550;9100.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BG;Aggregati riciclati;kg;Lombardia;5;1299683437.0;1322180597;22497160.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BG;Altri Ammendanti;kg;Lombardia;3;55373000.0;61914000;6541000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BG;Altro;kg;Lombardia;23;378908190.0;392940870;14032680.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BG;Ammendante compostato misto;kg;Lombardia;2;79485120.0;82425000;2939880.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BG;Ammendante compostato verde;kg;Lombardia;1;22223559.0;22808629;585070.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BG;Carta e cartone;kg;Lombardia;10;75012634.0;77263853;2251219.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BG;Legno e sughero;kg;Lombardia;12;783969.0;825339;41370.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BG;Plastica;kg;Lombardia;11;99616711.0;104664345;5047634.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BG;Rottami di alluminio;kg;Lombardia;6;31442345.0;33329922;1887577.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BG;Rottami di ferro e acciaio;kg;Lombardia;8;541231793.0;557947296;16715503.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BG;Rottami di rame;kg;Lombardia;9;6226170.0;6560139;333969.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BG;Rottami di vetro;kg;Lombardia;7;17923280.0;18938630;1015350.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BG;Tessili;kg;Lombardia;14;1920052.0;1973152;53100.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BI;Aggregati riciclati;kg;Piemonte;5;163994744.0;185550154;21555410.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BI;Altro;kg;Piemonte;23;15291800.0;15292129;329.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BI;CSS – combustibile;kg;Piemonte;13;1040330.0;1167370;127040.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BI;Carta e cartone;kg;Piemonte;10;10801230.0;12092990;1291760.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BI;Granulato di Conglomerato bituminoso;kg;Piemonte;20;50548010.0;55948010;5400000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BI;Plastica;kg;Piemonte;11;2919285.0;3106380;187095.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BI;Rottami di alluminio;kg;Piemonte;6;155754.0;165754;10000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BI;Rottami di ferro e acciaio;kg;Piemonte;8;7111553.0;7312358;200805.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BL;Aggregati riciclati;kg;Veneto;5;146488836.0;161675457;15186621.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BL;Altro;kg;Veneto;23;1466038.0;1561958;95920.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BL;Ammendante compostato misto;kg;Veneto;2;4698570.0;4979440;280870.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BL;Carta e cartone;kg;Veneto;10;1564600.0;1686000;121400.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BL;Legno e sughero;kg;Veneto;12;2380.0;3560;1180.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BL;Plastica;kg;Veneto;11;312669.0;312677;8.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BL;Rottami di ferro e acciaio;kg;Veneto;8;3485560.0;3621480;135920.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BN;Aggregati riciclati;kg;Campania;5;135459926.0;140142816;4682890.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BN;Carta e cartone;kg;Campania;10;10062781.0;10587491;524710.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BN;Granulato di Conglomerato bituminoso;kg;Campania;20;22464363.0;22797693;333330.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BN;Plastica;kg;Campania;11;202887.0;220757;17870.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BN;Tessili;kg;Campania;14;2669946.0;2730291;60345.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BO;Aggregati riciclati;kg;Emilia Romagna;5;722548177.0;777243382;54695205.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BO;Altri Ammendanti;kg;Emilia Romagna;3;1865100.0;2195800;330700.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BO;Altro;kg;Emilia Romagna;23;88898004.0;94254098;5356094.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BO;Ammendante compostato misto;kg;Emilia Romagna;2;16792770.0;21043750;4250980.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BO;Ammendante compostato verde;kg;Emilia Romagna;1;4864270.0;5448270;584000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BO;Carta e cartone;kg;Emilia Romagna;10;81982323.0;87793079;5810756.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BO;Gomma vulcanizzata da PFU;kg;Emilia Romagna;22;558813.0;596163;37350.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BO;Granulato di Conglomerato bituminoso;kg;Emilia Romagna;20;104315271.0;108674751;4359480.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BO;Legno e sughero;kg;Emilia Romagna;12;6606315.0;6701475;95160.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BO;Plastica;kg;Emilia Romagna;11;2929023.0;3186352;257329.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BO;Rottami di alluminio;kg;Emilia Romagna;6;6954935.0;7476973;522038.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BO;Rottami di ferro e acciaio;kg;Emilia Romagna;8;157034470.0;164599003;7564533.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BO;Rottami di rame;kg;Emilia Romagna;9;4767542.0;5048766;281224.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BR;Aggregati riciclati;kg;Puglia;5;290259204.0;307667003;17407799.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BR;Altro;kg;Puglia;23;10126365.0;10384265;257900.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BR;Ammendante compostato misto;kg;Puglia;2;7817000.0;8637000;820000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BR;Carta e cartone;kg;Puglia;10;2644270.0;2732117;87847.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BR;Granulato di Conglomerato bituminoso;kg;Puglia;20;1532110.0;1596150;64040.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BR;Legno e sughero;kg;Puglia;12;58080.0;66560;8480.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BR;Rottami di ferro e acciaio;kg;Puglia;8;35807307.0;37954437;2147130.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BR;Tessili;kg;Puglia;14;36280.0;46060;9780.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BS;Aggregati riciclati;kg;Lombardia;5;2115794626.0;2219479906;103685280.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BS;Altri Ammendanti;kg;Lombardia;3;2297290.0;2360990;63700.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BS;Altro;kg;Lombardia;23;725611689.0;777246001;51634312.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BS;Ammendante compostato verde;kg;Lombardia;1;47031020.0;54393200;7362180.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BS;Carta e cartone;kg;Lombardia;10;104843776.0;111244498;6400722.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BS;Granulato di Conglomerato bituminoso;kg;Lombardia;20;165260900.0;179418900;14158000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BS;Legno e sughero;kg;Lombardia;12;14410410.0;15035175;624765.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BS;Plastica;kg;Lombardia;11;35708297.0;38042536;2334239.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BS;Rottami di alluminio;kg;Lombardia;6;128766731.0;134226224;5459493.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BS;Rottami di ferro e acciaio;kg;Lombardia;8;640331568.0;687405292;47073724.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BS;Rottami di rame;kg;Lombardia;9;29348415.0;30731692;1383277.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BS;Rottami di vetro;kg;Lombardia;7;18476990.0;20049560;1572570.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BS;Tessili;kg;Lombardia;14;281431.0;287531;6100.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BT;Aggregati riciclati;kg;Puglia;5;172294530.0;179325686;7031156.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BT;Altro;kg;Puglia;23;1964040.0;1985669;21629.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BT;CSS – combustibile;kg;Puglia;13;26826110.0;27696120;870010.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BT;Carta e cartone;kg;Puglia;10;19103282.0;20070162;966880.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BT;Granulato di Conglomerato bituminoso;kg;Puglia;20;40959820.0;43619820;2660000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BT;Plastica;kg;Puglia;11;5476143.0;5832510;356367.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BT;Rottami di alluminio;kg;Puglia;6;1259733.0;1446978;187245.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BT;Rottami di ferro e acciaio;kg;Puglia;8;12199630.0;12525401;325771.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BT;Rottami di rame;kg;Puglia;9;1165928.0;1318685;152757.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BT;Rottami di vetro;kg;Puglia;7;16146440.0;16401440;255000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BT;Tessili;kg;Puglia;14;679801.0;751556;71755.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BZ;Aggregati riciclati;kg;Trentino Alto Adige;5;737912912.0;778694501;40781589.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BZ;Altro;kg;Trentino Alto Adige;23;32266613.0;33605669;1339056.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BZ;Ammendante compostato misto;kg;Trentino Alto Adige;2;5044560.0;5533920;489360.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BZ;Ammendante compostato verde;kg;Trentino Alto Adige;1;695060.0;723060;28000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BZ;Carta e cartone;kg;Trentino Alto Adige;10;20388267.0;22289947;1901680.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BZ;Gomma;kg;Trentino Alto Adige;15;5168250.0;5471620;303370.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BZ;Granulato di Conglomerato bituminoso;kg;Trentino Alto Adige;20;14813045.0;15737025;923980.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BZ;Legno e sughero;kg;Trentino Alto Adige;12;4425796.0;4454896;29100.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BZ;Plastica;kg;Trentino Alto Adige;11;2945527.0;3204753;259226.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BZ;Rottami di alluminio;kg;Trentino Alto Adige;6;147403.0;155887;8484.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BZ;Rottami di ferro e acciaio;kg;Trentino Alto Adige;8;20802989.0;23189893;2386904.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;BZ;Rottami di rame;kg;Trentino Alto Adige;9;110355.0;118355;8000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CA;Aggregati riciclati;kg;Sardegna;5;316944769.0;323948409;7003640.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CA;Altro;kg;Sardegna;23;10289161.0;11125833;836672.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CA;Ammendante compostato verde;kg;Sardegna;1;2637770.0;3483770;846000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CA;Carta e cartone;kg;Sardegna;10;11878327.0;12701767;823440.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CA;Granulato di Conglomerato bituminoso;kg;Sardegna;20;15419740.0;22425180;7005440.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CA;Plastica;kg;Sardegna;11;736614.0;801389;64775.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CA;Rottami di ferro e acciaio;kg;Sardegna;8;23833491.0;25758173;1924682.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CB;Aggregati riciclati;kg;Molise;5;45680822.0;53111762;7430940.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CB;Altro;kg;Molise;23;10550590.0;10866348;315758.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CB;Carta e cartone;kg;Molise;10;4040700.0;4252240;211540.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CB;Granulato di Conglomerato bituminoso;kg;Molise;20;92832260.0;108859600;16027340.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CB;Rottami di ferro e acciaio;kg;Molise;8;3527054.0;3730854;203800.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CE;Aggregati riciclati;kg;Campania;5;684088138.0;735749150;51661012.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CE;Altro;kg;Campania;23;21976082.0;22676021;699939.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CE;Carta e cartone;kg;Campania;10;64365109.0;70064508;5699399.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CE;Legno e sughero;kg;Campania;12;1481960.0;1492460;10500.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CE;Plastica;kg;Campania;11;6611537.0;6656747;45210.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CE;Rottami di alluminio;kg;Campania;6;4446144.0;4656134;209990.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CE;Rottami di ferro e acciaio;kg;Campania;8;31630496.0;32276946;646450.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CE;Rottami di rame;kg;Campania;9;3487124.0;3673029;185905.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CE;Tessili;kg;Campania;14;50722040.0;52562309;1840269.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CH;Aggregati riciclati;kg;Abruzzo;5;225038269.0;263487079;38448810.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CH;Altro;kg;Abruzzo;23;42164196.0;42209196;45000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CH;Carta e cartone;kg;Abruzzo;10;28217524.0;29561384;1343860.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CH;Legno e sughero;kg;Abruzzo;12;185360.0;186160;800.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CH;Plastica;kg;Abruzzo;11;4356244.0;4425004;68760.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CH;Rottami di ferro e acciaio;kg;Abruzzo;8;15638700.0;15992110;353410.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CH;Tessili;kg;Abruzzo;14;400.0;420;20.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CL;Altro;kg;Sicilia;23;12497755.0;12498435;680.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CL;Plastica;kg;Sicilia;11;10053465.0;10567440;513975.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CN;Aggregati riciclati;kg;Piemonte;5;428870403.0;453420873;24550470.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CN;Altro;kg;Piemonte;23;53454253.0;61298135;7843882.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CN;Ammendante compostato misto;kg;Piemonte;2;21691290.0;22093090;401800.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CN;Carta e cartone;kg;Piemonte;10;71407652.0;76561942;5154290.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CN;Granulato di Conglomerato bituminoso;kg;Piemonte;20;74136420.0;79508640;5372220.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CN;Legno e sughero;kg;Piemonte;12;1781190.0;1867080;85890.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CN;Plastica;kg;Piemonte;11;50428366.0;50439332;10966.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CN;Rottami di alluminio;kg;Piemonte;6;935480.0;1051929;116449.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CN;Rottami di ferro e acciaio;kg;Piemonte;8;66974773.0;78668724;11693951.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CN;Rottami di rame;kg;Piemonte;9;83552.0;88142;4590.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CN;Tessili;kg;Piemonte;14;17598.0;17898;300.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CO;Aggregati riciclati;kg;Lombardia;5;192287644.0;205332404;13044760.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CO;Altro;kg;Lombardia;23;16604828.0;17715116;1110288.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CO;Carta e cartone;kg;Lombardia;10;28065563.0;29105315;1039752.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CO;Gomma;kg;Lombardia;15;186133.0;190853;4720.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CO;Granulato di Conglomerato bituminoso;kg;Lombardia;20;46243520.0;53659460;7415940.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CO;Legno e sughero;kg;Lombardia;12;1844570.0;1967350;122780.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CO;Plastica;kg;Lombardia;11;14459643.0;15196599;736956.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CO;Rottami di alluminio;kg;Lombardia;6;483970.0;495435;11465.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CO;Rottami di ferro e acciaio;kg;Lombardia;8;93621542.0;96853113;3231571.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CO;Rottami di rame;kg;Lombardia;9;208718.0;211265;2547.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CR;Aggregati riciclati;kg;Lombardia;5;333012692.0;350565112;17552420.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CR;Altro;kg;Lombardia;23;32959909.0;33100099;140190.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CR;Ammendante compostato verde;kg;Lombardia;1;144001.0;221061;77060.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CR;Carta e cartone;kg;Lombardia;10;12056830.0;13114060;1057230.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CR;Legno e sughero;kg;Lombardia;12;4520560.0;4623260;102700.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CR;Plastica;kg;Lombardia;11;2027546.0;2108736;81190.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CR;Rottami di alluminio;kg;Lombardia;6;230390.0;257182;26792.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CR;Rottami di ferro e acciaio;kg;Lombardia;8;31999532.0;34883752;2884220.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CR;Rottami di rame;kg;Lombardia;9;61526.0;62946;1420.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CS;Aggregati riciclati;kg;Calabria;5;198953182.0;204421822;5468640.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CS;Carta e cartone;kg;Calabria;10;10641910.0;11320050;678140.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CS;Rottami di alluminio;kg;Calabria;6;134380.0;176680;42300.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CS;Rottami di ferro e acciaio;kg;Calabria;8;6885910.0;6993430;107520.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CT;Aggregati riciclati;kg;Sicilia;5;316109520.0;316955060;845540.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CT;Altri Ammendanti;kg;Sicilia;3;53132861.0;54655441;1522580.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CT;Altro;kg;Sicilia;23;43455482.0;45690254;2234772.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CT;Ammendante compostato misto;kg;Sicilia;2;18775055.0;22726231;3951176.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CT;Carta e cartone;kg;Sicilia;10;17074610.0;19254350;2179740.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CT;Plastica;kg;Sicilia;11;2849619.0;2875049;25430.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CT;Rottami di alluminio;kg;Sicilia;6;348615.0;471872;123257.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CT;Rottami di ferro e acciaio;kg;Sicilia;8;125477387.0;125568787;91400.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CT;Rottami di rame;kg;Sicilia;9;94430.0;100530;6100.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CZ;Aggregati riciclati;kg;Calabria;5;293364529.0;307038843;13674314.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CZ;Altro;kg;Calabria;23;48043356.0;53813296;5769940.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CZ;Ammendante compostato misto;kg;Calabria;2;7379180.0;7509510;130330.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CZ;Carta e cartone;kg;Calabria;10;9984690.0;10034580;49890.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CZ;Gomma vulcanizzata da PFU;kg;Calabria;22;3240870.0;3428260;187390.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CZ;Plastica;kg;Calabria;11;1345499.0;1345894;395.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CZ;Rottami di alluminio;kg;Calabria;6;684939.0;685019;80.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CZ;Rottami di ferro e acciaio;kg;Calabria;8;4283329.0;4669920;386591.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;CZ;Rottami di vetro;kg;Calabria;7;264.0;270;6.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;EN;Aggregati riciclati;kg;Sicilia;5;158627406.0;160455575;1828169.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;EN;Carta e cartone;kg;Sicilia;10;15964626.0;18782400;2817774.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;FC;Aggregati riciclati;kg;Emilia Romagna;5;209348416.0;229288916;19940500.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;FC;Altro;kg;Emilia Romagna;23;3153450.0;3178360;24910.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;FC;Ammendante compostato misto;kg;Emilia Romagna;2;7659380.0;8547070;887690.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;FC;Carta e cartone;kg;Emilia Romagna;10;44285516.0;48898676;4613160.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;FC;Granulato di Conglomerato bituminoso;kg;Emilia Romagna;20;139254977.0;150733687;11478710.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;FC;Legno e sughero;kg;Emilia Romagna;12;3508074.0;3674566;166492.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;FC;Plastica;kg;Emilia Romagna;11;4017769.0;4331385;313616.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;FC;Rottami di alluminio;kg;Emilia Romagna;6;1639872.0;1669675;29803.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;FC;Rottami di ferro e acciaio;kg;Emilia Romagna;8;62279613.0;63813663;1534050.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;FC;Rottami di rame;kg;Emilia Romagna;9;1956602.0;2089290;132688.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;FC;Rottami di vetro;kg;Emilia Romagna;7;328597.0;357045;28448.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;FE;Aggregati riciclati;kg;Emilia Romagna;5;156614222.0;163156502;6542280.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;FE;Altro;kg;Emilia Romagna;23;17792400.0;18973210;1180810.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;FE;Ammendante compostato misto;kg;Emilia Romagna;2;8447470.0;9198780;751310.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;FE;CSS – combustibile;kg;Emilia Romagna;13;2270400.0;3073990;803590.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;FE;Carta e cartone;kg;Emilia Romagna;10;22315670.0;23577080;1261410.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;FE;Granulato di Conglomerato bituminoso;kg;Emilia Romagna;20;56318223.0;75438303;19120080.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;FE;Legno e sughero;kg;Emilia Romagna;12;453054.0;453114;60.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;FE;Plastica;kg;Emilia Romagna;11;17971525.0;18064786;93261.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;FE;Rottami di ferro e acciaio;kg;Emilia Romagna;8;26925296.0;27687926;762630.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;FG;Aggregati riciclati;kg;Puglia;5;625869691.0;647794551;21924860.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;FG;Altri Ammendanti;kg;Puglia;3;15979390.0;17017230;1037840.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;FG;Altro;kg;Puglia;23;83349933.0;86839341;3489408.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;FG;Carta e cartone;kg;Puglia;10;139663427.0;167743876;28080449.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;FG;Gomma;kg;Puglia;15;5031250.0;5271250;240000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;FG;Plastica;kg;Puglia;11;2237206.0;2493299;256093.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;FG;Rottami di ferro e acciaio;kg;Puglia;8;21517411.0;21844671;327260.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;FG;Tessili;kg;Puglia;14;144020.0;171060;27040.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;FI;Aggregati riciclati;kg;Toscana;5;802228548.0;858772048;56543500.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;FI;Altro;kg;Toscana;23;197882732.0;215288794;17406062.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;FI;Ammendante compostato misto;kg;Toscana;2;10563592.0;12114632;1551040.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;FI;Carta e cartone;kg;Toscana;10;71808484.0;76693039;4884555.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;FI;Granulato di Conglomerato bituminoso;kg;Toscana;20;78106260.0;80872360;2766100.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;FI;Legno e sughero;kg;Toscana;12;76176.0;77376;1200.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;FI;Plastica;kg;Toscana;11;2012728.0;2026483;13755.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;FI;Rottami di alluminio;kg;Toscana;6;2022193.0;2096943;74750.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;FI;Rottami di ferro e acciaio;kg;Toscana;8;16462190.0;17217177;754987.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;FI;Rottami di vetro;kg;Toscana;7;75337681.0;85987443;10649762.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;FM;Altro;kg;Marche;23;18002257.0;18079318;77061.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;FM;Carta e cartone;kg;Marche;10;5762385.0;6203255;440870.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;FM;Granulato di Conglomerato bituminoso;kg;Marche;20;33600000.0;38400000;4800000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;FM;Rottami di alluminio;kg;Marche;6;254375.0;271397;17022.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;FM;Rottami di ferro e acciaio;kg;Marche;8;7789098.0;9829509;2040411.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;FR;Aggregati riciclati;kg;Lazio;5;77650808.0;79864648;2213840.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;FR;Altri Ammendanti;kg;Lazio;3;5279600.0;5843100;563500.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;FR;Carta e cartone;kg;Lazio;10;33371239.0;36532284;3161045.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;FR;Plastica;kg;Lazio;11;4167132.0;4549078;381946.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;FR;Rottami di ferro e acciaio;kg;Lazio;8;1829843.0;1879889;50046.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;GE;Aggregati riciclati;kg;Liguria;5;28475180.0;41099468;12624288.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;GE;Altro;kg;Liguria;23;9193969.0;9779419;585450.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;GE;Carta e cartone;kg;Liguria;10;39390144.0;39995843;605699.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;GE;Granulato di Conglomerato bituminoso;kg;Liguria;20;51123040.0;56832864;5709824.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;GE;Legno e sughero;kg;Liguria;12;103679.0;156809;53130.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;GE;Rottami di ferro e acciaio;kg;Liguria;8;27611243.0;28616603;1005360.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;GE;Rottami di rame;kg;Liguria;9;418624.0;445174;26550.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;GO;Altro;kg;Friuli Venezia Giulia;23;7938771.0;7937600;-1171.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;GO;Plastica;kg;Friuli Venezia Giulia;11;124222.0;141282;17060.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;GO;Rottami di ferro e acciaio;kg;Friuli Venezia Giulia;8;20688344.0;21952680;1264336.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;GO;Rottami di rame;kg;Friuli Venezia Giulia;9;364010.0;365820;1810.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;GR;Aggregati riciclati;kg;Toscana;5;49053465.0;51235125;2181660.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;GR;Altro;kg;Toscana;23;79810490.0;82138490;2328000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;GR;Carta e cartone;kg;Toscana;10;5841580.0;6764895;923315.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;GR;Granulato di Conglomerato bituminoso;kg;Toscana;20;12310952.0;13238472;927520.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;GR;Rottami di ferro e acciaio;kg;Toscana;8;6950522.0;7126302;175780.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;IM;Aggregati riciclati;kg;Liguria;5;50890500.0;50951000;60500.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;IM;Carta e cartone;kg;Liguria;10;4339150.0;4552330;213180.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;IM;Rottami di ferro e acciaio;kg;Liguria;8;2942820.0;3026220;83400.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;IS;Aggregati riciclati;kg;Molise;5;24324269.0;24855339;531070.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;IS;Carta e cartone;kg;Molise;10;4033572.0;4209872;176300.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;IS;Rottami di alluminio;kg;Molise;6;2120331.0;2258417;138086.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;IS;Rottami di ferro e acciaio;kg;Molise;8;2903900.0;3022060;118160.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;KR;Aggregati riciclati;kg;Calabria;5;35261805.0;39441605;4179800.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;KR;Plastica;kg;Calabria;11;659022.0;693205;34183.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;KR;Rottami di ferro e acciaio;kg;Calabria;8;7020198.0;7048638;28440.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;LC;Aggregati riciclati;kg;Lombardia;5;184207900.0;192908190;8700290.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;LC;Altro;kg;Lombardia;23;3274050.0;3326505;52455.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;LC;Ammendante compostato misto;kg;Lombardia;2;1980000.0;2570000;590000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;LC;Carta e cartone;kg;Lombardia;10;17142410.0;21446936;4304526.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;LC;Legno e sughero;kg;Lombardia;12;11952890.0;12288950;336060.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;LC;Rottami di alluminio;kg;Lombardia;6;2459129.0;2624381;165252.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;LC;Rottami di ferro e acciaio;kg;Lombardia;8;162945501.0;171739269;8793768.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;LC;Rottami di rame;kg;Lombardia;9;262853.0;262949;96.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;LC;Tessili;kg;Lombardia;14;710183.0;719043;8860.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;LE;Aggregati riciclati;kg;Puglia;5;424805211.0;446796056;21990845.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;LE;Ammendante compostato verde;kg;Puglia;1;560190.0;579750;19560.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;LE;Carta e cartone;kg;Puglia;10;61878040.0;64835800;2957760.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;LE;Legno e sughero;kg;Puglia;12;1829560.0;1960170;130610.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;LE;Plastica;kg;Puglia;11;283585.0;286585;3000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;LE;Rottami di alluminio;kg;Puglia;6;1214719.0;1228716;13997.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;LE;Rottami di ferro e acciaio;kg;Puglia;8;59420174.0;61629660;2209486.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;LI;Aggregati riciclati;kg;Toscana;5;320380997.0;340176666;19795669.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;LI;Altro;kg;Toscana;23;66763312.0;70793693;4030381.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;LI;Ammendante compostato verde;kg;Toscana;1;1048950.0;1337190;288240.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;LI;CSS – combustibile;kg;Toscana;13;1307960.0;2693140;1385180.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;LI;Carta e cartone;kg;Toscana;10;11821260.0;12507950;686690.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;LI;Granulato di Conglomerato bituminoso;kg;Toscana;20;4798501.0;5019301;220800.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;LI;Materiali ceramici;kg;Toscana;17;7454540.0;8159060;704520.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;LI;Rottami di ferro e acciaio;kg;Toscana;8;6513437.0;6709962;196525.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;LO;Aggregati riciclati;kg;Lombardia;5;308854452.0;337166852;28312400.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;LO;Altro;kg;Lombardia;23;114402607.0;118623117;4220510.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;LO;Carta e cartone;kg;Lombardia;10;9616000.0;10529440;913440.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;LO;Granulato di Conglomerato bituminoso;kg;Lombardia;20;2903860.0;11103860;8200000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;LO;Rottami di alluminio;kg;Lombardia;6;578664.0;585684;7020.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;LO;Rottami di ferro e acciaio;kg;Lombardia;8;21920995.0;23573215;1652220.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;LO;Rottami di rame;kg;Lombardia;9;146805.0;147604;799.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;LT;Aggregati riciclati;kg;Lazio;5;127641778.0;129528508;1886730.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;LT;Altro;kg;Lazio;23;61332256.0;61339247;6991.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;LT;Carta e cartone;kg;Lazio;10;1321070.0;1405970;84900.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;LT;Gomma vulcanizzata da PFU;kg;Lazio;22;645482.0;1031254;385772.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;LT;Granulato di Conglomerato bituminoso;kg;Lazio;20;33255110.0;34345110;1090000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;LT;Plastica;kg;Lazio;11;2005030.0;2057800;52770.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;LT;Rottami di ferro e acciaio;kg;Lazio;8;7004125.0;8457440;1453315.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;LU;Aggregati riciclati;kg;Toscana;5;329450123.0;344219343;14769220.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;LU;Carta e cartone;kg;Toscana;10;58313714.0;59633534;1319820.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;LU;Granulato di Conglomerato bituminoso;kg;Toscana;20;46895841.0;48635841;1740000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;LU;Plastica;kg;Toscana;11;2375909.0;2815726;439817.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;LU;Rottami di alluminio;kg;Toscana;6;98863.0;100163;1300.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;LU;Rottami di ferro e acciaio;kg;Toscana;8;12288875.0;12893182;604307.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;LU;Rottami di rame;kg;Toscana;9;6300846.0;6790321;489475.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MB;Aggregati riciclati;kg;Lombardia;5;501004974.0;517638434;16633460.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MB;Altri Ammendanti;kg;Lombardia;3;0.0;68200;68200.0;riga nuova
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MB;Altro;kg;Lombardia;23;29629522.0;30675059;1045537.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MB;Carta e cartone;kg;Lombardia;10;65299640.0;72921800;7622160.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MB;Granulato di Conglomerato bituminoso;kg;Lombardia;20;33079360.0;47044146;13964786.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MB;Legno e sughero;kg;Lombardia;12;4482481.0;4678051;195570.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MB;Plastica;kg;Lombardia;11;2539509.0;2669805;130296.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MB;Rottami di alluminio;kg;Lombardia;6;5121720.0;5349170;227450.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MB;Rottami di ferro e acciaio;kg;Lombardia;8;55745196.0;56899938;1154742.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MB;Rottami di rame;kg;Lombardia;9;746816.0;794846;48030.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MC;Aggregati riciclati;kg;Marche;5;248899049.0;258072424;9173375.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MC;Altro;kg;Marche;23;19046213.0;27100108;8053895.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MC;Carta e cartone;kg;Marche;10;7562360.0;8317653;755293.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MC;Gomma;kg;Marche;15;53030.0;70430;17400.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MC;Legno e sughero;kg;Marche;12;155408.0;190298;34890.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MC;Plastica;kg;Marche;11;3574834.0;3622098;47264.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MC;Rottami di alluminio;kg;Marche;6;2334384.0;2387634;53250.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MC;Rottami di ferro e acciaio;kg;Marche;8;23411402.0;23681882;270480.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MC;Rottami di rame;kg;Marche;9;2236259.0;2236809;550.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MC;Tessili;kg;Marche;14;1873740.0;1986240;112500.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;ME;Aggregati riciclati;kg;Sicilia;5;105644216.0;107481906;1837690.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;ME;Carta e cartone;kg;Sicilia;10;14472481.0;15528232;1055751.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;ME;Tessili;kg;Sicilia;14;796370.0;908140;111770.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MI;Aggregati riciclati;kg;Lombardia;5;1441660007.0;1512193396;70533389.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MI;Altro;kg;Lombardia;23;156719063.0;169322015;12602952.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MI;Ammendante compostato misto;kg;Lombardia;2;16239070.0;18490530;2251460.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MI;Ammendante compostato verde;kg;Lombardia;1;12154279.0;12840849;686570.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MI;CSS – combustibile;kg;Lombardia;13;11333612.0;12108423;774811.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MI;Carta e cartone;kg;Lombardia;10;382005932.0;395662853;13656921.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MI;Granulato di Conglomerato bituminoso;kg;Lombardia;20;138948280.0;185050000;46101720.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MI;Legno e sughero;kg;Lombardia;12;6708131.0;7072601;364470.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MI;Plastica;kg;Lombardia;11;23640876.0;24165090;524214.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MI;Rottami di alluminio;kg;Lombardia;6;4223539.0;4307822;84283.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MI;Rottami di ferro e acciaio;kg;Lombardia;8;294203575.0;304121060;9917485.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MI;Rottami di rame;kg;Lombardia;9;6962169.0;7150205;188036.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MI;Rottami di vetro;kg;Lombardia;7;19135210.0;20327640;1192430.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MI;Tessili;kg;Lombardia;14;3281127.0;3496431;215304.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MN;Aggregati riciclati;kg;Lombardia;5;339368462.0;345257062;5888600.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MN;Altri Fertilizzanti;kg;Lombardia;19;22172230.0;22877500;705270.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MN;Altro;kg;Lombardia;23;67675426.0;72484960;4809534.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MN;Carta e cartone;kg;Lombardia;10;38068080.0;39891870;1823790.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MN;Legno e sughero;kg;Lombardia;12;3954700.0;4355600;400900.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MN;Plastica;kg;Lombardia;11;5539024.0;5615474;76450.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MN;Rottami di alluminio;kg;Lombardia;6;352260.0;374960;22700.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MN;Rottami di ferro e acciaio;kg;Lombardia;8;8237227.0;9755654;1518427.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MN;Rottami di rame;kg;Lombardia;9;27540.0;31140;3600.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MN;Tessili;kg;Lombardia;14;1152673.0;1153873;1200.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MO;Aggregati riciclati;kg;Emilia Romagna;5;470670328.0;482537528;11867200.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MO;Altri Ammendanti;kg;Emilia Romagna;3;3760000.0;4280000;520000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MO;Altro;kg;Emilia Romagna;23;116999755.0;120782529;3782774.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MO;Ammendante compostato misto;kg;Emilia Romagna;2;6920380.0;8073920;1153540.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MO;CSS – combustibile;kg;Emilia Romagna;13;9000000.0;9150000;150000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MO;Carta e cartone;kg;Emilia Romagna;10;53092827.0;57838634;4745807.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MO;Materiali ceramici;kg;Emilia Romagna;17;136014330.0;136899500;885170.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MO;Plastica;kg;Emilia Romagna;11;2707134.0;2771444;64310.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MO;Rottami di alluminio;kg;Emilia Romagna;6;561033.0;575473;14440.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MO;Rottami di ferro e acciaio;kg;Emilia Romagna;8;79519735.0;84380463;4860728.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MO;Rottami di rame;kg;Emilia Romagna;9;120413.0;129013;8600.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MO;Rottami di vetro;kg;Emilia Romagna;7;98194102.0;107799102;9605000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MS;Aggregati riciclati;kg;Toscana;5;45099995.0;50149805;5049810.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MS;Altro;kg;Toscana;23;17826826.0;18573386;746560.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MS;Granulato di Conglomerato bituminoso;kg;Toscana;20;5099140.0;5720820;621680.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MS;Rottami di ferro e acciaio;kg;Toscana;8;1086930.0;1140930;54000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MT;Aggregati riciclati;kg;Basilicata;5;136139146.0;142366286;6227140.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MT;Altro;kg;Basilicata;23;1778788.0;1841417;62629.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MT;Carta e cartone;kg;Basilicata;10;22255180.0;23651860;1396680.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MT;Plastica;kg;Basilicata;11;11238217.0;11588001;349784.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MT;Rottami di alluminio;kg;Basilicata;6;90220.0;112460;22240.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MT;Rottami di ferro e acciaio;kg;Basilicata;8;8790567.0;9356941;566374.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;MT;Rottami di rame;kg;Basilicata;9;1399.0;2859;1460.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;NA;Aggregati riciclati;kg;Campania;5;1302536256.0;1338575823;36039567.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;NA;Altro;kg;Campania;23;45337466.0;50786106;5448640.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;NA;Ammendante compostato misto;kg;Campania;2;65887858.0;68387858;2500000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;NA;CSS – combustibile;kg;Campania;13;0.0;468500;468500.0;riga nuova
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;NA;Carta e cartone;kg;Campania;10;95820958.0;103219988;7399030.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;NA;Granulato di Conglomerato bituminoso;kg;Campania;20;248840.0;2248840;2000000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;NA;Plastica;kg;Campania;11;12441239.0;12691356;250117.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;NA;Rottami di alluminio;kg;Campania;6;2304714.0;2632414;327700.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;NA;Rottami di ferro e acciaio;kg;Campania;8;30279633.0;31983878;1704245.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;NA;Rottami di rame;kg;Campania;9;1025946.0;1091266;65320.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;NA;Tessili;kg;Campania;14;15954490.0;16553164;598674.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;NO;Aggregati riciclati;kg;Piemonte;5;282325867.0;283297907;972040.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;NO;Altro;kg;Piemonte;23;116668115.0;118522884;1854769.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;NO;Ammendante compostato verde;kg;Piemonte;1;3944680.0;4184680;240000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;NO;Plastica;kg;Piemonte;11;12817003.0;12853684;36681.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;NO;Rottami di alluminio;kg;Piemonte;6;2715463.0;2764763;49300.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;NO;Rottami di ferro e acciaio;kg;Piemonte;8;12513245.0;13715714;1202469.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;NU;Carta e cartone;kg;Sardegna;10;11321670.0;13300940;1979270.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;NU;Rottami di ferro e acciaio;kg;Sardegna;8;354128.0;383308;29180.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;OR;Aggregati riciclati;kg;Sardegna;5;66462810.0;66662810;200000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;OR;Altro;kg;Sardegna;23;2401830.0;2508705;106875.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;OR;Ammendante compostato misto;kg;Sardegna;2;5596740.0;6199540;602800.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;OR;Plastica;kg;Sardegna;11;1223000.0;1393000;170000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PA;Aggregati riciclati;kg;Sicilia;5;669800729.0;711248567;41447838.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PA;Altro;kg;Sicilia;23;10222382.0;12855435;2633053.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PA;Carta e cartone;kg;Sicilia;10;19153129.0;20331889;1178760.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PA;Gomma vulcanizzata da PFU;kg;Sicilia;22;3106264.0;3222819;116555.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PA;Granulato di Conglomerato bituminoso;kg;Sicilia;20;69040690.0;74615050;5574360.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PA;Plastica;kg;Sicilia;11;189531.0;198123;8592.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PA;Rottami di alluminio;kg;Sicilia;6;1147319.0;1191214;43895.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PA;Rottami di ferro e acciaio;kg;Sicilia;8;10256946.0;10542077;285131.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PC;Aggregati riciclati;kg;Emilia Romagna;5;150743760.0;159645450;8901690.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PC;Ammendante compostato verde;kg;Emilia Romagna;1;2613740.0;3307740;694000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PC;Carta e cartone;kg;Emilia Romagna;10;24582580.0;24805519;222939.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PC;Correttivi da Fanghi;kg;Emilia Romagna;18;26205230.0;30852770;4647540.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PC;Legno e sughero;kg;Emilia Romagna;12;275474550.0;297498930;22024380.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PC;Plastica;kg;Emilia Romagna;11;4264208.0;4497459;233251.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PC;Rottami di ferro e acciaio;kg;Emilia Romagna;8;18725311.0;19753919;1028608.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PD;Aggregati riciclati;kg;Veneto;5;456034248.0;483381858;27347610.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PD;Altro;kg;Veneto;23;148293395.0;154745435;6452040.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PD;Ammendante compostato misto;kg;Veneto;2;18735920.0;21635920;2900000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PD;Carta e cartone;kg;Veneto;10;70427549.0;74535585;4108036.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PD;Granulato di Conglomerato bituminoso;kg;Veneto;20;127714700.0;140857280;13142580.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PD;Legno e sughero;kg;Veneto;12;543607.0;545557;1950.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PD;Plastica;kg;Veneto;11;17914335.0;18827548;913213.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PD;Rottami di alluminio;kg;Veneto;6;6747491.0;7207209;459718.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PD;Rottami di ferro e acciaio;kg;Veneto;8;318213660.0;320185524;1971864.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PD;Rottami di rame;kg;Veneto;9;4414977.0;4779575;364598.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PD;Tessili;kg;Veneto;14;659397.0;871723;212326.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PE;Aggregati riciclati;kg;Abruzzo;5;108414188.0;150478849;42064661.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PE;Altro;kg;Abruzzo;23;164096.0;167170;3074.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PE;Carta e cartone;kg;Abruzzo;10;7685727.0;8065373;379646.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PE;Granulato di Conglomerato bituminoso;kg;Abruzzo;20;23960540.0;24206800;246260.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PE;Plastica;kg;Abruzzo;11;14694.0;18780;4086.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PE;Rottami di ferro e acciaio;kg;Abruzzo;8;12357220.0;12902050;544830.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PG;Aggregati riciclati;kg;Umbria;5;336035885.0;347512435;11476550.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PG;Altro;kg;Umbria;23;25849430.0;26947230;1097800.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PG;Ammendante compostato misto;kg;Umbria;2;7909888.0;8127888;218000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PG;Carta e cartone;kg;Umbria;10;50076629.0;52850750;2774121.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PG;Granulato di Conglomerato bituminoso;kg;Umbria;20;76446062.0;80543752;4097690.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PG;Plastica;kg;Umbria;11;26881524.0;28005749;1124225.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PG;Rottami di alluminio;kg;Umbria;6;266024.0;285564;19540.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PG;Rottami di ferro e acciaio;kg;Umbria;8;67911509.0;68659190;747681.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PG;Rottami di vetro;kg;Umbria;7;117890372.0;124519808;6629436.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PG;Tessili;kg;Umbria;14;2879973.0;2951299;71326.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PI;Aggregati riciclati;kg;Toscana;5;60671944.0;64461094;3789150.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PI;Altro;kg;Toscana;23;58658293.0;60433307;1775014.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PI;Ammendante compostato misto;kg;Toscana;2;895776.0;1628836;733060.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PI;Carta e cartone;kg;Toscana;10;1638431.0;1730401;91970.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PI;Granulato di Conglomerato bituminoso;kg;Toscana;20;34116259.0;35230599;1114340.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PI;Legno e sughero;kg;Toscana;12;10083502.0;11073252;989750.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PI;Plastica;kg;Toscana;11;2035492.0;2098227;62735.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PI;Rottami di alluminio;kg;Toscana;6;4360616.0;4645306;284690.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PI;Rottami di ferro e acciaio;kg;Toscana;8;160973111.0;166437094;5463983.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PN;Aggregati riciclati;kg;Friuli Venezia Giulia;5;466506930.0;479160591;12653661.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PN;Altro;kg;Friuli Venezia Giulia;23;73813736.0;74958463;1144727.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PN;Ammendante compostato misto;kg;Friuli Venezia Giulia;2;23500000.0;24600000;1100000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PN;Ammendante compostato verde;kg;Friuli Venezia Giulia;1;6460048.0;7785840;1325792.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PN;Carta e cartone;kg;Friuli Venezia Giulia;10;18765015.0;19810260;1045245.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PN;Granulato di Conglomerato bituminoso;kg;Friuli Venezia Giulia;20;80153850.0;98169280;18015430.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PN;Legno e sughero;kg;Friuli Venezia Giulia;12;5285139.0;6155139;870000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PN;Plastica;kg;Friuli Venezia Giulia;11;2315328.0;2695432;380104.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PN;Rottami di alluminio;kg;Friuli Venezia Giulia;6;295332.0;309262;13930.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PN;Rottami di ferro e acciaio;kg;Friuli Venezia Giulia;8;23951989.0;25221807;1269818.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PN;Rottami di rame;kg;Friuli Venezia Giulia;9;71987.0;79828;7841.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PN;Rottami di vetro;kg;Friuli Venezia Giulia;7;107993118.0;110469963;2476845.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PN;Tessili;kg;Friuli Venezia Giulia;14;62715.0;66735;4020.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PO;Aggregati riciclati;kg;Toscana;5;366973570.0;389486910;22513340.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PO;Altro;kg;Toscana;23;5390030.0;6264110;874080.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PO;Carta e cartone;kg;Toscana;10;43627690.0;47342885;3715195.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PO;Rottami di ferro e acciaio;kg;Toscana;8;7459075.0;7638055;178980.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PO;Tessili;kg;Toscana;14;14501313.0;14803010;301697.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PR;Aggregati riciclati;kg;Emilia Romagna;5;162166667.0;165336667;3170000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PR;Altro;kg;Emilia Romagna;23;8913509.0;9112800;199291.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PR;Carta e cartone;kg;Emilia Romagna;10;61275506.0;63562141;2286635.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PR;Gomma;kg;Emilia Romagna;15;3240.0;3500;260.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PR;Granulato di Conglomerato bituminoso;kg;Emilia Romagna;20;28676540.0;33460740;4784200.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PR;Legno e sughero;kg;Emilia Romagna;12;512072.0;529344;17272.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PR;Plastica;kg;Emilia Romagna;11;5144044.0;5485101;341057.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PR;Rottami di alluminio;kg;Emilia Romagna;6;451733.0;454103;2370.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PR;Rottami di ferro e acciaio;kg;Emilia Romagna;8;84201821.0;88032223;3830402.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PR;Rottami di rame;kg;Emilia Romagna;9;133995.0;134735;740.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PR;Tessili;kg;Emilia Romagna;14;413652.0;450766;37114.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PT;Aggregati riciclati;kg;Toscana;5;135936812.0;142906272;6969460.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PT;Carta e cartone;kg;Toscana;10;16185514.0;16718034;532520.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PT;Granulato di Conglomerato bituminoso;kg;Toscana;20;77614005.0;79862405;2248400.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PT;Legno e sughero;kg;Toscana;12;451459.0;492577;41118.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PT;Rottami di ferro e acciaio;kg;Toscana;8;5973210.0;6109510;136300.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PU;Aggregati riciclati;kg;Marche;5;50483038.0;52054038;1571000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PU;Altro;kg;Marche;23;4629884.0;4783954;154070.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PU;Ammendante compostato verde;kg;Marche;1;1373680.0;1436710;63030.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PU;Carta e cartone;kg;Marche;10;11379880.0;12495480;1115600.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PU;Legno e sughero;kg;Marche;12;1103350.0;1251610;148260.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PU;Plastica;kg;Marche;11;431327.0;432317;990.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PU;Rottami di alluminio;kg;Marche;6;1560652.0;1615772;55120.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PU;Rottami di ferro e acciaio;kg;Marche;8;30602763.0;33242922;2640159.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PU;Rottami di rame;kg;Marche;9;13194.0;16148;2954.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PV;Aggregati riciclati;kg;Lombardia;5;800192158.0;826128368;25936210.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PV;Altri Fertilizzanti;kg;Lombardia;19;6055000.0;7645000;1590000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PV;Altro;kg;Lombardia;23;146200669.0;151382849;5182180.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PV;CSS – combustibile;kg;Lombardia;13;0.0;25920;25920.0;riga nuova
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PV;Carta e cartone;kg;Lombardia;10;6369862.0;6844622;474760.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PV;Correttivi da Fanghi;kg;Lombardia;18;194978230.0;204739130;9760900.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PV;Granulato di Conglomerato bituminoso;kg;Lombardia;20;50542310.0;52767310;2225000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PV;Legno e sughero;kg;Lombardia;12;1753662.0;1786972;33310.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PV;Plastica;kg;Lombardia;11;24381803.0;25879211;1497408.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PV;Rottami di alluminio;kg;Lombardia;6;483666.0;486666;3000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PV;Rottami di ferro e acciaio;kg;Lombardia;8;16004854.0;16620564;615710.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PV;Rottami di rame;kg;Lombardia;9;65095.0;69095;4000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PZ;Aggregati riciclati;kg;Basilicata;5;93481137.0;94974287;1493150.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PZ;Altro;kg;Basilicata;23;114749.0;138529;23780.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PZ;CSS – combustibile;kg;Basilicata;13;8806265.0;9136567;330302.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PZ;Carta e cartone;kg;Basilicata;10;4279018.0;4327354;48336.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PZ;Gomma vulcanizzata da PFU;kg;Basilicata;22;7942931.0;8399464;456533.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PZ;Plastica;kg;Basilicata;11;1971729.0;2260929;289200.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PZ;Rottami di alluminio;kg;Basilicata;6;2352992.0;2568952;215960.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;PZ;Rottami di ferro e acciaio;kg;Basilicata;8;210522309.0;229365960;18843651.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RA;Aggregati riciclati;kg;Emilia Romagna;5;217311529.0;261722367;44410838.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RA;Altri Ammendanti;kg;Emilia Romagna;3;22891190.0;23197090;305900.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RA;Altro;kg;Emilia Romagna;23;86664373.0;90557771;3893398.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RA;Ammendante compostato misto;kg;Emilia Romagna;2;4537900.0;9739200;5201300.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RA;Ammendante compostato verde;kg;Emilia Romagna;1;7651060.0;8676460;1025400.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RA;CSS – combustibile;kg;Emilia Romagna;13;18830500.0;22812500;3982000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RA;Carta e cartone;kg;Emilia Romagna;10;24965590.0;25560170;594580.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RA;Granulato di Conglomerato bituminoso;kg;Emilia Romagna;20;4316540.0;5006100;689560.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RA;Plastica;kg;Emilia Romagna;11;1222976.0;1258776;35800.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RA;Rottami di ferro e acciaio;kg;Emilia Romagna;8;31674442.0;32380582;706140.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RA;Rottami di rame;kg;Emilia Romagna;9;2138007.0;2346824;208817.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RC;Aggregati riciclati;kg;Calabria;5;111974967.0;114494967;2520000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RC;Ammendante compostato misto;kg;Calabria;2;13764651.0;14464651;700000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RC;Carta e cartone;kg;Calabria;10;3142957.0;3469897;326940.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RE;Aggregati riciclati;kg;Emilia Romagna;5;160904351.0;168614571;7710220.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RE;Altri Ammendanti;kg;Emilia Romagna;3;22045430.0;25836810;3791380.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RE;Altro;kg;Emilia Romagna;23;15021172.0;15833752;812580.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RE;Ammendante compostato misto;kg;Emilia Romagna;2;5777800.0;5888900;111100.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RE;Carta e cartone;kg;Emilia Romagna;10;18089280.0;19533538;1444258.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RE;Legno e sughero;kg;Emilia Romagna;12;32720270.0;37300270;4580000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RE;Materiali ceramici;kg;Emilia Romagna;17;14641670.0;15745090;1103420.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RE;Plastica;kg;Emilia Romagna;11;3361948.0;3396504;34556.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RE;Rottami di alluminio;kg;Emilia Romagna;6;641609.0;641909;300.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RE;Rottami di ferro e acciaio;kg;Emilia Romagna;8;41746808.0;44154328;2407520.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RG;Aggregati riciclati;kg;Sicilia;5;166520071.0;167689251;1169180.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RG;Altro;kg;Sicilia;23;483797.0;490742;6945.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RG;Ammendante compostato misto;kg;Sicilia;2;3309605.0;3345105;35500.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RG;Granulato di Conglomerato bituminoso;kg;Sicilia;20;4240385.0;5610365;1369980.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RG;Plastica;kg;Sicilia;11;23670496.0;26534045;2863549.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RI;Aggregati riciclati;kg;Lazio;5;87841982.0;92190536;4348554.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RI;Altro;kg;Lazio;23;9500316.0;9509756;9440.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RM;Aggregati riciclati;kg;Lazio;5;187779945.0;275099945;87320000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RM;Altro;kg;Lazio;23;23727763.0;25247939;1520176.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RM;Ammendante compostato misto;kg;Lazio;2;3010710.0;3810710;800000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RM;CSS – combustibile;kg;Lazio;13;16935840.0;18885840;1950000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RM;Carta e cartone;kg;Lazio;10;179099128.0;189179066;10079938.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RM;Granulato di Conglomerato bituminoso;kg;Lazio;20;287810021.0;289810021;2000000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RM;Legno e sughero;kg;Lazio;12;123510.0;132010;8500.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RM;Plastica;kg;Lazio;11;3274352.0;3305322;30970.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RM;Rottami di alluminio;kg;Lazio;6;7794135.0;7808005;13870.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RM;Rottami di ferro e acciaio;kg;Lazio;8;113712495.0;121794938;8082443.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RM;Rottami di rame;kg;Lazio;9;1450539.0;2222939;772400.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RM;Tessili;kg;Lazio;14;733029.0;771633;38604.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RN;Aggregati riciclati;kg;Emilia Romagna;5;385579242.0;418129334;32550092.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RN;Altro;kg;Emilia Romagna;23;19846762.0;25667686;5820924.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RN;Carta e cartone;kg;Emilia Romagna;10;18915110.0;19938270;1023160.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RN;Granulato di Conglomerato bituminoso;kg;Emilia Romagna;20;100119283.0;101501043;1381760.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RN;Rottami di alluminio;kg;Emilia Romagna;6;962533.0;1019328;56795.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RN;Rottami di ferro e acciaio;kg;Emilia Romagna;8;22792720.0;24273540;1480820.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RN;Rottami di rame;kg;Emilia Romagna;9;84015.0;100460;16445.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RO;Aggregati riciclati;kg;Veneto;5;155828610.0;161743442;5914832.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RO;Carta e cartone;kg;Veneto;10;24333430.0;25512870;1179440.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RO;Granulato di Conglomerato bituminoso;kg;Veneto;20;84614950.0;90597660;5982710.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RO;Plastica;kg;Veneto;11;17298228.0;18424421;1126193.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RO;Rottami di alluminio;kg;Veneto;6;20600.0;24364;3764.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RO;Rottami di ferro e acciaio;kg;Veneto;8;6658418.0;7263985;605567.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RO;Rottami di rame;kg;Veneto;9;20574.0;24192;3618.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;RO;Rottami di vetro;kg;Veneto;7;180310.0;203160;22850.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;SA;Aggregati riciclati;kg;Campania;5;765628091.0;788488384;22860293.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;SA;Altro;kg;Campania;23;28203482.0;29912198;1708716.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;SA;CSS – combustibile;kg;Campania;13;11610000.0;12690000;1080000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;SA;Carta e cartone;kg;Campania;10;102078084.0;103569650;1491566.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;SA;Granulato di Conglomerato bituminoso;kg;Campania;20;12433320.0;12613010;179690.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;SA;Plastica;kg;Campania;11;17911740.0;19733681;1821941.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;SA;Rottami di alluminio;kg;Campania;6;1296181.0;1325841;29660.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;SA;Rottami di ferro e acciaio;kg;Campania;8;91474752.0;95745082;4270330.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;SA;Rottami di rame;kg;Campania;9;402305.0;404055;1750.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;SA;Rottami di vetro;kg;Campania;7;8751540.0;9317640;566100.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;SI;Aggregati riciclati;kg;Toscana;5;196088982.0;197905832;1816850.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;SI;Ammendante compostato misto;kg;Toscana;2;4808647.0;5197887;389240.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;SI;Carta e cartone;kg;Toscana;10;12477569.0;12886143;408574.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;SI;Plastica;kg;Toscana;11;23265.0;25070;1805.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;SI;Rottami di ferro e acciaio;kg;Toscana;8;6625861.0;7091088;465227.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;SI;Rottami di rame;kg;Toscana;9;42955.0;45548;2593.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;SO;Aggregati riciclati;kg;Lombardia;5;229503575.0;267126375;37622800.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;SO;Altro;kg;Lombardia;23;49303707.0;49304738;1031.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;SO;Carta e cartone;kg;Lombardia;10;1599590.0;1779050;179460.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;SO;Rottami di ferro e acciaio;kg;Lombardia;8;7124415.0;7446230;321815.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;SP;Aggregati riciclati;kg;Liguria;5;296410900.0;333174860;36763960.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;SP;Carta e cartone;kg;Liguria;10;7994168.0;9743382;1749214.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;SP;Rottami di ferro e acciaio;kg;Liguria;8;12925552.0;13443092;517540.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;SR;Aggregati riciclati;kg;Sicilia;5;73339050.0;74101430;762380.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;SR;Altri Ammendanti;kg;Sicilia;3;17153285.0;17953175;799890.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;SR;Altro;kg;Sicilia;23;7216140.0;7391860;175720.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;SR;Carta e cartone;kg;Sicilia;10;17140380.0;20010660;2870280.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;SR;Rottami di alluminio;kg;Sicilia;6;115040.0;115215;175.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;SR;Rottami di ferro e acciaio;kg;Sicilia;8;26423015.0;29639167;3216152.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;SS;Aggregati riciclati;kg;Sardegna;5;54636190.0;63685466;9049276.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;SS;Altro;kg;Sardegna;23;6446242.0;6664462;218220.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;SS;Carta e cartone;kg;Sardegna;10;19343650.0;21057490;1713840.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;SS;Rottami di alluminio;kg;Sardegna;6;50870.0;52230;1360.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;SS;Rottami di ferro e acciaio;kg;Sardegna;8;7245846.0;7656226;410380.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;SU;Aggregati riciclati;kg;Sardegna;5;66388467.0;69749467;3361000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;SU;Altro;kg;Sardegna;23;2111219.0;2194296;83077.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;SV;Aggregati riciclati;kg;Liguria;5;27868462.0;28032042;163580.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;SV;Altro;kg;Liguria;23;61736268.0;63048701;1312433.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;SV;Ammendante compostato misto;kg;Liguria;2;2603400.0;2857960;254560.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;SV;Ammendante compostato verde;kg;Liguria;1;2754790.0;3011110;256320.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;SV;Carta e cartone;kg;Liguria;10;20735965.0;21245465;509500.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;SV;Legno e sughero;kg;Liguria;12;884958.0;912258;27300.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;SV;Rottami di alluminio;kg;Liguria;6;1397672.0;1480792;83120.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;SV;Rottami di ferro e acciaio;kg;Liguria;8;23308921.0;25245441;1936520.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TA;Aggregati riciclati;kg;Puglia;5;140159039.0;146856849;6697810.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TA;Altri Ammendanti;kg;Puglia;3;9200000.0;10600000;1400000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TA;Ammendante compostato misto;kg;Puglia;2;8155380.0;8242400;87020.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TA;Carta e cartone;kg;Puglia;10;20556953.0;24207053;3650100.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TA;Plastica;kg;Puglia;11;23802756.0;25261389;1458633.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TA;Rottami di ferro e acciaio;kg;Puglia;8;15149384.0;15466384;317000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TA;Rottami di rame;kg;Puglia;9;19990.0;23490;3500.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TE;Aggregati riciclati;kg;Abruzzo;5;158251830.0;174219882;15968052.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TE;Altro;kg;Abruzzo;23;10306091.0;11333114;1027023.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TE;Carta e cartone;kg;Abruzzo;10;19159512.0;23057302;3897790.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TE;Granulato di Conglomerato bituminoso;kg;Abruzzo;20;27749810.0;32414220;4664410.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TE;Legno e sughero;kg;Abruzzo;12;9987028.0;12434808;2447780.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TE;Plastica;kg;Abruzzo;11;25620964.0;27373299;1752335.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TE;Rottami di alluminio;kg;Abruzzo;6;1324181.0;1404726;80545.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TE;Rottami di ferro e acciaio;kg;Abruzzo;8;45262292.0;47553212;2290920.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TE;Rottami di rame;kg;Abruzzo;9;214344.0;217802;3458.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TE;Rottami di vetro;kg;Abruzzo;7;240040.0;280350;40310.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TN;Aggregati riciclati;kg;Trentino Alto Adige;5;574816696.0;611635346;36818650.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TN;Altro;kg;Trentino Alto Adige;23;9965825.0;10243316;277491.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TN;Ammendante compostato misto;kg;Trentino Alto Adige;2;20588501.0;21213281;624780.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TN;Carta e cartone;kg;Trentino Alto Adige;10;71555503.0;78909907;7354404.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TN;Granulato di Conglomerato bituminoso;kg;Trentino Alto Adige;20;132459910.0;141009910;8550000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TN;Legno e sughero;kg;Trentino Alto Adige;12;6202378.0;6688138;485760.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TN;Plastica;kg;Trentino Alto Adige;11;3264281.0;3446085;181804.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TN;Rottami di alluminio;kg;Trentino Alto Adige;6;461061.0;473271;12210.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TN;Rottami di ferro e acciaio;kg;Trentino Alto Adige;8;129891813.0;135756403;5864590.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TN;Tessili;kg;Trentino Alto Adige;14;760993.0;847657;86664.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TO;Aggregati riciclati;kg;Piemonte;5;1209003438.0;1245209548;36206110.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TO;Altri Ammendanti;kg;Piemonte;3;2670350.0;3013870;343520.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TO;Altro;kg;Piemonte;23;25665840.0;26638840;973000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TO;Ammendante compostato verde;kg;Piemonte;1;8615415.0;9204415;589000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TO;Carta e cartone;kg;Piemonte;10;109839823.0;118729419;8889596.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TO;Gomma;kg;Piemonte;15;1225555.0;1259555;34000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TO;Gomma vulcanizzata da PFU;kg;Piemonte;22;3749374.0;3809374;60000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TO;Granulato di Conglomerato bituminoso;kg;Piemonte;20;318223074.0;320689246;2466172.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TO;Legno e sughero;kg;Piemonte;12;13062466.0;14167273;1104807.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TO;Plastica;kg;Piemonte;11;20489380.0;22782004;2292624.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TO;Rottami di alluminio;kg;Piemonte;6;6246242.0;14262190;8015948.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TO;Rottami di ferro e acciaio;kg;Piemonte;8;322320202.0;339178483;16858281.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TO;Rottami di rame;kg;Piemonte;9;5750352.0;5988441;238089.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TP;Aggregati riciclati;kg;Sicilia;5;152043318.0;158167918;6124600.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TP;Altro;kg;Sicilia;23;7538287.0;7718126;179839.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TP;Ammendante compostato misto;kg;Sicilia;2;4732000.0;5604000;872000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TP;Carta e cartone;kg;Sicilia;10;8390305.0;8791757;401452.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TR;Aggregati riciclati;kg;Umbria;5;291755819.0;320777576;29021757.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TR;Altro;kg;Umbria;23;11762855.0;12326857;564002.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TR;Ammendante compostato misto;kg;Umbria;2;3429380.0;3741500;312120.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TR;Carta e cartone;kg;Umbria;10;13270430.0;13982810;712380.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TR;Gomma vulcanizzata da PFU;kg;Umbria;22;1833383.0;2000560;167177.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TR;Plastica;kg;Umbria;11;14318214.0;15008450;690236.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TR;Rottami di alluminio;kg;Umbria;6;634799.0;637800;3001.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TR;Rottami di ferro e acciaio;kg;Umbria;8;23531568.0;24470800;939232.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TR;Rottami di rame;kg;Umbria;9;313.0;2064;1751.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TS;Ammendante compostato misto;kg;Friuli Venezia Giulia;2;20240.0;40300;20060.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TS;Carta e cartone;kg;Friuli Venezia Giulia;10;9967055.0;10924055;957000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TV;Aggregati riciclati;kg;Veneto;5;679314450.0;723783337;44468887.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TV;Altro;kg;Veneto;23;70313386.0;75126363;4812977.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TV;Ammendante compostato verde;kg;Veneto;1;408112.0;506944;98832.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TV;Carta e cartone;kg;Veneto;10;147505402.0;160436005;12930603.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TV;Gomma vulcanizzata da PFU;kg;Veneto;22;3836503.0;3897916;61413.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TV;Granulato di Conglomerato bituminoso;kg;Veneto;20;148581776.0;165529876;16948100.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TV;Legno e sughero;kg;Veneto;12;5062154.0;5331914;269760.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TV;Plastica;kg;Veneto;11;53490984.0;53551137;60153.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TV;Rottami di alluminio;kg;Veneto;6;3209169.0;3227139;17970.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TV;Rottami di ferro e acciaio;kg;Veneto;8;248031656.0;252759063;4727407.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;TV;Rottami di rame;kg;Veneto;9;837129.0;865899;28770.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;UD;Aggregati riciclati;kg;Friuli Venezia Giulia;5;9333676353.0;9370541733;36865380.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;UD;Altro;kg;Friuli Venezia Giulia;23;4413905.0;4426161;12256.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;UD;Carta e cartone;kg;Friuli Venezia Giulia;10;26247690.0;29197180;2949490.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;UD;Granulato di Conglomerato bituminoso;kg;Friuli Venezia Giulia;20;57931120.0;71637036;13705916.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;UD;Legno e sughero;kg;Friuli Venezia Giulia;12;15334861.0;16074431;739570.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;UD;Plastica;kg;Friuli Venezia Giulia;11;22318918.0;24387348;2068430.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;UD;Rottami di ferro e acciaio;kg;Friuli Venezia Giulia;8;1324614957.0;1463036532;138421575.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;UD;Rottami di rame;kg;Friuli Venezia Giulia;9;676813.0;728233;51420.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VA;Aggregati riciclati;kg;Lombardia;5;319594896.0;324621046;5026150.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VA;Altro;kg;Lombardia;23;60537845.0;61210880;673035.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VA;Carta e cartone;kg;Lombardia;10;43068933.0;45911563;2842630.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VA;Granulato di Conglomerato bituminoso;kg;Lombardia;20;26962760.0;30174420;3211660.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VA;Legno e sughero;kg;Lombardia;12;3979045.0;4343675;364630.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VA;Plastica;kg;Lombardia;11;36159781.0;36894844;735063.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VA;Rottami di alluminio;kg;Lombardia;6;5998173.0;6010879;12706.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VA;Rottami di ferro e acciaio;kg;Lombardia;8;57469014.0;58597999;1128985.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VA;Rottami di rame;kg;Lombardia;9;1776968.0;1948256;171288.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VA;Rottami di vetro;kg;Lombardia;7;359091307.0;396672233;37580926.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VA;Tessili;kg;Lombardia;14;372474.0;435806;63332.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VB;Aggregati riciclati;kg;Piemonte;5;39468700.0;40246100;777400.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VB;Carta e cartone;kg;Piemonte;10;7223924.0;8126744;902820.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VB;Rottami di alluminio;kg;Piemonte;6;33285428.0;35228467;1943039.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VB;Rottami di ferro e acciaio;kg;Piemonte;8;46564082.0;47101432;537350.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VC;Aggregati riciclati;kg;Piemonte;5;292982354.0;400317594;107335240.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VC;Altro;kg;Piemonte;23;47798874.0;49195533;1396659.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VC;Carta e cartone;kg;Piemonte;10;25642453.0;28509170;2866717.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VC;Legno e sughero;kg;Piemonte;12;617825.0;712125;94300.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VC;Rottami di alluminio;kg;Piemonte;6;13469.0;14492;1023.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VC;Rottami di ferro e acciaio;kg;Piemonte;8;1234631.0;1243694;9063.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VE;Aggregati riciclati;kg;Veneto;5;238722001.0;256581663;17859662.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VE;Altro;kg;Veneto;23;51550915.0;56676975;5126060.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VE;Ammendante compostato verde;kg;Veneto;1;4781879.0;5433879;652000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VE;CSS – combustibile;kg;Veneto;13;2533840.0;2673780;139940.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VE;Carta e cartone;kg;Veneto;10;75909495.0;84796515;8887020.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VE;Granulato di Conglomerato bituminoso;kg;Veneto;20;27825130.0;32938750;5113620.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VE;Legno e sughero;kg;Veneto;12;4579385.0;4858725;279340.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VE;Plastica;kg;Veneto;11;8745602.0;9505442;759840.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VE;Rottami di alluminio;kg;Veneto;6;3680325.0;3724337;44012.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VE;Rottami di ferro e acciaio;kg;Veneto;8;115495846.0;119379726;3883880.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VE;Rottami di rame;kg;Veneto;9;1930371.0;1984241;53870.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VE;Tessili;kg;Veneto;14;353842.0;374566;20724.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VI;Aggregati riciclati;kg;Veneto;5;573364974.0;607487811;34122837.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VI;Altri Fertilizzanti;kg;Veneto;19;16405550.0;17718850;1313300.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VI;Altro;kg;Veneto;23;92930456.0;98083112;5152656.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VI;Ammendante compostato verde;kg;Veneto;1;4278070.0;4940206;662136.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VI;Carta e cartone;kg;Veneto;10;80569171.0;82808562;2239391.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VI;Granulato di Conglomerato bituminoso;kg;Veneto;20;96398880.0;102053880;5655000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VI;Legno e sughero;kg;Veneto;12;26640435.0;27058146;417711.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VI;Plastica;kg;Veneto;11;31155791.0;32689015;1533224.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VI;Rottami di alluminio;kg;Veneto;6;5650980.0;5901810;250830.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VI;Rottami di ferro e acciaio;kg;Veneto;8;158970963.0;168185335;9214372.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VI;Rottami di rame;kg;Veneto;9;5263033.0;5381685;118652.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VI;Tessili;kg;Veneto;14;285827.0;319570;33743.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VR;Aggregati riciclati;kg;Veneto;5;6571659581.0;6628881541;57221960.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VR;Altri Ammendanti;kg;Veneto;3;95133880.0;95397010;263130.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VR;Altro;kg;Veneto;23;165949991.0;169323221;3373230.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VR;Ammendante compostato misto;kg;Veneto;2;8782670.0;8824900;42230.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VR;Carta e cartone;kg;Veneto;10;106024822.0;117877561;11852739.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VR;Granulato di Conglomerato bituminoso;kg;Veneto;20;203983990.0;224540950;20556960.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VR;Legno e sughero;kg;Veneto;12;4803890.0;5061405;257515.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VR;Plastica;kg;Veneto;11;8297331.0;8848015;550684.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VR;Rottami di alluminio;kg;Veneto;6;3103772.0;3121447;17675.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VR;Rottami di ferro e acciaio;kg;Veneto;8;320100564.0;328842039;8741475.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VR;Rottami di rame;kg;Veneto;9;1588803.0;1614914;26111.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VT;Aggregati riciclati;kg;Lazio;5;160682867.0;160958747;275880.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VT;Altro;kg;Lazio;23;28460445.0;33462795;5002350.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VT;Ammendante compostato misto;kg;Lazio;2;8687826.0;9609826;922000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VT;Carta e cartone;kg;Lazio;10;20024761.0;21784675;1759914.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VT;Granulato di Conglomerato bituminoso;kg;Lazio;20;85432975.0;85457975;25000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VT;Rottami di alluminio;kg;Lazio;6;1257270.0;1258270;1000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VT;Rottami di ferro e acciaio;kg;Lazio;8;5016908.0;5169908;153000.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VT;Tessili;kg;Lazio;14;397896.0;446009;48113.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VV;Altro;kg;Calabria;23;115560.0;146060;30500.0;riga preesistente
+57;2026-09-18;2026-10-01;accumulo anno corrente;2026;VV;Carta e cartone;kg;Calabria;10;3335610.0;3899689;564079.0;riga preesistente

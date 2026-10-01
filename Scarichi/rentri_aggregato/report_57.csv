@@ -1,0 +1,2339 @@
+﻿Anno;Provincia produttore;Regione;Materiale;Materiale_ID;Quantita;Unita di misura
+2025;AG;Sicilia;Ammendante compostato verde;1;315230;kg
+2025;AG;Sicilia;Ammendante compostato misto;2;21436088;kg
+2025;AG;Sicilia;Aggregati riciclati;5;82857658;kg
+2025;AG;Sicilia;Rottami di ferro e acciaio;8;2173560;kg
+2025;AG;Sicilia;Carta e cartone;10;12628166;kg
+2025;AG;Sicilia;Plastica;11;8014;kg
+2025;AG;Sicilia;Tessili;14;161776;kg
+2025;AG;Sicilia;Altri Fertilizzanti;19;66420;kg
+2025;AG;Sicilia;Altro;23;2981936;kg
+2025;AL;Piemonte;Ammendante compostato misto;2;1266580;kg
+2025;AL;Piemonte;Aggregati riciclati;5;332199106;kg
+2025;AL;Piemonte;Rottami di alluminio;6;2468388;kg
+2025;AL;Piemonte;Rottami di ferro e acciaio;8;12956259;kg
+2025;AL;Piemonte;Rottami di rame;9;1271202;kg
+2025;AL;Piemonte;Carta e cartone;10;45468567;kg
+2025;AL;Piemonte;Plastica;11;10374802;kg
+2025;AL;Piemonte;Legno e sughero;12;2585274;kg
+2025;AL;Piemonte;CSS – combustibile;13;6551740;kg
+2025;AL;Piemonte;Tessili;14;59821;kg
+2025;AL;Piemonte;Granulato di Conglomerato bituminoso;20;98787153;kg
+2025;AL;Piemonte;Materiali secondari derivanti dal recupero di prodotti assorbenti per la persona;21;11816224;kg
+2025;AL;Piemonte;Altro;23;29586631;kg
+2025;AN;Marche;Ammendante compostato verde;1;1940585;kg
+2025;AN;Marche;Ammendante compostato misto;2;921160;kg
+2025;AN;Marche;Aggregati riciclati;5;271645474;kg
+2025;AN;Marche;Rottami di alluminio;6;1383080;kg
+2025;AN;Marche;Rottami di vetro;7;4900;kg
+2025;AN;Marche;Rottami di ferro e acciaio;8;84440968;kg
+2025;AN;Marche;Rottami di rame;9;37479;kg
+2025;AN;Marche;Carta e cartone;10;49611495;kg
+2025;AN;Marche;Plastica;11;1442824;kg
+2025;AN;Marche;Legno e sughero;12;5139170;kg
+2025;AN;Marche;CSS – combustibile;13;1680000;kg
+2025;AN;Marche;Gomma;15;2569087;kg
+2025;AN;Marche;Granulato di Conglomerato bituminoso;20;55156645;kg
+2025;AN;Marche;Altro;23;21590472;kg
+2025;AO;Valle d'Aosta;Ammendante compostato verde;1;88130;kg
+2025;AO;Valle d'Aosta;Aggregati riciclati;5;32221081;kg
+2025;AO;Valle d'Aosta;Rottami di alluminio;6;98270;kg
+2025;AO;Valle d'Aosta;Rottami di ferro e acciaio;8;7089389;kg
+2025;AO;Valle d'Aosta;Rottami di rame;9;7160;kg
+2025;AO;Valle d'Aosta;Carta e cartone;10;8982290;kg
+2025;AO;Valle d'Aosta;Granulato di Conglomerato bituminoso;20;128680;kg
+2025;AP;Marche;Aggregati riciclati;5;268711351;kg
+2025;AP;Marche;Rottami di alluminio;6;110327;kg
+2025;AP;Marche;Rottami di ferro e acciaio;8;25048957;kg
+2025;AP;Marche;Rottami di rame;9;23966;kg
+2025;AP;Marche;Carta e cartone;10;27133505;kg
+2025;AP;Marche;Plastica;11;919754;kg
+2025;AP;Marche;Legno e sughero;12;2561538;kg
+2025;AP;Marche;Gomma;15;1577810;kg
+2025;AP;Marche;Granulato di Conglomerato bituminoso;20;25651255;kg
+2025;AP;Marche;Altro;23;14188086;kg
+2025;AQ;Abruzzo;Aggregati riciclati;5;504657777;kg
+2025;AQ;Abruzzo;Rottami di ferro e acciaio;8;3233845;kg
+2025;AQ;Abruzzo;Rottami di rame;9;55685;kg
+2025;AQ;Abruzzo;Carta e cartone;10;5645260;kg
+2025;AQ;Abruzzo;Plastica;11;10728;kg
+2025;AQ;Abruzzo;Granulato di Conglomerato bituminoso;20;38620790;kg
+2025;AQ;Abruzzo;Altro;23;4098096;kg
+2025;AR;Toscana;Ammendante compostato misto;2;183000;kg
+2025;AR;Toscana;Aggregati riciclati;5;36826225;kg
+2025;AR;Toscana;Rottami di ferro e acciaio;8;14227218;kg
+2025;AR;Toscana;Rottami di rame;9;292200;kg
+2025;AR;Toscana;Carta e cartone;10;57435455;kg
+2025;AR;Toscana;Plastica;11;7915698;kg
+2025;AR;Toscana;Legno e sughero;12;5795680;kg
+2025;AR;Toscana;Tessili;14;209020;kg
+2025;AR;Toscana;Granulato di Conglomerato bituminoso;20;52493198;kg
+2025;AR;Toscana;Altro;23;13755;kg
+2025;AT;Piemonte;Aggregati riciclati;5;173814777;kg
+2025;AT;Piemonte;Rottami di alluminio;6;30320;kg
+2025;AT;Piemonte;Rottami di ferro e acciaio;8;71954630;kg
+2025;AT;Piemonte;Rottami di rame;9;340;kg
+2025;AT;Piemonte;Carta e cartone;10;12209940;kg
+2025;AT;Piemonte;Plastica;11;175740;kg
+2025;AT;Piemonte;Correttivi da Fanghi;18;16308160;kg
+2025;AT;Piemonte;Altro;23;44084821;kg
+2025;AV;Campania;Ammendante compostato misto;2;488654;kg
+2025;AV;Campania;Aggregati riciclati;5;501706210;kg
+2025;AV;Campania;Rottami di alluminio;6;262214;kg
+2025;AV;Campania;Rottami di ferro e acciaio;8;24578322;kg
+2025;AV;Campania;Rottami di rame;9;24144;kg
+2025;AV;Campania;Carta e cartone;10;10522703;kg
+2025;AV;Campania;Plastica;11;12956200;kg
+2025;AV;Campania;Legno e sughero;12;78770;kg
+2025;AV;Campania;Tessili;14;11491;kg
+2025;AV;Campania;Gomma;15;1180000;kg
+2025;AV;Campania;Granulato di Conglomerato bituminoso;20;60985670;kg
+2025;AV;Campania;Materiali secondari derivanti dal recupero di prodotti assorbenti per la persona;21;227440;kg
+2025;AV;Campania;Altro;23;59224701;kg
+2025;BA;Puglia;Aggregati riciclati;5;1090894768;kg
+2025;BA;Puglia;Rottami di alluminio;6;4944948;kg
+2025;BA;Puglia;Rottami di ferro e acciaio;8;77759008;kg
+2025;BA;Puglia;Rottami di rame;9;947283;kg
+2025;BA;Puglia;Carta e cartone;10;47001278;kg
+2025;BA;Puglia;Plastica;11;13627238;kg
+2025;BA;Puglia;Legno e sughero;12;20418950;kg
+2025;BA;Puglia;Granulato di Conglomerato bituminoso;20;36799090;kg
+2025;BA;Puglia;Materiali secondari derivanti dal recupero di prodotti assorbenti per la persona;21;334940;kg
+2025;BA;Puglia;Gomma vulcanizzata da PFU;22;29850183;kg
+2025;BA;Puglia;Altro;23;29990676;kg
+2025;BG;Lombardia;Ammendante compostato verde;1;12101714;kg
+2025;BG;Lombardia;Ammendante compostato misto;2;126691460;kg
+2025;BG;Lombardia;Altri Ammendanti;3;80697000;kg
+2025;BG;Lombardia;Aggregati riciclati;5;1676532426;kg
+2025;BG;Lombardia;Rottami di alluminio;6;47408222;kg
+2025;BG;Lombardia;Rottami di vetro;7;15177760;kg
+2025;BG;Lombardia;Rottami di ferro e acciaio;8;585243827;kg
+2025;BG;Lombardia;Rottami di rame;9;7082750;kg
+2025;BG;Lombardia;Carta e cartone;10;100572168;kg
+2025;BG;Lombardia;Plastica;11;119199228;kg
+2025;BG;Lombardia;Legno e sughero;12;1108116;kg
+2025;BG;Lombardia;Tessili;14;1558182;kg
+2025;BG;Lombardia;Granulato di Conglomerato bituminoso;20;214612680;kg
+2025;BG;Lombardia;Gomma vulcanizzata da PFU;22;3970608;kg
+2025;BG;Lombardia;Altro;23;390940761;kg
+2025;BI;Piemonte;Ammendante compostato verde;1;171450;kg
+2025;BI;Piemonte;Ammendante compostato misto;2;340;kg
+2025;BI;Piemonte;Aggregati riciclati;5;353850475;kg
+2025;BI;Piemonte;Rottami di alluminio;6;110135;kg
+2025;BI;Piemonte;Rottami di vetro;7;28358668;kg
+2025;BI;Piemonte;Rottami di ferro e acciaio;8;11452950;kg
+2025;BI;Piemonte;Rottami di rame;9;5560;kg
+2025;BI;Piemonte;Carta e cartone;10;17868850;kg
+2025;BI;Piemonte;Plastica;11;0;
+2025;BI;Piemonte;Plastica;11;4362937;kg
+2025;BI;Piemonte;Legno e sughero;12;567515;kg
+2025;BI;Piemonte;CSS – combustibile;13;2304200;kg
+2025;BI;Piemonte;Materiali ceramici;17;2027490;kg
+2025;BI;Piemonte;Granulato di Conglomerato bituminoso;20;154520540;kg
+2025;BI;Piemonte;Altro;23;12304879;kg
+2025;BL;Veneto;Digestato;4;600000;kg
+2025;BL;Veneto;Aggregati riciclati;5;181073821;kg
+2025;BL;Veneto;Rottami di alluminio;6;1318071;kg
+2025;BL;Veneto;Rottami di ferro e acciaio;8;5169042;kg
+2025;BL;Veneto;Rottami di rame;9;410126;kg
+2025;BL;Veneto;Carta e cartone;10;1998660;kg
+2025;BL;Veneto;Plastica;11;413302;kg
+2025;BL;Veneto;Legno e sughero;12;3626;kg
+2025;BL;Veneto;Granulato di Conglomerato bituminoso;20;1136395;kg
+2025;BL;Veneto;Altro;23;2421103;kg
+2025;BN;Campania;Ammendante compostato misto;2;1169860;kg
+2025;BN;Campania;Digestato;4;293230;kg
+2025;BN;Campania;Aggregati riciclati;5;153180035;kg
+2025;BN;Campania;Rottami di ferro e acciaio;8;15791195;kg
+2025;BN;Campania;Rottami di rame;9;2285;kg
+2025;BN;Campania;Carta e cartone;10;11627388;kg
+2025;BN;Campania;Plastica;11;2513749;kg
+2025;BN;Campania;Tessili;14;3490644;kg
+2025;BN;Campania;Granulato di Conglomerato bituminoso;20;12409346;kg
+2025;BN;Campania;Altro;23;64347330;kg
+2025;BO;Emilia Romagna;Ammendante compostato verde;1;5395910;kg
+2025;BO;Emilia Romagna;Ammendante compostato misto;2;15268390;kg
+2025;BO;Emilia Romagna;Altri Ammendanti;3;798810;kg
+2025;BO;Emilia Romagna;Aggregati riciclati;5;953338568;kg
+2025;BO;Emilia Romagna;Rottami di alluminio;6;8367704;kg
+2025;BO;Emilia Romagna;Rottami di vetro;7;200240;kg
+2025;BO;Emilia Romagna;Rottami di ferro e acciaio;8;200386581;kg
+2025;BO;Emilia Romagna;Rottami di rame;9;6306629;kg
+2025;BO;Emilia Romagna;Carta e cartone;10;115915277;kg
+2025;BO;Emilia Romagna;Plastica;11;3870409;kg
+2025;BO;Emilia Romagna;Legno e sughero;12;10121073;kg
+2025;BO;Emilia Romagna;CSS – combustibile;13;2000000;kg
+2025;BO;Emilia Romagna;Tessili;14;1075918;kg
+2025;BO;Emilia Romagna;Granulato di Conglomerato bituminoso;20;109512329;kg
+2025;BO;Emilia Romagna;Gomma vulcanizzata da PFU;22;730881;kg
+2025;BO;Emilia Romagna;Altro;23;152397250;kg
+2025;BR;Puglia;Ammendante compostato misto;2;11281590;kg
+2025;BR;Puglia;Altri Ammendanti;3;64300;kg
+2025;BR;Puglia;Aggregati riciclati;5;405404384;kg
+2025;BR;Puglia;Rottami di alluminio;6;269090;kg
+2025;BR;Puglia;Rottami di ferro e acciaio;8;30776141;kg
+2025;BR;Puglia;Rottami di rame;9;6590;kg
+2025;BR;Puglia;Carta e cartone;10;2995580;kg
+2025;BR;Puglia;Plastica;11;723490;kg
+2025;BR;Puglia;Legno e sughero;12;50510;kg
+2025;BR;Puglia;Tessili;14;75517;kg
+2025;BR;Puglia;Granulato di Conglomerato bituminoso;20;1861860;kg
+2025;BR;Puglia;Altro;23;14406286;kg
+2025;BS;Lombardia;Ammendante compostato verde;1;62442775;kg
+2025;BS;Lombardia;Aggregati riciclati;5;2760538896;kg
+2025;BS;Lombardia;Rottami di alluminio;6;0;
+2025;BS;Lombardia;Rottami di alluminio;6;264308301;kg
+2025;BS;Lombardia;Rottami di vetro;7;61867810;kg
+2025;BS;Lombardia;Rottami di ferro e acciaio;8;0;
+2025;BS;Lombardia;Rottami di ferro e acciaio;8;840077274;kg
+2025;BS;Lombardia;Rottami di rame;9;0;
+2025;BS;Lombardia;Rottami di rame;9;32888376;kg
+2025;BS;Lombardia;Carta e cartone;10;105613307;kg
+2025;BS;Lombardia;Plastica;11;49556055;kg
+2025;BS;Lombardia;Legno e sughero;12;11571727;kg
+2025;BS;Lombardia;CSS – combustibile;13;15449400;kg
+2025;BS;Lombardia;Tessili;14;398875;kg
+2025;BS;Lombardia;Gomma;15;378800;kg
+2025;BS;Lombardia;Granulato di Conglomerato bituminoso;20;212264902;kg
+2025;BS;Lombardia;Gomma vulcanizzata da PFU;22;12187860;kg
+2025;BS;Lombardia;Altro;23;0;
+2025;BS;Lombardia;Altro;23;992945039;kg
+2025;BT;Puglia;Altri Ammendanti;3;129000;kg
+2025;BT;Puglia;Aggregati riciclati;5;112080820;kg
+2025;BT;Puglia;Rottami di alluminio;6;1319492;kg
+2025;BT;Puglia;Rottami di ferro e acciaio;8;16206004;kg
+2025;BT;Puglia;Rottami di rame;9;1459364;kg
+2025;BT;Puglia;Carta e cartone;10;23341916;kg
+2025;BT;Puglia;Plastica;11;6990183;kg
+2025;BT;Puglia;CSS – combustibile;13;38953710;kg
+2025;BT;Puglia;Tessili;14;1825089;kg
+2025;BT;Puglia;Granulato di Conglomerato bituminoso;20;16623870;kg
+2025;BT;Puglia;Materiali secondari derivanti dal recupero di prodotti assorbenti per la persona;21;6482;kg
+2025;BT;Puglia;Altro;23;4317683;kg
+2025;BZ;Trentino Alto Adige;Ammendante compostato verde;1;0;
+2025;BZ;Trentino Alto Adige;Ammendante compostato verde;1;1445225;kg
+2025;BZ;Trentino Alto Adige;Ammendante compostato misto;2;0;
+2025;BZ;Trentino Alto Adige;Ammendante compostato misto;2;4697270;kg
+2025;BZ;Trentino Alto Adige;Altri Ammendanti;3;52800;kg
+2025;BZ;Trentino Alto Adige;Digestato;4;100000;kg
+2025;BZ;Trentino Alto Adige;Aggregati riciclati;5;0;
+2025;BZ;Trentino Alto Adige;Aggregati riciclati;5;950868638;kg
+2025;BZ;Trentino Alto Adige;Rottami di alluminio;6;202621;kg
+2025;BZ;Trentino Alto Adige;Rottami di vetro;7;236850;kg
+2025;BZ;Trentino Alto Adige;Rottami di ferro e acciaio;8;0;
+2025;BZ;Trentino Alto Adige;Rottami di ferro e acciaio;8;32579299;kg
+2025;BZ;Trentino Alto Adige;Rottami di rame;9;102030;kg
+2025;BZ;Trentino Alto Adige;Carta e cartone;10;0;
+2025;BZ;Trentino Alto Adige;Carta e cartone;10;28971021;kg
+2025;BZ;Trentino Alto Adige;Plastica;11;0;
+2025;BZ;Trentino Alto Adige;Plastica;11;3560826;kg
+2025;BZ;Trentino Alto Adige;Legno e sughero;12;0;
+2025;BZ;Trentino Alto Adige;Legno e sughero;12;7994001;kg
+2025;BZ;Trentino Alto Adige;CSS – combustibile;13;16780;kg
+2025;BZ;Trentino Alto Adige;Gomma;15;0;
+2025;BZ;Trentino Alto Adige;Gomma;15;5064534;kg
+2025;BZ;Trentino Alto Adige;Granulato di Conglomerato bituminoso;20;0;
+2025;BZ;Trentino Alto Adige;Granulato di Conglomerato bituminoso;20;20465736;kg
+2025;BZ;Trentino Alto Adige;Materiali secondari derivanti dal recupero di prodotti assorbenti per la persona;21;0;
+2025;BZ;Trentino Alto Adige;Materiali secondari derivanti dal recupero di prodotti assorbenti per la persona;21;70970;kg
+2025;BZ;Trentino Alto Adige;Altro;23;0;
+2025;BZ;Trentino Alto Adige;Altro;23;34816347;kg
+2025;CA;Sardegna;Ammendante compostato verde;1;2750590;kg
+2025;CA;Sardegna;Aggregati riciclati;5;440612655;kg
+2025;CA;Sardegna;Rottami di ferro e acciaio;8;30368427;kg
+2025;CA;Sardegna;Carta e cartone;10;18638559;kg
+2025;CA;Sardegna;Plastica;11;761382;kg
+2025;CA;Sardegna;Legno e sughero;12;5364;kg
+2025;CA;Sardegna;Granulato di Conglomerato bituminoso;20;7487381;kg
+2025;CA;Sardegna;Altro;23;14340650;kg
+2025;CB;Molise;Altri Ammendanti;3;650000;kg
+2025;CB;Molise;Aggregati riciclati;5;49183086;kg
+2025;CB;Molise;Rottami di alluminio;6;11840;kg
+2025;CB;Molise;Rottami di ferro e acciaio;8;3201263;kg
+2025;CB;Molise;Carta e cartone;10;3959130;kg
+2025;CB;Molise;Plastica;11;55293;kg
+2025;CB;Molise;Granulato di Conglomerato bituminoso;20;121485253;kg
+2025;CB;Molise;Altro;23;10680466;kg
+2025;CE;Campania;Ammendante compostato verde;1;2075590;kg
+2025;CE;Campania;Altri Ammendanti;3;943730;kg
+2025;CE;Campania;Aggregati riciclati;5;933584795;kg
+2025;CE;Campania;Rottami di alluminio;6;6203990;kg
+2025;CE;Campania;Rottami di vetro;7;480;kg
+2025;CE;Campania;Rottami di ferro e acciaio;8;44208386;kg
+2025;CE;Campania;Rottami di rame;9;4638868;kg
+2025;CE;Campania;Carta e cartone;10;78557090;kg
+2025;CE;Campania;Plastica;11;13769583;kg
+2025;CE;Campania;Legno e sughero;12;2110546;kg
+2025;CE;Campania;CSS – combustibile;13;34079;kg
+2025;CE;Campania;Tessili;14;62196076;kg
+2025;CE;Campania;Gomma;15;46700;kg
+2025;CE;Campania;Granulato di Conglomerato bituminoso;20;40249030;kg
+2025;CE;Campania;Gomma vulcanizzata da PFU;22;888006;kg
+2025;CE;Campania;Altro;23;78659783;kg
+2025;CH;Abruzzo;Aggregati riciclati;5;497425500;kg
+2025;CH;Abruzzo;Rottami di alluminio;6;22715;kg
+2025;CH;Abruzzo;Rottami di vetro;7;810;kg
+2025;CH;Abruzzo;Rottami di ferro e acciaio;8;22985726;kg
+2025;CH;Abruzzo;Rottami di rame;9;4011;kg
+2025;CH;Abruzzo;Carta e cartone;10;47780464;kg
+2025;CH;Abruzzo;Plastica;11;2740798;kg
+2025;CH;Abruzzo;Legno e sughero;12;193988;kg
+2025;CH;Abruzzo;Cuoio;16;38445;kg
+2025;CH;Abruzzo;Materiali ceramici;17;3164300;kg
+2025;CH;Abruzzo;Granulato di Conglomerato bituminoso;20;10723356;kg
+2025;CH;Abruzzo;Altro;23;47652513;kg
+2025;CL;Sicilia;Ammendante compostato misto;2;5020000;kg
+2025;CL;Sicilia;Aggregati riciclati;5;19010370;kg
+2025;CL;Sicilia;Rottami di ferro e acciaio;8;22650;kg
+2025;CL;Sicilia;Plastica;11;13512624;kg
+2025;CL;Sicilia;Altro;23;27956671;kg
+2025;CN;Piemonte;Ammendante compostato misto;2;26182420;kg
+2025;CN;Piemonte;Aggregati riciclati;5;569443521;kg
+2025;CN;Piemonte;Rottami di alluminio;6;909577;kg
+2025;CN;Piemonte;Rottami di ferro e acciaio;8;89887992;kg
+2025;CN;Piemonte;Rottami di rame;9;165210;kg
+2025;CN;Piemonte;Carta e cartone;10;100210619;kg
+2025;CN;Piemonte;Plastica;11;56643456;kg
+2025;CN;Piemonte;Legno e sughero;12;3386904;kg
+2025;CN;Piemonte;Tessili;14;32595;kg
+2025;CN;Piemonte;Granulato di Conglomerato bituminoso;20;99371622;kg
+2025;CN;Piemonte;Altro;23;76383117;kg
+2025;CO;Lombardia;Ammendante compostato verde;1;18763866;kg
+2025;CO;Lombardia;Aggregati riciclati;5;302942295;kg
+2025;CO;Lombardia;Rottami di alluminio;6;624770;kg
+2025;CO;Lombardia;Rottami di ferro e acciaio;8;131165853;kg
+2025;CO;Lombardia;Rottami di rame;9;97661;kg
+2025;CO;Lombardia;Carta e cartone;10;35223809;kg
+2025;CO;Lombardia;Plastica;11;13466749;kg
+2025;CO;Lombardia;Legno e sughero;12;2348350;kg
+2025;CO;Lombardia;CSS – combustibile;13;5816270;kg
+2025;CO;Lombardia;Gomma;15;249645;kg
+2025;CO;Lombardia;Granulato di Conglomerato bituminoso;20;68325520;kg
+2025;CO;Lombardia;Altro;23;19316107;kg
+2025;CR;Lombardia;Ammendante compostato verde;1;270745;kg
+2025;CR;Lombardia;Aggregati riciclati;5;249614105;kg
+2025;CR;Lombardia;Rottami di alluminio;6;275824;kg
+2025;CR;Lombardia;Rottami di vetro;7;28560;kg
+2025;CR;Lombardia;Rottami di ferro e acciaio;8;37753820;kg
+2025;CR;Lombardia;Rottami di rame;9;37639;kg
+2025;CR;Lombardia;Carta e cartone;10;16641069;kg
+2025;CR;Lombardia;Plastica;11;2007304;kg
+2025;CR;Lombardia;Legno e sughero;12;3147665;kg
+2025;CR;Lombardia;Tessili;14;218098;kg
+2025;CR;Lombardia;Gomma;15;1382414;kg
+2025;CR;Lombardia;Granulato di Conglomerato bituminoso;20;18405930;kg
+2025;CR;Lombardia;Gomma vulcanizzata da PFU;22;1032330;kg
+2025;CR;Lombardia;Altro;23;61449378;kg
+2025;CS;Calabria;Ammendante compostato misto;2;5000000;kg
+2025;CS;Calabria;Aggregati riciclati;5;266995027;kg
+2025;CS;Calabria;Rottami di alluminio;6;7520;kg
+2025;CS;Calabria;Rottami di ferro e acciaio;8;9320912;kg
+2025;CS;Calabria;Rottami di rame;9;400;kg
+2025;CS;Calabria;Carta e cartone;10;12350950;kg
+2025;CS;Calabria;Tessili;14;690480;kg
+2025;CS;Calabria;Granulato di Conglomerato bituminoso;20;90659215;kg
+2025;CS;Calabria;Altro;23;1723271;kg
+2025;CT;Sicilia;Ammendante compostato verde;1;1437360;kg
+2025;CT;Sicilia;Ammendante compostato misto;2;7676284;kg
+2025;CT;Sicilia;Altri Ammendanti;3;33788667;kg
+2025;CT;Sicilia;Aggregati riciclati;5;453974460;kg
+2025;CT;Sicilia;Rottami di alluminio;6;55660;kg
+2025;CT;Sicilia;Rottami di vetro;7;4003960;kg
+2025;CT;Sicilia;Rottami di ferro e acciaio;8;14257100;kg
+2025;CT;Sicilia;Rottami di rame;9;7490;kg
+2025;CT;Sicilia;Carta e cartone;10;25247160;kg
+2025;CT;Sicilia;Plastica;11;2724896;kg
+2025;CT;Sicilia;Granulato di Conglomerato bituminoso;20;13563516;kg
+2025;CT;Sicilia;Altro;23;9592044;kg
+2025;CZ;Calabria;Ammendante compostato misto;2;5722680;kg
+2025;CZ;Calabria;Digestato;4;166400;kg
+2025;CZ;Calabria;Aggregati riciclati;5;290098687;kg
+2025;CZ;Calabria;Rottami di alluminio;6;891058;kg
+2025;CZ;Calabria;Rottami di vetro;7;330;kg
+2025;CZ;Calabria;Rottami di ferro e acciaio;8;7166645;kg
+2025;CZ;Calabria;Carta e cartone;10;10305500;kg
+2025;CZ;Calabria;Plastica;11;2434688;kg
+2025;CZ;Calabria;Legno e sughero;12;2760;kg
+2025;CZ;Calabria;Altri Fertilizzanti;19;1957058;kg
+2025;CZ;Calabria;Granulato di Conglomerato bituminoso;20;42280527;kg
+2025;CZ;Calabria;Gomma vulcanizzata da PFU;22;5545460;kg
+2025;CZ;Calabria;Altro;23;78526932;kg
+2025;EN;Sicilia;Aggregati riciclati;5;6768562;kg
+2025;EN;Sicilia;Carta e cartone;10;18933639;kg
+2025;FC;Emilia Romagna;Ammendante compostato misto;2;9852050;kg
+2025;FC;Emilia Romagna;Altri Ammendanti;3;1501800;kg
+2025;FC;Emilia Romagna;Digestato;4;1000000;kg
+2025;FC;Emilia Romagna;Aggregati riciclati;5;247739346;kg
+2025;FC;Emilia Romagna;Rottami di alluminio;6;2695022;kg
+2025;FC;Emilia Romagna;Rottami di vetro;7;687927;kg
+2025;FC;Emilia Romagna;Rottami di ferro e acciaio;8;94222779;kg
+2025;FC;Emilia Romagna;Rottami di rame;9;2787513;kg
+2025;FC;Emilia Romagna;Carta e cartone;10;65777755;kg
+2025;FC;Emilia Romagna;Plastica;11;5003852;kg
+2025;FC;Emilia Romagna;Legno e sughero;12;3373369;kg
+2025;FC;Emilia Romagna;Granulato di Conglomerato bituminoso;20;192440785;kg
+2025;FC;Emilia Romagna;Materiali secondari derivanti dal recupero di prodotti assorbenti per la persona;21;1574370;kg
+2025;FC;Emilia Romagna;Altro;23;23445056;kg
+2025;FE;Emilia Romagna;Ammendante compostato misto;2;6162610;kg
+2025;FE;Emilia Romagna;Aggregati riciclati;5;158587139;kg
+2025;FE;Emilia Romagna;Rottami di alluminio;6;6999269;kg
+2025;FE;Emilia Romagna;Rottami di ferro e acciaio;8;33789860;kg
+2025;FE;Emilia Romagna;Rottami di rame;9;9456379;kg
+2025;FE;Emilia Romagna;Carta e cartone;10;27799220;kg
+2025;FE;Emilia Romagna;Plastica;11;22400950;kg
+2025;FE;Emilia Romagna;Legno e sughero;12;12750;kg
+2025;FE;Emilia Romagna;Materiali ceramici;17;510720;kg
+2025;FE;Emilia Romagna;Granulato di Conglomerato bituminoso;20;163090024;kg
+2025;FE;Emilia Romagna;Altro;23;32590194;kg
+2025;FG;Puglia;Ammendante compostato misto;2;32382683;kg
+2025;FG;Puglia;Altri Ammendanti;3;7967960;kg
+2025;FG;Puglia;Aggregati riciclati;5;623891319;kg
+2025;FG;Puglia;Rottami di alluminio;6;224160;kg
+2025;FG;Puglia;Rottami di vetro;7;281510;kg
+2025;FG;Puglia;Rottami di ferro e acciaio;8;28228043;kg
+2025;FG;Puglia;Rottami di rame;9;39020;kg
+2025;FG;Puglia;Carta e cartone;10;10282297;kg
+2025;FG;Puglia;Plastica;11;4213491;kg
+2025;FG;Puglia;Legno e sughero;12;10880;kg
+2025;FG;Puglia;Tessili;14;163890;kg
+2025;FG;Puglia;Gomma;15;7584750;kg
+2025;FG;Puglia;Correttivi da Fanghi;18;14711720;kg
+2025;FG;Puglia;Altri Fertilizzanti;19;1441200;kg
+2025;FG;Puglia;Granulato di Conglomerato bituminoso;20;81715980;kg
+2025;FG;Puglia;Altro;23;82406920;kg
+2025;FI;Toscana;Ammendante compostato misto;2;16670364;kg
+2025;FI;Toscana;Aggregati riciclati;5;838360534;kg
+2025;FI;Toscana;Rottami di alluminio;6;2741049;kg
+2025;FI;Toscana;Rottami di vetro;7;94213266;kg
+2025;FI;Toscana;Rottami di ferro e acciaio;8;23657222;kg
+2025;FI;Toscana;Rottami di rame;9;270559;kg
+2025;FI;Toscana;Carta e cartone;10;101222672;kg
+2025;FI;Toscana;Plastica;11;2604411;kg
+2025;FI;Toscana;Legno e sughero;12;20668;kg
+2025;FI;Toscana;Tessili;14;1332558;kg
+2025;FI;Toscana;Gomma;15;20457;kg
+2025;FI;Toscana;Cuoio;16;6730;kg
+2025;FI;Toscana;Altri Fertilizzanti;19;1464730;kg
+2025;FI;Toscana;Granulato di Conglomerato bituminoso;20;113975070;kg
+2025;FI;Toscana;Altro;23;237167064;kg
+2025;FM;Marche;Ammendante compostato misto;2;3199650;kg
+2025;FM;Marche;Aggregati riciclati;5;1454000;kg
+2025;FM;Marche;Rottami di alluminio;6;326860;kg
+2025;FM;Marche;Rottami di ferro e acciaio;8;14018187;kg
+2025;FM;Marche;Rottami di rame;9;1065;kg
+2025;FM;Marche;Carta e cartone;10;8016034;kg
+2025;FM;Marche;Plastica;11;93280;kg
+2025;FM;Marche;Altri Fertilizzanti;19;1605011;kg
+2025;FM;Marche;Granulato di Conglomerato bituminoso;20;33845100;kg
+2025;FM;Marche;Gomma vulcanizzata da PFU;22;7429845;kg
+2025;FM;Marche;Altro;23;38169934;kg
+2025;FR;Lazio;Ammendante compostato verde;1;4967000;kg
+2025;FR;Lazio;Aggregati riciclati;5;2514123398;kg
+2025;FR;Lazio;Rottami di alluminio;6;2210;kg
+2025;FR;Lazio;Rottami di vetro;7;180723565;kg
+2025;FR;Lazio;Rottami di ferro e acciaio;8;2127165;kg
+2025;FR;Lazio;Carta e cartone;10;48813881;kg
+2025;FR;Lazio;Plastica;11;5774248;kg
+2025;FR;Lazio;Legno e sughero;12;4536;kg
+2025;FR;Lazio;Granulato di Conglomerato bituminoso;20;16396242;kg
+2025;FR;Lazio;Altro;23;7756957;kg
+2025;GE;Liguria;Ammendante compostato verde;1;240000;kg
+2025;GE;Liguria;Aggregati riciclati;5;48934090;kg
+2025;GE;Liguria;Rottami di alluminio;6;189723;kg
+2025;GE;Liguria;Rottami di vetro;7;45900;kg
+2025;GE;Liguria;Rottami di ferro e acciaio;8;37178661;kg
+2025;GE;Liguria;Rottami di rame;9;590521;kg
+2025;GE;Liguria;Carta e cartone;10;57183968;kg
+2025;GE;Liguria;Legno e sughero;12;236300;kg
+2025;GE;Liguria;Granulato di Conglomerato bituminoso;20;109119375;kg
+2025;GE;Liguria;Altro;23;12613477;kg
+2025;GO;Friuli Venezia Giulia;Ammendante compostato misto;2;5370000;kg
+2025;GO;Friuli Venezia Giulia;Aggregati riciclati;5;15310470;kg
+2025;GO;Friuli Venezia Giulia;Rottami di alluminio;6;277124;kg
+2025;GO;Friuli Venezia Giulia;Rottami di vetro;7;440;kg
+2025;GO;Friuli Venezia Giulia;Rottami di ferro e acciaio;8;20988060;kg
+2025;GO;Friuli Venezia Giulia;Rottami di rame;9;284392;kg
+2025;GO;Friuli Venezia Giulia;Carta e cartone;10;7083920;kg
+2025;GO;Friuli Venezia Giulia;Plastica;11;149560;kg
+2025;GO;Friuli Venezia Giulia;Granulato di Conglomerato bituminoso;20;67813824;kg
+2025;GO;Friuli Venezia Giulia;Altro;23;1550945;kg
+2025;GR;Toscana;Ammendante compostato misto;2;3440620;kg
+2025;GR;Toscana;Altri Ammendanti;3;29414360;kg
+2025;GR;Toscana;Aggregati riciclati;5;86312661;kg
+2025;GR;Toscana;Rottami di alluminio;6;442359;kg
+2025;GR;Toscana;Rottami di ferro e acciaio;8;6042466;kg
+2025;GR;Toscana;Rottami di rame;9;3025;kg
+2025;GR;Toscana;Carta e cartone;10;19058350;kg
+2025;GR;Toscana;Granulato di Conglomerato bituminoso;20;18216390;kg
+2025;GR;Toscana;Altro;23;136201645;kg
+2025;IM;Liguria;Ammendante compostato verde;1;2882435;kg
+2025;IM;Liguria;Aggregati riciclati;5;68479940;kg
+2025;IM;Liguria;Rottami di ferro e acciaio;8;2905740;kg
+2025;IM;Liguria;Carta e cartone;10;5231520;kg
+2025;IM;Liguria;Granulato di Conglomerato bituminoso;20;11339490;kg
+2025;IM;Liguria;Altro;23;12010124;kg
+2025;IS;Molise;Aggregati riciclati;5;45859082;kg
+2025;IS;Molise;Rottami di alluminio;6;2666837;kg
+2025;IS;Molise;Rottami di ferro e acciaio;8;2886536;kg
+2025;IS;Molise;Carta e cartone;10;4768270;kg
+2025;IS;Molise;Plastica;11;1592910;kg
+2025;IS;Molise;Granulato di Conglomerato bituminoso;20;9950;kg
+2025;IS;Molise;Materiali secondari derivanti dal recupero di prodotti assorbenti per la persona;21;457600;kg
+2025;IS;Molise;Altro;23;161570;kg
+2025;KR;Calabria;Aggregati riciclati;5;53463705;kg
+2025;KR;Calabria;Rottami di alluminio;6;438265;kg
+2025;KR;Calabria;Rottami di ferro e acciaio;8;24102718;kg
+2025;KR;Calabria;Rottami di rame;9;263665;kg
+2025;KR;Calabria;Carta e cartone;10;2405060;kg
+2025;KR;Calabria;Plastica;11;558700;kg
+2025;KR;Calabria;Altri Fertilizzanti;19;2181360;kg
+2025;KR;Calabria;Granulato di Conglomerato bituminoso;20;624180;kg
+2025;KR;Calabria;Altro;23;3761953;kg
+2025;LC;Lombardia;Ammendante compostato misto;2;3465000;kg
+2025;LC;Lombardia;Aggregati riciclati;5;254054290;kg
+2025;LC;Lombardia;Rottami di alluminio;6;1459551;kg
+2025;LC;Lombardia;Rottami di ferro e acciaio;8;145712926;kg
+2025;LC;Lombardia;Rottami di rame;9;440247;kg
+2025;LC;Lombardia;Carta e cartone;10;20895435;kg
+2025;LC;Lombardia;Plastica;11;730917;kg
+2025;LC;Lombardia;Legno e sughero;12;33493645;kg
+2025;LC;Lombardia;Tessili;14;936596;kg
+2025;LC;Lombardia;Granulato di Conglomerato bituminoso;20;17197026;kg
+2025;LC;Lombardia;Altro;23;4901855;kg
+2025;LE;Puglia;Ammendante compostato verde;1;1051050;kg
+2025;LE;Puglia;Ammendante compostato misto;2;36510;kg
+2025;LE;Puglia;Altri Ammendanti;3;643000;kg
+2025;LE;Puglia;Aggregati riciclati;5;444094396;kg
+2025;LE;Puglia;Rottami di alluminio;6;884964;kg
+2025;LE;Puglia;Rottami di vetro;7;758725;kg
+2025;LE;Puglia;Rottami di ferro e acciaio;8;79211187;kg
+2025;LE;Puglia;Carta e cartone;10;70863591;kg
+2025;LE;Puglia;Plastica;11;322626;kg
+2025;LE;Puglia;Legno e sughero;12;2068034;kg
+2025;LE;Puglia;Tessili;14;180570;kg
+2025;LE;Puglia;Materiali ceramici;17;10000;kg
+2025;LE;Puglia;Granulato di Conglomerato bituminoso;20;23375390;kg
+2025;LE;Puglia;Gomma vulcanizzata da PFU;22;54710;kg
+2025;LE;Puglia;Altro;23;63028353;kg
+2025;LI;Toscana;Ammendante compostato verde;1;1226430;kg
+2025;LI;Toscana;Aggregati riciclati;5;475946731;kg
+2025;LI;Toscana;Rottami di ferro e acciaio;8;12970357;kg
+2025;LI;Toscana;Rottami di rame;9;700;kg
+2025;LI;Toscana;Carta e cartone;10;15997994;kg
+2025;LI;Toscana;Materiali ceramici;17;10449320;kg
+2025;LI;Toscana;Granulato di Conglomerato bituminoso;20;18278249;kg
+2025;LI;Toscana;Altro;23;84842400;kg
+2025;LO;Lombardia;Aggregati riciclati;5;378094125;kg
+2025;LO;Lombardia;Rottami di alluminio;6;278668;kg
+2025;LO;Lombardia;Rottami di ferro e acciaio;8;30615631;kg
+2025;LO;Lombardia;Rottami di rame;9;13182;kg
+2025;LO;Lombardia;Carta e cartone;10;12643010;kg
+2025;LO;Lombardia;Correttivi da Fanghi;18;66451780;kg
+2025;LO;Lombardia;Granulato di Conglomerato bituminoso;20;2120760;kg
+2025;LO;Lombardia;Altro;23;244725315;kg
+2025;LT;Lazio;Altri Ammendanti;3;363180;kg
+2025;LT;Lazio;Aggregati riciclati;5;169140737;kg
+2025;LT;Lazio;Rottami di alluminio;6;8067066;kg
+2025;LT;Lazio;Rottami di ferro e acciaio;8;12733557;kg
+2025;LT;Lazio;Rottami di rame;9;64618;kg
+2025;LT;Lazio;Carta e cartone;10;2024140;kg
+2025;LT;Lazio;Plastica;11;1865748;kg
+2025;LT;Lazio;Granulato di Conglomerato bituminoso;20;70740324;kg
+2025;LT;Lazio;Materiali secondari derivanti dal recupero di prodotti assorbenti per la persona;21;117050;kg
+2025;LT;Lazio;Gomma vulcanizzata da PFU;22;818640;kg
+2025;LT;Lazio;Altro;23;72852367;kg
+2025;LU;Toscana;Aggregati riciclati;5;426487378;kg
+2025;LU;Toscana;Rottami di alluminio;6;249754;kg
+2025;LU;Toscana;Rottami di ferro e acciaio;8;19156497;kg
+2025;LU;Toscana;Rottami di rame;9;9029320;kg
+2025;LU;Toscana;Carta e cartone;10;76751228;kg
+2025;LU;Toscana;Plastica;11;3404243;kg
+2025;LU;Toscana;Legno e sughero;12;15660;kg
+2025;LU;Toscana;Tessili;14;189853;kg
+2025;LU;Toscana;Granulato di Conglomerato bituminoso;20;54585953;kg
+2025;LU;Toscana;Altro;23;15355908;kg
+2025;MB;Lombardia;Aggregati riciclati;5;505259651;kg
+2025;MB;Lombardia;Rottami di alluminio;6;5924638;kg
+2025;MB;Lombardia;Rottami di ferro e acciaio;8;57060489;kg
+2025;MB;Lombardia;Rottami di rame;9;1199262;kg
+2025;MB;Lombardia;Carta e cartone;10;97889208;kg
+2025;MB;Lombardia;Plastica;11;2944457;kg
+2025;MB;Lombardia;Legno e sughero;12;5769985;kg
+2025;MB;Lombardia;Tessili;14;334883;kg
+2025;MB;Lombardia;Granulato di Conglomerato bituminoso;20;85332950;kg
+2025;MB;Lombardia;Altro;23;42266031;kg
+2025;MC;Marche;Ammendante compostato verde;1;35000;kg
+2025;MC;Marche;Ammendante compostato misto;2;140000;kg
+2025;MC;Marche;Aggregati riciclati;5;315227603;kg
+2025;MC;Marche;Rottami di alluminio;6;3173155;kg
+2025;MC;Marche;Rottami di ferro e acciaio;8;28812141;kg
+2025;MC;Marche;Rottami di rame;9;3046068;kg
+2025;MC;Marche;Carta e cartone;10;19909677;kg
+2025;MC;Marche;Plastica;11;4103555;kg
+2025;MC;Marche;Legno e sughero;12;200020;kg
+2025;MC;Marche;Tessili;14;3536037;kg
+2025;MC;Marche;Gomma;15;15692;kg
+2025;MC;Marche;Altro;23;25313592;kg
+2025;ME;Sicilia;Ammendante compostato verde;1;510;kg
+2025;ME;Sicilia;Altri Ammendanti;3;247080;kg
+2025;ME;Sicilia;Aggregati riciclati;5;187269504;kg
+2025;ME;Sicilia;Carta e cartone;10;17767749;kg
+2025;ME;Sicilia;Plastica;11;11830;kg
+2025;ME;Sicilia;Tessili;14;189130;kg
+2025;ME;Sicilia;Granulato di Conglomerato bituminoso;20;26834420;kg
+2025;ME;Sicilia;Materiali secondari derivanti dal recupero di prodotti assorbenti per la persona;21;4056610;kg
+2025;ME;Sicilia;Altro;23;464892;kg
+2025;MI;Lombardia;Ammendante compostato verde;1;18625662;kg
+2025;MI;Lombardia;Ammendante compostato misto;2;23841160;kg
+2025;MI;Lombardia;Aggregati riciclati;5;2104138718;kg
+2025;MI;Lombardia;Rottami di alluminio;6;4551867;kg
+2025;MI;Lombardia;Rottami di vetro;7;23406650;kg
+2025;MI;Lombardia;Rottami di ferro e acciaio;8;362988210;kg
+2025;MI;Lombardia;Rottami di rame;9;8753148;kg
+2025;MI;Lombardia;Carta e cartone;10;544826760;kg
+2025;MI;Lombardia;Plastica;11;32408902;kg
+2025;MI;Lombardia;Legno e sughero;12;12473685;kg
+2025;MI;Lombardia;CSS – combustibile;13;6866320;kg
+2025;MI;Lombardia;Tessili;14;4436645;kg
+2025;MI;Lombardia;Granulato di Conglomerato bituminoso;20;186486455;kg
+2025;MI;Lombardia;Materiali secondari derivanti dal recupero di prodotti assorbenti per la persona;21;12300;kg
+2025;MI;Lombardia;Altro;23;169020152;kg
+2025;MN;Lombardia;Ammendante compostato verde;1;1254460;kg
+2025;MN;Lombardia;Altri Ammendanti;3;22325000;kg
+2025;MN;Lombardia;Aggregati riciclati;5;503188907;kg
+2025;MN;Lombardia;Rottami di alluminio;6;3728460;kg
+2025;MN;Lombardia;Rottami di ferro e acciaio;8;9922623;kg
+2025;MN;Lombardia;Carta e cartone;10;53118157;kg
+2025;MN;Lombardia;Plastica;11;6528490;kg
+2025;MN;Lombardia;Legno e sughero;12;9756400;kg
+2025;MN;Lombardia;CSS – combustibile;13;650000;kg
+2025;MN;Lombardia;Tessili;14;1440660;kg
+2025;MN;Lombardia;Altri Fertilizzanti;19;14065450;kg
+2025;MN;Lombardia;Granulato di Conglomerato bituminoso;20;92765302;kg
+2025;MN;Lombardia;Altro;23;112391948;kg
+2025;MO;Emilia Romagna;Ammendante compostato verde;1;221760;kg
+2025;MO;Emilia Romagna;Ammendante compostato misto;2;9857320;kg
+2025;MO;Emilia Romagna;Altri Ammendanti;3;5030000;kg
+2025;MO;Emilia Romagna;Aggregati riciclati;5;622533203;kg
+2025;MO;Emilia Romagna;Rottami di alluminio;6;1254110;kg
+2025;MO;Emilia Romagna;Rottami di vetro;7;147928079;kg
+2025;MO;Emilia Romagna;Rottami di ferro e acciaio;8;103480273;kg
+2025;MO;Emilia Romagna;Rottami di rame;9;117930;kg
+2025;MO;Emilia Romagna;Carta e cartone;10;77575025;kg
+2025;MO;Emilia Romagna;Plastica;11;2966823;kg
+2025;MO;Emilia Romagna;CSS – combustibile;13;9000000;kg
+2025;MO;Emilia Romagna;Materiali ceramici;17;201837938;kg
+2025;MO;Emilia Romagna;Correttivi da Fanghi;18;32500;kg
+2025;MO;Emilia Romagna;Granulato di Conglomerato bituminoso;20;186490770;kg
+2025;MO;Emilia Romagna;Altro;23;212908690;kg
+2025;MS;Toscana;Aggregati riciclati;5;62699691;kg
+2025;MS;Toscana;Rottami di alluminio;6;13156;kg
+2025;MS;Toscana;Rottami di ferro e acciaio;8;956140;kg
+2025;MS;Toscana;Rottami di rame;9;2507;kg
+2025;MS;Toscana;Carta e cartone;10;2333689;kg
+2025;MS;Toscana;Granulato di Conglomerato bituminoso;20;7533780;kg
+2025;MS;Toscana;Altro;23;35558542;kg
+2025;MT;Basilicata;Aggregati riciclati;5;127871610;kg
+2025;MT;Basilicata;Rottami di alluminio;6;110710;kg
+2025;MT;Basilicata;Rottami di ferro e acciaio;8;10082344;kg
+2025;MT;Basilicata;Rottami di rame;9;29160;kg
+2025;MT;Basilicata;Carta e cartone;10;27469800;kg
+2025;MT;Basilicata;Plastica;11;12705182;kg
+2025;MT;Basilicata;Legno e sughero;12;105180;kg
+2025;MT;Basilicata;CSS – combustibile;13;13590000;kg
+2025;MT;Basilicata;Materiali ceramici;17;4550270;kg
+2025;MT;Basilicata;Granulato di Conglomerato bituminoso;20;73008030;kg
+2025;MT;Basilicata;Altro;23;5400947;kg
+2025;NA;Campania;Ammendante compostato misto;2;24714246;kg
+2025;NA;Campania;Aggregati riciclati;5;1437201433;kg
+2025;NA;Campania;Rottami di alluminio;6;1502394;kg
+2025;NA;Campania;Rottami di vetro;7;800;kg
+2025;NA;Campania;Rottami di ferro e acciaio;8;50271321;kg
+2025;NA;Campania;Rottami di rame;9;889701;kg
+2025;NA;Campania;Carta e cartone;10;136844241;kg
+2025;NA;Campania;Plastica;11;15235774;kg
+2025;NA;Campania;Tessili;14;22694486;kg
+2025;NA;Campania;Granulato di Conglomerato bituminoso;20;8151380;kg
+2025;NA;Campania;Altro;23;51621086;kg
+2025;NO;Piemonte;Ammendante compostato verde;1;0;
+2025;NO;Piemonte;Ammendante compostato verde;1;300000;kg
+2025;NO;Piemonte;Altri Ammendanti;3;37800000;kg
+2025;NO;Piemonte;Aggregati riciclati;5;0;
+2025;NO;Piemonte;Aggregati riciclati;5;428331058;kg
+2025;NO;Piemonte;Rottami di alluminio;6;3272926;kg
+2025;NO;Piemonte;Rottami di ferro e acciaio;8;13364240;kg
+2025;NO;Piemonte;Rottami di rame;9;6087;kg
+2025;NO;Piemonte;Carta e cartone;10;8454025;kg
+2025;NO;Piemonte;Plastica;11;19942138;kg
+2025;NO;Piemonte;Granulato di Conglomerato bituminoso;20;30409800;kg
+2025;NO;Piemonte;Altro;23;0;
+2025;NO;Piemonte;Altro;23;163698659;kg
+2025;NU;Sardegna;Ammendante compostato misto;2;3109250;kg
+2025;NU;Sardegna;Rottami di alluminio;6;38194;kg
+2025;NU;Sardegna;Rottami di ferro e acciaio;8;1390690;kg
+2025;NU;Sardegna;Rottami di rame;9;324;kg
+2025;NU;Sardegna;Carta e cartone;10;16701060;kg
+2025;NU;Sardegna;Plastica;11;3140;kg
+2025;NU;Sardegna;Granulato di Conglomerato bituminoso;20;20628138;kg
+2025;OG;Sardegna;Ammendante compostato misto;2;648070;kg
+2025;OR;Sardegna;Ammendante compostato misto;2;6800240;kg
+2025;OR;Sardegna;Aggregati riciclati;5;226599917;kg
+2025;OR;Sardegna;Rottami di ferro e acciaio;8;1195060;kg
+2025;OR;Sardegna;Carta e cartone;10;9862000;kg
+2025;OR;Sardegna;Plastica;11;110300;kg
+2025;OR;Sardegna;Granulato di Conglomerato bituminoso;20;13874920;kg
+2025;OR;Sardegna;Altro;23;960650;kg
+2025;OT;Sardegna;Aggregati riciclati;5;10474480;kg
+2025;PA;Sicilia;Ammendante compostato verde;1;2382520;kg
+2025;PA;Sicilia;Aggregati riciclati;5;686544724;kg
+2025;PA;Sicilia;Rottami di alluminio;6;1673389;kg
+2025;PA;Sicilia;Rottami di ferro e acciaio;8;12700178;kg
+2025;PA;Sicilia;Rottami di rame;9;12480;kg
+2025;PA;Sicilia;Carta e cartone;10;22076597;kg
+2025;PA;Sicilia;Plastica;11;52926;kg
+2025;PA;Sicilia;Gomma;15;3489660;kg
+2025;PA;Sicilia;Granulato di Conglomerato bituminoso;20;84088260;kg
+2025;PA;Sicilia;Gomma vulcanizzata da PFU;22;4142308;kg
+2025;PA;Sicilia;Altro;23;24529035;kg
+2025;PC;Emilia Romagna;Ammendante compostato verde;1;4260232;kg
+2025;PC;Emilia Romagna;Ammendante compostato misto;2;5887810;kg
+2025;PC;Emilia Romagna;Aggregati riciclati;5;249341702;kg
+2025;PC;Emilia Romagna;Rottami di alluminio;6;941059;kg
+2025;PC;Emilia Romagna;Rottami di ferro e acciaio;8;25452334;kg
+2025;PC;Emilia Romagna;Rottami di rame;9;18830;kg
+2025;PC;Emilia Romagna;Carta e cartone;10;45450333;kg
+2025;PC;Emilia Romagna;Plastica;11;5402238;kg
+2025;PC;Emilia Romagna;Legno e sughero;12;427132528;kg
+2025;PC;Emilia Romagna;Correttivi da Fanghi;18;41710640;kg
+2025;PC;Emilia Romagna;Granulato di Conglomerato bituminoso;20;69951520;kg
+2025;PC;Emilia Romagna;Altro;23;5432720;kg
+2025;PD;Veneto;Ammendante compostato verde;1;3573000;kg
+2025;PD;Veneto;Ammendante compostato misto;2;29623434;kg
+2025;PD;Veneto;Altri Ammendanti;3;58140;kg
+2025;PD;Veneto;Aggregati riciclati;5;637976989;kg
+2025;PD;Veneto;Rottami di alluminio;6;8522940;kg
+2025;PD;Veneto;Rottami di ferro e acciaio;8;561250973;kg
+2025;PD;Veneto;Rottami di rame;9;4974143;kg
+2025;PD;Veneto;Carta e cartone;10;123177110;kg
+2025;PD;Veneto;Plastica;11;23034635;kg
+2025;PD;Veneto;Legno e sughero;12;818465;kg
+2025;PD;Veneto;Tessili;14;931388;kg
+2025;PD;Veneto;Gomma;15;584082;kg
+2025;PD;Veneto;Granulato di Conglomerato bituminoso;20;226927620;kg
+2025;PD;Veneto;Altro;23;113577904;kg
+2025;PE;Abruzzo;Aggregati riciclati;5;157175471;kg
+2025;PE;Abruzzo;Rottami di alluminio;6;130960;kg
+2025;PE;Abruzzo;Rottami di vetro;7;800;kg
+2025;PE;Abruzzo;Rottami di ferro e acciaio;8;20875513;kg
+2025;PE;Abruzzo;Rottami di rame;9;6000;kg
+2025;PE;Abruzzo;Carta e cartone;10;9415338;kg
+2025;PE;Abruzzo;Plastica;11;24473;kg
+2025;PE;Abruzzo;Tessili;14;400;kg
+2025;PE;Abruzzo;Granulato di Conglomerato bituminoso;20;35390490;kg
+2025;PE;Abruzzo;Gomma vulcanizzata da PFU;22;1000;kg
+2025;PE;Abruzzo;Altro;23;3302244;kg
+2025;PG;Umbria;Ammendante compostato verde;1;869268;kg
+2025;PG;Umbria;Ammendante compostato misto;2;9833522;kg
+2025;PG;Umbria;Aggregati riciclati;5;279834948;kg
+2025;PG;Umbria;Rottami di alluminio;6;478410;kg
+2025;PG;Umbria;Rottami di vetro;7;149652047;kg
+2025;PG;Umbria;Rottami di ferro e acciaio;8;70305429;kg
+2025;PG;Umbria;Rottami di rame;9;76540;kg
+2025;PG;Umbria;Carta e cartone;10;61879619;kg
+2025;PG;Umbria;Plastica;11;24847954;kg
+2025;PG;Umbria;Legno e sughero;12;43040;kg
+2025;PG;Umbria;Tessili;14;3624680;kg
+2025;PG;Umbria;Granulato di Conglomerato bituminoso;20;102435873;kg
+2025;PG;Umbria;Altro;23;71115488;kg
+2025;PI;Toscana;Aggregati riciclati;5;64072484;kg
+2025;PI;Toscana;Rottami di alluminio;6;5450864;kg
+2025;PI;Toscana;Rottami di ferro e acciaio;8;238313875;kg
+2025;PI;Toscana;Rottami di rame;9;187793;kg
+2025;PI;Toscana;Carta e cartone;10;2136240;kg
+2025;PI;Toscana;Plastica;11;694726;kg
+2025;PI;Toscana;Legno e sughero;12;14371309;kg
+2025;PI;Toscana;Altri Fertilizzanti;19;14322294;kg
+2025;PI;Toscana;Granulato di Conglomerato bituminoso;20;30523091;kg
+2025;PI;Toscana;Altro;23;78216548;kg
+2025;PN;Friuli Venezia Giulia;Ammendante compostato verde;1;10447764;kg
+2025;PN;Friuli Venezia Giulia;Ammendante compostato misto;2;53700000;kg
+2025;PN;Friuli Venezia Giulia;Aggregati riciclati;5;572301974;kg
+2025;PN;Friuli Venezia Giulia;Rottami di alluminio;6;484100;kg
+2025;PN;Friuli Venezia Giulia;Rottami di vetro;7;141964578;kg
+2025;PN;Friuli Venezia Giulia;Rottami di ferro e acciaio;8;25239050;kg
+2025;PN;Friuli Venezia Giulia;Rottami di rame;9;140250;kg
+2025;PN;Friuli Venezia Giulia;Carta e cartone;10;29439708;kg
+2025;PN;Friuli Venezia Giulia;Plastica;11;2137693;kg
+2025;PN;Friuli Venezia Giulia;Legno e sughero;12;3043088;kg
+2025;PN;Friuli Venezia Giulia;Tessili;14;82901;kg
+2025;PN;Friuli Venezia Giulia;Granulato di Conglomerato bituminoso;20;99981680;kg
+2025;PN;Friuli Venezia Giulia;Altro;23;93269869;kg
+2025;PO;Toscana;Aggregati riciclati;5;158452933;kg
+2025;PO;Toscana;Rottami di alluminio;6;77800;kg
+2025;PO;Toscana;Rottami di ferro e acciaio;8;8465590;kg
+2025;PO;Toscana;Carta e cartone;10;55107112;kg
+2025;PO;Toscana;Plastica;11;597057;kg
+2025;PO;Toscana;Tessili;14;19323133;kg
+2025;PO;Toscana;Gomma;15;37500;kg
+2025;PO;Toscana;Materiali secondari derivanti dal recupero di prodotti assorbenti per la persona;21;20100;kg
+2025;PO;Toscana;Altro;23;5486300;kg
+2025;PR;Emilia Romagna;Ammendante compostato misto;2;233215;kg
+2025;PR;Emilia Romagna;Aggregati riciclati;5;248873360;kg
+2025;PR;Emilia Romagna;Rottami di alluminio;6;590702;kg
+2025;PR;Emilia Romagna;Rottami di vetro;7;30000;kg
+2025;PR;Emilia Romagna;Rottami di ferro e acciaio;8;106853544;kg
+2025;PR;Emilia Romagna;Rottami di rame;9;368765;kg
+2025;PR;Emilia Romagna;Carta e cartone;10;84195145;kg
+2025;PR;Emilia Romagna;Plastica;11;6535257;kg
+2025;PR;Emilia Romagna;Legno e sughero;12;442664;kg
+2025;PR;Emilia Romagna;Tessili;14;700141;kg
+2025;PR;Emilia Romagna;Gomma;15;418910;kg
+2025;PR;Emilia Romagna;Granulato di Conglomerato bituminoso;20;52628940;kg
+2025;PR;Emilia Romagna;Altro;23;10632591;kg
+2025;PT;Toscana;Aggregati riciclati;5;190196800;kg
+2025;PT;Toscana;Rottami di ferro e acciaio;8;7933280;kg
+2025;PT;Toscana;Carta e cartone;10;22704360;kg
+2025;PT;Toscana;Plastica;11;1227564;kg
+2025;PT;Toscana;Legno e sughero;12;531927;kg
+2025;PT;Toscana;Tessili;14;99437;kg
+2025;PT;Toscana;Granulato di Conglomerato bituminoso;20;112549100;kg
+2025;PT;Toscana;Altro;23;117677;kg
+2025;PU;Marche;Ammendante compostato verde;1;1550000;kg
+2025;PU;Marche;Aggregati riciclati;5;60096795;kg
+2025;PU;Marche;Rottami di alluminio;6;1995783;kg
+2025;PU;Marche;Rottami di vetro;7;20822030;kg
+2025;PU;Marche;Rottami di ferro e acciaio;8;26751346;kg
+2025;PU;Marche;Rottami di rame;9;252366;kg
+2025;PU;Marche;Carta e cartone;10;14795910;kg
+2025;PU;Marche;Plastica;11;1896094;kg
+2025;PU;Marche;Legno e sughero;12;1896376;kg
+2025;PU;Marche;Granulato di Conglomerato bituminoso;20;2972550;kg
+2025;PU;Marche;Altro;23;4992118;kg
+2025;PV;Lombardia;Ammendante compostato verde;1;6442430;kg
+2025;PV;Lombardia;Ammendante compostato misto;2;21128174;kg
+2025;PV;Lombardia;Altri Ammendanti;3;76961890;kg
+2025;PV;Lombardia;Aggregati riciclati;5;1002375308;kg
+2025;PV;Lombardia;Rottami di alluminio;6;470437;kg
+2025;PV;Lombardia;Rottami di vetro;7;29600;kg
+2025;PV;Lombardia;Rottami di ferro e acciaio;8;23287117;kg
+2025;PV;Lombardia;Rottami di rame;9;58746;kg
+2025;PV;Lombardia;Carta e cartone;10;8488951;kg
+2025;PV;Lombardia;Plastica;11;29555909;kg
+2025;PV;Lombardia;Legno e sughero;12;1313913;kg
+2025;PV;Lombardia;Cuoio;16;518480;kg
+2025;PV;Lombardia;Correttivi da Fanghi;18;294298701;kg
+2025;PV;Lombardia;Altri Fertilizzanti;19;5035000;kg
+2025;PV;Lombardia;Granulato di Conglomerato bituminoso;20;36968960;kg
+2025;PV;Lombardia;Altro;23;141174684;kg
+2025;PZ;Basilicata;Aggregati riciclati;5;128045209;kg
+2025;PZ;Basilicata;Rottami di alluminio;6;3174727;kg
+2025;PZ;Basilicata;Rottami di vetro;7;32640;kg
+2025;PZ;Basilicata;Rottami di ferro e acciaio;8;199195743;kg
+2025;PZ;Basilicata;Rottami di rame;9;1245;kg
+2025;PZ;Basilicata;Carta e cartone;10;6215123;kg
+2025;PZ;Basilicata;Plastica;11;2720561;kg
+2025;PZ;Basilicata;CSS – combustibile;13;12609507;kg
+2025;PZ;Basilicata;Gomma;15;8970793;kg
+2025;PZ;Basilicata;Granulato di Conglomerato bituminoso;20;2806535;kg
+2025;PZ;Basilicata;Materiali secondari derivanti dal recupero di prodotti assorbenti per la persona;21;103940;kg
+2025;PZ;Basilicata;Altro;23;269897;kg
+2025;RA;Emilia Romagna;Ammendante compostato verde;1;16152125;kg
+2025;RA;Emilia Romagna;Ammendante compostato misto;2;7958300;kg
+2025;RA;Emilia Romagna;Altri Ammendanti;3;69286910;kg
+2025;RA;Emilia Romagna;Aggregati riciclati;5;254605607;kg
+2025;RA;Emilia Romagna;Rottami di alluminio;6;61786;kg
+2025;RA;Emilia Romagna;Rottami di ferro e acciaio;8;42514766;kg
+2025;RA;Emilia Romagna;Rottami di rame;9;3394087;kg
+2025;RA;Emilia Romagna;Carta e cartone;10;34917815;kg
+2025;RA;Emilia Romagna;Plastica;11;2144500;kg
+2025;RA;Emilia Romagna;CSS – combustibile;13;28774800;kg
+2025;RA;Emilia Romagna;Gomma;15;326940;kg
+2025;RA;Emilia Romagna;Correttivi da Fanghi;18;73668920;kg
+2025;RA;Emilia Romagna;Granulato di Conglomerato bituminoso;20;3625900;kg
+2025;RA;Emilia Romagna;Gomma vulcanizzata da PFU;22;617000;kg
+2025;RA;Emilia Romagna;Altro;23;150471394;kg
+2025;RC;Calabria;Ammendante compostato misto;2;13735532;kg
+2025;RC;Calabria;Altri Ammendanti;3;273500;kg
+2025;RC;Calabria;Aggregati riciclati;5;62567511;kg
+2025;RC;Calabria;Rottami di ferro e acciaio;8;650000;kg
+2025;RC;Calabria;Carta e cartone;10;4937578;kg
+2025;RC;Calabria;Plastica;11;36020;kg
+2025;RC;Calabria;Legno e sughero;12;48660;kg
+2025;RC;Calabria;Granulato di Conglomerato bituminoso;20;357875;kg
+2025;RC;Calabria;Altro;23;3238045;kg
+2025;RE;Emilia Romagna;Ammendante compostato misto;2;10806540;kg
+2025;RE;Emilia Romagna;Altri Ammendanti;3;40486220;kg
+2025;RE;Emilia Romagna;Aggregati riciclati;5;227250608;kg
+2025;RE;Emilia Romagna;Rottami di alluminio;6;563447;kg
+2025;RE;Emilia Romagna;Rottami di vetro;7;13220;kg
+2025;RE;Emilia Romagna;Rottami di ferro e acciaio;8;57282566;kg
+2025;RE;Emilia Romagna;Rottami di rame;9;70412;kg
+2025;RE;Emilia Romagna;Carta e cartone;10;24751176;kg
+2025;RE;Emilia Romagna;Plastica;11;5147811;kg
+2025;RE;Emilia Romagna;Legno e sughero;12;43998150;kg
+2025;RE;Emilia Romagna;Tessili;14;1391270;kg
+2025;RE;Emilia Romagna;Materiali ceramici;17;18936970;kg
+2025;RE;Emilia Romagna;Granulato di Conglomerato bituminoso;20;10652026;kg
+2025;RE;Emilia Romagna;Altro;23;28827042;kg
+2025;RG;Sicilia;Ammendante compostato misto;2;2743000;kg
+2025;RG;Sicilia;Altri Ammendanti;3;99600;kg
+2025;RG;Sicilia;Aggregati riciclati;5;123056125;kg
+2025;RG;Sicilia;Rottami di alluminio;6;131304;kg
+2025;RG;Sicilia;Rottami di ferro e acciaio;8;98976;kg
+2025;RG;Sicilia;Plastica;11;32695380;kg
+2025;RG;Sicilia;Granulato di Conglomerato bituminoso;20;11590793;kg
+2025;RG;Sicilia;Altro;23;94893;kg
+2025;RI;Lazio;Aggregati riciclati;5;121248560;kg
+2025;RI;Lazio;Rottami di ferro e acciaio;8;150;kg
+2025;RI;Lazio;Granulato di Conglomerato bituminoso;20;8098000;kg
+2025;RI;Lazio;Altro;23;11379169;kg
+2025;RM;Lazio;Ammendante compostato verde;1;10797150;kg
+2025;RM;Lazio;Ammendante compostato misto;2;6364790;kg
+2025;RM;Lazio;Aggregati riciclati;5;852328966;kg
+2025;RM;Lazio;Rottami di alluminio;6;8988030;kg
+2025;RM;Lazio;Rottami di ferro e acciaio;8;148239217;kg
+2025;RM;Lazio;Rottami di rame;9;2991416;kg
+2025;RM;Lazio;Carta e cartone;10;250554131;kg
+2025;RM;Lazio;Plastica;11;5849926;kg
+2025;RM;Lazio;Legno e sughero;12;426219;kg
+2025;RM;Lazio;CSS – combustibile;13;20857290;kg
+2025;RM;Lazio;Tessili;14;1438589;kg
+2025;RM;Lazio;Granulato di Conglomerato bituminoso;20;412497353;kg
+2025;RM;Lazio;Altro;23;44374707;kg
+2025;RN;Emilia Romagna;Ammendante compostato misto;2;4000050;kg
+2025;RN;Emilia Romagna;Aggregati riciclati;5;404754536;kg
+2025;RN;Emilia Romagna;Rottami di alluminio;6;1095292;kg
+2025;RN;Emilia Romagna;Rottami di ferro e acciaio;8;29480018;kg
+2025;RN;Emilia Romagna;Rottami di rame;9;102125;kg
+2025;RN;Emilia Romagna;Carta e cartone;10;24471580;kg
+2025;RN;Emilia Romagna;Plastica;11;172434;kg
+2025;RN;Emilia Romagna;CSS – combustibile;13;1192110;kg
+2025;RN;Emilia Romagna;Granulato di Conglomerato bituminoso;20;138526136;kg
+2025;RN;Emilia Romagna;Altro;23;16610811;kg
+2025;RO;Veneto;Aggregati riciclati;5;237952613;kg
+2025;RO;Veneto;Rottami di alluminio;6;12201;kg
+2025;RO;Veneto;Rottami di vetro;7;239080;kg
+2025;RO;Veneto;Rottami di ferro e acciaio;8;9099172;kg
+2025;RO;Veneto;Rottami di rame;9;3678;kg
+2025;RO;Veneto;Carta e cartone;10;35686420;kg
+2025;RO;Veneto;Plastica;11;26054854;kg
+2025;RO;Veneto;Granulato di Conglomerato bituminoso;20;84938312;kg
+2025;RO;Veneto;Altro;23;14179620;kg
+2025;SA;Campania;Ammendante compostato misto;2;2625000;kg
+2025;SA;Campania;Aggregati riciclati;5;1023207721;kg
+2025;SA;Campania;Rottami di alluminio;6;2268853;kg
+2025;SA;Campania;Rottami di vetro;7;5911120;kg
+2025;SA;Campania;Rottami di ferro e acciaio;8;138594941;kg
+2025;SA;Campania;Rottami di rame;9;167706;kg
+2025;SA;Campania;Carta e cartone;10;124870812;kg
+2025;SA;Campania;Plastica;11;25330537;kg
+2025;SA;Campania;Legno e sughero;12;83560;kg
+2025;SA;Campania;CSS – combustibile;13;30792510;kg
+2025;SA;Campania;Granulato di Conglomerato bituminoso;20;27520371;kg
+2025;SA;Campania;Materiali secondari derivanti dal recupero di prodotti assorbenti per la persona;21;1023250;kg
+2025;SA;Campania;Gomma vulcanizzata da PFU;22;311577;kg
+2025;SA;Campania;Altro;23;26060101;kg
+2025;SI;Toscana;Ammendante compostato misto;2;4079193;kg
+2025;SI;Toscana;Aggregati riciclati;5;158471113;kg
+2025;SI;Toscana;Rottami di alluminio;6;80007;kg
+2025;SI;Toscana;Rottami di ferro e acciaio;8;8220606;kg
+2025;SI;Toscana;Rottami di rame;9;138716;kg
+2025;SI;Toscana;Carta e cartone;10;19660362;kg
+2025;SI;Toscana;Plastica;11;14130;kg
+2025;SI;Toscana;Granulato di Conglomerato bituminoso;20;4500000;kg
+2025;SI;Toscana;Altro;23;1458121;kg
+2025;SO;Lombardia;Ammendante compostato misto;2;600;kg
+2025;SO;Lombardia;Aggregati riciclati;5;288249225;kg
+2025;SO;Lombardia;Rottami di alluminio;6;7440;kg
+2025;SO;Lombardia;Rottami di ferro e acciaio;8;7669539;kg
+2025;SO;Lombardia;Legno e sughero;12;900;kg
+2025;SO;Lombardia;Granulato di Conglomerato bituminoso;20;28749890;kg
+2025;SO;Lombardia;Altro;23;57803590;kg
+2025;SP;Liguria;Aggregati riciclati;5;391741403;kg
+2025;SP;Liguria;Rottami di alluminio;6;67770;kg
+2025;SP;Liguria;Rottami di ferro e acciaio;8;14365705;kg
+2025;SP;Liguria;Rottami di rame;9;64644;kg
+2025;SP;Liguria;Carta e cartone;10;12770189;kg
+2025;SP;Liguria;Granulato di Conglomerato bituminoso;20;8938600;kg
+2025;SP;Liguria;Altro;23;9485;kg
+2025;SR;Sicilia;Altri Ammendanti;3;17434323;kg
+2025;SR;Sicilia;Aggregati riciclati;5;214116092;kg
+2025;SR;Sicilia;Rottami di alluminio;6;267330;kg
+2025;SR;Sicilia;Rottami di ferro e acciaio;8;26308241;kg
+2025;SR;Sicilia;Rottami di rame;9;18121;kg
+2025;SR;Sicilia;Carta e cartone;10;19085920;kg
+2025;SR;Sicilia;Plastica;11;370467;kg
+2025;SR;Sicilia;Altro;23;5836884;kg
+2025;SS;Sardegna;Ammendante compostato verde;1;917410;kg
+2025;SS;Sardegna;Ammendante compostato misto;2;8123790;kg
+2025;SS;Sardegna;Aggregati riciclati;5;86884728;kg
+2025;SS;Sardegna;Rottami di alluminio;6;68589;kg
+2025;SS;Sardegna;Rottami di ferro e acciaio;8;9083555;kg
+2025;SS;Sardegna;Rottami di rame;9;43680;kg
+2025;SS;Sardegna;Carta e cartone;10;25504852;kg
+2025;SS;Sardegna;Granulato di Conglomerato bituminoso;20;9548774;kg
+2025;SS;Sardegna;Altro;23;7261550;kg
+2025;SU;Sardegna;Ammendante compostato verde;1;227680;kg
+2025;SU;Sardegna;Ammendante compostato misto;2;13154830;kg
+2025;SU;Sardegna;Aggregati riciclati;5;46043887;kg
+2025;SU;Sardegna;Rottami di ferro e acciaio;8;4031812;kg
+2025;SU;Sardegna;Carta e cartone;10;26238300;kg
+2025;SU;Sardegna;Tessili;14;37727;kg
+2025;SU;Sardegna;Granulato di Conglomerato bituminoso;20;11818139;kg
+2025;SU;Sardegna;Altro;23;2985358;kg
+2025;SV;Liguria;Ammendante compostato verde;1;1351440;kg
+2025;SV;Liguria;Ammendante compostato misto;2;4089830;kg
+2025;SV;Liguria;Aggregati riciclati;5;106192301;kg
+2025;SV;Liguria;Rottami di alluminio;6;1729900;kg
+2025;SV;Liguria;Rottami di vetro;7;184266116;kg
+2025;SV;Liguria;Rottami di ferro e acciaio;8;28634979;kg
+2025;SV;Liguria;Rottami di rame;9;43453;kg
+2025;SV;Liguria;Carta e cartone;10;24341352;kg
+2025;SV;Liguria;Legno e sughero;12;1164823;kg
+2025;SV;Liguria;Granulato di Conglomerato bituminoso;20;8856222;kg
+2025;SV;Liguria;Altro;23;108085154;kg
+2025;TA;Puglia;Ammendante compostato misto;2;4001180;kg
+2025;TA;Puglia;Altri Ammendanti;3;16940000;kg
+2025;TA;Puglia;Aggregati riciclati;5;154424826;kg
+2025;TA;Puglia;Rottami di alluminio;6;277580;kg
+2025;TA;Puglia;Rottami di ferro e acciaio;8;21972433;kg
+2025;TA;Puglia;Rottami di rame;9;59598;kg
+2025;TA;Puglia;Carta e cartone;10;29806920;kg
+2025;TA;Puglia;Plastica;11;28595838;kg
+2025;TA;Puglia;CSS – combustibile;13;18661980;kg
+2025;TA;Puglia;Tessili;14;75140;kg
+2025;TA;Puglia;Altro;23;2812929;kg
+2025;TE;Abruzzo;Ammendante compostato misto;2;1943378;kg
+2025;TE;Abruzzo;Aggregati riciclati;5;259954017;kg
+2025;TE;Abruzzo;Rottami di alluminio;6;1861392;kg
+2025;TE;Abruzzo;Rottami di vetro;7;462990;kg
+2025;TE;Abruzzo;Rottami di ferro e acciaio;8;62852586;kg
+2025;TE;Abruzzo;Rottami di rame;9;529390;kg
+2025;TE;Abruzzo;Carta e cartone;10;30819490;kg
+2025;TE;Abruzzo;Plastica;11;32174248;kg
+2025;TE;Abruzzo;Legno e sughero;12;19820011;kg
+2025;TE;Abruzzo;Granulato di Conglomerato bituminoso;20;20834543;kg
+2025;TE;Abruzzo;Altro;23;4886697;kg
+2025;TN;Trentino Alto Adige;Ammendante compostato verde;1;6733220;kg
+2025;TN;Trentino Alto Adige;Ammendante compostato misto;2;11287870;kg
+2025;TN;Trentino Alto Adige;Aggregati riciclati;5;461109829;kg
+2025;TN;Trentino Alto Adige;Rottami di alluminio;6;590411;kg
+2025;TN;Trentino Alto Adige;Rottami di ferro e acciaio;8;0;
+2025;TN;Trentino Alto Adige;Rottami di ferro e acciaio;8;169988926;kg
+2025;TN;Trentino Alto Adige;Rottami di rame;9;83768;kg
+2025;TN;Trentino Alto Adige;Carta e cartone;10;96521410;kg
+2025;TN;Trentino Alto Adige;Plastica;11;5565960;kg
+2025;TN;Trentino Alto Adige;Legno e sughero;12;6529930;kg
+2025;TN;Trentino Alto Adige;Granulato di Conglomerato bituminoso;20;125533994;kg
+2025;TN;Trentino Alto Adige;Altro;23;138057982;kg
+2025;TO;Piemonte;Ammendante compostato verde;1;12421469;kg
+2025;TO;Piemonte;Ammendante compostato misto;2;18228102;kg
+2025;TO;Piemonte;Altri Ammendanti;3;3321550;kg
+2025;TO;Piemonte;Aggregati riciclati;5;2178437344;kg
+2025;TO;Piemonte;Rottami di alluminio;6;8049936;kg
+2025;TO;Piemonte;Rottami di vetro;7;309940;kg
+2025;TO;Piemonte;Rottami di ferro e acciaio;8;0;
+2025;TO;Piemonte;Rottami di ferro e acciaio;8;443883508;kg
+2025;TO;Piemonte;Rottami di rame;9;5169359;kg
+2025;TO;Piemonte;Carta e cartone;10;163980761;kg
+2025;TO;Piemonte;Plastica;11;29858487;kg
+2025;TO;Piemonte;Legno e sughero;12;18182883;kg
+2025;TO;Piemonte;Tessili;14;212327;kg
+2025;TO;Piemonte;Gomma;15;2470113;kg
+2025;TO;Piemonte;Granulato di Conglomerato bituminoso;20;382137114;kg
+2025;TO;Piemonte;Gomma vulcanizzata da PFU;22;3688108;kg
+2025;TO;Piemonte;Altro;23;0;
+2025;TO;Piemonte;Altro;23;30778188;kg
+2025;TP;Sicilia;Ammendante compostato misto;2;5245000;kg
+2025;TP;Sicilia;Aggregati riciclati;5;195206492;kg
+2025;TP;Sicilia;Carta e cartone;10;10178638;kg
+2025;TP;Sicilia;Altro;23;1188274;kg
+2025;TR;Umbria;Ammendante compostato verde;1;200200;kg
+2025;TR;Umbria;Ammendante compostato misto;2;5385320;kg
+2025;TR;Umbria;Aggregati riciclati;5;385974436;kg
+2025;TR;Umbria;Rottami di alluminio;6;2343075;kg
+2025;TR;Umbria;Rottami di ferro e acciaio;8;24238641;kg
+2025;TR;Umbria;Rottami di rame;9;9270;kg
+2025;TR;Umbria;Carta e cartone;10;15373470;kg
+2025;TR;Umbria;Plastica;11;11858270;kg
+2025;TR;Umbria;Legno e sughero;12;141600;kg
+2025;TR;Umbria;Granulato di Conglomerato bituminoso;20;13760797;kg
+2025;TR;Umbria;Gomma vulcanizzata da PFU;22;2727653;kg
+2025;TR;Umbria;Altro;23;12243044;kg
+2025;TS;Friuli Venezia Giulia;Ammendante compostato verde;1;430420;kg
+2025;TS;Friuli Venezia Giulia;Ammendante compostato misto;2;8980;kg
+2025;TS;Friuli Venezia Giulia;Aggregati riciclati;5;180625227;kg
+2025;TS;Friuli Venezia Giulia;Rottami di alluminio;6;35300;kg
+2025;TS;Friuli Venezia Giulia;Rottami di ferro e acciaio;8;1798061;kg
+2025;TS;Friuli Venezia Giulia;Rottami di rame;9;38496;kg
+2025;TS;Friuli Venezia Giulia;Carta e cartone;10;14472460;kg
+2025;TV;Veneto;Ammendante compostato verde;1;364236;kg
+2025;TV;Veneto;Ammendante compostato misto;2;14509270;kg
+2025;TV;Veneto;Digestato;4;412;kg
+2025;TV;Veneto;Aggregati riciclati;5;944789783;kg
+2025;TV;Veneto;Rottami di alluminio;6;5448432;kg
+2025;TV;Veneto;Rottami di vetro;7;37274;kg
+2025;TV;Veneto;Rottami di ferro e acciaio;8;293529727;kg
+2025;TV;Veneto;Rottami di rame;9;2364488;kg
+2025;TV;Veneto;Carta e cartone;10;198299152;kg
+2025;TV;Veneto;Plastica;11;70084568;kg
+2025;TV;Veneto;Legno e sughero;12;8498087;kg
+2025;TV;Veneto;Materiali ceramici;17;831940;kg
+2025;TV;Veneto;Granulato di Conglomerato bituminoso;20;235804057;kg
+2025;TV;Veneto;Gomma vulcanizzata da PFU;22;5289666;kg
+2025;TV;Veneto;Altro;23;67348180;kg
+2025;UD;Friuli Venezia Giulia;Ammendante compostato verde;1;4537660;kg
+2025;UD;Friuli Venezia Giulia;Ammendante compostato misto;2;6357300;kg
+2025;UD;Friuli Venezia Giulia;Aggregati riciclati;5;340333638;kg
+2025;UD;Friuli Venezia Giulia;Rottami di alluminio;6;1529013;kg
+2025;UD;Friuli Venezia Giulia;Rottami di vetro;7;253300;kg
+2025;UD;Friuli Venezia Giulia;Rottami di ferro e acciaio;8;1835053259;kg
+2025;UD;Friuli Venezia Giulia;Rottami di rame;9;902493;kg
+2025;UD;Friuli Venezia Giulia;Carta e cartone;10;39611070;kg
+2025;UD;Friuli Venezia Giulia;Plastica;11;33906526;kg
+2025;UD;Friuli Venezia Giulia;Legno e sughero;12;6099062;kg
+2025;UD;Friuli Venezia Giulia;Tessili;14;32740;kg
+2025;UD;Friuli Venezia Giulia;Granulato di Conglomerato bituminoso;20;132498040;kg
+2025;UD;Friuli Venezia Giulia;Altro;23;7513893;kg
+2025;VA;Lombardia;Ammendante compostato verde;1;5603420;kg
+2025;VA;Lombardia;Aggregati riciclati;5;291228053;kg
+2025;VA;Lombardia;Rottami di alluminio;6;5594451;kg
+2025;VA;Lombardia;Rottami di vetro;7;514985437;kg
+2025;VA;Lombardia;Rottami di ferro e acciaio;8;63068079;kg
+2025;VA;Lombardia;Rottami di rame;9;2346377;kg
+2025;VA;Lombardia;Carta e cartone;10;62803680;kg
+2025;VA;Lombardia;Plastica;11;44973694;kg
+2025;VA;Lombardia;Legno e sughero;12;5017304;kg
+2025;VA;Lombardia;Tessili;14;462844;kg
+2025;VA;Lombardia;Gomma;15;2740;kg
+2025;VA;Lombardia;Granulato di Conglomerato bituminoso;20;46977660;kg
+2025;VA;Lombardia;Altro;23;235775737;kg
+2025;VB;Piemonte;Ammendante compostato verde;1;2240;kg
+2025;VB;Piemonte;Aggregati riciclati;5;52812359;kg
+2025;VB;Piemonte;Rottami di alluminio;6;46650481;kg
+2025;VB;Piemonte;Rottami di ferro e acciaio;8;60957540;kg
+2025;VB;Piemonte;Carta e cartone;10;10189210;kg
+2025;VB;Piemonte;Legno e sughero;12;209240;kg
+2025;VB;Piemonte;Granulato di Conglomerato bituminoso;20;6942760;kg
+2025;VB;Piemonte;Altro;23;1877535;kg
+2025;VC;Piemonte;Ammendante compostato misto;2;2879410;kg
+2025;VC;Piemonte;Aggregati riciclati;5;370499454;kg
+2025;VC;Piemonte;Rottami di alluminio;6;26560;kg
+2025;VC;Piemonte;Rottami di ferro e acciaio;8;957414;kg
+2025;VC;Piemonte;Rottami di rame;9;804;kg
+2025;VC;Piemonte;Carta e cartone;10;38361559;kg
+2025;VC;Piemonte;Plastica;11;1237506;kg
+2025;VC;Piemonte;Legno e sughero;12;852607;kg
+2025;VC;Piemonte;Granulato di Conglomerato bituminoso;20;336400;kg
+2025;VC;Piemonte;Altro;23;79748358;kg
+2025;VE;Veneto;Ammendante compostato verde;1;4429113;kg
+2025;VE;Veneto;Aggregati riciclati;5;261847987;kg
+2025;VE;Veneto;Rottami di alluminio;6;4537008;kg
+2025;VE;Veneto;Rottami di vetro;7;90060270;kg
+2025;VE;Veneto;Rottami di ferro e acciaio;8;136107544;kg
+2025;VE;Veneto;Rottami di rame;9;2179303;kg
+2025;VE;Veneto;Carta e cartone;10;63019647;kg
+2025;VE;Veneto;Plastica;11;6567723;kg
+2025;VE;Veneto;Legno e sughero;12;4748316;kg
+2025;VE;Veneto;CSS – combustibile;13;2719460;kg
+2025;VE;Veneto;Tessili;14;519709;kg
+2025;VE;Veneto;Granulato di Conglomerato bituminoso;20;43888260;kg
+2025;VE;Veneto;Altro;23;100081825;kg
+2025;VI;Veneto;Ammendante compostato verde;1;6325417;kg
+2025;VI;Veneto;Ammendante compostato misto;2;2003860;kg
+2025;VI;Veneto;Aggregati riciclati;5;656256747;kg
+2025;VI;Veneto;Rottami di alluminio;6;6077923;kg
+2025;VI;Veneto;Rottami di vetro;7;320455520;kg
+2025;VI;Veneto;Rottami di ferro e acciaio;8;217541609;kg
+2025;VI;Veneto;Rottami di rame;9;7787631;kg
+2025;VI;Veneto;Carta e cartone;10;80766801;kg
+2025;VI;Veneto;Plastica;11;38715129;kg
+2025;VI;Veneto;Legno e sughero;12;34046507;kg
+2025;VI;Veneto;Tessili;14;381107;kg
+2025;VI;Veneto;Gomma;15;290090;kg
+2025;VI;Veneto;Altri Fertilizzanti;19;21047287;kg
+2025;VI;Veneto;Granulato di Conglomerato bituminoso;20;92293720;kg
+2025;VI;Veneto;Altro;23;129698361;kg
+2025;VR;Veneto;Ammendante compostato verde;1;4397960;kg
+2025;VR;Veneto;Ammendante compostato misto;2;31425670;kg
+2025;VR;Veneto;Altri Ammendanti;3;116867480;kg
+2025;VR;Veneto;Aggregati riciclati;5;1345236167;kg
+2025;VR;Veneto;Rottami di alluminio;6;2574067;kg
+2025;VR;Veneto;Rottami di ferro e acciaio;8;455612653;kg
+2025;VR;Veneto;Rottami di rame;9;1326201;kg
+2025;VR;Veneto;Carta e cartone;10;160291120;kg
+2025;VR;Veneto;Plastica;11;9001237;kg
+2025;VR;Veneto;Legno e sughero;12;6071740;kg
+2025;VR;Veneto;CSS – combustibile;13;78200;kg
+2025;VR;Veneto;Correttivi da Fanghi;18;3959000;kg
+2025;VR;Veneto;Altri Fertilizzanti;19;2067460;kg
+2025;VR;Veneto;Granulato di Conglomerato bituminoso;20;275594655;kg
+2025;VR;Veneto;Gomma vulcanizzata da PFU;22;52924;kg
+2025;VR;Veneto;Altro;23;125570740;kg
+2025;VS;Sardegna;Altro;23;315780;kg
+2025;VT;Lazio;Ammendante compostato verde;1;418440;kg
+2025;VT;Lazio;Ammendante compostato misto;2;6410431;kg
+2025;VT;Lazio;Aggregati riciclati;5;136154950;kg
+2025;VT;Lazio;Rottami di alluminio;6;733180;kg
+2025;VT;Lazio;Rottami di ferro e acciaio;8;5930107;kg
+2025;VT;Lazio;Carta e cartone;10;24791313;kg
+2025;VT;Lazio;CSS – combustibile;13;346900;kg
+2025;VT;Lazio;Tessili;14;51155;kg
+2025;VT;Lazio;Granulato di Conglomerato bituminoso;20;23329798;kg
+2025;VT;Lazio;Altro;23;38837344;kg
+2025;VV;Calabria;Aggregati riciclati;5;5669390;kg
+2025;VV;Calabria;Rottami di alluminio;6;33836;kg
+2025;VV;Calabria;Rottami di ferro e acciaio;8;1515470;kg
+2025;VV;Calabria;Carta e cartone;10;4384270;kg
+2026;AG;Sicilia;Ammendante compostato verde;1;53660;kg
+2026;AG;Sicilia;Ammendante compostato misto;2;3842840;kg
+2026;AG;Sicilia;Aggregati riciclati;5;101653530;kg
+2026;AG;Sicilia;Rottami di ferro e acciaio;8;2751280;kg
+2026;AG;Sicilia;Carta e cartone;10;18641730;kg
+2026;AG;Sicilia;Tessili;14;141635;kg
+2026;AG;Sicilia;Granulato di Conglomerato bituminoso;20;2441570;kg
+2026;AG;Sicilia;Altro;23;604362;kg
+2026;AL;Piemonte;Ammendante compostato misto;2;73600;kg
+2026;AL;Piemonte;Aggregati riciclati;5;311437322;kg
+2026;AL;Piemonte;Rottami di alluminio;6;2543731;kg
+2026;AL;Piemonte;Rottami di ferro e acciaio;8;11123304;kg
+2026;AL;Piemonte;Rottami di rame;9;4584819;kg
+2026;AL;Piemonte;Carta e cartone;10;32878535;kg
+2026;AL;Piemonte;Plastica;11;8999657;kg
+2026;AL;Piemonte;Legno e sughero;12;2555914;kg
+2026;AL;Piemonte;CSS – combustibile;13;3799450;kg
+2026;AL;Piemonte;Altri Fertilizzanti;19;1458270;kg
+2026;AL;Piemonte;Granulato di Conglomerato bituminoso;20;36320570;kg
+2026;AL;Piemonte;Altro;23;19622552;kg
+2026;AN;Marche;Ammendante compostato verde;1;1138210;kg
+2026;AN;Marche;Ammendante compostato misto;2;351350;kg
+2026;AN;Marche;Altri Ammendanti;3;519260;kg
+2026;AN;Marche;Digestato;4;6000;kg
+2026;AN;Marche;Aggregati riciclati;5;121577460;kg
+2026;AN;Marche;Rottami di alluminio;6;2448217;kg
+2026;AN;Marche;Rottami di vetro;7;28140;kg
+2026;AN;Marche;Rottami di ferro e acciaio;8;62134274;kg
+2026;AN;Marche;Rottami di rame;9;9355;kg
+2026;AN;Marche;Carta e cartone;10;34852624;kg
+2026;AN;Marche;Plastica;11;1102664;kg
+2026;AN;Marche;Legno e sughero;12;2339202;kg
+2026;AN;Marche;CSS – combustibile;13;5460000;kg
+2026;AN;Marche;Gomma;15;3559623;kg
+2026;AN;Marche;Granulato di Conglomerato bituminoso;20;47443924;kg
+2026;AN;Marche;Altro;23;21996084;kg
+2026;AO;Valle d'Aosta;Ammendante compostato verde;1;63900;kg
+2026;AO;Valle d'Aosta;Aggregati riciclati;5;18426608;kg
+2026;AO;Valle d'Aosta;Rottami di alluminio;6;10260;kg
+2026;AO;Valle d'Aosta;Rottami di ferro e acciaio;8;5970821;kg
+2026;AO;Valle d'Aosta;Rottami di rame;9;7760;kg
+2026;AO;Valle d'Aosta;Carta e cartone;10;7950540;kg
+2026;AP;Marche;Aggregati riciclati;5;217649891;kg
+2026;AP;Marche;Rottami di alluminio;6;209160;kg
+2026;AP;Marche;Rottami di ferro e acciaio;8;15088364;kg
+2026;AP;Marche;Rottami di rame;9;25050;kg
+2026;AP;Marche;Carta e cartone;10;12428279;kg
+2026;AP;Marche;Plastica;11;656525;kg
+2026;AP;Marche;Gomma;15;1381037;kg
+2026;AP;Marche;Granulato di Conglomerato bituminoso;20;36190302;kg
+2026;AP;Marche;Altro;23;12965250;kg
+2026;AQ;Abruzzo;Aggregati riciclati;5;446100684;kg
+2026;AQ;Abruzzo;Rottami di ferro e acciaio;8;2139384;kg
+2026;AQ;Abruzzo;Rottami di rame;9;1191;kg
+2026;AQ;Abruzzo;Carta e cartone;10;4116000;kg
+2026;AQ;Abruzzo;Plastica;11;8816;kg
+2026;AQ;Abruzzo;Granulato di Conglomerato bituminoso;20;85916254;kg
+2026;AQ;Abruzzo;Altro;23;6131674;kg
+2026;AR;Toscana;Ammendante compostato misto;2;2984500;kg
+2026;AR;Toscana;Aggregati riciclati;5;146834434;kg
+2026;AR;Toscana;Rottami di alluminio;6;280;kg
+2026;AR;Toscana;Rottami di ferro e acciaio;8;12149680;kg
+2026;AR;Toscana;Rottami di rame;9;133301;kg
+2026;AR;Toscana;Carta e cartone;10;26975777;kg
+2026;AR;Toscana;Plastica;11;4323324;kg
+2026;AR;Toscana;Legno e sughero;12;6479810;kg
+2026;AR;Toscana;Granulato di Conglomerato bituminoso;20;48984790;kg
+2026;AR;Toscana;Altro;23;231259;kg
+2026;AT;Piemonte;Ammendante compostato verde;1;82590;kg
+2026;AT;Piemonte;Aggregati riciclati;5;130023995;kg
+2026;AT;Piemonte;Rottami di alluminio;6;1980;kg
+2026;AT;Piemonte;Rottami di ferro e acciaio;8;60710253;kg
+2026;AT;Piemonte;Rottami di rame;9;240;kg
+2026;AT;Piemonte;Carta e cartone;10;8991082;kg
+2026;AT;Piemonte;Plastica;11;18940;kg
+2026;AT;Piemonte;Correttivi da Fanghi;18;9737759;kg
+2026;AT;Piemonte;Granulato di Conglomerato bituminoso;20;1496880;kg
+2026;AT;Piemonte;Altro;23;35766130;kg
+2026;AV;Campania;Aggregati riciclati;5;606938807;kg
+2026;AV;Campania;Rottami di alluminio;6;226711;kg
+2026;AV;Campania;Rottami di ferro e acciaio;8;17310861;kg
+2026;AV;Campania;Rottami di rame;9;11475;kg
+2026;AV;Campania;Carta e cartone;10;10637889;kg
+2026;AV;Campania;Plastica;11;10566219;kg
+2026;AV;Campania;Tessili;14;6115;kg
+2026;AV;Campania;Gomma;15;658000;kg
+2026;AV;Campania;Granulato di Conglomerato bituminoso;20;74244470;kg
+2026;AV;Campania;Altro;23;24858772;kg
+2026;BA;Puglia;Altri Ammendanti;3;308000;kg
+2026;BA;Puglia;Digestato;4;9990;kg
+2026;BA;Puglia;Aggregati riciclati;5;904664425;kg
+2026;BA;Puglia;Rottami di alluminio;6;3393278;kg
+2026;BA;Puglia;Rottami di ferro e acciaio;8;55296864;kg
+2026;BA;Puglia;Rottami di rame;9;1056932;kg
+2026;BA;Puglia;Carta e cartone;10;43186591;kg
+2026;BA;Puglia;Plastica;11;9376358;kg
+2026;BA;Puglia;Legno e sughero;12;11790470;kg
+2026;BA;Puglia;Tessili;14;253550;kg
+2026;BA;Puglia;Granulato di Conglomerato bituminoso;20;19740000;kg
+2026;BA;Puglia;Gomma vulcanizzata da PFU;22;21365904;kg
+2026;BA;Puglia;Altro;23;30536124;kg
+2026;BG;Lombardia;Ammendante compostato verde;1;22808629;kg
+2026;BG;Lombardia;Ammendante compostato misto;2;82425000;kg
+2026;BG;Lombardia;Altri Ammendanti;3;61914000;kg
+2026;BG;Lombardia;Aggregati riciclati;5;1322180597;kg
+2026;BG;Lombardia;Rottami di alluminio;6;33329922;kg
+2026;BG;Lombardia;Rottami di vetro;7;18938630;kg
+2026;BG;Lombardia;Rottami di ferro e acciaio;8;557947296;kg
+2026;BG;Lombardia;Rottami di rame;9;6560139;kg
+2026;BG;Lombardia;Carta e cartone;10;77263853;kg
+2026;BG;Lombardia;Plastica;11;104664345;kg
+2026;BG;Lombardia;Legno e sughero;12;825339;kg
+2026;BG;Lombardia;Tessili;14;1973152;kg
+2026;BG;Lombardia;Granulato di Conglomerato bituminoso;20;143230698;kg
+2026;BG;Lombardia;Gomma vulcanizzata da PFU;22;2645591;kg
+2026;BG;Lombardia;Altro;23;392940870;kg
+2026;BI;Piemonte;Ammendante compostato verde;1;55200;kg
+2026;BI;Piemonte;Aggregati riciclati;5;185550154;kg
+2026;BI;Piemonte;Rottami di alluminio;6;165754;kg
+2026;BI;Piemonte;Rottami di vetro;7;52133200;kg
+2026;BI;Piemonte;Rottami di ferro e acciaio;8;7312358;kg
+2026;BI;Piemonte;Rottami di rame;9;5150;kg
+2026;BI;Piemonte;Carta e cartone;10;12092990;kg
+2026;BI;Piemonte;Plastica;11;0;
+2026;BI;Piemonte;Plastica;11;3106380;kg
+2026;BI;Piemonte;Legno e sughero;12;440836;kg
+2026;BI;Piemonte;CSS – combustibile;13;1167370;kg
+2026;BI;Piemonte;Materiali ceramici;17;1257440;kg
+2026;BI;Piemonte;Granulato di Conglomerato bituminoso;20;55948010;kg
+2026;BI;Piemonte;Altro;23;15292129;kg
+2026;BL;Veneto;Ammendante compostato misto;2;4979440;kg
+2026;BL;Veneto;Aggregati riciclati;5;161675457;kg
+2026;BL;Veneto;Rottami di alluminio;6;398021;kg
+2026;BL;Veneto;Rottami di ferro e acciaio;8;3621480;kg
+2026;BL;Veneto;Rottami di rame;9;245831;kg
+2026;BL;Veneto;Carta e cartone;10;1686000;kg
+2026;BL;Veneto;Plastica;11;312677;kg
+2026;BL;Veneto;Legno e sughero;12;3560;kg
+2026;BL;Veneto;Altro;23;1561958;kg
+2026;BN;Campania;Aggregati riciclati;5;140142816;kg
+2026;BN;Campania;Rottami di alluminio;6;62;kg
+2026;BN;Campania;Rottami di ferro e acciaio;8;6779286;kg
+2026;BN;Campania;Carta e cartone;10;10587491;kg
+2026;BN;Campania;Plastica;11;220757;kg
+2026;BN;Campania;Tessili;14;2730291;kg
+2026;BN;Campania;Granulato di Conglomerato bituminoso;20;22797693;kg
+2026;BN;Campania;Altro;23;118291180;kg
+2026;BO;Emilia Romagna;Ammendante compostato verde;1;5448270;kg
+2026;BO;Emilia Romagna;Ammendante compostato misto;2;21043750;kg
+2026;BO;Emilia Romagna;Altri Ammendanti;3;2195800;kg
+2026;BO;Emilia Romagna;Aggregati riciclati;5;777243382;kg
+2026;BO;Emilia Romagna;Rottami di alluminio;6;7476973;kg
+2026;BO;Emilia Romagna;Rottami di ferro e acciaio;8;164599003;kg
+2026;BO;Emilia Romagna;Rottami di rame;9;5048766;kg
+2026;BO;Emilia Romagna;Carta e cartone;10;87793079;kg
+2026;BO;Emilia Romagna;Plastica;11;3186352;kg
+2026;BO;Emilia Romagna;Legno e sughero;12;6701475;kg
+2026;BO;Emilia Romagna;Tessili;14;554;kg
+2026;BO;Emilia Romagna;Correttivi da Fanghi;18;115770;kg
+2026;BO;Emilia Romagna;Granulato di Conglomerato bituminoso;20;108674751;kg
+2026;BO;Emilia Romagna;Gomma vulcanizzata da PFU;22;596163;kg
+2026;BO;Emilia Romagna;Altro;23;94254098;kg
+2026;BR;Puglia;Ammendante compostato misto;2;8637000;kg
+2026;BR;Puglia;Aggregati riciclati;5;307667003;kg
+2026;BR;Puglia;Rottami di alluminio;6;165171;kg
+2026;BR;Puglia;Rottami di ferro e acciaio;8;37954437;kg
+2026;BR;Puglia;Rottami di rame;9;1930;kg
+2026;BR;Puglia;Carta e cartone;10;2732117;kg
+2026;BR;Puglia;Plastica;11;475810;kg
+2026;BR;Puglia;Legno e sughero;12;66560;kg
+2026;BR;Puglia;Tessili;14;46060;kg
+2026;BR;Puglia;Granulato di Conglomerato bituminoso;20;1596150;kg
+2026;BR;Puglia;Altro;23;10384265;kg
+2026;BS;Lombardia;Ammendante compostato verde;1;54393200;kg
+2026;BS;Lombardia;Altri Ammendanti;3;2360990;kg
+2026;BS;Lombardia;Aggregati riciclati;5;2219479906;kg
+2026;BS;Lombardia;Rottami di alluminio;6;134226224;kg
+2026;BS;Lombardia;Rottami di vetro;7;20049560;kg
+2026;BS;Lombardia;Rottami di ferro e acciaio;8;0;
+2026;BS;Lombardia;Rottami di ferro e acciaio;8;687405292;kg
+2026;BS;Lombardia;Rottami di rame;9;30731692;kg
+2026;BS;Lombardia;Carta e cartone;10;111244498;kg
+2026;BS;Lombardia;Plastica;11;38042536;kg
+2026;BS;Lombardia;Legno e sughero;12;15035175;kg
+2026;BS;Lombardia;CSS – combustibile;13;68915400;kg
+2026;BS;Lombardia;Tessili;14;287531;kg
+2026;BS;Lombardia;Cuoio;16;16;kg
+2026;BS;Lombardia;Granulato di Conglomerato bituminoso;20;179418900;kg
+2026;BS;Lombardia;Gomma vulcanizzata da PFU;22;10470400;kg
+2026;BS;Lombardia;Altro;23;777246001;kg
+2026;BT;Puglia;Ammendante compostato misto;2;1874590;kg
+2026;BT;Puglia;Aggregati riciclati;5;179325686;kg
+2026;BT;Puglia;Rottami di alluminio;6;1446978;kg
+2026;BT;Puglia;Rottami di vetro;7;16401440;kg
+2026;BT;Puglia;Rottami di ferro e acciaio;8;12525401;kg
+2026;BT;Puglia;Rottami di rame;9;1318685;kg
+2026;BT;Puglia;Carta e cartone;10;20070162;kg
+2026;BT;Puglia;Plastica;11;5832510;kg
+2026;BT;Puglia;Legno e sughero;12;271270;kg
+2026;BT;Puglia;CSS – combustibile;13;27696120;kg
+2026;BT;Puglia;Tessili;14;751556;kg
+2026;BT;Puglia;Granulato di Conglomerato bituminoso;20;43619820;kg
+2026;BT;Puglia;Gomma vulcanizzata da PFU;22;7000;kg
+2026;BT;Puglia;Altro;23;1985669;kg
+2026;BZ;Trentino Alto Adige;Ammendante compostato verde;1;723060;kg
+2026;BZ;Trentino Alto Adige;Ammendante compostato misto;2;5533920;kg
+2026;BZ;Trentino Alto Adige;Altri Ammendanti;3;107040;kg
+2026;BZ;Trentino Alto Adige;Aggregati riciclati;5;778694501;kg
+2026;BZ;Trentino Alto Adige;Rottami di alluminio;6;155887;kg
+2026;BZ;Trentino Alto Adige;Rottami di ferro e acciaio;8;23189893;kg
+2026;BZ;Trentino Alto Adige;Rottami di rame;9;118355;kg
+2026;BZ;Trentino Alto Adige;Carta e cartone;10;22289947;kg
+2026;BZ;Trentino Alto Adige;Plastica;11;3204753;kg
+2026;BZ;Trentino Alto Adige;Legno e sughero;12;4454896;kg
+2026;BZ;Trentino Alto Adige;Gomma;15;5471620;kg
+2026;BZ;Trentino Alto Adige;Granulato di Conglomerato bituminoso;20;15737025;kg
+2026;BZ;Trentino Alto Adige;Materiali secondari derivanti dal recupero di prodotti assorbenti per la persona;21;16810;kg
+2026;BZ;Trentino Alto Adige;Altro;23;33605669;kg
+2026;CA;Sardegna;Ammendante compostato verde;1;3483770;kg
+2026;CA;Sardegna;Aggregati riciclati;5;323948409;kg
+2026;CA;Sardegna;Rottami di ferro e acciaio;8;25758173;kg
+2026;CA;Sardegna;Carta e cartone;10;12701767;kg
+2026;CA;Sardegna;Plastica;11;801389;kg
+2026;CA;Sardegna;Legno e sughero;12;3615;kg
+2026;CA;Sardegna;Granulato di Conglomerato bituminoso;20;22425180;kg
+2026;CA;Sardegna;Altro;23;11125833;kg
+2026;CB;Molise;Altri Ammendanti;3;900000;kg
+2026;CB;Molise;Aggregati riciclati;5;53111762;kg
+2026;CB;Molise;Rottami di ferro e acciaio;8;3730854;kg
+2026;CB;Molise;Carta e cartone;10;4252240;kg
+2026;CB;Molise;Plastica;11;44255;kg
+2026;CB;Molise;Granulato di Conglomerato bituminoso;20;108859600;kg
+2026;CB;Molise;Altro;23;10866348;kg
+2026;CE;Campania;Altri Ammendanti;3;673770;kg
+2026;CE;Campania;Digestato;4;300000;kg
+2026;CE;Campania;Aggregati riciclati;5;735749150;kg
+2026;CE;Campania;Rottami di alluminio;6;4656134;kg
+2026;CE;Campania;Rottami di vetro;7;620;kg
+2026;CE;Campania;Rottami di ferro e acciaio;8;32276946;kg
+2026;CE;Campania;Rottami di rame;9;3673029;kg
+2026;CE;Campania;Carta e cartone;10;70064508;kg
+2026;CE;Campania;Plastica;11;6656747;kg
+2026;CE;Campania;Legno e sughero;12;1492460;kg
+2026;CE;Campania;CSS – combustibile;13;67895;kg
+2026;CE;Campania;Tessili;14;52562309;kg
+2026;CE;Campania;Gomma;15;17400;kg
+2026;CE;Campania;Granulato di Conglomerato bituminoso;20;28272880;kg
+2026;CE;Campania;Gomma vulcanizzata da PFU;22;1003450;kg
+2026;CE;Campania;Altro;23;22676021;kg
+2026;CH;Abruzzo;Aggregati riciclati;5;263487079;kg
+2026;CH;Abruzzo;Rottami di alluminio;6;20064;kg
+2026;CH;Abruzzo;Rottami di vetro;7;1812;kg
+2026;CH;Abruzzo;Rottami di ferro e acciaio;8;15992110;kg
+2026;CH;Abruzzo;Rottami di rame;9;5608;kg
+2026;CH;Abruzzo;Carta e cartone;10;29561384;kg
+2026;CH;Abruzzo;Plastica;11;4425004;kg
+2026;CH;Abruzzo;Legno e sughero;12;186160;kg
+2026;CH;Abruzzo;CSS – combustibile;13;31678;kg
+2026;CH;Abruzzo;Tessili;14;420;kg
+2026;CH;Abruzzo;Materiali ceramici;17;1916680;kg
+2026;CH;Abruzzo;Granulato di Conglomerato bituminoso;20;5942090;kg
+2026;CH;Abruzzo;Altro;23;42209196;kg
+2026;CI;Sardegna;Granulato di Conglomerato bituminoso;20;3750000;kg
+2026;CL;Sicilia;Ammendante compostato misto;2;2750000;kg
+2026;CL;Sicilia;Aggregati riciclati;5;37598208;kg
+2026;CL;Sicilia;Plastica;11;10567440;kg
+2026;CL;Sicilia;Granulato di Conglomerato bituminoso;20;989620;kg
+2026;CL;Sicilia;Altro;23;12498435;kg
+2026;CN;Piemonte;Ammendante compostato verde;1;1638680;kg
+2026;CN;Piemonte;Ammendante compostato misto;2;22093090;kg
+2026;CN;Piemonte;Aggregati riciclati;5;453420873;kg
+2026;CN;Piemonte;Rottami di alluminio;6;1051929;kg
+2026;CN;Piemonte;Rottami di ferro e acciaio;8;78668724;kg
+2026;CN;Piemonte;Rottami di rame;9;88142;kg
+2026;CN;Piemonte;Carta e cartone;10;76561942;kg
+2026;CN;Piemonte;Plastica;11;50439332;kg
+2026;CN;Piemonte;Legno e sughero;12;1867080;kg
+2026;CN;Piemonte;Tessili;14;17898;kg
+2026;CN;Piemonte;Granulato di Conglomerato bituminoso;20;79508640;kg
+2026;CN;Piemonte;Altro;23;61298135;kg
+2026;CO;Lombardia;Ammendante compostato verde;1;21625270;kg
+2026;CO;Lombardia;Aggregati riciclati;5;205332404;kg
+2026;CO;Lombardia;Rottami di alluminio;6;495435;kg
+2026;CO;Lombardia;Rottami di vetro;7;54540;kg
+2026;CO;Lombardia;Rottami di ferro e acciaio;8;96853113;kg
+2026;CO;Lombardia;Rottami di rame;9;211265;kg
+2026;CO;Lombardia;Carta e cartone;10;29105315;kg
+2026;CO;Lombardia;Plastica;11;15196599;kg
+2026;CO;Lombardia;Legno e sughero;12;1967350;kg
+2026;CO;Lombardia;CSS – combustibile;13;7033595;kg
+2026;CO;Lombardia;Gomma;15;190853;kg
+2026;CO;Lombardia;Granulato di Conglomerato bituminoso;20;53659460;kg
+2026;CO;Lombardia;Gomma vulcanizzata da PFU;22;700000;kg
+2026;CO;Lombardia;Altro;23;17715116;kg
+2026;CR;Lombardia;Ammendante compostato verde;1;221061;kg
+2026;CR;Lombardia;Aggregati riciclati;5;350565112;kg
+2026;CR;Lombardia;Rottami di alluminio;6;257182;kg
+2026;CR;Lombardia;Rottami di ferro e acciaio;8;34883752;kg
+2026;CR;Lombardia;Rottami di rame;9;62946;kg
+2026;CR;Lombardia;Carta e cartone;10;13114060;kg
+2026;CR;Lombardia;Plastica;11;2108736;kg
+2026;CR;Lombardia;Legno e sughero;12;4623260;kg
+2026;CR;Lombardia;Tessili;14;181865;kg
+2026;CR;Lombardia;Gomma;15;1552925;kg
+2026;CR;Lombardia;Granulato di Conglomerato bituminoso;20;12912680;kg
+2026;CR;Lombardia;Altro;23;33100099;kg
+2026;CS;Calabria;Aggregati riciclati;5;204421822;kg
+2026;CS;Calabria;Rottami di alluminio;6;176680;kg
+2026;CS;Calabria;Rottami di ferro e acciaio;8;6993430;kg
+2026;CS;Calabria;Rottami di rame;9;4000;kg
+2026;CS;Calabria;Carta e cartone;10;11320050;kg
+2026;CS;Calabria;Plastica;11;800;kg
+2026;CS;Calabria;Tessili;14;542703;kg
+2026;CS;Calabria;Granulato di Conglomerato bituminoso;20;44831417;kg
+2026;CS;Calabria;Altro;23;11735427;kg
+2026;CT;Sicilia;Ammendante compostato verde;1;1011900;kg
+2026;CT;Sicilia;Ammendante compostato misto;2;22726231;kg
+2026;CT;Sicilia;Altri Ammendanti;3;54655441;kg
+2026;CT;Sicilia;Aggregati riciclati;5;316955060;kg
+2026;CT;Sicilia;Rottami di alluminio;6;471872;kg
+2026;CT;Sicilia;Rottami di ferro e acciaio;8;125568787;kg
+2026;CT;Sicilia;Rottami di rame;9;100530;kg
+2026;CT;Sicilia;Carta e cartone;10;19254350;kg
+2026;CT;Sicilia;Plastica;11;2875049;kg
+2026;CT;Sicilia;Granulato di Conglomerato bituminoso;20;4607350;kg
+2026;CT;Sicilia;Altro;23;45690254;kg
+2026;CZ;Calabria;Ammendante compostato misto;2;7509510;kg
+2026;CZ;Calabria;Aggregati riciclati;5;307038843;kg
+2026;CZ;Calabria;Rottami di alluminio;6;685019;kg
+2026;CZ;Calabria;Rottami di vetro;7;270;kg
+2026;CZ;Calabria;Rottami di ferro e acciaio;8;4669920;kg
+2026;CZ;Calabria;Carta e cartone;10;10034580;kg
+2026;CZ;Calabria;Plastica;11;1345894;kg
+2026;CZ;Calabria;Altri Fertilizzanti;19;1183584;kg
+2026;CZ;Calabria;Gomma vulcanizzata da PFU;22;3428260;kg
+2026;CZ;Calabria;Altro;23;53813296;kg
+2026;EN;Sicilia;Ammendante compostato misto;2;8768458;kg
+2026;EN;Sicilia;Aggregati riciclati;5;160455575;kg
+2026;EN;Sicilia;Carta e cartone;10;18782400;kg
+2026;EN;Sicilia;Granulato di Conglomerato bituminoso;20;181110;kg
+2026;FC;Emilia Romagna;Ammendante compostato misto;2;8547070;kg
+2026;FC;Emilia Romagna;Altri Ammendanti;3;1911520;kg
+2026;FC;Emilia Romagna;Aggregati riciclati;5;229288916;kg
+2026;FC;Emilia Romagna;Rottami di alluminio;6;1669675;kg
+2026;FC;Emilia Romagna;Rottami di vetro;7;357045;kg
+2026;FC;Emilia Romagna;Rottami di ferro e acciaio;8;63813663;kg
+2026;FC;Emilia Romagna;Rottami di rame;9;2089290;kg
+2026;FC;Emilia Romagna;Carta e cartone;10;48898676;kg
+2026;FC;Emilia Romagna;Plastica;11;4331385;kg
+2026;FC;Emilia Romagna;Legno e sughero;12;3674566;kg
+2026;FC;Emilia Romagna;Granulato di Conglomerato bituminoso;20;150733687;kg
+2026;FC;Emilia Romagna;Altro;23;3178360;kg
+2026;FE;Emilia Romagna;Ammendante compostato misto;2;9198780;kg
+2026;FE;Emilia Romagna;Aggregati riciclati;5;163156502;kg
+2026;FE;Emilia Romagna;Rottami di alluminio;6;7888001;kg
+2026;FE;Emilia Romagna;Rottami di ferro e acciaio;8;27687926;kg
+2026;FE;Emilia Romagna;Rottami di rame;9;8609820;kg
+2026;FE;Emilia Romagna;Carta e cartone;10;23577080;kg
+2026;FE;Emilia Romagna;Plastica;11;18064786;kg
+2026;FE;Emilia Romagna;Legno e sughero;12;453114;kg
+2026;FE;Emilia Romagna;CSS – combustibile;13;3073990;kg
+2026;FE;Emilia Romagna;Granulato di Conglomerato bituminoso;20;75438303;kg
+2026;FE;Emilia Romagna;Altro;23;18973210;kg
+2026;FG;Puglia;Ammendante compostato misto;2;35703266;kg
+2026;FG;Puglia;Altri Ammendanti;3;17017230;kg
+2026;FG;Puglia;Aggregati riciclati;5;647794551;kg
+2026;FG;Puglia;Rottami di alluminio;6;1040817;kg
+2026;FG;Puglia;Rottami di vetro;7;71404;kg
+2026;FG;Puglia;Rottami di ferro e acciaio;8;21844671;kg
+2026;FG;Puglia;Rottami di rame;9;11550;kg
+2026;FG;Puglia;Carta e cartone;10;167743876;kg
+2026;FG;Puglia;Plastica;11;2493299;kg
+2026;FG;Puglia;Legno e sughero;12;22020;kg
+2026;FG;Puglia;Tessili;14;171060;kg
+2026;FG;Puglia;Gomma;15;5271250;kg
+2026;FG;Puglia;Correttivi da Fanghi;18;834180;kg
+2026;FG;Puglia;Altri Fertilizzanti;19;2266400;kg
+2026;FG;Puglia;Granulato di Conglomerato bituminoso;20;26086920;kg
+2026;FG;Puglia;Altro;23;86839341;kg
+2026;FI;Toscana;Ammendante compostato misto;2;12114632;kg
+2026;FI;Toscana;Aggregati riciclati;5;858772048;kg
+2026;FI;Toscana;Rottami di alluminio;6;2096943;kg
+2026;FI;Toscana;Rottami di vetro;7;85987443;kg
+2026;FI;Toscana;Rottami di ferro e acciaio;8;17217177;kg
+2026;FI;Toscana;Rottami di rame;9;158778;kg
+2026;FI;Toscana;Carta e cartone;10;76693039;kg
+2026;FI;Toscana;Plastica;11;2026483;kg
+2026;FI;Toscana;Legno e sughero;12;77376;kg
+2026;FI;Toscana;Tessili;14;19995;kg
+2026;FI;Toscana;Gomma;15;13470;kg
+2026;FI;Toscana;Cuoio;16;5110;kg
+2026;FI;Toscana;Altri Fertilizzanti;19;1478350;kg
+2026;FI;Toscana;Granulato di Conglomerato bituminoso;20;80872360;kg
+2026;FI;Toscana;Altro;23;215288794;kg
+2026;FM;Marche;Ammendante compostato misto;2;3537430;kg
+2026;FM;Marche;Aggregati riciclati;5;9364523;kg
+2026;FM;Marche;Rottami di alluminio;6;271397;kg
+2026;FM;Marche;Rottami di ferro e acciaio;8;9829509;kg
+2026;FM;Marche;Carta e cartone;10;6203255;kg
+2026;FM;Marche;Altri Fertilizzanti;19;1704015;kg
+2026;FM;Marche;Granulato di Conglomerato bituminoso;20;38400000;kg
+2026;FM;Marche;Gomma vulcanizzata da PFU;22;5741585;kg
+2026;FM;Marche;Altro;23;18079318;kg
+2026;FR;Lazio;Ammendante compostato verde;1;1252490;kg
+2026;FR;Lazio;Altri Ammendanti;3;5843100;kg
+2026;FR;Lazio;Aggregati riciclati;5;79864648;kg
+2026;FR;Lazio;Rottami di vetro;7;150348687;kg
+2026;FR;Lazio;Rottami di ferro e acciaio;8;1879889;kg
+2026;FR;Lazio;Carta e cartone;10;36532284;kg
+2026;FR;Lazio;Plastica;11;4549078;kg
+2026;FR;Lazio;CSS – combustibile;13;93586;kg
+2026;FR;Lazio;Granulato di Conglomerato bituminoso;20;13619680;kg
+2026;FR;Lazio;Altro;23;9979559;kg
+2026;GE;Liguria;Altri Ammendanti;3;10000;kg
+2026;GE;Liguria;Aggregati riciclati;5;41099468;kg
+2026;GE;Liguria;Rottami di alluminio;6;156265;kg
+2026;GE;Liguria;Rottami di ferro e acciaio;8;28616603;kg
+2026;GE;Liguria;Rottami di rame;9;445174;kg
+2026;GE;Liguria;Carta e cartone;10;39995843;kg
+2026;GE;Liguria;Legno e sughero;12;156809;kg
+2026;GE;Liguria;Gomma;15;761820;kg
+2026;GE;Liguria;Granulato di Conglomerato bituminoso;20;56832864;kg
+2026;GE;Liguria;Altro;23;9779419;kg
+2026;GO;Friuli Venezia Giulia;Ammendante compostato misto;2;2440000;kg
+2026;GO;Friuli Venezia Giulia;Aggregati riciclati;5;96477620;kg
+2026;GO;Friuli Venezia Giulia;Rottami di alluminio;6;322090;kg
+2026;GO;Friuli Venezia Giulia;Rottami di ferro e acciaio;8;21952680;kg
+2026;GO;Friuli Venezia Giulia;Rottami di rame;9;365820;kg
+2026;GO;Friuli Venezia Giulia;Carta e cartone;10;5325150;kg
+2026;GO;Friuli Venezia Giulia;Plastica;11;141282;kg
+2026;GO;Friuli Venezia Giulia;Granulato di Conglomerato bituminoso;20;34508550;kg
+2026;GO;Friuli Venezia Giulia;Altro;23;7937600;kg
+2026;GR;Toscana;Altri Ammendanti;3;22682060;kg
+2026;GR;Toscana;Aggregati riciclati;5;51235125;kg
+2026;GR;Toscana;Rottami di alluminio;6;146456;kg
+2026;GR;Toscana;Rottami di ferro e acciaio;8;7126302;kg
+2026;GR;Toscana;Rottami di rame;9;2060;kg
+2026;GR;Toscana;Carta e cartone;10;6764895;kg
+2026;GR;Toscana;Granulato di Conglomerato bituminoso;20;13238472;kg
+2026;GR;Toscana;Altro;23;82138490;kg
+2026;IM;Liguria;Ammendante compostato verde;1;3049590;kg
+2026;IM;Liguria;Aggregati riciclati;5;50951000;kg
+2026;IM;Liguria;Rottami di ferro e acciaio;8;3026220;kg
+2026;IM;Liguria;Rottami di rame;9;5300;kg
+2026;IM;Liguria;Carta e cartone;10;4552330;kg
+2026;IM;Liguria;Granulato di Conglomerato bituminoso;20;11370063;kg
+2026;IM;Liguria;Altro;23;2531915;kg
+2026;IS;Molise;Aggregati riciclati;5;24855339;kg
+2026;IS;Molise;Rottami di alluminio;6;2258417;kg
+2026;IS;Molise;Rottami di ferro e acciaio;8;3022060;kg
+2026;IS;Molise;Carta e cartone;10;4209872;kg
+2026;IS;Molise;Plastica;11;638801;kg
+2026;IS;Molise;Granulato di Conglomerato bituminoso;20;29660;kg
+2026;IS;Molise;Altro;23;67940;kg
+2026;KR;Calabria;Aggregati riciclati;5;39441605;kg
+2026;KR;Calabria;Rottami di alluminio;6;43820;kg
+2026;KR;Calabria;Rottami di ferro e acciaio;8;7048638;kg
+2026;KR;Calabria;Rottami di rame;9;20030;kg
+2026;KR;Calabria;Carta e cartone;10;1624780;kg
+2026;KR;Calabria;Plastica;11;693205;kg
+2026;KR;Calabria;Altri Fertilizzanti;19;1710929;kg
+2026;KR;Calabria;Granulato di Conglomerato bituminoso;20;188450;kg
+2026;KR;Calabria;Altro;23;238000;kg
+2026;LC;Lombardia;Ammendante compostato misto;2;2570000;kg
+2026;LC;Lombardia;Aggregati riciclati;5;192908190;kg
+2026;LC;Lombardia;Rottami di alluminio;6;2624381;kg
+2026;LC;Lombardia;Rottami di ferro e acciaio;8;171739269;kg
+2026;LC;Lombardia;Rottami di rame;9;262949;kg
+2026;LC;Lombardia;Carta e cartone;10;21446936;kg
+2026;LC;Lombardia;Plastica;11;605772;kg
+2026;LC;Lombardia;Legno e sughero;12;12288950;kg
+2026;LC;Lombardia;Tessili;14;719043;kg
+2026;LC;Lombardia;Granulato di Conglomerato bituminoso;20;8738420;kg
+2026;LC;Lombardia;Altro;23;3326505;kg
+2026;LE;Puglia;Ammendante compostato verde;1;579750;kg
+2026;LE;Puglia;Ammendante compostato misto;2;11200;kg
+2026;LE;Puglia;Altri Ammendanti;3;685000;kg
+2026;LE;Puglia;Digestato;4;237600;kg
+2026;LE;Puglia;Aggregati riciclati;5;446796056;kg
+2026;LE;Puglia;Rottami di alluminio;6;1228716;kg
+2026;LE;Puglia;Rottami di vetro;7;291380;kg
+2026;LE;Puglia;Rottami di ferro e acciaio;8;61629660;kg
+2026;LE;Puglia;Rottami di rame;9;770;kg
+2026;LE;Puglia;Carta e cartone;10;64835800;kg
+2026;LE;Puglia;Plastica;11;286585;kg
+2026;LE;Puglia;Legno e sughero;12;1960170;kg
+2026;LE;Puglia;Tessili;14;163430;kg
+2026;LE;Puglia;Granulato di Conglomerato bituminoso;20;6694850;kg
+2026;LE;Puglia;Materiali secondari derivanti dal recupero di prodotti assorbenti per la persona;21;0;kg
+2026;LE;Puglia;Altro;23;48870460;kg
+2026;LI;Toscana;Ammendante compostato verde;1;1337190;kg
+2026;LI;Toscana;Aggregati riciclati;5;340176666;kg
+2026;LI;Toscana;Rottami di alluminio;6;17560;kg
+2026;LI;Toscana;Rottami di ferro e acciaio;8;6709962;kg
+2026;LI;Toscana;Carta e cartone;10;12507950;kg
+2026;LI;Toscana;CSS – combustibile;13;2693140;kg
+2026;LI;Toscana;Materiali ceramici;17;8159060;kg
+2026;LI;Toscana;Granulato di Conglomerato bituminoso;20;5019301;kg
+2026;LI;Toscana;Altro;23;70793693;kg
+2026;LO;Lombardia;Aggregati riciclati;5;337166852;kg
+2026;LO;Lombardia;Rottami di alluminio;6;585684;kg
+2026;LO;Lombardia;Rottami di ferro e acciaio;8;23573215;kg
+2026;LO;Lombardia;Rottami di rame;9;147604;kg
+2026;LO;Lombardia;Carta e cartone;10;10529440;kg
+2026;LO;Lombardia;Correttivi da Fanghi;18;70085170;kg
+2026;LO;Lombardia;Granulato di Conglomerato bituminoso;20;11103860;kg
+2026;LO;Lombardia;Altro;23;118623117;kg
+2026;LT;Lazio;Digestato;4;3757830;kg
+2026;LT;Lazio;Aggregati riciclati;5;129528508;kg
+2026;LT;Lazio;Rottami di alluminio;6;6930642;kg
+2026;LT;Lazio;Rottami di ferro e acciaio;8;8457440;kg
+2026;LT;Lazio;Rottami di rame;9;9770;kg
+2026;LT;Lazio;Carta e cartone;10;1405970;kg
+2026;LT;Lazio;Plastica;11;2057800;kg
+2026;LT;Lazio;Granulato di Conglomerato bituminoso;20;34345110;kg
+2026;LT;Lazio;Gomma vulcanizzata da PFU;22;1031254;kg
+2026;LT;Lazio;Altro;23;61339247;kg
+2026;LU;Toscana;Aggregati riciclati;5;344219343;kg
+2026;LU;Toscana;Rottami di alluminio;6;100163;kg
+2026;LU;Toscana;Rottami di ferro e acciaio;8;12893182;kg
+2026;LU;Toscana;Rottami di rame;9;6790321;kg
+2026;LU;Toscana;Carta e cartone;10;59633534;kg
+2026;LU;Toscana;Plastica;11;2815726;kg
+2026;LU;Toscana;Legno e sughero;12;179581;kg
+2026;LU;Toscana;Tessili;14;140950;kg
+2026;LU;Toscana;Granulato di Conglomerato bituminoso;20;48635841;kg
+2026;LU;Toscana;Altro;23;14938013;kg
+2026;MB;Lombardia;Altri Ammendanti;3;68200;kg
+2026;MB;Lombardia;Aggregati riciclati;5;517638434;kg
+2026;MB;Lombardia;Rottami di alluminio;6;5349170;kg
+2026;MB;Lombardia;Rottami di ferro e acciaio;8;56899938;kg
+2026;MB;Lombardia;Rottami di rame;9;794846;kg
+2026;MB;Lombardia;Carta e cartone;10;72921800;kg
+2026;MB;Lombardia;Plastica;11;2669805;kg
+2026;MB;Lombardia;Legno e sughero;12;4678051;kg
+2026;MB;Lombardia;Tessili;14;23011;kg
+2026;MB;Lombardia;Granulato di Conglomerato bituminoso;20;47044146;kg
+2026;MB;Lombardia;Altro;23;30675059;kg
+2026;MC;Marche;Ammendante compostato verde;1;23300;kg
+2026;MC;Marche;Ammendante compostato misto;2;286000;kg
+2026;MC;Marche;Aggregati riciclati;5;258072424;kg
+2026;MC;Marche;Rottami di alluminio;6;2387634;kg
+2026;MC;Marche;Rottami di ferro e acciaio;8;23681882;kg
+2026;MC;Marche;Rottami di rame;9;2236809;kg
+2026;MC;Marche;Carta e cartone;10;8317653;kg
+2026;MC;Marche;Plastica;11;3622098;kg
+2026;MC;Marche;Legno e sughero;12;190298;kg
+2026;MC;Marche;Tessili;14;1986240;kg
+2026;MC;Marche;Gomma;15;70430;kg
+2026;MC;Marche;Altro;23;27100108;kg
+2026;ME;Sicilia;Altri Ammendanti;3;162620;kg
+2026;ME;Sicilia;Aggregati riciclati;5;107481906;kg
+2026;ME;Sicilia;Carta e cartone;10;15528232;kg
+2026;ME;Sicilia;Plastica;11;18416;kg
+2026;ME;Sicilia;Tessili;14;908140;kg
+2026;ME;Sicilia;Materiali ceramici;17;33290;kg
+2026;ME;Sicilia;Granulato di Conglomerato bituminoso;20;13475330;kg
+2026;ME;Sicilia;Altro;23;381630;kg
+2026;MI;Lombardia;Ammendante compostato verde;1;12840849;kg
+2026;MI;Lombardia;Ammendante compostato misto;2;18490530;kg
+2026;MI;Lombardia;Aggregati riciclati;5;1512193396;kg
+2026;MI;Lombardia;Rottami di alluminio;6;4307822;kg
+2026;MI;Lombardia;Rottami di vetro;7;20327640;kg
+2026;MI;Lombardia;Rottami di ferro e acciaio;8;304121060;kg
+2026;MI;Lombardia;Rottami di rame;9;7150205;kg
+2026;MI;Lombardia;Carta e cartone;10;395662853;kg
+2026;MI;Lombardia;Plastica;11;24165090;kg
+2026;MI;Lombardia;Legno e sughero;12;7072601;kg
+2026;MI;Lombardia;CSS – combustibile;13;12108423;kg
+2026;MI;Lombardia;Tessili;14;3496431;kg
+2026;MI;Lombardia;Granulato di Conglomerato bituminoso;20;185050000;kg
+2026;MI;Lombardia;Gomma vulcanizzata da PFU;22;157;kg
+2026;MI;Lombardia;Altro;23;169322015;kg
+2026;MN;Lombardia;Ammendante compostato verde;1;912080;kg
+2026;MN;Lombardia;Altri Ammendanti;3;20060000;kg
+2026;MN;Lombardia;Aggregati riciclati;5;345257062;kg
+2026;MN;Lombardia;Rottami di alluminio;6;374960;kg
+2026;MN;Lombardia;Rottami di ferro e acciaio;8;9755654;kg
+2026;MN;Lombardia;Rottami di rame;9;31140;kg
+2026;MN;Lombardia;Carta e cartone;10;39891870;kg
+2026;MN;Lombardia;Plastica;11;5615474;kg
+2026;MN;Lombardia;Legno e sughero;12;4355600;kg
+2026;MN;Lombardia;CSS – combustibile;13;1250000;kg
+2026;MN;Lombardia;Tessili;14;1153873;kg
+2026;MN;Lombardia;Altri Fertilizzanti;19;22877500;kg
+2026;MN;Lombardia;Granulato di Conglomerato bituminoso;20;29683840;kg
+2026;MN;Lombardia;Altro;23;72484960;kg
+2026;MO;Emilia Romagna;Ammendante compostato verde;1;412380;kg
+2026;MO;Emilia Romagna;Ammendante compostato misto;2;8073920;kg
+2026;MO;Emilia Romagna;Altri Ammendanti;3;4280000;kg
+2026;MO;Emilia Romagna;Aggregati riciclati;5;482537528;kg
+2026;MO;Emilia Romagna;Rottami di alluminio;6;575473;kg
+2026;MO;Emilia Romagna;Rottami di vetro;7;107799102;kg
+2026;MO;Emilia Romagna;Rottami di ferro e acciaio;8;84380463;kg
+2026;MO;Emilia Romagna;Rottami di rame;9;129013;kg
+2026;MO;Emilia Romagna;Carta e cartone;10;57838634;kg
+2026;MO;Emilia Romagna;Plastica;11;2771444;kg
+2026;MO;Emilia Romagna;CSS – combustibile;13;9150000;kg
+2026;MO;Emilia Romagna;Cuoio;16;29360;kg
+2026;MO;Emilia Romagna;Materiali ceramici;17;136899500;kg
+2026;MO;Emilia Romagna;Granulato di Conglomerato bituminoso;20;174875426;kg
+2026;MO;Emilia Romagna;Altro;23;120782529;kg
+2026;MS;Toscana;Aggregati riciclati;5;50149805;kg
+2026;MS;Toscana;Rottami di alluminio;6;3040;kg
+2026;MS;Toscana;Rottami di ferro e acciaio;8;1140930;kg
+2026;MS;Toscana;Rottami di rame;9;1166;kg
+2026;MS;Toscana;Carta e cartone;10;1048796;kg
+2026;MS;Toscana;Granulato di Conglomerato bituminoso;20;5720820;kg
+2026;MS;Toscana;Altro;23;18573386;kg
+2026;MT;Basilicata;Aggregati riciclati;5;142366286;kg
+2026;MT;Basilicata;Rottami di alluminio;6;112460;kg
+2026;MT;Basilicata;Rottami di ferro e acciaio;8;9356941;kg
+2026;MT;Basilicata;Rottami di rame;9;2859;kg
+2026;MT;Basilicata;Carta e cartone;10;23651860;kg
+2026;MT;Basilicata;Plastica;11;11588001;kg
+2026;MT;Basilicata;CSS – combustibile;13;8550000;kg
+2026;MT;Basilicata;Granulato di Conglomerato bituminoso;20;45310740;kg
+2026;MT;Basilicata;Altro;23;1841417;kg
+2026;NA;Campania;Ammendante compostato misto;2;68387858;kg
+2026;NA;Campania;Aggregati riciclati;5;1338575823;kg
+2026;NA;Campania;Rottami di alluminio;6;2632414;kg
+2026;NA;Campania;Rottami di vetro;7;379220;kg
+2026;NA;Campania;Rottami di ferro e acciaio;8;31983878;kg
+2026;NA;Campania;Rottami di rame;9;1091266;kg
+2026;NA;Campania;Carta e cartone;10;103219988;kg
+2026;NA;Campania;Plastica;11;12691356;kg
+2026;NA;Campania;CSS – combustibile;13;468500;kg
+2026;NA;Campania;Tessili;14;16553164;kg
+2026;NA;Campania;Cuoio;16;20000;kg
+2026;NA;Campania;Materiali ceramici;17;2406170;kg
+2026;NA;Campania;Granulato di Conglomerato bituminoso;20;2248840;kg
+2026;NA;Campania;Gomma vulcanizzata da PFU;22;165490;kg
+2026;NA;Campania;Altro;23;50786106;kg
+2026;NO;Piemonte;Ammendante compostato verde;1;4184680;kg
+2026;NO;Piemonte;Altri Ammendanti;3;15000000;kg
+2026;NO;Piemonte;Aggregati riciclati;5;283297907;kg
+2026;NO;Piemonte;Rottami di alluminio;6;2764763;kg
+2026;NO;Piemonte;Rottami di ferro e acciaio;8;13715714;kg
+2026;NO;Piemonte;Rottami di rame;9;3350;kg
+2026;NO;Piemonte;Carta e cartone;10;6099059;kg
+2026;NO;Piemonte;Plastica;11;12853684;kg
+2026;NO;Piemonte;Granulato di Conglomerato bituminoso;20;32014426;kg
+2026;NO;Piemonte;Altro;23;118522884;kg
+2026;NU;Sardegna;Ammendante compostato misto;2;3084210;kg
+2026;NU;Sardegna;Rottami di alluminio;6;29520;kg
+2026;NU;Sardegna;Rottami di ferro e acciaio;8;383308;kg
+2026;NU;Sardegna;Carta e cartone;10;13300940;kg
+2026;NU;Sardegna;Plastica;11;9880;kg
+2026;NU;Sardegna;Granulato di Conglomerato bituminoso;20;1900910;kg
+2026;OG;Sardegna;Ammendante compostato misto;2;1083030;kg
+2026;OR;Sardegna;Ammendante compostato misto;2;6199540;kg
+2026;OR;Sardegna;Aggregati riciclati;5;66662810;kg
+2026;OR;Sardegna;Rottami di ferro e acciaio;8;1119320;kg
+2026;OR;Sardegna;Carta e cartone;10;4809740;kg
+2026;OR;Sardegna;Plastica;11;1393000;kg
+2026;OR;Sardegna;Granulato di Conglomerato bituminoso;20;1100000;kg
+2026;OR;Sardegna;Altro;23;2508705;kg
+2026;OT;Sardegna;Aggregati riciclati;5;3503315;kg
+2026;PA;Sicilia;Aggregati riciclati;5;711248567;kg
+2026;PA;Sicilia;Rottami di alluminio;6;1191214;kg
+2026;PA;Sicilia;Rottami di ferro e acciaio;8;10542077;kg
+2026;PA;Sicilia;Carta e cartone;10;20331889;kg
+2026;PA;Sicilia;Plastica;11;198123;kg
+2026;PA;Sicilia;Gomma;15;2721100;kg
+2026;PA;Sicilia;Granulato di Conglomerato bituminoso;20;74615050;kg
+2026;PA;Sicilia;Gomma vulcanizzata da PFU;22;3222819;kg
+2026;PA;Sicilia;Altro;23;12855435;kg
+2026;PC;Emilia Romagna;Ammendante compostato verde;1;3307740;kg
+2026;PC;Emilia Romagna;Ammendante compostato misto;2;5881620;kg
+2026;PC;Emilia Romagna;Aggregati riciclati;5;159645450;kg
+2026;PC;Emilia Romagna;Rottami di alluminio;6;502997;kg
+2026;PC;Emilia Romagna;Rottami di ferro e acciaio;8;19753919;kg
+2026;PC;Emilia Romagna;Rottami di rame;9;5330;kg
+2026;PC;Emilia Romagna;Carta e cartone;10;24805519;kg
+2026;PC;Emilia Romagna;Plastica;11;4497459;kg
+2026;PC;Emilia Romagna;Legno e sughero;12;297498930;kg
+2026;PC;Emilia Romagna;Correttivi da Fanghi;18;30852770;kg
+2026;PC;Emilia Romagna;Granulato di Conglomerato bituminoso;20;61499740;kg
+2026;PC;Emilia Romagna;Altro;23;19558995;kg
+2026;PD;Veneto;Ammendante compostato misto;2;21635920;kg
+2026;PD;Veneto;Aggregati riciclati;5;483381858;kg
+2026;PD;Veneto;Rottami di alluminio;6;7207209;kg
+2026;PD;Veneto;Rottami di ferro e acciaio;8;320185524;kg
+2026;PD;Veneto;Rottami di rame;9;4779575;kg
+2026;PD;Veneto;Carta e cartone;10;74535585;kg
+2026;PD;Veneto;Plastica;11;18827548;kg
+2026;PD;Veneto;Legno e sughero;12;545557;kg
+2026;PD;Veneto;Tessili;14;871723;kg
+2026;PD;Veneto;Gomma;15;220150;kg
+2026;PD;Veneto;Granulato di Conglomerato bituminoso;20;140857280;kg
+2026;PD;Veneto;Altro;23;154745435;kg
+2026;PE;Abruzzo;Aggregati riciclati;5;150478849;kg
+2026;PE;Abruzzo;Rottami di alluminio;6;78140;kg
+2026;PE;Abruzzo;Rottami di vetro;7;770;kg
+2026;PE;Abruzzo;Rottami di ferro e acciaio;8;12902050;kg
+2026;PE;Abruzzo;Rottami di rame;9;10370;kg
+2026;PE;Abruzzo;Carta e cartone;10;8065373;kg
+2026;PE;Abruzzo;Plastica;11;18780;kg
+2026;PE;Abruzzo;Tessili;14;250;kg
+2026;PE;Abruzzo;Gomma;15;1100;kg
+2026;PE;Abruzzo;Granulato di Conglomerato bituminoso;20;24206800;kg
+2026;PE;Abruzzo;Gomma vulcanizzata da PFU;22;450;kg
+2026;PE;Abruzzo;Altro;23;167170;kg
+2026;PG;Umbria;Ammendante compostato verde;1;990546;kg
+2026;PG;Umbria;Ammendante compostato misto;2;8127888;kg
+2026;PG;Umbria;Aggregati riciclati;5;347512435;kg
+2026;PG;Umbria;Rottami di alluminio;6;285564;kg
+2026;PG;Umbria;Rottami di vetro;7;124519808;kg
+2026;PG;Umbria;Rottami di ferro e acciaio;8;68659190;kg
+2026;PG;Umbria;Rottami di rame;9;566859;kg
+2026;PG;Umbria;Carta e cartone;10;52850750;kg
+2026;PG;Umbria;Plastica;11;28005749;kg
+2026;PG;Umbria;Tessili;14;2951299;kg
+2026;PG;Umbria;Granulato di Conglomerato bituminoso;20;80543752;kg
+2026;PG;Umbria;Altro;23;26947230;kg
+2026;PI;Toscana;Ammendante compostato misto;2;1628836;kg
+2026;PI;Toscana;Aggregati riciclati;5;64461094;kg
+2026;PI;Toscana;Rottami di alluminio;6;4645306;kg
+2026;PI;Toscana;Rottami di ferro e acciaio;8;166437094;kg
+2026;PI;Toscana;Rottami di rame;9;113930;kg
+2026;PI;Toscana;Carta e cartone;10;1730401;kg
+2026;PI;Toscana;Plastica;11;2098227;kg
+2026;PI;Toscana;Legno e sughero;12;11073252;kg
+2026;PI;Toscana;Altri Fertilizzanti;19;12430730;kg
+2026;PI;Toscana;Granulato di Conglomerato bituminoso;20;35230599;kg
+2026;PI;Toscana;Altro;23;60433307;kg
+2026;PN;Friuli Venezia Giulia;Ammendante compostato verde;1;7785840;kg
+2026;PN;Friuli Venezia Giulia;Ammendante compostato misto;2;24600000;kg
+2026;PN;Friuli Venezia Giulia;Aggregati riciclati;5;479160591;kg
+2026;PN;Friuli Venezia Giulia;Rottami di alluminio;6;309262;kg
+2026;PN;Friuli Venezia Giulia;Rottami di vetro;7;110469963;kg
+2026;PN;Friuli Venezia Giulia;Rottami di ferro e acciaio;8;25221807;kg
+2026;PN;Friuli Venezia Giulia;Rottami di rame;9;79828;kg
+2026;PN;Friuli Venezia Giulia;Carta e cartone;10;19810260;kg
+2026;PN;Friuli Venezia Giulia;Plastica;11;2695432;kg
+2026;PN;Friuli Venezia Giulia;Legno e sughero;12;6155139;kg
+2026;PN;Friuli Venezia Giulia;Tessili;14;66735;kg
+2026;PN;Friuli Venezia Giulia;Granulato di Conglomerato bituminoso;20;98169280;kg
+2026;PN;Friuli Venezia Giulia;Altro;23;74958463;kg
+2026;PO;Toscana;Aggregati riciclati;5;389486910;kg
+2026;PO;Toscana;Rottami di alluminio;6;18600;kg
+2026;PO;Toscana;Rottami di ferro e acciaio;8;7638055;kg
+2026;PO;Toscana;Carta e cartone;10;47342885;kg
+2026;PO;Toscana;Plastica;11;296941;kg
+2026;PO;Toscana;Tessili;14;14803010;kg
+2026;PO;Toscana;Altro;23;6264110;kg
+2026;PR;Emilia Romagna;Ammendante compostato misto;2;76441;kg
+2026;PR;Emilia Romagna;Aggregati riciclati;5;165336667;kg
+2026;PR;Emilia Romagna;Rottami di alluminio;6;454103;kg
+2026;PR;Emilia Romagna;Rottami di vetro;7;195610;kg
+2026;PR;Emilia Romagna;Rottami di ferro e acciaio;8;88032223;kg
+2026;PR;Emilia Romagna;Rottami di rame;9;134735;kg
+2026;PR;Emilia Romagna;Carta e cartone;10;63562141;kg
+2026;PR;Emilia Romagna;Plastica;11;5485101;kg
+2026;PR;Emilia Romagna;Legno e sughero;12;529344;kg
+2026;PR;Emilia Romagna;Tessili;14;450766;kg
+2026;PR;Emilia Romagna;Gomma;15;3500;kg
+2026;PR;Emilia Romagna;Granulato di Conglomerato bituminoso;20;33460740;kg
+2026;PR;Emilia Romagna;Altro;23;9112800;kg
+2026;PT;Toscana;Aggregati riciclati;5;142906272;kg
+2026;PT;Toscana;Rottami di alluminio;6;6430;kg
+2026;PT;Toscana;Rottami di ferro e acciaio;8;6109510;kg
+2026;PT;Toscana;Carta e cartone;10;16718034;kg
+2026;PT;Toscana;Plastica;11;626793;kg
+2026;PT;Toscana;Legno e sughero;12;492577;kg
+2026;PT;Toscana;Tessili;14;145;kg
+2026;PT;Toscana;Granulato di Conglomerato bituminoso;20;79862405;kg
+2026;PT;Toscana;Altro;23;43036;kg
+2026;PU;Marche;Ammendante compostato verde;1;1436710;kg
+2026;PU;Marche;Aggregati riciclati;5;52054038;kg
+2026;PU;Marche;Rottami di alluminio;6;1615772;kg
+2026;PU;Marche;Rottami di vetro;7;11272640;kg
+2026;PU;Marche;Rottami di ferro e acciaio;8;33242922;kg
+2026;PU;Marche;Rottami di rame;9;16148;kg
+2026;PU;Marche;Carta e cartone;10;12495480;kg
+2026;PU;Marche;Plastica;11;432317;kg
+2026;PU;Marche;Legno e sughero;12;1251610;kg
+2026;PU;Marche;Altro;23;4783954;kg
+2026;PV;Lombardia;Ammendante compostato verde;1;5696650;kg
+2026;PV;Lombardia;Ammendante compostato misto;2;1193520;kg
+2026;PV;Lombardia;Altri Ammendanti;3;53308220;kg
+2026;PV;Lombardia;Aggregati riciclati;5;826128368;kg
+2026;PV;Lombardia;Rottami di alluminio;6;486666;kg
+2026;PV;Lombardia;Rottami di ferro e acciaio;8;16620564;kg
+2026;PV;Lombardia;Rottami di rame;9;69095;kg
+2026;PV;Lombardia;Carta e cartone;10;6844622;kg
+2026;PV;Lombardia;Plastica;11;25879211;kg
+2026;PV;Lombardia;Legno e sughero;12;1786972;kg
+2026;PV;Lombardia;CSS – combustibile;13;25920;kg
+2026;PV;Lombardia;Cuoio;16;426710;kg
+2026;PV;Lombardia;Correttivi da Fanghi;18;204739130;kg
+2026;PV;Lombardia;Altri Fertilizzanti;19;7645000;kg
+2026;PV;Lombardia;Granulato di Conglomerato bituminoso;20;52767310;kg
+2026;PV;Lombardia;Altro;23;151382849;kg
+2026;PZ;Basilicata;Aggregati riciclati;5;94974287;kg
+2026;PZ;Basilicata;Rottami di alluminio;6;2568952;kg
+2026;PZ;Basilicata;Rottami di vetro;7;900;kg
+2026;PZ;Basilicata;Rottami di ferro e acciaio;8;229365960;kg
+2026;PZ;Basilicata;Carta e cartone;10;4327354;kg
+2026;PZ;Basilicata;Plastica;11;2260929;kg
+2026;PZ;Basilicata;Legno e sughero;12;100;kg
+2026;PZ;Basilicata;CSS – combustibile;13;9136567;kg
+2026;PZ;Basilicata;Gomma;15;1370;kg
+2026;PZ;Basilicata;Granulato di Conglomerato bituminoso;20;22248700;kg
+2026;PZ;Basilicata;Gomma vulcanizzata da PFU;22;8399464;kg
+2026;PZ;Basilicata;Altro;23;138529;kg
+2026;RA;Emilia Romagna;Ammendante compostato verde;1;8676460;kg
+2026;RA;Emilia Romagna;Ammendante compostato misto;2;9739200;kg
+2026;RA;Emilia Romagna;Altri Ammendanti;3;23197090;kg
+2026;RA;Emilia Romagna;Aggregati riciclati;5;261722367;kg
+2026;RA;Emilia Romagna;Rottami di alluminio;6;19030;kg
+2026;RA;Emilia Romagna;Rottami di ferro e acciaio;8;32380582;kg
+2026;RA;Emilia Romagna;Rottami di rame;9;2346824;kg
+2026;RA;Emilia Romagna;Carta e cartone;10;25560170;kg
+2026;RA;Emilia Romagna;Plastica;11;1258776;kg
+2026;RA;Emilia Romagna;CSS – combustibile;13;22812500;kg
+2026;RA;Emilia Romagna;Gomma;15;185580;kg
+2026;RA;Emilia Romagna;Correttivi da Fanghi;18;57572090;kg
+2026;RA;Emilia Romagna;Granulato di Conglomerato bituminoso;20;5006100;kg
+2026;RA;Emilia Romagna;Gomma vulcanizzata da PFU;22;325000;kg
+2026;RA;Emilia Romagna;Altro;23;90557771;kg
+2026;RC;Calabria;Ammendante compostato verde;1;52810;kg
+2026;RC;Calabria;Ammendante compostato misto;2;14464651;kg
+2026;RC;Calabria;Altri Ammendanti;3;23350;kg
+2026;RC;Calabria;Aggregati riciclati;5;114494967;kg
+2026;RC;Calabria;Rottami di ferro e acciaio;8;319000;kg
+2026;RC;Calabria;Carta e cartone;10;3469897;kg
+2026;RC;Calabria;Plastica;11;11495;kg
+2026;RC;Calabria;Legno e sughero;12;5250;kg
+2026;RC;Calabria;Altro;23;376015;kg
+2026;RE;Emilia Romagna;Ammendante compostato misto;2;5888900;kg
+2026;RE;Emilia Romagna;Altri Ammendanti;3;25836810;kg
+2026;RE;Emilia Romagna;Aggregati riciclati;5;168614571;kg
+2026;RE;Emilia Romagna;Rottami di alluminio;6;641909;kg
+2026;RE;Emilia Romagna;Rottami di vetro;7;2520;kg
+2026;RE;Emilia Romagna;Rottami di ferro e acciaio;8;44154328;kg
+2026;RE;Emilia Romagna;Rottami di rame;9;40175;kg
+2026;RE;Emilia Romagna;Carta e cartone;10;19533538;kg
+2026;RE;Emilia Romagna;Plastica;11;3396504;kg
+2026;RE;Emilia Romagna;Legno e sughero;12;37300270;kg
+2026;RE;Emilia Romagna;Tessili;14;883450;kg
+2026;RE;Emilia Romagna;Materiali ceramici;17;15745090;kg
+2026;RE;Emilia Romagna;Correttivi da Fanghi;18;5691170;kg
+2026;RE;Emilia Romagna;Granulato di Conglomerato bituminoso;20;7288060;kg
+2026;RE;Emilia Romagna;Altro;23;15833752;kg
+2026;RG;Sicilia;Ammendante compostato misto;2;3345105;kg
+2026;RG;Sicilia;Altri Ammendanti;3;125950;kg
+2026;RG;Sicilia;Aggregati riciclati;5;167689251;kg
+2026;RG;Sicilia;Rottami di alluminio;6;131652;kg
+2026;RG;Sicilia;Rottami di ferro e acciaio;8;75119;kg
+2026;RG;Sicilia;Carta e cartone;10;379790;kg
+2026;RG;Sicilia;Plastica;11;26534045;kg
+2026;RG;Sicilia;Legno e sughero;12;2700;kg
+2026;RG;Sicilia;Granulato di Conglomerato bituminoso;20;5610365;kg
+2026;RG;Sicilia;Altro;23;490742;kg
+2026;RI;Lazio;Aggregati riciclati;5;92190536;kg
+2026;RI;Lazio;Altro;23;9509756;kg
+2026;RM;Lazio;Ammendante compostato verde;1;5401810;kg
+2026;RM;Lazio;Ammendante compostato misto;2;3810710;kg
+2026;RM;Lazio;Aggregati riciclati;5;275099945;kg
+2026;RM;Lazio;Rottami di alluminio;6;7808005;kg
+2026;RM;Lazio;Rottami di ferro e acciaio;8;121794938;kg
+2026;RM;Lazio;Rottami di rame;9;2222939;kg
+2026;RM;Lazio;Carta e cartone;10;189179066;kg
+2026;RM;Lazio;Plastica;11;3305322;kg
+2026;RM;Lazio;Legno e sughero;12;132010;kg
+2026;RM;Lazio;CSS – combustibile;13;18885840;kg
+2026;RM;Lazio;Tessili;14;771633;kg
+2026;RM;Lazio;Granulato di Conglomerato bituminoso;20;289810021;kg
+2026;RM;Lazio;Altro;23;25247939;kg
+2026;RN;Emilia Romagna;Ammendante compostato misto;2;1924960;kg
+2026;RN;Emilia Romagna;Aggregati riciclati;5;418129334;kg
+2026;RN;Emilia Romagna;Rottami di alluminio;6;1019328;kg
+2026;RN;Emilia Romagna;Rottami di ferro e acciaio;8;24273540;kg
+2026;RN;Emilia Romagna;Rottami di rame;9;100460;kg
+2026;RN;Emilia Romagna;Carta e cartone;10;19938270;kg
+2026;RN;Emilia Romagna;Plastica;11;105940;kg
+2026;RN;Emilia Romagna;CSS – combustibile;13;684940;kg
+2026;RN;Emilia Romagna;Granulato di Conglomerato bituminoso;20;101501043;kg
+2026;RN;Emilia Romagna;Altro;23;25667686;kg
+2026;RO;Veneto;Aggregati riciclati;5;161743442;kg
+2026;RO;Veneto;Rottami di alluminio;6;24364;kg
+2026;RO;Veneto;Rottami di vetro;7;203160;kg
+2026;RO;Veneto;Rottami di ferro e acciaio;8;7263985;kg
+2026;RO;Veneto;Rottami di rame;9;24192;kg
+2026;RO;Veneto;Carta e cartone;10;25512870;kg
+2026;RO;Veneto;Plastica;11;18424421;kg
+2026;RO;Veneto;Granulato di Conglomerato bituminoso;20;90597660;kg
+2026;SA;Campania;Aggregati riciclati;5;788488384;kg
+2026;SA;Campania;Rottami di alluminio;6;1325841;kg
+2026;SA;Campania;Rottami di vetro;7;9317640;kg
+2026;SA;Campania;Rottami di ferro e acciaio;8;95745082;kg
+2026;SA;Campania;Rottami di rame;9;404055;kg
+2026;SA;Campania;Carta e cartone;10;103569650;kg
+2026;SA;Campania;Plastica;11;19733681;kg
+2026;SA;Campania;Legno e sughero;12;385590;kg
+2026;SA;Campania;CSS – combustibile;13;12690000;kg
+2026;SA;Campania;Tessili;14;78337;kg
+2026;SA;Campania;Granulato di Conglomerato bituminoso;20;12613010;kg
+2026;SA;Campania;Gomma vulcanizzata da PFU;22;335267;kg
+2026;SA;Campania;Altro;23;29912198;kg
+2026;SI;Toscana;Ammendante compostato misto;2;5197887;kg
+2026;SI;Toscana;Aggregati riciclati;5;197905832;kg
+2026;SI;Toscana;Rottami di alluminio;6;78319;kg
+2026;SI;Toscana;Rottami di ferro e acciaio;8;7091088;kg
+2026;SI;Toscana;Rottami di rame;9;45548;kg
+2026;SI;Toscana;Carta e cartone;10;12886143;kg
+2026;SI;Toscana;Plastica;11;25070;kg
+2026;SI;Toscana;Granulato di Conglomerato bituminoso;20;5050000;kg
+2026;SI;Toscana;Altro;23;2095760;kg
+2026;SO;Lombardia;Aggregati riciclati;5;267126375;kg
+2026;SO;Lombardia;Rottami di ferro e acciaio;8;7446230;kg
+2026;SO;Lombardia;Carta e cartone;10;1779050;kg
+2026;SO;Lombardia;Plastica;11;900;kg
+2026;SO;Lombardia;Legno e sughero;12;9200;kg
+2026;SO;Lombardia;Granulato di Conglomerato bituminoso;20;38085649;kg
+2026;SO;Lombardia;Altro;23;49304738;kg
+2026;SP;Liguria;Aggregati riciclati;5;333174860;kg
+2026;SP;Liguria;Rottami di alluminio;6;19430;kg
+2026;SP;Liguria;Rottami di ferro e acciaio;8;13443092;kg
+2026;SP;Liguria;Rottami di rame;9;14820;kg
+2026;SP;Liguria;Carta e cartone;10;9743382;kg
+2026;SP;Liguria;Legno e sughero;12;1550;kg
+2026;SP;Liguria;Altro;23;30317;kg
+2026;SR;Sicilia;Altri Ammendanti;3;17953175;kg
+2026;SR;Sicilia;Aggregati riciclati;5;74101430;kg
+2026;SR;Sicilia;Rottami di alluminio;6;115215;kg
+2026;SR;Sicilia;Rottami di ferro e acciaio;8;29639167;kg
+2026;SR;Sicilia;Rottami di rame;9;8414;kg
+2026;SR;Sicilia;Carta e cartone;10;20010660;kg
+2026;SR;Sicilia;Plastica;11;283833;kg
+2026;SR;Sicilia;Altro;23;7391860;kg
+2026;SS;Sardegna;Ammendante compostato verde;1;1108490;kg
+2026;SS;Sardegna;Ammendante compostato misto;2;4396450;kg
+2026;SS;Sardegna;Aggregati riciclati;5;63685466;kg
+2026;SS;Sardegna;Rottami di alluminio;6;52230;kg
+2026;SS;Sardegna;Rottami di ferro e acciaio;8;7656226;kg
+2026;SS;Sardegna;Rottami di rame;9;31840;kg
+2026;SS;Sardegna;Carta e cartone;10;21057490;kg
+2026;SS;Sardegna;Plastica;11;680;kg
+2026;SS;Sardegna;Legno e sughero;12;682440;kg
+2026;SS;Sardegna;Granulato di Conglomerato bituminoso;20;1405740;kg
+2026;SS;Sardegna;Altro;23;6664462;kg
+2026;SU;Sardegna;Ammendante compostato verde;1;216697;kg
+2026;SU;Sardegna;Ammendante compostato misto;2;14277200;kg
+2026;SU;Sardegna;Aggregati riciclati;5;69749467;kg
+2026;SU;Sardegna;Rottami di ferro e acciaio;8;2002062;kg
+2026;SU;Sardegna;Carta e cartone;10;20148350;kg
+2026;SU;Sardegna;Granulato di Conglomerato bituminoso;20;6029770;kg
+2026;SU;Sardegna;Altro;23;2194296;kg
+2026;SV;Liguria;Ammendante compostato verde;1;3011110;kg
+2026;SV;Liguria;Ammendante compostato misto;2;2857960;kg
+2026;SV;Liguria;Aggregati riciclati;5;28032042;kg
+2026;SV;Liguria;Rottami di alluminio;6;1480792;kg
+2026;SV;Liguria;Rottami di vetro;7;139296387;kg
+2026;SV;Liguria;Rottami di ferro e acciaio;8;25245441;kg
+2026;SV;Liguria;Rottami di rame;9;4555;kg
+2026;SV;Liguria;Carta e cartone;10;21245465;kg
+2026;SV;Liguria;Legno e sughero;12;912258;kg
+2026;SV;Liguria;Granulato di Conglomerato bituminoso;20;5997362;kg
+2026;SV;Liguria;Altro;23;63048701;kg
+2026;TA;Puglia;Ammendante compostato misto;2;8242400;kg
+2026;TA;Puglia;Altri Ammendanti;3;10600000;kg
+2026;TA;Puglia;Aggregati riciclati;5;146856849;kg
+2026;TA;Puglia;Rottami di alluminio;6;132560;kg
+2026;TA;Puglia;Rottami di ferro e acciaio;8;15466384;kg
+2026;TA;Puglia;Rottami di rame;9;23490;kg
+2026;TA;Puglia;Carta e cartone;10;24207053;kg
+2026;TA;Puglia;Plastica;11;25261389;kg
+2026;TA;Puglia;CSS – combustibile;13;8819080;kg
+2026;TA;Puglia;Tessili;14;35360;kg
+2026;TA;Puglia;Granulato di Conglomerato bituminoso;20;4509150;kg
+2026;TA;Puglia;Altro;23;3287601;kg
+2026;TE;Abruzzo;Ammendante compostato misto;2;1111475;kg
+2026;TE;Abruzzo;Aggregati riciclati;5;174219882;kg
+2026;TE;Abruzzo;Rottami di alluminio;6;1404726;kg
+2026;TE;Abruzzo;Rottami di vetro;7;280350;kg
+2026;TE;Abruzzo;Rottami di ferro e acciaio;8;47553212;kg
+2026;TE;Abruzzo;Rottami di rame;9;217802;kg
+2026;TE;Abruzzo;Carta e cartone;10;23057302;kg
+2026;TE;Abruzzo;Plastica;11;27373299;kg
+2026;TE;Abruzzo;Legno e sughero;12;12434808;kg
+2026;TE;Abruzzo;Tessili;14;8200;kg
+2026;TE;Abruzzo;Granulato di Conglomerato bituminoso;20;32414220;kg
+2026;TE;Abruzzo;Altro;23;11333114;kg
+2026;TN;Trentino Alto Adige;Ammendante compostato misto;2;21213281;kg
+2026;TN;Trentino Alto Adige;Aggregati riciclati;5;611635346;kg
+2026;TN;Trentino Alto Adige;Rottami di alluminio;6;473271;kg
+2026;TN;Trentino Alto Adige;Rottami di ferro e acciaio;8;135756403;kg
+2026;TN;Trentino Alto Adige;Rottami di rame;9;125870;kg
+2026;TN;Trentino Alto Adige;Carta e cartone;10;78909907;kg
+2026;TN;Trentino Alto Adige;Plastica;11;3446085;kg
+2026;TN;Trentino Alto Adige;Legno e sughero;12;6688138;kg
+2026;TN;Trentino Alto Adige;Tessili;14;847657;kg
+2026;TN;Trentino Alto Adige;Granulato di Conglomerato bituminoso;20;141009910;kg
+2026;TN;Trentino Alto Adige;Altro;23;10243316;kg
+2026;TO;Piemonte;Ammendante compostato verde;1;9204415;kg
+2026;TO;Piemonte;Ammendante compostato misto;2;9463486;kg
+2026;TO;Piemonte;Altri Ammendanti;3;3013870;kg
+2026;TO;Piemonte;Aggregati riciclati;5;1245209548;kg
+2026;TO;Piemonte;Rottami di alluminio;6;14262190;kg
+2026;TO;Piemonte;Rottami di vetro;7;21020;kg
+2026;TO;Piemonte;Rottami di ferro e acciaio;8;0;
+2026;TO;Piemonte;Rottami di ferro e acciaio;8;339178483;kg
+2026;TO;Piemonte;Rottami di rame;9;5988441;kg
+2026;TO;Piemonte;Carta e cartone;10;118729419;kg
+2026;TO;Piemonte;Plastica;11;22782004;kg
+2026;TO;Piemonte;Legno e sughero;12;14167273;kg
+2026;TO;Piemonte;Tessili;14;88383;kg
+2026;TO;Piemonte;Gomma;15;1259555;kg
+2026;TO;Piemonte;Correttivi da Fanghi;18;8290;kg
+2026;TO;Piemonte;Granulato di Conglomerato bituminoso;20;320689246;kg
+2026;TO;Piemonte;Materiali secondari derivanti dal recupero di prodotti assorbenti per la persona;21;131348;kg
+2026;TO;Piemonte;Gomma vulcanizzata da PFU;22;3809374;kg
+2026;TO;Piemonte;Altro;23;0;
+2026;TO;Piemonte;Altro;23;26638840;kg
+2026;TP;Sicilia;Ammendante compostato verde;1;1267945;kg
+2026;TP;Sicilia;Ammendante compostato misto;2;5604000;kg
+2026;TP;Sicilia;Aggregati riciclati;5;158167918;kg
+2026;TP;Sicilia;Carta e cartone;10;8791757;kg
+2026;TP;Sicilia;Altro;23;7718126;kg
+2026;TR;Umbria;Ammendante compostato misto;2;3741500;kg
+2026;TR;Umbria;Aggregati riciclati;5;320777576;kg
+2026;TR;Umbria;Rottami di alluminio;6;637800;kg
+2026;TR;Umbria;Rottami di ferro e acciaio;8;24470800;kg
+2026;TR;Umbria;Rottami di rame;9;2064;kg
+2026;TR;Umbria;Carta e cartone;10;13982810;kg
+2026;TR;Umbria;Plastica;11;15008450;kg
+2026;TR;Umbria;Legno e sughero;12;165225;kg
+2026;TR;Umbria;Gomma;15;160;kg
+2026;TR;Umbria;Granulato di Conglomerato bituminoso;20;47117446;kg
+2026;TR;Umbria;Gomma vulcanizzata da PFU;22;2000560;kg
+2026;TR;Umbria;Altro;23;12326857;kg
+2026;TS;Friuli Venezia Giulia;Ammendante compostato misto;2;40300;kg
+2026;TS;Friuli Venezia Giulia;Aggregati riciclati;5;25575000;kg
+2026;TS;Friuli Venezia Giulia;Rottami di ferro e acciaio;8;4752371;kg
+2026;TS;Friuli Venezia Giulia;Rottami di rame;9;35394;kg
+2026;TS;Friuli Venezia Giulia;Carta e cartone;10;10924055;kg
+2026;TV;Veneto;Ammendante compostato verde;1;506944;kg
+2026;TV;Veneto;Ammendante compostato misto;2;13306420;kg
+2026;TV;Veneto;Aggregati riciclati;5;723783337;kg
+2026;TV;Veneto;Rottami di alluminio;6;3227139;kg
+2026;TV;Veneto;Rottami di ferro e acciaio;8;252759063;kg
+2026;TV;Veneto;Rottami di rame;9;865899;kg
+2026;TV;Veneto;Carta e cartone;10;160436005;kg
+2026;TV;Veneto;Plastica;11;53551137;kg
+2026;TV;Veneto;Legno e sughero;12;5331914;kg
+2026;TV;Veneto;Materiali ceramici;17;361940;kg
+2026;TV;Veneto;Granulato di Conglomerato bituminoso;20;165529876;kg
+2026;TV;Veneto;Gomma vulcanizzata da PFU;22;3897916;kg
+2026;TV;Veneto;Altro;23;75126363;kg
+2026;UD;Friuli Venezia Giulia;Ammendante compostato verde;1;5299880;kg
+2026;UD;Friuli Venezia Giulia;Ammendante compostato misto;2;1100000;kg
+2026;UD;Friuli Venezia Giulia;Aggregati riciclati;5;9370541733;kg
+2026;UD;Friuli Venezia Giulia;Rottami di alluminio;6;896150;kg
+2026;UD;Friuli Venezia Giulia;Rottami di vetro;7;62480;kg
+2026;UD;Friuli Venezia Giulia;Rottami di ferro e acciaio;8;1463036532;kg
+2026;UD;Friuli Venezia Giulia;Rottami di rame;9;728233;kg
+2026;UD;Friuli Venezia Giulia;Carta e cartone;10;29197180;kg
+2026;UD;Friuli Venezia Giulia;Plastica;11;24387348;kg
+2026;UD;Friuli Venezia Giulia;Legno e sughero;12;16074431;kg
+2026;UD;Friuli Venezia Giulia;Tessili;14;56130;kg
+2026;UD;Friuli Venezia Giulia;Granulato di Conglomerato bituminoso;20;71637036;kg
+2026;UD;Friuli Venezia Giulia;Altro;23;4426161;kg
+2026;VA;Lombardia;Ammendante compostato verde;1;4777190;kg
+2026;VA;Lombardia;Aggregati riciclati;5;324621046;kg
+2026;VA;Lombardia;Rottami di alluminio;6;6010879;kg
+2026;VA;Lombardia;Rottami di vetro;7;396672233;kg
+2026;VA;Lombardia;Rottami di ferro e acciaio;8;58597999;kg
+2026;VA;Lombardia;Rottami di rame;9;1948256;kg
+2026;VA;Lombardia;Carta e cartone;10;45911563;kg
+2026;VA;Lombardia;Plastica;11;36894844;kg
+2026;VA;Lombardia;Legno e sughero;12;4343675;kg
+2026;VA;Lombardia;Tessili;14;435806;kg
+2026;VA;Lombardia;Granulato di Conglomerato bituminoso;20;30174420;kg
+2026;VA;Lombardia;Altro;23;61210880;kg
+2026;VB;Piemonte;Aggregati riciclati;5;40246100;kg
+2026;VB;Piemonte;Rottami di alluminio;6;35228467;kg
+2026;VB;Piemonte;Rottami di ferro e acciaio;8;47101432;kg
+2026;VB;Piemonte;Carta e cartone;10;8126744;kg
+2026;VB;Piemonte;Legno e sughero;12;80000;kg
+2026;VB;Piemonte;Granulato di Conglomerato bituminoso;20;5570520;kg
+2026;VB;Piemonte;Altro;23;1473563;kg
+2026;VC;Piemonte;Ammendante compostato misto;2;1652830;kg
+2026;VC;Piemonte;Aggregati riciclati;5;400317594;kg
+2026;VC;Piemonte;Rottami di alluminio;6;14492;kg
+2026;VC;Piemonte;Rottami di ferro e acciaio;8;1243694;kg
+2026;VC;Piemonte;Rottami di rame;9;2035;kg
+2026;VC;Piemonte;Carta e cartone;10;28509170;kg
+2026;VC;Piemonte;Plastica;11;497822;kg
+2026;VC;Piemonte;Legno e sughero;12;712125;kg
+2026;VC;Piemonte;Granulato di Conglomerato bituminoso;20;4164060;kg
+2026;VC;Piemonte;Altro;23;49195533;kg
+2026;VE;Veneto;Ammendante compostato verde;1;5433879;kg
+2026;VE;Veneto;Aggregati riciclati;5;256581663;kg
+2026;VE;Veneto;Rottami di alluminio;6;3724337;kg
+2026;VE;Veneto;Rottami di vetro;7;60835500;kg
+2026;VE;Veneto;Rottami di ferro e acciaio;8;119379726;kg
+2026;VE;Veneto;Rottami di rame;9;1984241;kg
+2026;VE;Veneto;Carta e cartone;10;84796515;kg
+2026;VE;Veneto;Plastica;11;9505442;kg
+2026;VE;Veneto;Legno e sughero;12;4858725;kg
+2026;VE;Veneto;CSS – combustibile;13;2673780;kg
+2026;VE;Veneto;Tessili;14;374566;kg
+2026;VE;Veneto;Granulato di Conglomerato bituminoso;20;32938750;kg
+2026;VE;Veneto;Altro;23;56676975;kg
+2026;VI;Veneto;Ammendante compostato verde;1;4940206;kg
+2026;VI;Veneto;Ammendante compostato misto;2;993400;kg
+2026;VI;Veneto;Aggregati riciclati;5;607487811;kg
+2026;VI;Veneto;Rottami di alluminio;6;5901810;kg
+2026;VI;Veneto;Rottami di vetro;7;236451860;kg
+2026;VI;Veneto;Rottami di ferro e acciaio;8;168185335;kg
+2026;VI;Veneto;Rottami di rame;9;5381685;kg
+2026;VI;Veneto;Carta e cartone;10;82808562;kg
+2026;VI;Veneto;Plastica;11;32689015;kg
+2026;VI;Veneto;Legno e sughero;12;27058146;kg
+2026;VI;Veneto;Tessili;14;319570;kg
+2026;VI;Veneto;Gomma;15;62903;kg
+2026;VI;Veneto;Altri Fertilizzanti;19;17718850;kg
+2026;VI;Veneto;Granulato di Conglomerato bituminoso;20;102053880;kg
+2026;VI;Veneto;Altro;23;98083112;kg
+2026;VR;Veneto;Ammendante compostato verde;1;2376160;kg
+2026;VR;Veneto;Ammendante compostato misto;2;8824900;kg
+2026;VR;Veneto;Altri Ammendanti;3;95397010;kg
+2026;VR;Veneto;Digestato;4;30000;kg
+2026;VR;Veneto;Aggregati riciclati;5;6628881541;kg
+2026;VR;Veneto;Rottami di alluminio;6;3121447;kg
+2026;VR;Veneto;Rottami di ferro e acciaio;8;328842039;kg
+2026;VR;Veneto;Rottami di rame;9;1614914;kg
+2026;VR;Veneto;Carta e cartone;10;117877561;kg
+2026;VR;Veneto;Plastica;11;8848015;kg
+2026;VR;Veneto;Legno e sughero;12;5061405;kg
+2026;VR;Veneto;CSS – combustibile;13;766900;kg
+2026;VR;Veneto;Altri Fertilizzanti;19;1301780;kg
+2026;VR;Veneto;Granulato di Conglomerato bituminoso;20;224540950;kg
+2026;VR;Veneto;Gomma vulcanizzata da PFU;22;13000;kg
+2026;VR;Veneto;Altro;23;169323221;kg
+2026;VT;Lazio;Ammendante compostato verde;1;500689;kg
+2026;VT;Lazio;Ammendante compostato misto;2;9609826;kg
+2026;VT;Lazio;Aggregati riciclati;5;160958747;kg
+2026;VT;Lazio;Rottami di alluminio;6;1258270;kg
+2026;VT;Lazio;Rottami di vetro;7;53660;kg
+2026;VT;Lazio;Rottami di ferro e acciaio;8;5169908;kg
+2026;VT;Lazio;Rottami di rame;9;14140;kg
+2026;VT;Lazio;Carta e cartone;10;21784675;kg
+2026;VT;Lazio;Tessili;14;446009;kg
+2026;VT;Lazio;Granulato di Conglomerato bituminoso;20;85457975;kg
+2026;VT;Lazio;Gomma vulcanizzata da PFU;22;65870;kg
+2026;VT;Lazio;Altro;23;33462795;kg
+2026;VV;Calabria;Aggregati riciclati;5;6104881;kg
+2026;VV;Calabria;Carta e cartone;10;3899689;kg
+2026;VV;Calabria;Altro;23;146060;kg
