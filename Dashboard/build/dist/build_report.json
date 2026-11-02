@@ -1,39 +1,40 @@
 {
   "output": "\\\\nas-storage\\Disco H\\PREZZI\\RENTRI\\Dashboard\\rentri_dashboard.html",
-  "size_mb": 4.651,
+  "size_mb": 5.033,
   "row_counts": {
-    "A": 65696,
-    "B": 2312,
-    "C": 95005,
+    "A": 66238,
+    "B": 2322,
+    "C": 96454,
     "D": 111
   },
   "self_check": {
-    "report_56 2024 kg totale PDF": 490482,
-    "report_56 2024 l totale PDF": 84675,
-    "report_56 2025 kg totale PDF": 114400729682,
-    "report_56 2025 l totale PDF": 2106960860,
-    "report_56 2026 kg totale PDF": 96975608245,
-    "report_56 2026 l totale PDF": 1527973415,
+    "report_56 2024 kg totale PDF": 490513,
+    "report_56 2024 l totale PDF": 84815,
+    "report_56 2025 kg totale PDF": 114425496523,
+    "report_56 2025 l totale PDF": 2107098167,
+    "report_56 2026 kg totale PDF": 108694654007,
+    "report_56 2026 l totale PDF": 1720353543,
     "report_58 2024 kg totale PDF": 1260,
-    "report_58 2025 kg totale PDF": 188497270060,
-    "report_58 2026 kg totale PDF": 152989856065,
-    "report_59 operatori totale (xlsx)": 351706
+    "report_58 2025 kg totale PDF": 188543267142,
+    "report_58 2026 kg totale PDF": 172180750387,
+    "report_59 operatori totale (xlsx)": 358488
   },
   "monthly": {
     "dates": [
       "2026-08-03",
       "2026-09-07",
       "2026-09-15",
-      "2026-10-01"
+      "2026-10-01",
+      "2026-11-02"
     ],
     "row_counts": {
-      "A": 32895,
-      "B": 1150,
-      "C": 45737,
+      "A": 33452,
+      "B": 1161,
+      "C": 47206,
       "D": 888
     }
   },
-  "data_payload_mb": 2.348,
+  "data_payload_mb": 2.73,
   "geo_regions_mb": 0.047,
   "geo_provinces_mb": 0.089
 }
