@@ -1,0 +1,587 @@
+﻿report_id;da_run;a_run;tipo_variazione;Provincia;Campo;Regione;Valore_prec;Valore_att;Delta;Stato
+59;2026-10-01;2026-11-02;stato attuale (senza anno);AG;Numero operatori iscritti;Sicilia;2210;2264;54;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);AG;Numero unita locali iscritte;Sicilia;2684;2745;61;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);AG;di cui Intermediario senza detenzione;Sicilia;50;51;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);AG;di cui Produttore;Sicilia;2484;2544;60;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);AG;di cui Trasportatore;Sicilia;352;353;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);AL;Numero operatori iscritti;Piemonte;2872;2932;60;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);AL;Numero unita locali iscritte;Piemonte;3518;3591;73;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);AL;di cui Produttore;Piemonte;3347;3418;71;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);AL;di cui Trasportatore;Piemonte;404;413;9;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);AN;Numero operatori iscritti;Marche;3099;3134;35;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);AN;Numero unita locali iscritte;Marche;3894;3939;45;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);AN;di cui Intermediario senza detenzione;Marche;50;51;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);AN;di cui Produttore;Marche;3755;3798;43;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);AN;di cui Recuperatore;Marche;185;187;2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);AN;di cui Trasportatore;Marche;364;367;3;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);AO;Numero operatori iscritti;Valle d'Aosta;784;795;11;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);AO;Numero unita locali iscritte;Valle d'Aosta;1064;1077;13;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);AO;di cui Produttore;Valle d'Aosta;971;984;13;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);AO;di cui Recuperatore;Valle d'Aosta;36;37;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);AO;di cui Trasportatore;Valle d'Aosta;167;170;3;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);AP;Numero operatori iscritti;Marche;1339;1362;23;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);AP;Numero unita locali iscritte;Marche;1661;1680;19;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);AP;di cui Produttore;Marche;1595;1620;25;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);AP;di cui Recuperatore;Marche;71;62;-9;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);AP;di cui Trasportatore;Marche;161;162;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);AQ;Numero operatori iscritti;Abruzzo;1560;1587;27;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);AQ;Numero unita locali iscritte;Abruzzo;2065;2103;38;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);AQ;di cui Produttore;Abruzzo;1947;1983;36;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);AQ;di cui Recuperatore;Abruzzo;83;85;2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);AQ;di cui Trasportatore;Abruzzo;301;304;3;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);AR;Numero operatori iscritti;Toscana;2744;2795;51;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);AR;Numero unita locali iscritte;Toscana;3413;3484;71;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);AR;di cui Produttore;Toscana;3266;3336;70;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);AR;di cui Trasportatore;Toscana;328;332;4;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);AT;Numero operatori iscritti;Piemonte;1423;1445;22;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);AT;Numero unita locali iscritte;Piemonte;1884;1912;28;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);AT;di cui Produttore;Piemonte;1750;1778;28;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);AT;di cui Trasportatore;Piemonte;252;254;2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);AV;Numero operatori iscritti;Campania;2646;2691;45;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);AV;Numero unita locali iscritte;Campania;3083;3147;64;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);AV;di cui Centro di raccolta;Campania;18;23;5;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);AV;di cui Produttore;Campania;2931;2992;61;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);AV;di cui Trasportatore;Campania;355;358;3;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BA;Numero operatori iscritti;Puglia;7188;7312;124;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BA;Numero unita locali iscritte;Puglia;8734;8892;158;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BA;di cui Produttore;Puglia;8297;8450;153;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BA;di cui Recuperatore;Puglia;209;211;2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BA;di cui Smaltitore;Puglia;39;40;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BA;di cui Trasportatore;Puglia;1118;1134;16;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BG;Numero operatori iscritti;Lombardia;7907;8031;124;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BG;Numero unita locali iscritte;Lombardia;9912;10079;167;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BG;di cui Centro di raccolta;Lombardia;186;187;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BG;di cui Intermediario senza detenzione;Lombardia;221;224;3;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BG;di cui Produttore;Lombardia;9350;9514;164;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BG;di cui Trasportatore;Lombardia;1090;1102;12;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BI;Numero operatori iscritti;Piemonte;1250;1263;13;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BI;Numero unita locali iscritte;Piemonte;1440;1455;15;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BI;di cui Intermediario senza detenzione;Piemonte;20;24;4;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BI;di cui Produttore;Piemonte;1398;1409;11;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BL;Numero operatori iscritti;Veneto;1368;1388;20;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BL;Numero unita locali iscritte;Veneto;1822;1847;25;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BL;di cui Centro di raccolta;Veneto;45;46;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BL;di cui Produttore;Veneto;1778;1801;23;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BL;di cui Trasportatore;Veneto;104;108;4;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BN;Numero operatori iscritti;Campania;1912;1945;33;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BN;Numero unita locali iscritte;Campania;2295;2329;34;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BN;di cui Produttore;Campania;2140;2173;33;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BN;di cui Recuperatore;Campania;84;85;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BN;di cui Trasportatore;Campania;288;290;2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BO;Numero operatori iscritti;Emilia Romagna;6313;6417;104;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BO;Numero unita locali iscritte;Emilia Romagna;8314;8439;125;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BO;di cui Intermediario senza detenzione;Emilia Romagna;131;130;-1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BO;di cui Produttore;Emilia Romagna;8013;8138;125;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BO;di cui Trasportatore;Emilia Romagna;767;773;6;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BR;Numero operatori iscritti;Puglia;2003;2044;41;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BR;Numero unita locali iscritte;Puglia;2400;2466;66;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BR;di cui Produttore;Puglia;2259;2325;66;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BR;di cui Trasportatore;Puglia;398;402;4;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BS;Numero operatori iscritti;Lombardia;10162;10360;198;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BS;Numero unita locali iscritte;Lombardia;12731;12976;245;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BS;di cui Centro di raccolta;Lombardia;196;194;-2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BS;di cui Intermediario senza detenzione;Lombardia;336;337;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BS;di cui Produttore;Lombardia;11908;12145;237;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BS;di cui Recuperatore;Lombardia;524;525;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BS;di cui Trasportatore;Lombardia;1427;1451;24;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BT;Numero operatori iscritti;Puglia;1985;2026;41;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BT;Numero unita locali iscritte;Puglia;2232;2281;49;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BT;di cui Produttore;Puglia;2123;2172;49;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BT;di cui Trasportatore;Puglia;252;251;-1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BZ;Numero operatori iscritti;Trentino Alto Adige;2923;3025;102;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BZ;Numero unita locali iscritte;Trentino Alto Adige;4014;4144;130;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BZ;di cui Produttore;Trentino Alto Adige;3637;3759;122;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BZ;di cui Recuperatore;Trentino Alto Adige;343;352;9;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BZ;di cui Smaltitore;Trentino Alto Adige;173;179;6;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);BZ;di cui Trasportatore;Trentino Alto Adige;450;455;5;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CA;Numero operatori iscritti;Sardegna;2491;2579;88;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CA;Numero unita locali iscritte;Sardegna;3088;3227;139;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CA;di cui Centro di raccolta;Sardegna;35;53;18;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CA;di cui Produttore;Sardegna;2793;2927;134;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CA;di cui Recuperatore;Sardegna;73;74;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CA;di cui Trasportatore;Sardegna;609;630;21;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CB;Numero operatori iscritti;Molise;1254;1276;22;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CB;Numero unita locali iscritte;Molise;1686;1717;31;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CB;di cui Produttore;Molise;1557;1587;30;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CE;Numero operatori iscritti;Campania;5477;5623;146;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CE;Numero unita locali iscritte;Campania;6312;6482;170;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CE;di cui Intermediario senza detenzione;Campania;148;149;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CE;di cui Produttore;Campania;5757;5922;165;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CE;di cui Recuperatore;Campania;271;272;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CE;di cui Smaltitore;Campania;42;43;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CE;di cui Trasportatore;Campania;1010;1033;23;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CH;Numero operatori iscritti;Abruzzo;2467;2510;43;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CH;Numero unita locali iscritte;Abruzzo;3128;3179;51;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CH;di cui Centro di raccolta;Abruzzo;31;32;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CH;di cui Produttore;Abruzzo;2962;3011;49;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CH;di cui Trasportatore;Abruzzo;329;334;5;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CI;Numero operatori iscritti;Sardegna;83;109;26;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CI;Numero unita locali iscritte;Sardegna;138;176;38;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CI;di cui Intermediario senza detenzione;Sardegna;2;3;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CI;di cui Produttore;Sardegna;116;152;36;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CI;di cui Smaltitore;Sardegna;4;5;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CI;di cui Trasportatore;Sardegna;19;22;3;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CL;Numero operatori iscritti;Sicilia;1203;1248;45;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CL;Numero unita locali iscritte;Sicilia;1470;1518;48;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CL;di cui Produttore;Sicilia;1345;1393;48;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CL;di cui Trasportatore;Sicilia;221;222;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CN;Numero operatori iscritti;Piemonte;4209;4273;64;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CN;Numero unita locali iscritte;Piemonte;5562;5658;96;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CN;di cui Produttore;Piemonte;5304;5397;93;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CN;di cui Recuperatore;Piemonte;256;259;3;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CN;di cui Trasportatore;Piemonte;513;520;7;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CO;Numero operatori iscritti;Lombardia;3686;3738;52;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CO;Numero unita locali iscritte;Lombardia;4513;4592;79;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CO;di cui Centro di raccolta;Lombardia;69;70;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CO;di cui Produttore;Lombardia;4265;4343;78;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CO;di cui Trasportatore;Lombardia;527;534;7;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CR;Numero operatori iscritti;Lombardia;2329;2362;33;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CR;Numero unita locali iscritte;Lombardia;2983;3019;36;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CR;di cui Centro di raccolta;Lombardia;98;101;3;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CR;di cui Produttore;Lombardia;2789;2824;35;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CR;di cui Trasportatore;Lombardia;272;273;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CS;Numero operatori iscritti;Calabria;2876;2961;85;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CS;Numero unita locali iscritte;Calabria;3954;4090;136;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CS;di cui Centro di raccolta;Calabria;38;45;7;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CS;di cui Produttore;Calabria;3769;3901;132;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CS;di cui Recuperatore;Calabria;96;97;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CS;di cui Smaltitore;Calabria;18;19;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CS;di cui Trasportatore;Calabria;490;495;5;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CT;Numero operatori iscritti;Sicilia;4278;4404;126;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CT;Numero unita locali iscritte;Sicilia;5012;5164;152;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CT;di cui Centro di raccolta;Sicilia;47;49;2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CT;di cui Intermediario senza detenzione;Sicilia;111;112;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CT;di cui Produttore;Sicilia;4614;4760;146;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CT;di cui Recuperatore;Sicilia;156;157;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CT;di cui Trasportatore;Sicilia;689;701;12;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CZ;Numero operatori iscritti;Calabria;1900;1959;59;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CZ;Numero unita locali iscritte;Calabria;2390;2469;79;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CZ;di cui Centro di raccolta;Calabria;31;32;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CZ;di cui Intermediario senza detenzione;Calabria;36;38;2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CZ;di cui Produttore;Calabria;2211;2287;76;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);CZ;di cui Trasportatore;Calabria;420;425;5;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);EN;Numero operatori iscritti;Sicilia;702;715;13;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);EN;Numero unita locali iscritte;Sicilia;821;836;15;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);EN;di cui Centro di raccolta;Sicilia;18;20;2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);EN;di cui Produttore;Sicilia;737;751;14;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);EN;di cui Recuperatore;Sicilia;27;28;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);EN;di cui Trasportatore;Sicilia;102;103;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);FC;Numero operatori iscritti;Emilia Romagna;2793;2847;54;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);FC;Numero unita locali iscritte;Emilia Romagna;3547;3606;59;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);FC;di cui Intermediario senza detenzione;Emilia Romagna;54;56;2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);FC;di cui Produttore;Emilia Romagna;3401;3459;58;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);FC;di cui Recuperatore;Emilia Romagna;158;159;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);FC;di cui Trasportatore;Emilia Romagna;331;333;2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);FE;Numero operatori iscritti;Emilia Romagna;1947;1964;17;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);FE;Numero unita locali iscritte;Emilia Romagna;2503;2521;18;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);FE;di cui Intermediario senza detenzione;Emilia Romagna;42;44;2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);FE;di cui Produttore;Emilia Romagna;2407;2423;16;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);FE;di cui Recuperatore;Emilia Romagna;99;98;-1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);FE;di cui Trasportatore;Emilia Romagna;255;257;2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);FG;Numero operatori iscritti;Puglia;2834;2895;61;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);FG;Numero unita locali iscritte;Puglia;3631;3713;82;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);FG;di cui Centro di raccolta;Puglia;50;51;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);FG;di cui Intermediario senza detenzione;Puglia;49;50;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);FG;di cui Produttore;Puglia;3301;3383;82;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);FG;di cui Recuperatore;Puglia;175;177;2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);FG;di cui Trasportatore;Puglia;607;612;5;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);FI;Numero operatori iscritti;Toscana;7743;7874;131;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);FI;Numero unita locali iscritte;Toscana;10047;10217;170;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);FI;di cui Intermediario senza detenzione;Toscana;114;115;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);FI;di cui Produttore;Toscana;9533;9699;166;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);FI;di cui Recuperatore;Toscana;178;180;2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);FI;di cui Trasportatore;Toscana;1156;1170;14;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);FM;Numero operatori iscritti;Marche;1439;1446;7;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);FM;Numero unita locali iscritte;Marche;1646;1656;10;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);FM;di cui Centro di raccolta;Marche;18;19;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);FM;di cui Produttore;Marche;1557;1565;8;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);FM;di cui Recuperatore;Marche;39;40;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);FM;di cui Trasportatore;Marche;134;135;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);FR;Numero operatori iscritti;Lazio;2876;2948;72;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);FR;Numero unita locali iscritte;Lazio;3407;3491;84;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);FR;di cui Produttore;Lazio;3157;3242;85;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);FR;di cui Trasportatore;Lazio;473;477;4;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);GE;Numero operatori iscritti;Liguria;4093;4156;63;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);GE;Numero unita locali iscritte;Liguria;5414;5499;85;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);GE;di cui Intermediario senza detenzione;Liguria;83;85;2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);GE;di cui Produttore;Liguria;5028;5110;82;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);GE;di cui Recuperatore;Liguria;166;167;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);GE;di cui Trasportatore;Liguria;779;783;4;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);GO;Numero operatori iscritti;Friuli Venezia Giulia;860;872;12;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);GO;Numero unita locali iscritte;Friuli Venezia Giulia;1065;1079;14;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);GO;di cui Produttore;Friuli Venezia Giulia;1028;1042;14;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);GR;Numero operatori iscritti;Toscana;1554;1593;39;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);GR;Numero unita locali iscritte;Toscana;1976;2032;56;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);GR;di cui Intermediario senza detenzione;Toscana;26;25;-1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);GR;di cui Produttore;Toscana;1876;1934;58;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);GR;di cui Smaltitore;Toscana;29;30;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);GR;di cui Trasportatore;Toscana;215;218;3;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);IM;Numero operatori iscritti;Liguria;1078;1094;16;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);IM;Numero unita locali iscritte;Liguria;1294;1314;20;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);IM;di cui Produttore;Liguria;1209;1229;20;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);IM;di cui Trasportatore;Liguria;184;185;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);IS;Numero operatori iscritti;Molise;632;643;11;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);IS;Numero unita locali iscritte;Molise;774;788;14;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);IS;di cui Centro di raccolta;Molise;12;13;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);IS;di cui Intermediario senza detenzione;Molise;15;16;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);IS;di cui Produttore;Molise;709;723;14;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);IS;di cui Trasportatore;Molise;118;119;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);KR;Numero operatori iscritti;Calabria;755;780;25;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);KR;Numero unita locali iscritte;Calabria;965;996;31;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);KR;di cui Produttore;Calabria;868;899;31;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);KR;di cui Trasportatore;Calabria;167;166;-1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);LC;Numero operatori iscritti;Lombardia;2594;2624;30;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);LC;Numero unita locali iscritte;Lombardia;3190;3233;43;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);LC;di cui Centro di raccolta;Lombardia;59;60;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);LC;di cui Produttore;Lombardia;3042;3085;43;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);LC;di cui Recuperatore;Lombardia;89;90;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);LC;di cui Trasportatore;Lombardia;352;360;8;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);LE;Numero operatori iscritti;Puglia;4128;4196;68;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);LE;Numero unita locali iscritte;Puglia;4966;5069;103;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);LE;di cui Centro di raccolta;Puglia;106;107;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);LE;di cui Produttore;Puglia;4718;4822;104;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);LE;di cui Recuperatore;Puglia;139;142;3;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);LE;di cui Trasportatore;Puglia;576;578;2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);LI;Numero operatori iscritti;Toscana;1857;1889;32;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);LI;Numero unita locali iscritte;Toscana;2372;2410;38;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);LI;di cui Produttore;Toscana;2265;2303;38;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);LI;di cui Recuperatore;Toscana;67;68;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);LO;Numero operatori iscritti;Lombardia;1391;1422;31;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);LO;Numero unita locali iscritte;Lombardia;1772;1807;35;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);LO;di cui Produttore;Lombardia;1647;1680;33;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);LO;di cui Trasportatore;Lombardia;154;156;2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);LT;Numero operatori iscritti;Lazio;3444;3503;59;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);LT;Numero unita locali iscritte;Lazio;4077;4146;69;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);LT;di cui Intermediario senza detenzione;Lazio;76;77;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);LT;di cui Produttore;Lazio;3817;3886;69;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);LT;di cui Recuperatore;Lazio;107;108;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);LT;di cui Smaltitore;Lazio;37;38;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);LT;di cui Trasportatore;Lazio;566;570;4;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);LU;Numero operatori iscritti;Toscana;2539;2626;87;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);LU;Numero unita locali iscritte;Toscana;3331;3429;98;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);LU;di cui Intermediario senza detenzione;Toscana;65;66;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);LU;di cui Produttore;Toscana;3168;3263;95;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);LU;di cui Recuperatore;Toscana;82;83;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);LU;di cui Trasportatore;Toscana;388;394;6;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);MB;Numero operatori iscritti;Lombardia;5753;5843;90;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);MB;Numero unita locali iscritte;Lombardia;6813;6925;112;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);MB;di cui Centro di raccolta;Lombardia;10;11;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);MB;di cui Produttore;Lombardia;6365;6474;109;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);MB;di cui Trasportatore;Lombardia;979;990;11;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);MC;Numero operatori iscritti;Marche;2553;2581;28;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);MC;Numero unita locali iscritte;Marche;3103;3136;33;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);MC;di cui Intermediario senza detenzione;Marche;40;41;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);MC;di cui Produttore;Marche;2934;2965;31;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);MC;di cui Recuperatore;Marche;159;161;2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);MC;di cui Smaltitore;Marche;47;48;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);MC;di cui Trasportatore;Marche;306;310;4;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);ME;Numero operatori iscritti;Sicilia;2768;2839;71;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);ME;Numero unita locali iscritte;Sicilia;3308;3390;82;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);ME;di cui Centro di raccolta;Sicilia;40;41;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);ME;di cui Produttore;Sicilia;3029;3111;82;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);ME;di cui Trasportatore;Sicilia;507;510;3;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);MI;Numero operatori iscritti;Lombardia;17024;17311;287;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);MI;Numero unita locali iscritte;Lombardia;22374;22777;403;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);MI;di cui Intermediario senza detenzione;Lombardia;678;677;-1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);MI;di cui Produttore;Lombardia;21001;21400;399;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);MI;di cui Recuperatore;Lombardia;652;657;5;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);MI;di cui Smaltitore;Lombardia;336;340;4;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);MI;di cui Trasportatore;Lombardia;2391;2412;21;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);MN;Numero operatori iscritti;Lombardia;2830;2870;40;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);MN;Numero unita locali iscritte;Lombardia;3580;3624;44;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);MN;di cui Centro di raccolta;Lombardia;52;53;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);MN;di cui Produttore;Lombardia;3426;3469;43;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);MN;di cui Trasportatore;Lombardia;347;349;2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);MO;Numero operatori iscritti;Emilia Romagna;4702;4780;78;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);MO;Numero unita locali iscritte;Emilia Romagna;6077;6182;105;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);MO;di cui Intermediario senza detenzione;Emilia Romagna;72;74;2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);MO;di cui Produttore;Emilia Romagna;5862;5963;101;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);MO;di cui Trasportatore;Emilia Romagna;519;525;6;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);MS;Numero operatori iscritti;Toscana;1164;1190;26;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);MS;Numero unita locali iscritte;Toscana;1471;1500;29;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);MS;di cui Produttore;Toscana;1399;1427;28;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);MS;di cui Trasportatore;Toscana;159;161;2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);MT;Numero operatori iscritti;Basilicata;1197;1212;15;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);MT;Numero unita locali iscritte;Basilicata;1558;1578;20;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);MT;di cui Produttore;Basilicata;1473;1493;20;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);MT;di cui Trasportatore;Basilicata;219;220;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);NA;Numero operatori iscritti;Campania;13765;14135;370;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);NA;Numero unita locali iscritte;Campania;16613;17057;444;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);NA;di cui Intermediario senza detenzione;Campania;429;433;4;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);NA;di cui Produttore;Campania;15583;16013;430;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);NA;di cui Recuperatore;Campania;368;372;4;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);NA;di cui Smaltitore;Campania;66;67;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);NA;di cui Trasportatore;Campania;2166;2208;42;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);NO;Numero operatori iscritti;Piemonte;2367;2403;36;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);NO;Numero unita locali iscritte;Piemonte;2955;3000;45;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);NO;di cui Centro di raccolta;Piemonte;49;50;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);NO;di cui Produttore;Piemonte;2791;2837;46;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);NO;di cui Trasportatore;Piemonte;277;280;3;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);NU;Numero operatori iscritti;Sardegna;972;995;23;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);NU;Numero unita locali iscritte;Sardegna;1302;1328;26;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);NU;di cui Centro di raccolta;Sardegna;65;62;-3;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);NU;di cui Produttore;Sardegna;1162;1188;26;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);NU;di cui Trasportatore;Sardegna;231;235;4;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);OG;Numero operatori iscritti;Sardegna;49;58;9;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);OG;Numero unita locali iscritte;Sardegna;73;86;13;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);OG;di cui Centro di raccolta;Sardegna;3;8;5;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);OG;di cui Produttore;Sardegna;64;77;13;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);OG;di cui Trasportatore;Sardegna;7;9;2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);OR;Numero operatori iscritti;Sardegna;860;874;14;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);OR;Numero unita locali iscritte;Sardegna;1233;1257;24;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);OR;di cui Centro di raccolta;Sardegna;56;61;5;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);OR;di cui Produttore;Sardegna;1133;1152;19;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);OR;di cui Trasportatore;Sardegna;180;183;3;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);OT;Numero operatori iscritti;Sardegna;150;185;35;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);OT;Numero unita locali iscritte;Sardegna;251;296;45;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);OT;di cui Centro di raccolta;Sardegna;5;7;2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);OT;di cui Produttore;Sardegna;243;286;43;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);OT;di cui Recuperatore;Sardegna;6;9;3;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);OT;di cui Trasportatore;Sardegna;14;20;6;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PA;Numero operatori iscritti;Sicilia;4825;4958;133;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PA;Numero unita locali iscritte;Sicilia;6141;6306;165;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PA;di cui Centro di raccolta;Sicilia;43;44;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PA;di cui Intermediario senza detenzione;Sicilia;55;56;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PA;di cui Produttore;Sicilia;5564;5720;156;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PA;di cui Recuperatore;Sicilia;112;113;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PA;di cui Trasportatore;Sicilia;1026;1040;14;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PC;Numero operatori iscritti;Emilia Romagna;2050;2080;30;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PC;Numero unita locali iscritte;Emilia Romagna;2631;2668;37;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PC;di cui Intermediario senza detenzione;Emilia Romagna;30;31;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PC;di cui Produttore;Emilia Romagna;2501;2537;36;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PC;di cui Trasportatore;Emilia Romagna;265;266;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PD;Numero operatori iscritti;Veneto;6782;6866;84;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PD;Numero unita locali iscritte;Veneto;8418;8547;129;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PD;di cui Intermediario senza detenzione;Veneto;120;119;-1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PD;di cui Produttore;Veneto;8121;8250;129;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PD;di cui Trasportatore;Veneto;697;702;5;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PE;Numero operatori iscritti;Abruzzo;1677;1719;42;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PE;Numero unita locali iscritte;Abruzzo;1974;2022;48;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PE;di cui Produttore;Abruzzo;1834;1879;45;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PE;di cui Trasportatore;Abruzzo;281;288;7;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PG;Numero operatori iscritti;Umbria;5396;5456;60;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PG;Numero unita locali iscritte;Umbria;6795;6877;82;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PG;di cui Intermediario senza detenzione;Umbria;80;81;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PG;di cui Produttore;Umbria;6460;6537;77;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PG;di cui Recuperatore;Umbria;177;179;2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PG;di cui Smaltitore;Umbria;55;56;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PG;di cui Trasportatore;Umbria;690;700;10;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PI;Numero operatori iscritti;Toscana;3131;3192;61;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PI;Numero unita locali iscritte;Toscana;3970;4040;70;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PI;di cui Produttore;Toscana;3740;3809;69;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PI;di cui Trasportatore;Toscana;436;445;9;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PN;Numero operatori iscritti;Friuli Venezia Giulia;2332;2363;31;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PN;Numero unita locali iscritte;Friuli Venezia Giulia;3080;3114;34;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PN;di cui Produttore;Friuli Venezia Giulia;2919;2953;34;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PN;di cui Trasportatore;Friuli Venezia Giulia;216;214;-2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PO;Numero operatori iscritti;Toscana;3075;3207;132;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PO;Numero unita locali iscritte;Toscana;3530;3667;137;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PO;di cui Intermediario senza detenzione;Toscana;31;32;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PO;di cui Produttore;Toscana;3352;3491;139;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PO;di cui Recuperatore;Toscana;104;103;-1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PR;Numero operatori iscritti;Emilia Romagna;2984;3035;51;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PR;Numero unita locali iscritte;Emilia Romagna;3872;3960;88;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PR;di cui Produttore;Emilia Romagna;3724;3810;86;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PR;di cui Trasportatore;Emilia Romagna;332;334;2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PT;Numero operatori iscritti;Toscana;2040;2084;44;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PT;Numero unita locali iscritte;Toscana;2515;2566;51;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PT;di cui Intermediario senza detenzione;Toscana;21;22;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PT;di cui Produttore;Toscana;2352;2405;53;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PT;di cui Recuperatore;Toscana;59;58;-1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PT;di cui Trasportatore;Toscana;301;305;4;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PU;Numero operatori iscritti;Marche;2606;2628;22;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PU;Numero unita locali iscritte;Marche;3376;3408;32;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PU;di cui Produttore;Marche;3228;3260;32;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PU;di cui Trasportatore;Marche;295;297;2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PV;Numero operatori iscritti;Lombardia;3242;3318;76;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PV;Numero unita locali iscritte;Lombardia;4097;4187;90;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PV;di cui Centro di raccolta;Lombardia;78;80;2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PV;di cui Intermediario senza detenzione;Lombardia;83;84;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PV;di cui Produttore;Lombardia;3797;3884;87;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PV;di cui Trasportatore;Lombardia;455;462;7;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PZ;Numero operatori iscritti;Basilicata;2118;2156;38;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PZ;Numero unita locali iscritte;Basilicata;2999;3053;54;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PZ;di cui Produttore;Basilicata;2779;2833;54;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PZ;di cui Recuperatore;Basilicata;72;74;2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);PZ;di cui Trasportatore;Basilicata;456;459;3;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);RA;Numero operatori iscritti;Emilia Romagna;2337;2361;24;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);RA;Numero unita locali iscritte;Emilia Romagna;3158;3189;31;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);RA;di cui Produttore;Emilia Romagna;3005;3035;30;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);RA;di cui Recuperatore;Emilia Romagna;137;138;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);RA;di cui Trasportatore;Emilia Romagna;250;252;2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);RC;Numero operatori iscritti;Calabria;2189;2253;64;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);RC;Numero unita locali iscritte;Calabria;2494;2570;76;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);RC;di cui Centro di raccolta;Calabria;13;14;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);RC;di cui Produttore;Calabria;2292;2368;76;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);RC;di cui Recuperatore;Calabria;71;70;-1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);RC;di cui Trasportatore;Calabria;417;427;10;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);RE;Numero operatori iscritti;Emilia Romagna;3288;3334;46;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);RE;Numero unita locali iscritte;Emilia Romagna;4309;4360;51;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);RE;di cui Produttore;Emilia Romagna;4145;4195;50;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);RE;di cui Recuperatore;Emilia Romagna;128;129;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);RE;di cui Trasportatore;Emilia Romagna;348;351;3;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);RG;Numero operatori iscritti;Sicilia;1613;1655;42;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);RG;Numero unita locali iscritte;Sicilia;1891;1940;49;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);RG;di cui Produttore;Sicilia;1793;1842;49;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);RI;Numero operatori iscritti;Lazio;789;804;15;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);RI;Numero unita locali iscritte;Lazio;1057;1075;18;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);RI;di cui Centro di raccolta;Lazio;10;11;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);RI;di cui Produttore;Lazio;1000;1018;18;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);RM;Numero operatori iscritti;Lazio;17735;18184;449;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);RM;Numero unita locali iscritte;Lazio;23174;23710;536;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);RM;di cui Centro di raccolta;Lazio;107;108;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);RM;di cui Intermediario senza detenzione;Lazio;582;585;3;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);RM;di cui Produttore;Lazio;21581;22108;527;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);RM;di cui Recuperatore;Lazio;317;316;-1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);RM;di cui Smaltitore;Lazio;101;102;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);RM;di cui Trasportatore;Lazio;3252;3302;50;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);RN;Numero operatori iscritti;Emilia Romagna;1924;1958;34;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);RN;Numero unita locali iscritte;Emilia Romagna;2349;2389;40;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);RN;di cui Produttore;Emilia Romagna;2238;2278;40;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);RN;di cui Trasportatore;Emilia Romagna;212;214;2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);RO;Numero operatori iscritti;Veneto;1647;1666;19;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);RO;Numero unita locali iscritte;Veneto;2005;2027;22;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);RO;di cui Produttore;Veneto;1921;1942;21;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);RO;di cui Recuperatore;Veneto;75;76;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);RO;di cui Smaltitore;Veneto;16;17;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);RO;di cui Trasportatore;Veneto;191;194;3;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);SA;Numero operatori iscritti;Campania;6091;6231;140;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);SA;Numero unita locali iscritte;Campania;7665;7844;179;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);SA;di cui Centro di raccolta;Campania;112;114;2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);SA;di cui Intermediario senza detenzione;Campania;190;192;2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);SA;di cui Produttore;Campania;7172;7343;171;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);SA;di cui Recuperatore;Campania;222;226;4;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);SA;di cui Trasportatore;Campania;1002;1017;15;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);SI;Numero operatori iscritti;Toscana;1974;2014;40;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);SI;Numero unita locali iscritte;Toscana;2599;2666;67;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);SI;di cui Centro di raccolta;Toscana;38;39;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);SI;di cui Produttore;Toscana;2496;2562;66;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);SI;di cui Recuperatore;Toscana;73;72;-1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);SI;di cui Trasportatore;Toscana;241;243;2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);SO;Numero operatori iscritti;Lombardia;1352;1375;23;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);SO;Numero unita locali iscritte;Lombardia;1691;1720;29;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);SO;di cui Centro di raccolta;Lombardia;42;44;2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);SO;di cui Produttore;Lombardia;1609;1636;27;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);SO;di cui Recuperatore;Lombardia;51;49;-2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);SO;di cui Trasportatore;Lombardia;222;226;4;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);SP;Numero operatori iscritti;Liguria;1294;1320;26;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);SP;Numero unita locali iscritte;Liguria;1633;1665;32;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);SP;di cui Produttore;Liguria;1576;1608;32;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);SP;di cui Trasportatore;Liguria;142;146;4;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);SR;Numero operatori iscritti;Sicilia;1658;1707;49;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);SR;Numero unita locali iscritte;Sicilia;2061;2119;58;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);SR;di cui Centro di raccolta;Sicilia;16;17;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);SR;di cui Produttore;Sicilia;1956;2013;57;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);SS;Numero operatori iscritti;Sardegna;2661;2683;22;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);SS;Numero unita locali iscritte;Sardegna;3564;3599;35;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);SS;di cui Centro di raccolta;Sardegna;60;62;2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);SS;di cui Produttore;Sardegna;3334;3369;35;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);SS;di cui Recuperatore;Sardegna;115;114;-1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);SS;di cui Trasportatore;Sardegna;456;462;6;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);SU;Numero operatori iscritti;Sardegna;1503;1475;-28;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);SU;Numero unita locali iscritte;Sardegna;1994;1926;-68;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);SU;di cui Centro di raccolta;Sardegna;62;37;-25;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);SU;di cui Intermediario senza detenzione;Sardegna;37;36;-1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);SU;di cui Produttore;Sardegna;1751;1685;-66;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);SU;di cui Recuperatore;Sardegna;76;75;-1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);SU;di cui Smaltitore;Sardegna;23;22;-1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);SU;di cui Trasportatore;Sardegna;464;459;-5;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);SV;Numero operatori iscritti;Liguria;1545;1573;28;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);SV;Numero unita locali iscritte;Liguria;1980;2017;37;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);SV;di cui Produttore;Liguria;1865;1902;37;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);SV;di cui Smaltitore;Liguria;22;23;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);SV;di cui Trasportatore;Liguria;291;290;-1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);TA;Numero operatori iscritti;Puglia;2476;2531;55;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);TA;Numero unita locali iscritte;Puglia;3067;3138;71;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);TA;di cui Produttore;Puglia;2834;2904;70;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);TA;di cui Trasportatore;Puglia;429;436;7;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);TE;Numero operatori iscritti;Abruzzo;1986;2020;34;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);TE;Numero unita locali iscritte;Abruzzo;2420;2460;40;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);TE;di cui Intermediario senza detenzione;Abruzzo;51;52;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);TE;di cui Produttore;Abruzzo;2294;2331;37;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);TE;di cui Recuperatore;Abruzzo;103;104;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);TE;di cui Trasportatore;Abruzzo;291;297;6;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);TN;Numero operatori iscritti;Trentino Alto Adige;4102;4186;84;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);TN;Numero unita locali iscritte;Trentino Alto Adige;5514;5612;98;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);TN;di cui Intermediario senza detenzione;Trentino Alto Adige;65;63;-2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);TN;di cui Produttore;Trentino Alto Adige;5284;5382;98;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);TN;di cui Recuperatore;Trentino Alto Adige;244;245;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);TN;di cui Trasportatore;Trentino Alto Adige;654;663;9;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);TO;Numero operatori iscritti;Piemonte;11520;11741;221;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);TO;Numero unita locali iscritte;Piemonte;15413;15675;262;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);TO;di cui Intermediario senza detenzione;Piemonte;321;326;5;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);TO;di cui Produttore;Piemonte;14655;14913;258;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);TO;di cui Recuperatore;Piemonte;544;546;2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);TO;di cui Trasportatore;Piemonte;1826;1842;16;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);TP;Numero operatori iscritti;Sicilia;2914;2978;64;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);TP;Numero unita locali iscritte;Sicilia;3380;3464;84;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);TP;di cui Produttore;Sicilia;3241;3325;84;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);TP;di cui Trasportatore;Sicilia;274;276;2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);TR;Numero operatori iscritti;Umbria;1508;1537;29;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);TR;Numero unita locali iscritte;Umbria;1963;2004;41;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);TR;di cui Intermediario senza detenzione;Umbria;32;34;2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);TR;di cui Produttore;Umbria;1854;1892;38;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);TR;di cui Trasportatore;Umbria;205;207;2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);TS;Numero operatori iscritti;Friuli Venezia Giulia;1057;1074;17;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);TS;Numero unita locali iscritte;Friuli Venezia Giulia;1377;1402;25;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);TS;di cui Produttore;Friuli Venezia Giulia;1307;1332;25;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);TS;di cui Recuperatore;Friuli Venezia Giulia;31;30;-1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);TS;di cui Trasportatore;Friuli Venezia Giulia;160;162;2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);TV;Numero operatori iscritti;Veneto;6483;6587;104;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);TV;Numero unita locali iscritte;Veneto;8216;8347;131;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);TV;di cui Produttore;Veneto;7982;8111;129;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);TV;di cui Recuperatore;Veneto;240;244;4;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);TV;di cui Smaltitore;Veneto;34;35;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);TV;di cui Trasportatore;Veneto;557;559;2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);UD;Numero operatori iscritti;Friuli Venezia Giulia;3705;3742;37;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);UD;Numero unita locali iscritte;Friuli Venezia Giulia;4808;4849;41;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);UD;di cui Produttore;Friuli Venezia Giulia;4568;4609;41;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);UD;di cui Trasportatore;Friuli Venezia Giulia;392;396;4;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);VA;Numero operatori iscritti;Lombardia;5345;5427;82;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);VA;Numero unita locali iscritte;Lombardia;6553;6663;110;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);VA;di cui Produttore;Lombardia;6161;6271;110;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);VA;di cui Recuperatore;Lombardia;190;191;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);VA;di cui Trasportatore;Lombardia;731;738;7;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);VB;Numero operatori iscritti;Piemonte;1072;1090;18;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);VB;Numero unita locali iscritte;Piemonte;1407;1428;21;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);VB;di cui Produttore;Piemonte;1338;1358;20;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);VB;di cui Trasportatore;Piemonte;135;138;3;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);VC;Numero operatori iscritti;Piemonte;1144;1157;13;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);VC;Numero unita locali iscritte;Piemonte;1369;1391;22;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);VC;di cui Centro di raccolta;Piemonte;12;13;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);VC;di cui Intermediario senza detenzione;Piemonte;23;24;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);VC;di cui Produttore;Piemonte;1313;1335;22;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);VC;di cui Trasportatore;Piemonte;141;143;2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);VE;Numero operatori iscritti;Veneto;4966;5041;75;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);VE;Numero unita locali iscritte;Veneto;6408;6487;79;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);VE;di cui Produttore;Veneto;6211;6288;77;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);VE;di cui Smaltitore;Veneto;68;67;-1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);VE;di cui Trasportatore;Veneto;538;548;10;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);VI;Numero operatori iscritti;Veneto;7521;7613;92;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);VI;Numero unita locali iscritte;Veneto;9312;9426;114;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);VI;di cui Intermediario senza detenzione;Veneto;141;142;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);VI;di cui Produttore;Veneto;8983;9097;114;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);VI;di cui Recuperatore;Veneto;285;288;3;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);VI;di cui Trasportatore;Veneto;600;602;2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);VR;Numero operatori iscritti;Veneto;6172;6270;98;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);VR;Numero unita locali iscritte;Veneto;7863;7994;131;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);VR;di cui Intermediario senza detenzione;Veneto;133;135;2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);VR;di cui Produttore;Veneto;7425;7553;128;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);VR;di cui Recuperatore;Veneto;274;276;2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);VR;di cui Smaltitore;Veneto;57;58;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);VR;di cui Trasportatore;Veneto;663;671;8;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);VS;Numero operatori iscritti;Sardegna;68;101;33;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);VS;Numero unita locali iscritte;Sardegna;116;158;42;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);VS;di cui Centro di raccolta;Sardegna;10;16;6;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);VS;di cui Produttore;Sardegna;94;133;39;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);VS;di cui Recuperatore;Sardegna;9;11;2;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);VS;di cui Trasportatore;Sardegna;9;13;4;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);VT;Numero operatori iscritti;Lazio;1707;1742;35;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);VT;Numero unita locali iscritte;Lazio;2299;2338;39;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);VT;di cui Produttore;Lazio;2186;2222;36;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);VT;di cui Recuperatore;Lazio;93;94;1;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);VT;di cui Trasportatore;Lazio;247;250;3;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);VV;Numero operatori iscritti;Calabria;748;775;27;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);VV;Numero unita locali iscritte;Calabria;911;941;30;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);VV;di cui Produttore;Calabria;841;870;29;riga preesistente
+59;2026-10-01;2026-11-02;stato attuale (senza anno);VV;di cui Trasportatore;Calabria;130;131;1;riga preesistente

@@ -1,12 +1,19 @@
 # cache locali rigenerabili (ricostruibili da rentri_scraper.py, non versionate)
-rentri_pdf_cache/
-rentri_out/_interim/
+Scarichi/rentri_pdf_cache/
+Scarichi/rentri_aggregato/_interim/
 
 __pycache__/
 *.log
 
 # file temporanei di Office (creati quando un file .xlsx e' aperto)
 ~$*
+
+# materiale di studio (PDF, docx, xlsx di riferimento): resta sul NAS, non e' prodotto dal codice
+RENTRI_indagine/
+
+# collegamenti Windows: puntano a percorsi assoluti della singola macchina e si rompono
+# a ogni spostamento di cartella (e' gia' successo con rentri_out/)
+*.lnk
 
 # tooling locale (config specifica della macchina, non del progetto)
 .claude/
